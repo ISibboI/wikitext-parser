@@ -4,7 +4,7 @@ use regex::Regex;
 use std::collections::VecDeque;
 
 lazy_static! {
-    static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|=)").unwrap();
+    static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|=|\|)").unwrap();
 }
 
 #[derive(Debug, Clone, Eq, PartialEq)]
@@ -13,6 +13,7 @@ pub enum Token<'a> {
     MultiEquals(u8),
     DoubleOpenBrace,
     DoubleCloseBrace,
+    VerticalBar,
     Eof,
 }
 
@@ -54,6 +55,9 @@ impl<'input> Tokenizer<'input> {
                 self.input = &self.input[1..];
             }
             Token::MultiEquals(length)
+        } else if self.input.starts_with('|') {
+            self.input = &self.input[1..];
+            Token::VerticalBar
         } else if let Some(regex_match) = TEXT_REGEX.find(self.input) {
             let result = Token::Text(&self.input[..regex_match.start()]);
             self.input = &self.input[regex_match.start()..];
@@ -109,6 +113,7 @@ impl<'token> ToString for Token<'token> {
             Token::MultiEquals(amount) => "=".repeat(usize::from(*amount)),
             Token::DoubleOpenBrace => r"{{".to_string(),
             Token::DoubleCloseBrace => r"}}".to_string(),
+            Token::VerticalBar => '|'.to_string(),
             Token::Eof => unreachable!("EOF has no string representation"),
         }
     }

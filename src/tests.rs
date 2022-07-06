@@ -6,6 +6,9 @@ fn test_wiktionary_free() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "free".to_string()).unwrap();
     parsed.print_headlines();
+    for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression.to_string());
+    }
 }
 
 #[test]

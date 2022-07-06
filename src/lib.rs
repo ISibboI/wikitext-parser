@@ -5,6 +5,7 @@
 use crate::error::Error;
 use crate::tokenizer::{MultipeekTokenizer, Token, Tokenizer};
 use error::Result;
+use log::warn;
 #[cfg(serde)]
 use serde::{Deserialize, Serialize};
 
@@ -33,6 +34,13 @@ impl Wikitext {
     pub fn list_headlines(&self) -> Vec<Headline> {
         let mut result = Vec::new();
         self.root_section.list_headlines(&mut result);
+        result
+    }
+
+    /// List the double brace expressions of the text.
+    pub fn list_double_brace_expressions(&self) -> Vec<TextPiece> {
+        let mut result = Vec::new();
+        self.root_section.list_double_brace_expressions(&mut result);
         result
     }
 }
@@ -69,6 +77,18 @@ impl Section {
             subsection.list_headlines(result);
         }
     }
+
+    /// List the double brace expressions of the text.
+    pub fn list_double_brace_expressions(&self, result: &mut Vec<TextPiece>) {
+        for text_piece in &self.text {
+            if matches!(text_piece, TextPiece::DoubleBraceExpression(_)) {
+                result.push(text_piece.clone());
+            }
+        }
+        for subsection in &self.subsections {
+            subsection.list_double_brace_expressions(result);
+        }
+    }
 }
 
 /// A headline of a section of wikitext.
@@ -99,6 +119,24 @@ pub enum TextPiece {
     Text(String),
     /// A double brace expression.
     DoubleBraceExpression(Vec<TextPiece>),
+}
+
+impl ToString for TextPiece {
+    fn to_string(&self) -> String {
+        match self {
+            TextPiece::Text(text) => text.clone(),
+            TextPiece::DoubleBraceExpression(text_pieces) => {
+                format!(
+                    "{{{{{}}}}}",
+                    text_pieces
+                        .iter()
+                        .map(ToString::to_string)
+                        .collect::<Vec<_>>()
+                        .join("|")
+                )
+            }
+        }
+    }
 }
 
 /// Data structure used to parse wikitext sections and headlines at different levels.
@@ -196,6 +234,10 @@ pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
                 level_stack.append_text_piece(parse_double_brace_expression(&mut tokenizer)?)
             }
             Token::DoubleCloseBrace => return Err(Error::UnmatchedDoubleCloseBrace),
+            Token::VerticalBar => {
+                warn!("Found vertical bar in normal text");
+                level_stack.append_text_piece(TextPiece::Text(Token::VerticalBar.to_string()));
+            }
             Token::Eof => break,
         }
     }
@@ -237,6 +279,7 @@ fn parse_double_brace_expression(tokenizer: &mut MultipeekTokenizer) -> Result<T
             }
             Token::DoubleOpenBrace => result.push(parse_double_brace_expression(tokenizer)?),
             Token::DoubleCloseBrace => break,
+            Token::VerticalBar => result.push(TextPiece::Text(String::new())),
             Token::Eof => return Err(Error::UnmatchedDoubleOpenBrace),
         }
     }

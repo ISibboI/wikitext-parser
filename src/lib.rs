@@ -23,6 +23,13 @@ pub struct Wikitext {
     pub root_section: Section,
 }
 
+impl Wikitext {
+    /// Print the headlines of the text.
+    pub fn print_headlines(&self) {
+        self.root_section.print_headlines();
+    }
+}
+
 /// A section of wikitext.
 #[derive(Debug, Clone, Eq, PartialEq)]
 #[cfg_attr(serde, derive(Serialize, Deserialize))]
@@ -33,6 +40,16 @@ pub struct Section {
     pub text: Vec<TextPiece>,
     /// The subsections of the section.
     pub subsections: Vec<Section>,
+}
+
+impl Section {
+    /// Print the headlines of the text.
+    pub fn print_headlines(&self) {
+        println!("{0} {1} {0}", "=".repeat(self.headline.level.into()), self.headline.label);
+        for subsection in &self.subsections {
+            subsection.print_headlines();
+        }
+    }
 }
 
 /// A headline of a section of wikitext.
@@ -164,9 +181,12 @@ fn parse_potential_headline(tokenizer: &mut MultipeekTokenizer, level: u8) -> Op
     if let (Some(Token::Text(text)), Some(Token::MultiEquals(second_level))) =
         (tokenizer.repeek(0), tokenizer.repeek(1))
     {
-        if level == *second_level {
+        if level == *second_level && !text.contains(r"\n") {
+            let label = text.trim().to_string();
+            tokenizer.next();
+            tokenizer.next();
             Some(Headline {
-                label: text.to_string(),
+                label,
                 level,
             })
         } else {

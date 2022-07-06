@@ -1,5 +1,7 @@
+use crate::MAX_SECTION_DEPTH;
 use lazy_static::lazy_static;
 use regex::Regex;
+use std::collections::VecDeque;
 
 lazy_static! {
     static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|=)").unwrap();
@@ -23,6 +25,7 @@ impl<'input> Tokenizer<'input> {
         Self { input }
     }
 
+    #[allow(unused)]
     pub fn tokenize_all(&mut self) -> Vec<Token<'input>> {
         let mut tokens = Vec::new();
         while tokens.last() != Some(&Token::Eof) {
@@ -37,30 +40,76 @@ impl<'input> Tokenizer<'input> {
     {
         if self.input.is_empty() {
             Token::Eof
-        } else if self.input.starts_with("{{") {
+        } else if self.input.starts_with(r"{{") {
             self.input = &self.input[2..];
             Token::DoubleOpenBrace
-        } else if self.input.starts_with("}}") {
+        } else if self.input.starts_with(r"}}") {
             self.input = &self.input[2..];
             Token::DoubleCloseBrace
-        } else if self.input.starts_with("=") {
-            let mut length = 1;
+        } else if self.input.starts_with('=') {
+            let mut length = 1u8;
             self.input = &self.input[1..];
-            while self.input.starts_with("=") {
+            while self.input.starts_with('=') && usize::from(length) < MAX_SECTION_DEPTH {
                 length += 1;
                 self.input = &self.input[1..];
             }
             Token::MultiEquals(length)
+        } else if let Some(regex_match) = TEXT_REGEX.find(self.input) {
+            let result = Token::Text(&self.input[..regex_match.start()]);
+            self.input = &self.input[regex_match.start()..];
+            result
         } else {
-            if let Some(regex_match) = TEXT_REGEX.find(self.input) {
-                let result = Token::Text(&self.input[..regex_match.start()]);
-                self.input = &self.input[regex_match.start()..];
-                result
-            } else {
-                let result = Token::Text(self.input);
-                self.input = &self.input[self.input.len()..];
-                result
-            }
+            let result = Token::Text(self.input);
+            self.input = &self.input[self.input.len()..];
+            result
+        }
+    }
+}
+
+pub struct MultipeekTokenizer<'tokenizer> {
+    tokenizer: Tokenizer<'tokenizer>,
+    peek: VecDeque<Token<'tokenizer>>,
+}
+
+impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
+    pub fn new(tokenizer: Tokenizer<'tokenizer>) -> Self {
+        Self {
+            tokenizer,
+            peek: VecDeque::new(),
+        }
+    }
+
+    pub fn next<'token>(&mut self) -> Token<'token>
+    where
+        'tokenizer: 'token,
+    {
+        if let Some(token) = self.peek.pop_front() {
+            token
+        } else {
+            self.tokenizer.next()
+        }
+    }
+
+    pub fn peek(&mut self, distance: usize) -> &Token {
+        while self.peek.len() < distance + 1 {
+            self.peek.push_back(self.tokenizer.next());
+        }
+        &self.peek[distance]
+    }
+
+    pub fn repeek(&self, distance: usize) -> Option<&Token> {
+        self.peek.get(distance)
+    }
+}
+
+impl<'token> ToString for Token<'token> {
+    fn to_string(&self) -> String {
+        match self {
+            Token::Text(text) => text.to_string(),
+            Token::MultiEquals(amount) => "=".repeat(usize::from(*amount)),
+            Token::DoubleOpenBrace => r"{{".to_string(),
+            Token::DoubleCloseBrace => r"}}".to_string(),
+            Token::Eof => unreachable!("EOF has no string representation"),
         }
     }
 }

@@ -3,6 +3,7 @@
 #![warn(missing_docs)]
 
 use crate::error::Error;
+use crate::tokenizer::{MultipeekTokenizer, Token, Tokenizer};
 use error::Result;
 #[cfg(serde)]
 use serde::{Deserialize, Serialize};
@@ -29,7 +30,7 @@ pub struct Section {
     /// The headline of the section.
     pub headline: Headline,
     /// The text of the section.
-    pub text: String,
+    pub text: Vec<TextPiece>,
     /// The subsections of the section.
     pub subsections: Vec<Section>,
 }
@@ -44,112 +45,155 @@ pub struct Headline {
     pub level: u8,
 }
 
-/// Parse textual wikitext into a semantic representation.
-pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
-    let mut level_stack = Vec::new();
-    let (mut text, mut section_text, mut next_headline) = find_next_headline(wikitext)?;
-    level_stack.push(vec![Section {
-        headline: Headline {
-            label: headline,
-            level: 1,
-        },
-        text: section_text,
-        subsections: vec![],
-    }]);
+/// A piece of text of a section of wikitext.
+#[derive(Debug, Clone, Eq, PartialEq)]
+#[cfg_attr(serde, derive(Serialize, Deserialize))]
+pub enum TextPiece {
+    /// A plain string.
+    Text(String),
+    /// A double brace expression.
+    DoubleBraceExpression(Vec<TextPiece>),
+}
 
-    while let Some(current_headline) = next_headline {
-        if current_headline.level == 1 {
-            return Err(Error::SecondRootSection {
-                label: current_headline.label,
-            });
+/// Data structure used to parse wikitext sections and headlines at different levels.
+#[derive(Debug, Clone, Eq, PartialEq)]
+pub struct LevelStack {
+    stack: Vec<Vec<Section>>,
+}
+
+impl LevelStack {
+    /// Create a new headline for a page with the given headline.
+    pub fn new(headline: String) -> Self {
+        Self {
+            stack: vec![vec![Section {
+                headline: Headline {
+                    label: headline,
+                    level: 1,
+                },
+                text: Vec::new(),
+                subsections: vec![],
+            }]],
         }
+    }
 
-        (text, section_text, next_headline) = find_next_headline(text)?;
-        while usize::from(current_headline.level) < level_stack.len() {
-            let mut last = level_stack.pop().unwrap();
-            while level_stack.last().unwrap().is_empty() {
-                level_stack.pop();
+    fn top_mut(&mut self) -> &mut Vec<Section> {
+        self.stack.last_mut().unwrap()
+    }
+
+    /// Append a new headline found on the page.
+    pub fn append_headline(&mut self, headline: Headline) {
+        self.adjust_level(headline.level.into());
+        debug_assert!(self.stack.len() > 1);
+        self.top_mut().push(Section {
+            headline,
+            text: Vec::new(),
+            subsections: vec![],
+        });
+    }
+
+    /// Append a text piece found on the page.
+    pub fn append_text_piece(&mut self, text_piece: TextPiece) {
+        self.top_mut().last_mut().unwrap().text.push(text_piece);
+    }
+
+    fn adjust_level(&mut self, level: usize) {
+        while self.stack.len() > level {
+            let mut last = self.stack.pop().unwrap();
+            while self.stack.last().unwrap().is_empty() {
+                self.stack.pop();
             }
-            level_stack
-                .last_mut()
-                .unwrap()
+            self.top_mut()
                 .last_mut()
                 .unwrap()
                 .subsections
                 .append(&mut last);
         }
-        while level_stack.len() < usize::from(current_headline.level) {
-            level_stack.push(Vec::new());
+        while self.stack.len() < level {
+            self.stack.push(Vec::new());
         }
-        debug_assert!(level_stack.len() > 1);
-        level_stack.last_mut().unwrap().push(Section {
-            headline: current_headline,
-            text: section_text,
-            subsections: vec![],
-        });
+        debug_assert_eq!(self.stack.len(), level);
     }
 
-    while level_stack.len() > 1 {
-        let mut last = level_stack.pop().unwrap();
-        while level_stack.last().unwrap().is_empty() {
-            level_stack.pop();
-        }
-        level_stack
-            .last_mut()
-            .unwrap()
-            .last_mut()
-            .unwrap()
-            .subsections
-            .append(&mut last);
+    /// Collapse the stack down to the root section and return it.
+    /// The root section contains the whole section hierarchy added to the stack.
+    pub fn to_root_section(mut self) -> Section {
+        self.adjust_level(1);
+        debug_assert_eq!(self.stack.len(), 1);
+        let mut level_1 = self.stack.pop().unwrap();
+        debug_assert_eq!(level_1.len(), 1);
+        level_1.pop().unwrap()
     }
-
-    let root_section = level_stack.pop().unwrap().pop().unwrap();
-    debug_assert!(level_stack.is_empty());
-    Ok(Wikitext { root_section })
 }
 
-fn find_next_headline(text: &str) -> Result<(&str, String, Option<Headline>)> {
-    let mut previous_text_limit = 0;
+/// Parse textual wikitext into a semantic representation.
+pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
+    let mut level_stack = LevelStack::new(headline);
+    let mut tokenizer = MultipeekTokenizer::new(Tokenizer::new(wikitext));
+
     loop {
-        if let Some(location) = text[previous_text_limit..].find('=') {
-            previous_text_limit += location;
-        } else {
-            return Ok((&text[text.len()..], text.to_string(), None));
-        }
-
-        let level = text[previous_text_limit..]
-            .chars()
-            .take_while(|&c| c == '=')
-            .count();
-        if level > MAX_SECTION_DEPTH {
-            previous_text_limit += level;
-            continue;
-        }
-        let headline_marker = &text[previous_text_limit..previous_text_limit + level];
-        let headline_candidate = &text[previous_text_limit + level..];
-
-        if let Some(location) = headline_candidate.find(headline_marker) {
-            let headline_candidate = &headline_candidate[..location];
-            if headline_candidate.contains('\n') {
-                previous_text_limit += level;
-                continue;
+        match tokenizer.next() {
+            Token::Text(text) => level_stack.append_text_piece(TextPiece::Text(text.to_string())),
+            Token::MultiEquals(count) => {
+                if let Some(headline) = parse_potential_headline(&mut tokenizer, count) {
+                    if headline.level == 1 {
+                        return Err(Error::SecondRootSection {
+                            label: headline.label,
+                        });
+                    }
+                    level_stack.append_headline(headline);
+                } else {
+                    level_stack
+                        .append_text_piece(TextPiece::Text(Token::MultiEquals(count).to_string()));
+                }
             }
-
-            let label = headline_candidate.trim().to_string();
-            let level_u8 = u8::try_from(level).unwrap();
-            let headline = Headline {
-                label,
-                level: level_u8,
-            };
-            let next_text_offset = previous_text_limit + level + location + level;
-            println!("Found headline {headline:?}");
-            return Ok((
-                &text[next_text_offset..],
-                text[..previous_text_limit].to_string(),
-                Some(headline),
-            ));
-        } else {
-            previous_text_limit += level;
+            Token::DoubleOpenBrace => {
+                level_stack.append_text_piece(parse_double_brace_expression(&mut tokenizer)?)
+            }
+            Token::DoubleCloseBrace => return Err(Error::UnmatchedDoubleCloseBrace),
+            Token::Eof => break,
         }
     }
+
+    Ok(Wikitext {
+        root_section: level_stack.to_root_section(),
+    })
+}
+
+fn parse_potential_headline(tokenizer: &mut MultipeekTokenizer, level: u8) -> Option<Headline> {
+    tokenizer.peek(1);
+    if let (Some(Token::Text(text)), Some(Token::MultiEquals(second_level))) =
+        (tokenizer.repeek(0), tokenizer.repeek(1))
+    {
+        if level == *second_level {
+            Some(Headline {
+                label: text.to_string(),
+                level,
+            })
+        } else {
+            None
+        }
+    } else {
+        None
+    }
+}
+
+fn parse_double_brace_expression(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
+    let mut result = Vec::new();
+
+    loop {
+        match tokenizer.next() {
+            token @ (Token::Text(_) | Token::MultiEquals(_)) => {
+                if let Some(TextPiece::Text(text)) = result.last_mut() {
+                    text.push_str(&token.to_string());
+                } else {
+                    result.push(TextPiece::Text(token.to_string()));
+                }
+            }
+            Token::DoubleOpenBrace => result.push(parse_double_brace_expression(tokenizer)?),
+            Token::DoubleCloseBrace => break,
+            Token::Eof => return Err(Error::UnmatchedDoubleOpenBrace),
+        }
+    }
+
+    Ok(TextPiece::DoubleBraceExpression(result))
 }

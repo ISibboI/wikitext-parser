@@ -28,6 +28,13 @@ impl Wikitext {
     pub fn print_headlines(&self) {
         self.root_section.print_headlines();
     }
+
+    /// List the headlines of the text.
+    pub fn list_headlines(&self) -> Vec<Headline> {
+        let mut result = Vec::new();
+        self.root_section.list_headlines(&mut result);
+        result
+    }
 }
 
 /// A section of wikitext.
@@ -45,9 +52,21 @@ pub struct Section {
 impl Section {
     /// Print the headlines of the text.
     pub fn print_headlines(&self) {
-        println!("{0} {1} {0}", "=".repeat(self.headline.level.into()), self.headline.label);
+        println!(
+            "{0} {1} {0}",
+            "=".repeat(self.headline.level.into()),
+            self.headline.label
+        );
         for subsection in &self.subsections {
             subsection.print_headlines();
+        }
+    }
+
+    /// List the headlines of the text.
+    pub fn list_headlines(&self, result: &mut Vec<Headline>) {
+        result.push(self.headline.clone());
+        for subsection in &self.subsections {
+            subsection.list_headlines(result);
         }
     }
 }
@@ -60,6 +79,16 @@ pub struct Headline {
     pub label: String,
     /// The level of the headline.
     pub level: u8,
+}
+
+impl Headline {
+    /// Create a new headline with the given label and level.
+    pub fn new(label: impl Into<String>, level: u8) -> Self {
+        Self {
+            label: label.into(),
+            level,
+        }
+    }
 }
 
 /// A piece of text of a section of wikitext.
@@ -181,14 +210,11 @@ fn parse_potential_headline(tokenizer: &mut MultipeekTokenizer, level: u8) -> Op
     if let (Some(Token::Text(text)), Some(Token::MultiEquals(second_level))) =
         (tokenizer.repeek(0), tokenizer.repeek(1))
     {
-        if level == *second_level && !text.contains(r"\n") {
+        if level == *second_level && !text.contains('\n') {
             let label = text.trim().to_string();
             tokenizer.next();
             tokenizer.next();
-            Some(Headline {
-                label,
-                level,
-            })
+            Some(Headline { label, level })
         } else {
             None
         }

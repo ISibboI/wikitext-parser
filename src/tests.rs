@@ -1,4 +1,4 @@
-use crate::parse_wikitext;
+use crate::{parse_wikitext, Headline};
 
 #[test]
 fn test_wiktionary_free() {
@@ -6,4 +6,19 @@ fn test_wiktionary_free() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "free".to_string()).unwrap();
     parsed.print_headlines();
+}
+
+#[test]
+fn test_headlines() {
+    let input = "==abc===c==b==g== a \n ==c==";
+    let parsed = parse_wikitext(&input, "title".to_string()).unwrap();
+    let headlines = parsed.list_headlines();
+    assert_eq!(
+        headlines,
+        vec![
+            Headline::new("title", 1),
+            Headline::new("b", 2),
+            Headline::new("c", 2),
+        ]
+    );
 }

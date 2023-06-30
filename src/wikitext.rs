@@ -1,3 +1,6 @@
+use std::fmt;
+use std::fmt::Display;
+
 /// The root of a wikitext document.
 #[derive(Debug, Eq, PartialEq, Clone)]
 #[cfg_attr(serde, derive(Serialize, Deserialize))]
@@ -25,6 +28,13 @@ impl Wikitext {
         self.root_section.list_double_brace_expressions(&mut result);
         result
     }
+
+    /// List the plain parts of the text.
+    pub fn list_plain_text(&self) -> Vec<TextPiece> {
+        let mut result = Vec::new();
+        self.root_section.list_plain_text(&mut result);
+        result
+    }
 }
 
 /// A section of wikitext.
@@ -34,7 +44,7 @@ pub struct Section {
     /// The headline of the section.
     pub headline: Headline,
     /// The text of the section.
-    pub text: Vec<TextPiece>,
+    pub text: Text,
     /// The subsections of the section.
     pub subsections: Vec<Section>,
 }
@@ -62,13 +72,25 @@ impl Section {
 
     /// List the double brace expressions of the text.
     pub fn list_double_brace_expressions(&self, result: &mut Vec<TextPiece>) {
-        for text_piece in &self.text {
-            if matches!(text_piece, TextPiece::DoubleBraceExpression(_)) {
+        for text_piece in &self.text.pieces {
+            if matches!(text_piece, TextPiece::DoubleBraceExpression { .. }) {
                 result.push(text_piece.clone());
             }
         }
         for subsection in &self.subsections {
             subsection.list_double_brace_expressions(result);
+        }
+    }
+
+    /// List the plain parts of the text.
+    pub fn list_plain_text(&self, result: &mut Vec<TextPiece>) {
+        for text_piece in &self.text.pieces {
+            if matches!(text_piece, TextPiece::Text(_)) {
+                result.push(text_piece.clone());
+            }
+        }
+        for subsection in &self.subsections {
+            subsection.list_plain_text(result);
         }
     }
 }
@@ -93,6 +115,29 @@ impl Headline {
     }
 }
 
+/// The text content of a section.
+#[derive(Debug, Clone, Eq, PartialEq, Default)]
+pub struct Text {
+    pub pieces: Vec<TextPiece>,
+}
+
+impl Text {
+    pub fn new() -> Self {
+        Default::default()
+    }
+
+    /// Extend the current last text piece with the given string,
+    /// or append a new text piece created from the given string if there is no text piece
+    /// or the last text piece is not of variant [`Text`](TextPiece::Text).
+    pub fn extend_with_text(&mut self, text: &str) {
+        if let Some(TextPiece::Text(last)) = self.pieces.last_mut() {
+            last.push_str(text);
+        } else {
+            self.pieces.push(TextPiece::Text(text.to_string()));
+        }
+    }
+}
+
 /// A piece of text of a section of wikitext.
 #[derive(Debug, Clone, Eq, PartialEq)]
 #[cfg_attr(serde, derive(Serialize, Deserialize))]
@@ -100,23 +145,55 @@ pub enum TextPiece {
     /// A plain string.
     Text(String),
     /// A double brace expression.
-    DoubleBraceExpression(Vec<TextPiece>),
+    DoubleBraceExpression {
+        tag: String,
+        attributes: Vec<Attribute>,
+    },
 }
 
-impl ToString for TextPiece {
-    fn to_string(&self) -> String {
+/// An attribute of e.g. a double brace expression.
+#[derive(Debug, Clone, Eq, PartialEq)]
+#[cfg_attr(serde, derive(Serialize, Deserialize))]
+pub struct Attribute {
+    pub name: Option<String>,
+    pub value: Text,
+}
+
+impl Display for Text {
+    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {
+        for text_piece in &self.pieces {
+            write!(fmt, "{text_piece}")?;
+        }
+        Ok(())
+    }
+}
+
+impl Display for TextPiece {
+    fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
         match self {
-            TextPiece::Text(text) => text.clone(),
-            TextPiece::DoubleBraceExpression(text_pieces) => {
-                format!(
-                    "{{{{{}}}}}",
-                    text_pieces
-                        .iter()
-                        .map(ToString::to_string)
-                        .collect::<Vec<_>>()
-                        .join("|")
-                )
+            TextPiece::Text(text) => write!(fmt, "{text}"),
+            TextPiece::DoubleBraceExpression {
+                tag,
+                attributes: parameters,
+            } => {
+                write!(fmt, "{{{{{tag}")?;
+
+                for parameter in parameters {
+                    write!(fmt, "|{parameter}")?;
+                }
+
+                write!(fmt, "}}")
             }
         }
+    }
+}
+
+impl Display for Attribute {
+    fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
+        if let Some(name) = &self.name {
+            write!(fmt, "{name}=")?;
+        }
+
+        write!(fmt, "{}", self.value)
     }
 }

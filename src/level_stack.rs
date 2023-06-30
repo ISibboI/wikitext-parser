@@ -15,7 +15,7 @@ impl LevelStack {
                     label: headline,
                     level: 1,
                 },
-                text: Vec::new(),
+                text: Default::default(),
                 subsections: vec![],
             }]],
         }
@@ -31,26 +31,30 @@ impl LevelStack {
         debug_assert!(self.stack.len() > 1);
         self.top_mut().push(Section {
             headline,
-            text: Vec::new(),
+            text: Default::default(),
             subsections: vec![],
         });
     }
 
     /// Append a text piece found on the page.
     pub fn append_text_piece(&mut self, text_piece: TextPiece) {
-        self.top_mut().last_mut().unwrap().text.push(text_piece);
+        self.top_mut()
+            .last_mut()
+            .unwrap()
+            .text
+            .pieces
+            .push(text_piece);
     }
 
     /// Extend the current last text piece with the given string,
     /// or append a new text piece created from the given string if there is no text piece
     /// or the last text piece is not of variant [`Text`](TextPiece::Text).
     pub fn extend_text_piece(&mut self, text: &str) {
-        let current_text = &mut self.top_mut().last_mut().unwrap().text;
-        if let Some(TextPiece::Text(last)) = current_text.last_mut() {
-            last.push_str(text);
-        } else {
-            current_text.push(TextPiece::Text(text.to_string()));
-        }
+        self.top_mut()
+            .last_mut()
+            .unwrap()
+            .text
+            .extend_with_text(text);
     }
 
     fn adjust_level(&mut self, level: usize) {

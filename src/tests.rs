@@ -10,6 +10,19 @@ fn test_wiktionary_free() {
     for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression.to_string());
     }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text.to_string());
+    }
+}
+
+#[test]
+fn test_wiktionary_free_substrings() {
+    let input_json_strings = [r#""{{a}}ȝ""#];
+    for input_json_string in input_json_strings {
+        let input: String = serde_json::from_str(input_json_string).unwrap();
+        println!("{input:?}");
+        parse_wikitext(&input, "free".to_string()).unwrap();
+    }
 }
 
 #[test]

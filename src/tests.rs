@@ -1,4 +1,5 @@
-use crate::{parse_wikitext, Headline};
+use crate::parse_wikitext;
+use crate::wikitext::Headline;
 
 #[test]
 fn test_wiktionary_free() {

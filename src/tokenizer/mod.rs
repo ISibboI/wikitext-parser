@@ -1,4 +1,3 @@
-use crate::MAX_SECTION_DEPTH;
 use lazy_static::lazy_static;
 use regex::Regex;
 use std::collections::VecDeque;
@@ -6,6 +5,8 @@ use std::collections::VecDeque;
 lazy_static! {
     static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|=|\|)").unwrap();
 }
+
+pub const MAX_SECTION_DEPTH: usize = 6;
 
 #[derive(Debug, Clone, Eq, PartialEq)]
 pub enum Token<'a> {
@@ -108,12 +109,22 @@ impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
 
 impl<'token> ToString for Token<'token> {
     fn to_string(&self) -> String {
+        self.to_str().to_string()
+    }
+}
+
+impl Token<'_> {
+    pub fn to_str(&self) -> &str {
         match self {
-            Token::Text(text) => text.to_string(),
-            Token::MultiEquals(amount) => "=".repeat(usize::from(*amount)),
-            Token::DoubleOpenBrace => r"{{".to_string(),
-            Token::DoubleCloseBrace => r"}}".to_string(),
-            Token::VerticalBar => '|'.to_string(),
+            Token::Text(text) => text,
+            Token::MultiEquals(amount) => {
+                let buffer = "======";
+                assert_eq!(buffer.len(), MAX_SECTION_DEPTH);
+                &buffer[..usize::from(*amount)]
+            }
+            Token::DoubleOpenBrace => r"{{",
+            Token::DoubleCloseBrace => r"}}",
+            Token::VerticalBar => "|",
             Token::Eof => unreachable!("EOF has no string representation"),
         }
     }

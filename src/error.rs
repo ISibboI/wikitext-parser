@@ -28,11 +28,23 @@ pub enum ParserErrorKind {
     /// Found a double open brace that does not match any closed one.
     UnmatchedDoubleOpenBrace,
 
+    /// Found a double close bracket that does not match any opened one.
+    UnmatchedDoubleCloseBracket,
+
+    /// Found a double open bracket that does not match any closed one.
+    UnmatchedDoubleOpenBracket,
+
     /// A tag contains a token that does not belong there.
     UnexpectedTokenInTag { token: String },
 
     /// A parameter contains a token that does not belong there.
     UnexpectedTokenInParameter { token: String },
+
+    /// A link contains a token that does not belong there.
+    UnexpectedTokenInLink { token: String },
+
+    /// A link label contains a token that does not belong there.
+    UnexpectedTokenInLinkLabel { token: String },
 
     /// A parameter contains a token that does not belong there.
     UnexpectedToken { expected: String, actual: String },

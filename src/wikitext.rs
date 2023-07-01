@@ -149,6 +149,12 @@ pub enum TextPiece {
         tag: String,
         attributes: Vec<Attribute>,
     },
+    /// A link.
+    Link {
+        url: String,
+        options: Vec<String>,
+        label: Option<String>,
+    },
 }
 
 /// An attribute of e.g. a double brace expression.
@@ -183,6 +189,20 @@ impl Display for TextPiece {
                 }
 
                 write!(fmt, "}}}}")
+            }
+            TextPiece::Link {
+                url,
+                options,
+                label,
+            } => {
+                write!(fmt, "[[{url}")?;
+                for option in options {
+                    write!(fmt, "|{option}")?;
+                }
+                if let Some(label) = label {
+                    write!(fmt, "|{label}")?;
+                }
+                write!(fmt, "]]")
             }
         }
     }

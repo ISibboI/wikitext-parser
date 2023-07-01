@@ -2,8 +2,12 @@ use crate::error::{ParserErrorKind, Result};
 use crate::level_stack::LevelStack;
 use crate::tokenizer::{MultipeekTokenizer, Token, Tokenizer};
 use crate::wikitext::{Attribute, Headline, Text, TextPiece, Wikitext};
+use std::mem;
 
+#[cfg(not(tests))]
 static DO_PARSER_DEBUG_PRINTS: bool = false;
+#[cfg(tests)]
+static DO_PARSER_DEBUG_PRINTS: bool = true;
 
 /// Parse textual wikitext into a semantic representation.
 pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
@@ -38,8 +42,13 @@ pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
             Token::DoubleOpenBrace => {
                 level_stack.append_text_piece(parse_double_brace_expression(&mut tokenizer)?)
             }
+            Token::DoubleOpenBracket => level_stack.append_text_piece(parse_link(&mut tokenizer)?),
             Token::DoubleCloseBrace => {
                 return Err(ParserErrorKind::UnmatchedDoubleCloseBrace
+                    .into_parser_error(tokenizer.text_position()))
+            }
+            Token::DoubleCloseBracket => {
+                return Err(ParserErrorKind::UnmatchedDoubleCloseBracket
                     .into_parser_error(tokenizer.text_position()))
             }
             Token::Eof => break,
@@ -98,7 +107,11 @@ fn parse_double_brace_expression(tokenizer: &mut MultipeekTokenizer) -> Result<T
                 tokenizer.next();
                 break;
             }
-            token @ (Token::Text(_) | Token::MultiEquals(_) | Token::DoubleOpenBrace) => {
+            token @ (Token::Text(_)
+            | Token::MultiEquals(_)
+            | Token::DoubleOpenBrace
+            | Token::DoubleOpenBracket
+            | Token::DoubleCloseBracket) => {
                 return Err(ParserErrorKind::UnexpectedToken {
                     expected: "| or }}".to_string(),
                     actual: token.to_string(),
@@ -126,7 +139,10 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
                 return Err(ParserErrorKind::UnmatchedDoubleOpenBrace
                     .into_parser_error(tokenizer.text_position()))
             }
-            token @ (Token::MultiEquals(_) | Token::DoubleOpenBrace) => {
+            token @ (Token::MultiEquals(_)
+            | Token::DoubleOpenBrace
+            | Token::DoubleOpenBracket
+            | Token::DoubleCloseBracket) => {
                 return Err(ParserErrorKind::UnexpectedTokenInTag {
                     token: token.to_string(),
                 }
@@ -159,11 +175,14 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
                 tokenizer.next();
                 break;
             }
-            Token::DoubleOpenBrace | Token::VerticalBar | Token::DoubleCloseBrace => {
+            Token::DoubleOpenBrace
+            | Token::DoubleOpenBracket
+            | Token::VerticalBar
+            | Token::DoubleCloseBrace => {
                 value.pieces.push(TextPiece::Text(name.take().unwrap()));
                 break;
             }
-            token @ Token::MultiEquals(_) => {
+            token @ (Token::MultiEquals(_) | Token::DoubleCloseBracket) => {
                 return Err(ParserErrorKind::UnexpectedTokenInParameter {
                     token: token.to_string(),
                 }
@@ -186,11 +205,10 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
                 value.extend_with_text(text);
                 tokenizer.next();
             }
-            Token::DoubleOpenBrace => {
-                value.pieces.push(parse_double_brace_expression(tokenizer)?);
-            }
+            Token::DoubleOpenBrace => value.pieces.push(parse_double_brace_expression(tokenizer)?),
+            Token::DoubleOpenBracket => value.pieces.push(parse_link(tokenizer)?),
             Token::VerticalBar | Token::DoubleCloseBrace => break,
-            token @ Token::MultiEquals(_) => {
+            token @ (Token::MultiEquals(_) | Token::DoubleCloseBracket) => {
                 return Err(ParserErrorKind::UnexpectedTokenInParameter {
                     token: token.to_string(),
                 }
@@ -204,4 +222,90 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
     }
 
     Ok(Attribute { name, value })
+}
+
+fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
+    tokenizer.expect(&Token::DoubleOpenBracket)?;
+    let mut url = String::new();
+    let mut options = Vec::new();
+    let mut label = None;
+
+    // parse url
+    loop {
+        if DO_PARSER_DEBUG_PRINTS {
+            println!("parse_link url token: {:?}", tokenizer.peek(0));
+        }
+        match tokenizer.peek(0) {
+            Token::Text(text) => {
+                url.push_str(text);
+                tokenizer.next();
+            }
+            Token::DoubleCloseBracket => {
+                tokenizer.next();
+                break;
+            }
+            Token::VerticalBar => {
+                tokenizer.next();
+                label = Some(String::new());
+                break;
+            }
+            token @ (Token::MultiEquals(_)
+            | Token::DoubleOpenBrace
+            | Token::DoubleCloseBrace
+            | Token::DoubleOpenBracket) => {
+                return Err(ParserErrorKind::UnexpectedTokenInLink {
+                    token: token.to_string(),
+                }
+                .into_parser_error(tokenizer.text_position()))
+            }
+            Token::Eof => {
+                return Err(ParserErrorKind::UnmatchedDoubleOpenBracket
+                    .into_parser_error(tokenizer.text_position()))
+            }
+        }
+    }
+
+    // parse options and label
+    if let Some(label) = label.as_mut() {
+        loop {
+            if DO_PARSER_DEBUG_PRINTS {
+                println!("parse_link label token: {:?}", tokenizer.peek(0));
+            }
+            match tokenizer.peek(0) {
+                Token::Text(text) => {
+                    label.push_str(text);
+                    tokenizer.next();
+                }
+                Token::VerticalBar => {
+                    let mut new_label = String::new();
+                    mem::swap(label, &mut new_label);
+                    options.push(new_label);
+                    tokenizer.next();
+                }
+                Token::DoubleCloseBracket => {
+                    tokenizer.next();
+                    break;
+                }
+                token @ (Token::MultiEquals(_)
+                | Token::DoubleOpenBrace
+                | Token::DoubleCloseBrace
+                | Token::DoubleOpenBracket) => {
+                    return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
+                        token: token.to_string(),
+                    }
+                    .into_parser_error(tokenizer.text_position()))
+                }
+                Token::Eof => {
+                    return Err(ParserErrorKind::UnmatchedDoubleOpenBracket
+                        .into_parser_error(tokenizer.text_position()))
+                }
+            }
+        }
+    }
+
+    Ok(TextPiece::Link {
+        url,
+        options,
+        label,
+    })
 }

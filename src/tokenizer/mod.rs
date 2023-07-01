@@ -6,7 +6,7 @@ use std::fmt;
 use std::fmt::Display;
 
 lazy_static! {
-    static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|=|\|)").unwrap();
+    static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|\[\[|\]\]|=|\|)").unwrap();
 }
 
 pub const MAX_SECTION_DEPTH: usize = 6;
@@ -17,6 +17,8 @@ pub enum Token<'a> {
     MultiEquals(u8),
     DoubleOpenBrace,
     DoubleCloseBrace,
+    DoubleOpenBracket,
+    DoubleCloseBracket,
     VerticalBar,
     Eof,
 }
@@ -115,6 +117,12 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with(r"}}") {
             self.input.advance_until(2);
             Token::DoubleCloseBrace
+        } else if input.starts_with("[[") {
+            self.input.advance_until(2);
+            Token::DoubleOpenBracket
+        } else if input.starts_with("]]") {
+            self.input.advance_until(2);
+            Token::DoubleCloseBracket
         } else if input.starts_with('=') {
             let mut length = 1u8;
             self.input.advance_one();
@@ -210,6 +218,8 @@ impl Token<'_> {
             }
             Token::DoubleOpenBrace => r"{{",
             Token::DoubleCloseBrace => r"}}",
+            Token::DoubleOpenBracket => "[[",
+            Token::DoubleCloseBracket => "]]",
             Token::VerticalBar => "|",
             Token::Eof => unreachable!("EOF has no string representation"),
         }

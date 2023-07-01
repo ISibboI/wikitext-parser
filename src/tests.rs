@@ -17,7 +17,11 @@ fn test_wiktionary_free() {
 
 #[test]
 fn test_wiktionary_free_substrings() {
-    let input_json_strings = [r#""{{a}}ȝ""#];
+    let input_json_strings = [
+        r#""[[File:Free Beer.jpg|thumb|A sign advertising '''free''' beer (obtainable without payment). It is a joke: every day the sign is read, the free beer will be available \"tomorrow\".]]""#,
+        r#""{{a}}ȝ""#,
+        r#""[[s:Twelve O'Clock|Twelve O'Clock]]""#,
+    ];
     for input_json_string in input_json_strings {
         let input: String = serde_json::from_str(input_json_string).unwrap();
         println!("{input:?}");

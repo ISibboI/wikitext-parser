@@ -182,7 +182,7 @@ impl Display for TextPiece {
                     write!(fmt, "|{parameter}")?;
                 }
 
-                write!(fmt, "}}")
+                write!(fmt, "}}}}")
             }
         }
     }

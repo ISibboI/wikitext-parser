@@ -1,3 +1,4 @@
+use crate::tokenizer::Token;
 use std::fmt;
 use std::fmt::Display;
 
@@ -126,15 +127,80 @@ impl Text {
         Default::default()
     }
 
+    /// Returns `true` if this `Text` contains no pieces.
+    pub fn is_empty(&self) -> bool {
+        self.pieces.is_empty()
+    }
+
     /// Extend the current last text piece with the given string,
     /// or append a new text piece created from the given string if there is no text piece
-    /// or the last text piece is not of variant [`Text`](TextPiece::Text).
+    /// or the last text piece is not of variant [`Text`](TextPiece::Text) or [`FormattedText`](TextPiece::FormattedText).
     pub fn extend_with_text(&mut self, text: &str) {
         if let Some(TextPiece::Text(last)) = self.pieces.last_mut() {
             last.push_str(text);
+        } else if let Some(TextPiece::FormattedText {
+            text: formatted_text,
+            ..
+        }) = self.pieces.last_mut()
+        {
+            formatted_text.extend_with_text(text)
         } else {
             self.pieces.push(TextPiece::Text(text.to_string()));
         }
+    }
+
+    /// Trim whitespace from the beginning and the end of the text.
+    pub fn trim_self(&mut self) {
+        self.trim_self_start();
+        self.trim_self_end();
+    }
+
+    /// Trim whitespace from the beginning of the text.
+    pub fn trim_self_start(&mut self) {
+        let mut offset = 0;
+        while offset < self.pieces.len() {
+            match &mut self.pieces[offset] {
+                TextPiece::Text(text) => {
+                    *text = text.trim_start().to_string();
+                    if !text.is_empty() {
+                        break;
+                    }
+                }
+                TextPiece::DoubleBraceExpression { .. } | TextPiece::Link { .. } => break,
+                TextPiece::FormattedText { text, .. } => {
+                    text.trim_self_start();
+                    if !text.is_empty() {
+                        break;
+                    }
+                }
+            }
+            offset += 1;
+        }
+        self.pieces.drain(..offset);
+    }
+
+    /// Trim whitespace from the end of the text.
+    pub fn trim_self_end(&mut self) {
+        let mut limit = self.pieces.len();
+        while limit > 0 {
+            match &mut self.pieces[limit - 1] {
+                TextPiece::Text(text) => {
+                    *text = text.trim_end().to_string();
+                    if !text.is_empty() {
+                        break;
+                    }
+                }
+                TextPiece::DoubleBraceExpression { .. } | TextPiece::Link { .. } => break,
+                TextPiece::FormattedText { text, .. } => {
+                    text.trim_self_end();
+                    if !text.is_empty() {
+                        break;
+                    }
+                }
+            }
+            limit -= 1;
+        }
+        self.pieces.drain(limit..);
     }
 }
 
@@ -153,7 +219,11 @@ pub enum TextPiece {
     Link {
         url: String,
         options: Vec<String>,
-        label: Option<String>,
+        label: Option<Text>,
+    },
+    FormattedText {
+        formatting: TextFormatting,
+        text: Text,
     },
 }
 
@@ -163,6 +233,15 @@ pub enum TextPiece {
 pub struct Attribute {
     pub name: Option<String>,
     pub value: Text,
+}
+
+/// Format of formatted text.
+#[derive(Debug, Clone, Copy, Eq, PartialEq)]
+#[cfg_attr(serde, derive(Serialize, Deserialize))]
+pub enum TextFormatting {
+    Italic,
+    Bold,
+    ItalicBold,
 }
 
 impl Display for Text {
@@ -203,6 +282,14 @@ impl Display for TextPiece {
                     write!(fmt, "|{label}")?;
                 }
                 write!(fmt, "]]")
+            }
+            TextPiece::FormattedText {
+                formatting: format,
+                text,
+            } => {
+                write!(fmt, "{}", Token::from(*format))?;
+                write!(fmt, "{}", text)?;
+                write!(fmt, "{}", Token::from(*format))
             }
         }
     }

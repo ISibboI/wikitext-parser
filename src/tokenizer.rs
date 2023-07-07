@@ -1,4 +1,5 @@
 use crate::error::ParserErrorKind;
+use crate::wikitext::TextFormatting;
 use lazy_static::lazy_static;
 use regex::Regex;
 use std::collections::VecDeque;
@@ -6,7 +7,7 @@ use std::fmt;
 use std::fmt::Display;
 
 lazy_static! {
-    static ref TEXT_REGEX: Regex = Regex::new(r"(\{\{|\}\}|\[\[|\]\]|=|\|)").unwrap();
+    static ref TEXT_REGEX: Regex = Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||''|\n)").unwrap();
 }
 
 pub const MAX_SECTION_DEPTH: usize = 6;
@@ -20,6 +21,10 @@ pub enum Token<'a> {
     DoubleOpenBracket,
     DoubleCloseBracket,
     VerticalBar,
+    DoubleApostrophe,
+    TripleApostrophe,
+    QuintupleApostrophe,
+    Newline,
     Eof,
 }
 
@@ -136,6 +141,24 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with('|') {
             self.input.advance_one();
             Token::VerticalBar
+        } else if input.starts_with("''") {
+            self.input.advance_until(2);
+            let input = self.input.remaining_input();
+            if input.starts_with('\'') {
+                self.input.advance_one();
+                let input = self.input.remaining_input();
+                if input.starts_with("''") {
+                    self.input.advance_until(2);
+                    Token::QuintupleApostrophe
+                } else {
+                    Token::TripleApostrophe
+                }
+            } else {
+                Token::DoubleApostrophe
+            }
+        } else if input.starts_with('\n') {
+            self.input.advance_one();
+            Token::Newline
         } else if let Some(regex_match) = TEXT_REGEX.find(input) {
             let result = Token::Text(&input[..regex_match.start()]);
             self.input.advance_until(regex_match.start());
@@ -221,7 +244,30 @@ impl Token<'_> {
             Token::DoubleOpenBracket => "[[",
             Token::DoubleCloseBracket => "]]",
             Token::VerticalBar => "|",
+            Token::DoubleApostrophe => "''",
+            Token::TripleApostrophe => "'''",
+            Token::QuintupleApostrophe => "'''''",
+            Token::Newline => "\n",
             Token::Eof => unreachable!("EOF has no string representation"),
+        }
+    }
+
+    pub fn as_text_formatting(&self) -> TextFormatting {
+        match self {
+            Token::DoubleApostrophe => TextFormatting::Italic,
+            Token::TripleApostrophe => TextFormatting::Bold,
+            Token::QuintupleApostrophe => TextFormatting::ItalicBold,
+            token => panic!("Token {token:?} does not describe a text formatting"),
+        }
+    }
+}
+
+impl From<TextFormatting> for Token<'_> {
+    fn from(text_formatting: TextFormatting) -> Self {
+        match text_formatting {
+            TextFormatting::Italic => Token::DoubleApostrophe,
+            TextFormatting::Bold => Token::TripleApostrophe,
+            TextFormatting::ItalicBold => Token::QuintupleApostrophe,
         }
     }
 }

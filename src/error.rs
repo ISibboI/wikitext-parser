@@ -1,4 +1,5 @@
 use crate::tokenizer::TextPosition;
+use crate::wikitext::TextFormatting;
 
 pub type Result<T> = std::result::Result<T, ParserError>;
 
@@ -35,19 +36,39 @@ pub enum ParserErrorKind {
     UnmatchedDoubleOpenBracket,
 
     /// A tag contains a token that does not belong there.
-    UnexpectedTokenInTag { token: String },
+    UnexpectedTokenInTag {
+        token: String,
+    },
 
     /// A parameter contains a token that does not belong there.
-    UnexpectedTokenInParameter { token: String },
+    UnexpectedTokenInParameter {
+        token: String,
+    },
 
     /// A link contains a token that does not belong there.
-    UnexpectedTokenInLink { token: String },
+    UnexpectedTokenInLink {
+        token: String,
+    },
 
     /// A link label contains a token that does not belong there.
-    UnexpectedTokenInLinkLabel { token: String },
+    UnexpectedTokenInLinkLabel {
+        token: String,
+    },
 
-    /// A parameter contains a token that does not belong there.
-    UnexpectedToken { expected: String, actual: String },
+    UnexpectedTokenInFormattedText {
+        token: String,
+    },
+
+    /// A token was found at a place where it does not belong.
+    UnexpectedToken {
+        expected: String,
+        actual: String,
+    },
+
+    /// A text formatting expression was not closed.
+    UnclosedTextFormatting {
+        formatting: TextFormatting,
+    },
 }
 
 impl ParserError {

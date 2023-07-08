@@ -20,7 +20,7 @@ pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
         }
         match tokenizer.peek(0) {
             Token::Text(text) => {
-                level_stack.append_text_piece(TextPiece::Text(text.to_string()));
+                level_stack.extend_text_piece(text);
                 tokenizer.next();
             }
             Token::MultiEquals(count) => {
@@ -50,6 +50,17 @@ pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
             Token::DoubleCloseBracket => {
                 return Err(ParserErrorKind::UnmatchedDoubleCloseBracket
                     .into_parser_error(tokenizer.text_position()))
+            }
+            Token::Newline => {
+                level_stack.extend_text_piece("\"");
+                tokenizer.next();
+
+                match tokenizer.peek(0) {
+                    Token::Colon | Token::Semicolon | Token::Star | Token::Sharp => {
+                        level_stack.append_text_piece(parse_list_item(&mut tokenizer)?)
+                    }
+                    _ => {}
+                }
             }
             Token::Eof => break,
             ignored_token => {
@@ -464,6 +475,8 @@ fn parse_formatted_text(
                 text.extend_with_text(token.to_str());
                 tokenizer.next();
             }
+            Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
+            Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
             token @ (Token::MultiEquals(_)
             | Token::Newline
             | Token::DoubleCloseBrace
@@ -483,8 +496,6 @@ fn parse_formatted_text(
                 }
                 .into_parser_error(tokenizer.text_position()))
             }
-            Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
-            Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
         }
     }
 
@@ -492,4 +503,53 @@ fn parse_formatted_text(
         text,
         formatting: text_formatting,
     })
+}
+
+fn parse_list_item(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
+    let mut list_prefix = String::new();
+    let mut text = Text::new();
+
+    // parse list_prefix
+    while let token @ (Token::Colon | Token::Semicolon | Token::Star | Token::Sharp) =
+        tokenizer.peek(0)
+    {
+        list_prefix.push_str(token.to_str());
+        tokenizer.next();
+    }
+
+    // parse text
+    loop {
+        match tokenizer.peek(0) {
+            token @ (Token::Text(_)
+            | Token::MultiEquals(_)
+            | Token::Colon
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp) => {
+                text.extend_with_text(token.to_str());
+                tokenizer.next();
+            }
+            Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
+            Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
+            token @ (Token::DoubleApostrophe
+            | Token::TripleApostrophe
+            | Token::QuintupleApostrophe) => {
+                let text_formatting = token.as_text_formatting();
+                text.pieces
+                    .push(parse_formatted_text(tokenizer, text_formatting)?);
+            }
+            Token::Newline | Token::Eof => {
+                tokenizer.next();
+                break;
+            }
+            token @ (Token::DoubleCloseBrace | Token::DoubleCloseBracket | Token::VerticalBar) => {
+                return Err(ParserErrorKind::UnexpectedTokenInListItem {
+                    token: token.to_string(),
+                }
+                .into_parser_error(tokenizer.text_position()))
+            }
+        }
+    }
+
+    Ok(TextPiece::ListItem { list_prefix, text })
 }

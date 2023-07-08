@@ -36,39 +36,28 @@ pub enum ParserErrorKind {
     UnmatchedDoubleOpenBracket,
 
     /// A tag contains a token that does not belong there.
-    UnexpectedTokenInTag {
-        token: String,
-    },
+    UnexpectedTokenInTag { token: String },
 
     /// A parameter contains a token that does not belong there.
-    UnexpectedTokenInParameter {
-        token: String,
-    },
+    UnexpectedTokenInParameter { token: String },
 
     /// A link contains a token that does not belong there.
-    UnexpectedTokenInLink {
-        token: String,
-    },
+    UnexpectedTokenInLink { token: String },
 
     /// A link label contains a token that does not belong there.
-    UnexpectedTokenInLinkLabel {
-        token: String,
-    },
+    UnexpectedTokenInLinkLabel { token: String },
 
-    UnexpectedTokenInFormattedText {
-        token: String,
-    },
+    /// A formatted piece of text contains a token that does not belong there.
+    UnexpectedTokenInFormattedText { token: String },
+
+    /// A link label contains a token that does not belong there.
+    UnexpectedTokenInListItem { token: String },
 
     /// A token was found at a place where it does not belong.
-    UnexpectedToken {
-        expected: String,
-        actual: String,
-    },
+    UnexpectedToken { expected: String, actual: String },
 
     /// A text formatting expression was not closed.
-    UnclosedTextFormatting {
-        formatting: TextFormatting,
-    },
+    UnclosedTextFormatting { formatting: TextFormatting },
 }
 
 impl ParserError {

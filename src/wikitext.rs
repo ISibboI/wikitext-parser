@@ -166,7 +166,9 @@ impl Text {
                         break;
                     }
                 }
-                TextPiece::DoubleBraceExpression { .. } | TextPiece::Link { .. } => break,
+                TextPiece::DoubleBraceExpression { .. }
+                | TextPiece::Link { .. }
+                | TextPiece::ListItem { .. } => break,
                 TextPiece::FormattedText { text, .. } => {
                     text.trim_self_start();
                     if !text.is_empty() {
@@ -197,6 +199,10 @@ impl Text {
                         break;
                     }
                 }
+                TextPiece::ListItem { text, .. } => {
+                    text.trim_self_end();
+                    break;
+                }
             }
             limit -= 1;
         }
@@ -221,8 +227,15 @@ pub enum TextPiece {
         options: Vec<String>,
         label: Option<Text>,
     },
+    /// A piece of text that is formatted in e.g. bold or italics.
     FormattedText {
         formatting: TextFormatting,
+        text: Text,
+    },
+    /// A list item.
+    ListItem {
+        /// The prefix deciding the level and numbering of the list.
+        list_prefix: String,
         text: Text,
     },
 }
@@ -290,6 +303,9 @@ impl Display for TextPiece {
                 write!(fmt, "{}", Token::from(*format))?;
                 write!(fmt, "{}", text)?;
                 write!(fmt, "{}", Token::from(*format))
+            }
+            TextPiece::ListItem { list_prefix, text } => {
+                write!(fmt, "{list_prefix} {text}")
             }
         }
     }

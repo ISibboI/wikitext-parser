@@ -119,10 +119,12 @@ impl Headline {
 /// The text content of a section.
 #[derive(Debug, Clone, Eq, PartialEq, Default)]
 pub struct Text {
+    /// The pieces of the text.
     pub pieces: Vec<TextPiece>,
 }
 
 impl Text {
+    /// Create a new empty text.
     pub fn new() -> Self {
         Default::default()
     }
@@ -218,24 +220,32 @@ pub enum TextPiece {
     Text(String),
     /// A double brace expression.
     DoubleBraceExpression {
+        /// The tag of the expression.
         tag: String,
+        /// The attributes of the expression.
         attributes: Vec<Attribute>,
     },
     /// A link.
     Link {
+        /// The link url.
         url: String,
+        /// The link options.
         options: Vec<String>,
+        /// The label of the link.
         label: Option<Text>,
     },
     /// A piece of text that is formatted in e.g. bold or italics.
     FormattedText {
+        /// The formatting applied to the text.
         formatting: TextFormatting,
+        /// The text.
         text: Text,
     },
     /// A list item.
     ListItem {
         /// The prefix deciding the level and numbering of the list.
         list_prefix: String,
+        /// The text of the list item.
         text: Text,
     },
 }
@@ -244,13 +254,16 @@ pub enum TextPiece {
 #[derive(Debug, Clone, Eq, PartialEq)]
 #[cfg_attr(serde, derive(Serialize, Deserialize))]
 pub struct Attribute {
+    /// The name of the attribute.
     pub name: Option<String>,
+    /// The value of the attribute.
     pub value: Text,
 }
 
 /// Format of formatted text.
 #[derive(Debug, Clone, Copy, Eq, PartialEq)]
 #[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[allow(missing_docs)]
 pub enum TextFormatting {
     Italic,
     Bold,

@@ -15,3 +15,4 @@ mod tokenizer;
 mod wikitext;
 
 pub use parser::parse_wikitext;
+pub use wikitext::{Attribute, Headline, Section, Text, TextFormatting, TextPiece, Wikitext};

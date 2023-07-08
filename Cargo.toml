@@ -4,6 +4,7 @@ description = "Partial parser for wikitext"
 version = "0.1.1"
 edition = "2021"
 license-file = "LICENSE"
+repository = "https://github.com/ISibboI/wikitext-parser"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

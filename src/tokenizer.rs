@@ -7,7 +7,8 @@ use std::fmt;
 use std::fmt::Display;
 
 lazy_static! {
-    static ref TEXT_REGEX: Regex = Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||''|\n)").unwrap();
+    static ref TEXT_REGEX: Regex =
+        Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||''|\n|:|;|\\*|#)").unwrap();
 }
 
 pub const MAX_SECTION_DEPTH: usize = 6;
@@ -25,6 +26,10 @@ pub enum Token<'a> {
     TripleApostrophe,
     QuintupleApostrophe,
     Newline,
+    Colon,
+    Semicolon,
+    Star,
+    Sharp,
     Eof,
 }
 
@@ -159,6 +164,18 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with('\n') {
             self.input.advance_one();
             Token::Newline
+        } else if input.starts_with(':') {
+            self.input.advance_one();
+            Token::Colon
+        } else if input.starts_with(';') {
+            self.input.advance_one();
+            Token::Semicolon
+        } else if input.starts_with('*') {
+            self.input.advance_one();
+            Token::Star
+        } else if input.starts_with('#') {
+            self.input.advance_one();
+            Token::Sharp
         } else if let Some(regex_match) = TEXT_REGEX.find(input) {
             let result = Token::Text(&input[..regex_match.start()]);
             self.input.advance_until(regex_match.start());
@@ -248,6 +265,10 @@ impl Token<'_> {
             Token::TripleApostrophe => "'''",
             Token::QuintupleApostrophe => "'''''",
             Token::Newline => "\n",
+            Token::Colon => ":",
+            Token::Semicolon => ";",
+            Token::Star => "*",
+            Token::Sharp => "#",
             Token::Eof => unreachable!("EOF has no string representation"),
         }
     }

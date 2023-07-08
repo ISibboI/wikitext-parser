@@ -115,7 +115,11 @@ fn parse_double_brace_expression(tokenizer: &mut MultipeekTokenizer) -> Result<T
             | Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe
-            | Token::Newline) => {
+            | Token::Newline
+            | Token::Colon
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp) => {
                 return Err(ParserErrorKind::UnexpectedToken {
                     expected: "| or }}".to_string(),
                     actual: token.to_string(),
@@ -138,7 +142,7 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
     loop {
         match tokenizer.peek(0) {
             Token::Text(text) => tag.push_str(text),
-            Token::Newline => tag.push('\''),
+            token @ (Token::Newline | Token::Colon) => tag.push_str(token.to_str()),
             Token::DoubleCloseBrace | Token::VerticalBar => break,
             Token::Eof => {
                 return Err(ParserErrorKind::UnmatchedDoubleOpenBrace
@@ -150,7 +154,10 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
             | Token::DoubleCloseBracket
             | Token::DoubleApostrophe
             | Token::TripleApostrophe
-            | Token::QuintupleApostrophe) => {
+            | Token::QuintupleApostrophe
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp) => {
                 return Err(ParserErrorKind::UnexpectedTokenInTag {
                     token: token.to_string(),
                 }
@@ -194,7 +201,11 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
             | Token::DoubleCloseBrace
             | Token::DoubleApostrophe
             | Token::TripleApostrophe
-            | Token::QuintupleApostrophe => {
+            | Token::QuintupleApostrophe
+            | Token::Colon
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp => {
                 value.pieces.push(TextPiece::Text(name.take().unwrap()));
                 break;
             }
@@ -221,7 +232,12 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
                 value.extend_with_text(text);
                 tokenizer.next();
             }
-            token @ (Token::MultiEquals(_) | Token::Newline) => {
+            token @ (Token::MultiEquals(_)
+            | Token::Newline
+            | Token::Colon
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp) => {
                 value.extend_with_text(token.to_str());
                 tokenizer.next();
             }
@@ -249,7 +265,7 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
         }
     }
 
-    // whitespace is stripped from named attribute names and values, but not from unnamend attributes
+    // whitespace is stripped from named attribute names and values, but not from unnamed attributes
     if let Some(name) = &mut name {
         *name = name.trim().to_string();
         value.trim_self();
@@ -274,6 +290,10 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                 url.push_str(text);
                 tokenizer.next();
             }
+            token @ (Token::Colon | Token::Sharp) => {
+                url.push_str(token.to_str());
+                tokenizer.next();
+            }
             Token::DoubleCloseBracket => {
                 tokenizer.next();
                 break;
@@ -290,7 +310,9 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
             | Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe
-            | Token::Newline) => {
+            | Token::Newline
+            | Token::Semicolon
+            | Token::Star) => {
                 return Err(ParserErrorKind::UnexpectedTokenInLink {
                     token: token.to_string(),
                 }
@@ -332,7 +354,13 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                     link_finished = true;
                     break;
                 }
-                Token::DoubleApostrophe | Token::TripleApostrophe | Token::QuintupleApostrophe => {
+                Token::DoubleApostrophe
+                | Token::TripleApostrophe
+                | Token::QuintupleApostrophe
+                | Token::Colon
+                | Token::Semicolon
+                | Token::Star
+                | Token::Sharp => {
                     break;
                 }
                 token @ (Token::MultiEquals(_)
@@ -370,6 +398,10 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                         label
                             .pieces
                             .push(parse_formatted_text(tokenizer, text_formatting)?);
+                    }
+                    token @ (Token::Colon | Token::Semicolon | Token::Star | Token::Sharp) => {
+                        label.extend_with_text(token.to_str());
+                        tokenizer.next();
                     }
                     Token::DoubleCloseBracket => {
                         tokenizer.next();
@@ -424,7 +456,11 @@ fn parse_formatted_text(
                 text.extend_with_text(new_text);
                 tokenizer.next();
             }
-            token @ Token::MultiEquals(1) => {
+            token @ (Token::MultiEquals(1)
+            | Token::Colon
+            | Token::Semicolon
+            | Token::Star
+            | Token::Sharp) => {
                 text.extend_with_text(token.to_str());
                 tokenizer.next();
             }

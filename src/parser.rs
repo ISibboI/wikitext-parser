@@ -477,14 +477,18 @@ fn parse_formatted_text(
             }
             Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
             Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
+            token @ (Token::DoubleApostrophe
+            | Token::TripleApostrophe
+            | Token::QuintupleApostrophe) => {
+                let text_formatting = token.as_text_formatting();
+                text.pieces
+                    .push(parse_formatted_text(tokenizer, text_formatting)?);
+            }
             token @ (Token::MultiEquals(_)
             | Token::Newline
             | Token::DoubleCloseBrace
             | Token::DoubleCloseBracket
-            | Token::VerticalBar
-            | Token::DoubleApostrophe
-            | Token::TripleApostrophe
-            | Token::QuintupleApostrophe) => {
+            | Token::VerticalBar) => {
                 return Err(ParserErrorKind::UnexpectedTokenInFormattedText {
                     token: token.to_string(),
                 }

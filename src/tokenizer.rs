@@ -2,6 +2,7 @@ use crate::error::ParserErrorKind;
 use crate::wikitext::TextFormatting;
 use lazy_static::lazy_static;
 use regex::Regex;
+use std::borrow::Cow;
 use std::collections::VecDeque;
 use std::fmt;
 use std::fmt::Display;
@@ -15,7 +16,7 @@ pub const MAX_SECTION_DEPTH: usize = 6;
 
 #[derive(Debug, Clone, Eq, PartialEq)]
 pub enum Token<'a> {
-    Text(&'a str),
+    Text(Cow<'a, str>),
     MultiEquals(u8),
     DoubleOpenBrace,
     DoubleCloseBrace,
@@ -25,16 +26,16 @@ pub enum Token<'a> {
     DoubleApostrophe,
     TripleApostrophe,
     QuintupleApostrophe,
-    Newline,
     Colon,
     Semicolon,
     Star,
     Sharp,
+    Newline,
     Eof,
 }
 
 /// A position in a text.
-#[derive(Clone, Copy, Debug)]
+#[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct TextPosition {
     /// One-based line number.
     pub line: usize,
@@ -91,6 +92,11 @@ impl<'input> PositionAwareStrIterator<'input> {
             self.input = &self.input[offset..];
             offset
         }
+    }
+
+    /// Returns `true` if the tokenizer has not yet been advanced.
+    pub fn is_at_start(&self) -> bool {
+        self.position == Default::default()
     }
 }
 
@@ -177,20 +183,27 @@ impl<'input> Tokenizer<'input> {
             self.input.advance_one();
             Token::Sharp
         } else if let Some(regex_match) = TEXT_REGEX.find(input) {
-            let result = Token::Text(&input[..regex_match.start()]);
+            let result = Token::Text(input[..regex_match.start()].into());
             self.input.advance_until(regex_match.start());
             result
         } else {
-            let result = Token::Text(self.input.remaining_input());
+            let result = Token::Text(self.input.remaining_input().into());
             self.input.advance_until(input.len());
             result
         }
+    }
+
+    /// Returns `true` if the tokenizer has not yet been advanced.
+    #[allow(unused)]
+    pub fn is_at_start(&self) -> bool {
+        self.input.is_at_start()
     }
 }
 
 pub struct MultipeekTokenizer<'tokenizer> {
     tokenizer: Tokenizer<'tokenizer>,
-    peek: VecDeque<Token<'tokenizer>>,
+    peek: VecDeque<(Token<'tokenizer>, TextPosition)>,
+    next_was_called: bool,
 }
 
 impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
@@ -198,37 +211,40 @@ impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
         Self {
             tokenizer,
             peek: VecDeque::new(),
+            next_was_called: false,
         }
     }
 
-    pub fn next<'token>(&mut self) -> Token<'token>
+    pub fn next<'token>(&mut self) -> (Token<'token>, TextPosition)
     where
         'tokenizer: 'token,
     {
-        if let Some(token) = self.peek.pop_front() {
-            token
+        self.next_was_called = true;
+        if let Some((token, text_position)) = self.peek.pop_front() {
+            (token, text_position)
         } else {
-            self.tokenizer.next()
+            let text_position = self.tokenizer.input.position;
+            (self.tokenizer.next(), text_position)
         }
     }
 
-    pub fn peek(&mut self, distance: usize) -> &Token {
+    pub fn peek(&mut self, distance: usize) -> &(Token, TextPosition) {
         while self.peek.len() < distance + 1 {
-            self.peek.push_back(self.tokenizer.next());
+            let text_position = self.tokenizer.input.position;
+            self.peek.push_back((self.tokenizer.next(), text_position));
         }
         &self.peek[distance]
     }
 
-    pub fn repeek(&self, distance: usize) -> Option<&Token> {
+    /// Peeks a position inside the current peek buffer.
+    /// If the position and no position after it was not yet peeked, returns `None`.
+    /// This is useful because it does not require a mutable reference to self.
+    pub fn repeek(&self, distance: usize) -> Option<&(Token, TextPosition)> {
         self.peek.get(distance)
     }
 
-    pub fn text_position(&self) -> TextPosition {
-        self.tokenizer.input.position
-    }
-
     pub fn expect(&mut self, token: &Token) -> crate::error::Result<()> {
-        let next = self.next();
+        let (next, text_position) = self.next();
         if &next == token {
             Ok(())
         } else {
@@ -236,8 +252,13 @@ impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
                 expected: token.to_string(),
                 actual: next.to_string(),
             }
-            .into_parser_error(self.text_position()))
+            .into_parser_error(text_position))
         }
+    }
+
+    /// Returns `true` if the tokenizer has not yet been advanced.
+    pub fn is_at_start(&self) -> bool {
+        !self.next_was_called
     }
 }
 
@@ -307,13 +328,13 @@ mod tests {
             [
                 Token::DoubleOpenBrace,
                 Token::MultiEquals(2),
-                Token::Text("a"),
+                Token::Text("a".into()),
                 Token::MultiEquals(1),
-                Token::Text("  v"),
+                Token::Text("  v".into()),
                 Token::DoubleCloseBrace,
-                Token::Text(" "),
+                Token::Text(" ".into()),
                 Token::DoubleCloseBrace,
-                Token::Text(" } edf } } [ {"),
+                Token::Text(" } edf } } [ {".into()),
                 Token::Eof,
             ]
         );

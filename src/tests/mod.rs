@@ -32,16 +32,27 @@ fn test_complex_internal_links() {
 }
 
 #[test]
+fn test_section_headers() {
+    let input = "<ref name=\\\"ISample\\\"/><ref name=\\\"COttoni\\\"/>";
+    parse_wikitext(&input, Default::default()).unwrap();
+}
+
+#[test]
 fn test_headlines() {
     let input = "==abc===c==b==g== a \n ==c==";
+    let parsed = parse_wikitext(&input, "title".to_string()).unwrap();
+    let headlines = parsed.list_headlines();
+    assert_eq!(headlines, vec![Headline::new("title", 1),]);
+
+    let input = "==abc== \n =c= \n==b==g== a \n=====c=====";
     let parsed = parse_wikitext(&input, "title".to_string()).unwrap();
     let headlines = parsed.list_headlines();
     assert_eq!(
         headlines,
         vec![
             Headline::new("title", 1),
-            Headline::new("b", 2),
-            Headline::new("c", 2),
+            Headline::new("abc", 2),
+            Headline::new("c", 5),
         ]
     );
 }

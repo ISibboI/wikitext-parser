@@ -2,10 +2,6 @@
 
 #![warn(missing_docs)]
 
-use log::warn;
-#[cfg(serde)]
-use serde::{Deserialize, Serialize};
-
 mod error;
 mod level_stack;
 mod parser;
@@ -14,5 +10,7 @@ mod tests;
 mod tokenizer;
 mod wikitext;
 
+pub use error::{ParserError, ParserErrorKind};
 pub use parser::parse_wikitext;
+pub use tokenizer::TextPosition;
 pub use wikitext::{Attribute, Headline, Section, Text, TextFormatting, TextPiece, Wikitext};

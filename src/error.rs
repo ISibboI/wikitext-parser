@@ -3,12 +3,16 @@ use crate::wikitext::TextFormatting;
 
 pub type Result<T> = std::result::Result<T, ParserError>;
 
+/// Error type of this crate.
 #[derive(Debug)]
 pub struct ParserError {
+    /// The kind of error.
     pub kind: ParserErrorKind,
+    /// The position of the error in text.
     pub position: TextPosition,
 }
 
+/// The kind of parser error.
 #[derive(Debug)]
 pub enum ParserErrorKind {
     /// Found a second root section, but only one is allowed.
@@ -36,38 +40,58 @@ pub enum ParserErrorKind {
     UnmatchedDoubleOpenBracket,
 
     /// A tag contains a token that does not belong there.
-    UnexpectedTokenInTag { token: String },
+    UnexpectedTokenInTag {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A parameter contains a token that does not belong there.
-    UnexpectedTokenInParameter { token: String },
+    UnexpectedTokenInParameter {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A link contains a token that does not belong there.
-    UnexpectedTokenInLink { token: String },
+    UnexpectedTokenInLink {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A link label contains a token that does not belong there.
-    UnexpectedTokenInLinkLabel { token: String },
+    UnexpectedTokenInLinkLabel {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A formatted piece of text contains a token that does not belong there.
-    UnexpectedTokenInFormattedText { token: String },
+    UnexpectedTokenInFormattedText {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A link label contains a token that does not belong there.
-    UnexpectedTokenInListItem { token: String },
+    UnexpectedTokenInListItem {
+        /// The unexpected token.
+        token: String,
+    },
 
     /// A token was found at a place where it does not belong.
-    UnexpectedToken { expected: String, actual: String },
+    UnexpectedToken {
+        /// The expected token, or a list of possible expected tokens.
+        expected: String,
+        /// The token that was found.
+        actual: String,
+    },
 
     /// A text formatting expression was not closed.
-    UnclosedTextFormatting { formatting: TextFormatting },
-}
-
-impl ParserError {
-    pub fn new(kind: ParserErrorKind, position: TextPosition) -> Self {
-        Self { kind, position }
-    }
+    UnclosedTextFormatting {
+        /// The unclosed formatting expression.
+        formatting: TextFormatting,
+    },
 }
 
 impl ParserErrorKind {
-    pub fn into_parser_error(self, position: TextPosition) -> ParserError {
+    pub(crate) fn into_parser_error(self, position: TextPosition) -> ParserError {
         ParserError {
             kind: self,
             position,

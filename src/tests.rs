@@ -82,6 +82,12 @@ fn test_wiktionary_free_substrings() {
 }
 
 #[test]
+fn test_wiktionary_nested_formatting() {
+    let input = r"{{quote-book|en|year=1988|author=Andrew Radford|title=Transformational grammar: a first course|location=Cambridge, UK|publisher=Cambridge University Press|page=339|chapter=7|passage=But what other kind(s) of syntactic information should be included in Lexical Entries? Traditional '''dictionaries''' such as Hornby's (1974) ''Oxford Advanced Learner's '''Dictionary''' of Current English'' include not only ''categorial'' information in their entries, but also information about the range of ''Complements'' which a given item permits (this information is represented by the use of a number/letter code).}}";
+    parse_wikitext(&input, Default::default()).unwrap();
+}
+
+#[test]
 fn test_headlines() {
     let input = "==abc===c==b==g== a \n ==c==";
     let parsed = parse_wikitext(&input, "title".to_string()).unwrap();

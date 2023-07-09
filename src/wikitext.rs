@@ -172,7 +172,7 @@ impl Text {
                     }
                 }
                 TextPiece::DoubleBraceExpression { .. }
-                | TextPiece::Link { .. }
+                | TextPiece::InternalLink { .. }
                 | TextPiece::ListItem { .. } => break,
                 TextPiece::FormattedText { text, .. } => {
                     text.trim_self_start();
@@ -197,7 +197,7 @@ impl Text {
                         break;
                     }
                 }
-                TextPiece::DoubleBraceExpression { .. } | TextPiece::Link { .. } => break,
+                TextPiece::DoubleBraceExpression { .. } | TextPiece::InternalLink { .. } => break,
                 TextPiece::FormattedText { text, .. } => {
                     text.trim_self_end();
                     if !text.is_empty() {
@@ -228,10 +228,10 @@ pub enum TextPiece {
         /// The attributes of the expression.
         attributes: Vec<Attribute>,
     },
-    /// A link.
-    Link {
-        /// The link url.
-        url: String,
+    /// An internal link.
+    InternalLink {
+        /// The link target.
+        target: String,
         /// The link options.
         options: Vec<String>,
         /// The label of the link.
@@ -298,8 +298,8 @@ impl Display for TextPiece {
 
                 write!(fmt, "}}}}")
             }
-            TextPiece::Link {
-                url,
+            TextPiece::InternalLink {
+                target: url,
                 options,
                 label,
             } => {

@@ -42,7 +42,9 @@ pub fn parse_wikitext(wikitext: &str, headline: String) -> Result<Wikitext> {
             Token::DoubleOpenBrace => {
                 level_stack.append_text_piece(parse_double_brace_expression(&mut tokenizer)?)
             }
-            Token::DoubleOpenBracket => level_stack.append_text_piece(parse_link(&mut tokenizer)?),
+            Token::DoubleOpenBracket => {
+                level_stack.append_text_piece(parse_internal_link(&mut tokenizer)?)
+            }
             Token::DoubleCloseBrace => {
                 return Err(ParserErrorKind::UnmatchedDoubleCloseBrace
                     .into_parser_error(tokenizer.text_position()))
@@ -253,7 +255,7 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
                 tokenizer.next();
             }
             Token::DoubleOpenBrace => value.pieces.push(parse_double_brace_expression(tokenizer)?),
-            Token::DoubleOpenBracket => value.pieces.push(parse_link(tokenizer)?),
+            Token::DoubleOpenBracket => value.pieces.push(parse_internal_link(tokenizer)?),
             token @ (Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe) => {
@@ -285,24 +287,24 @@ fn parse_attribute(tokenizer: &mut MultipeekTokenizer) -> Result<Attribute> {
     Ok(Attribute { name, value })
 }
 
-fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
+fn parse_internal_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
     tokenizer.expect(&Token::DoubleOpenBracket)?;
-    let mut url = String::new();
+    let mut target = String::new();
     let mut options = Vec::new();
     let mut label = None;
 
-    // parse url
+    // parse target
     loop {
         if DO_PARSER_DEBUG_PRINTS {
-            println!("parse_link url token: {:?}", tokenizer.peek(0));
+            println!("parse_link target token: {:?}", tokenizer.peek(0));
         }
         match tokenizer.peek(0) {
             Token::Text(text) => {
-                url.push_str(text);
+                target.push_str(text);
                 tokenizer.next();
             }
-            token @ (Token::Colon | Token::Sharp) => {
-                url.push_str(token.to_str());
+            token @ (Token::Colon | Token::Sharp | Token::Semicolon | Token::Star) => {
+                target.push_str(token.to_str());
                 tokenizer.next();
             }
             Token::DoubleCloseBracket => {
@@ -321,9 +323,7 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
             | Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe
-            | Token::Newline
-            | Token::Semicolon
-            | Token::Star) => {
+            | Token::Newline) => {
                 return Err(ParserErrorKind::UnexpectedTokenInLink {
                     token: token.to_string(),
                 }
@@ -365,7 +365,9 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                     link_finished = true;
                     break;
                 }
-                Token::DoubleApostrophe
+                Token::DoubleOpenBrace
+                | Token::DoubleOpenBracket
+                | Token::DoubleApostrophe
                 | Token::TripleApostrophe
                 | Token::QuintupleApostrophe
                 | Token::Colon
@@ -374,11 +376,7 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                 | Token::Sharp => {
                     break;
                 }
-                token @ (Token::MultiEquals(_)
-                | Token::DoubleOpenBrace
-                | Token::DoubleCloseBrace
-                | Token::DoubleOpenBracket
-                | Token::Newline) => {
+                token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace | Token::Newline) => {
                     return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
                         token: token.to_string(),
                     }
@@ -402,6 +400,10 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                         label.extend_with_text(text);
                         tokenizer.next();
                     }
+                    Token::DoubleOpenBrace => {
+                        label.pieces.push(parse_double_brace_expression(tokenizer)?)
+                    }
+                    Token::DoubleOpenBracket => label.pieces.push(parse_internal_link(tokenizer)?),
                     token @ (Token::DoubleApostrophe
                     | Token::TripleApostrophe
                     | Token::QuintupleApostrophe) => {
@@ -419,9 +421,7 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                         break;
                     }
                     token @ (Token::MultiEquals(_)
-                    | Token::DoubleOpenBrace
                     | Token::DoubleCloseBrace
-                    | Token::DoubleOpenBracket
                     | Token::VerticalBar
                     | Token::Newline) => {
                         return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
@@ -438,8 +438,8 @@ fn parse_link(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
         }
     }
 
-    Ok(TextPiece::Link {
-        url,
+    Ok(TextPiece::InternalLink {
+        target,
         options,
         label,
     })
@@ -476,7 +476,7 @@ fn parse_formatted_text(
                 tokenizer.next();
             }
             Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
-            Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
+            Token::DoubleOpenBracket => text.pieces.push(parse_internal_link(tokenizer)?),
             token @ (Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe) => {
@@ -534,7 +534,7 @@ fn parse_list_item(tokenizer: &mut MultipeekTokenizer) -> Result<TextPiece> {
                 tokenizer.next();
             }
             Token::DoubleOpenBrace => text.pieces.push(parse_double_brace_expression(tokenizer)?),
-            Token::DoubleOpenBracket => text.pieces.push(parse_link(tokenizer)?),
+            Token::DoubleOpenBracket => text.pieces.push(parse_internal_link(tokenizer)?),
             token @ (Token::DoubleApostrophe
             | Token::TripleApostrophe
             | Token::QuintupleApostrophe) => {

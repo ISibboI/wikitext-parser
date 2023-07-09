@@ -1,10 +1,12 @@
 use crate::tokenizer::Token;
+#[cfg(feature = "serde")]
+use serde::{Deserialize, Serialize};
 use std::fmt;
 use std::fmt::Display;
 
 /// The root of a wikitext document.
 #[derive(Debug, Eq, PartialEq, Clone)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Wikitext {
     /// The root of the section tree of the page.
     pub root_section: Section,
@@ -40,7 +42,7 @@ impl Wikitext {
 
 /// A section of wikitext.
 #[derive(Debug, Clone, Eq, PartialEq)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Section {
     /// The headline of the section.
     pub headline: Headline,
@@ -98,7 +100,7 @@ impl Section {
 
 /// A headline of a section of wikitext.
 #[derive(Debug, Clone, Eq, PartialEq)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Headline {
     /// The label of the headline.
     pub label: String,
@@ -118,6 +120,7 @@ impl Headline {
 
 /// The text content of a section.
 #[derive(Debug, Clone, Eq, PartialEq, Default)]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Text {
     /// The pieces of the text.
     pub pieces: Vec<TextPiece>,
@@ -214,7 +217,7 @@ impl Text {
 
 /// A piece of text of a section of wikitext.
 #[derive(Debug, Clone, Eq, PartialEq)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub enum TextPiece {
     /// A plain string.
     Text(String),
@@ -252,7 +255,7 @@ pub enum TextPiece {
 
 /// An attribute of e.g. a double brace expression.
 #[derive(Debug, Clone, Eq, PartialEq)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Attribute {
     /// The name of the attribute.
     pub name: Option<String>,
@@ -262,7 +265,7 @@ pub struct Attribute {
 
 /// Format of formatted text.
 #[derive(Debug, Clone, Copy, Eq, PartialEq)]
-#[cfg_attr(serde, derive(Serialize, Deserialize))]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 #[allow(missing_docs)]
 pub enum TextFormatting {
     Italic,

@@ -1,5 +1,4 @@
 use crate::error::ParserErrorKind;
-use crate::wikitext::TextFormatting;
 use lazy_static::lazy_static;
 use regex::Regex;
 use std::borrow::Cow;
@@ -23,9 +22,7 @@ pub enum Token<'a> {
     DoubleOpenBracket,
     DoubleCloseBracket,
     VerticalBar,
-    DoubleApostrophe,
-    TripleApostrophe,
-    QuintupleApostrophe,
+    Apostrophe,
     Colon,
     Semicolon,
     Star,
@@ -152,21 +149,9 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with('|') {
             self.input.advance_one();
             Token::VerticalBar
-        } else if input.starts_with("''") {
-            self.input.advance_until(2);
-            let input = self.input.remaining_input();
-            if input.starts_with('\'') {
-                self.input.advance_one();
-                let input = self.input.remaining_input();
-                if input.starts_with("''") {
-                    self.input.advance_until(2);
-                    Token::QuintupleApostrophe
-                } else {
-                    Token::TripleApostrophe
-                }
-            } else {
-                Token::DoubleApostrophe
-            }
+        } else if input.starts_with("'") {
+            self.input.advance_one();
+            Token::Apostrophe
         } else if input.starts_with('\n') {
             self.input.advance_one();
             Token::Newline
@@ -257,6 +242,7 @@ impl<'tokenizer> MultipeekTokenizer<'tokenizer> {
     }
 
     /// Returns `true` if the tokenizer has not yet been advanced.
+    #[allow(unused)]
     pub fn is_at_start(&self) -> bool {
         !self.next_was_called
     }
@@ -282,34 +268,13 @@ impl Token<'_> {
             Token::DoubleOpenBracket => "[[",
             Token::DoubleCloseBracket => "]]",
             Token::VerticalBar => "|",
-            Token::DoubleApostrophe => "''",
-            Token::TripleApostrophe => "'''",
-            Token::QuintupleApostrophe => "'''''",
+            Token::Apostrophe => "'",
             Token::Newline => "\n",
             Token::Colon => ":",
             Token::Semicolon => ";",
             Token::Star => "*",
             Token::Sharp => "#",
             Token::Eof => unreachable!("EOF has no string representation"),
-        }
-    }
-
-    pub fn as_text_formatting(&self) -> TextFormatting {
-        match self {
-            Token::DoubleApostrophe => TextFormatting::Italic,
-            Token::TripleApostrophe => TextFormatting::Bold,
-            Token::QuintupleApostrophe => TextFormatting::ItalicBold,
-            token => panic!("Token {token:?} does not describe a text formatting"),
-        }
-    }
-}
-
-impl From<TextFormatting> for Token<'_> {
-    fn from(text_formatting: TextFormatting) -> Self {
-        match text_formatting {
-            TextFormatting::Italic => Token::DoubleApostrophe,
-            TextFormatting::Bold => Token::TripleApostrophe,
-            TextFormatting::ItalicBold => Token::QuintupleApostrophe,
         }
     }
 }

@@ -1,8 +1,8 @@
-use crate::tokenizer::Token;
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
+use std::cmp::Ordering;
 use std::fmt;
-use std::fmt::Display;
+use std::fmt::{Display, Formatter};
 
 /// The root of a wikitext document.
 #[derive(Debug, Eq, PartialEq, Clone)]
@@ -46,8 +46,8 @@ impl Wikitext {
 pub struct Section {
     /// The headline of the section.
     pub headline: Headline,
-    /// The text of the section.
-    pub text: Text,
+    /// The paragraphs of the section.
+    pub paragraphs: Vec<Paragraph>,
     /// The subsections of the section.
     pub subsections: Vec<Section>,
 }
@@ -73,9 +73,20 @@ impl Section {
         }
     }
 
+    /// Iterate over all text pieces in the wikitext.
+    pub fn iter_text_pieces(&self) -> impl Iterator<Item = &'_ TextPiece> {
+        self.paragraphs
+            .iter()
+            .flat_map(|paragraph| paragraph.lines.iter())
+            .flat_map(|line| match line {
+                Line::Normal { text } => text.pieces.iter(),
+                Line::List { text, .. } => text.pieces.iter(),
+            })
+    }
+
     /// List the double brace expressions of the text.
     pub fn list_double_brace_expressions(&self, result: &mut Vec<TextPiece>) {
-        for text_piece in &self.text.pieces {
+        for text_piece in self.iter_text_pieces() {
             if matches!(text_piece, TextPiece::DoubleBraceExpression { .. }) {
                 result.push(text_piece.clone());
             }
@@ -87,7 +98,7 @@ impl Section {
 
     /// List the plain parts of the text.
     pub fn list_plain_text(&self, result: &mut Vec<TextPiece>) {
-        for text_piece in &self.text.pieces {
+        for text_piece in self.iter_text_pieces() {
             if matches!(text_piece, TextPiece::Text(_)) {
                 result.push(text_piece.clone());
             }
@@ -118,7 +129,33 @@ impl Headline {
     }
 }
 
-/// The text content of a section.
+/// A paragraph of a section.
+#[derive(Debug, Clone, Eq, PartialEq, Default)]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
+pub struct Paragraph {
+    /// The lines of the paragraph.
+    pub lines: Vec<Line>,
+}
+
+/// A line of a paragraph.
+#[derive(Debug, Clone, Eq, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
+pub enum Line {
+    Normal { text: Text },
+    List { list_prefix: String, text: Text },
+}
+
+impl Line {
+    /// Returns true if the line would be ignored by the wikitext renderer.
+    pub fn is_empty(&self) -> bool {
+        match self {
+            Line::Normal { text } => text.is_empty(),
+            Line::List { .. } => false,
+        }
+    }
+}
+
+/// Some text, either a line or an argument to an expression.
 #[derive(Debug, Clone, Eq, PartialEq, Default)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub struct Text {
@@ -268,9 +305,63 @@ pub struct Attribute {
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 #[allow(missing_docs)]
 pub enum TextFormatting {
+    Normal,
     Italic,
     Bold,
     ItalicBold,
+}
+
+impl TextFormatting {
+    /// Returns the new formatting to use after encountering an apostrophe run of length `apostrophe_length`.
+    pub fn next_formatting(&self, apostrophe_length: usize) -> Self {
+        match (self, apostrophe_length) {
+            (TextFormatting::Normal, 2) => TextFormatting::Italic,
+            (TextFormatting::Normal, 3) => TextFormatting::Bold,
+            (TextFormatting::Normal, 5) => TextFormatting::ItalicBold,
+            (TextFormatting::Italic, 2) => TextFormatting::Normal,
+            (TextFormatting::Italic, 3) => TextFormatting::ItalicBold,
+            (TextFormatting::Italic, 5) => TextFormatting::Bold,
+            (TextFormatting::Bold, 2) => TextFormatting::ItalicBold,
+            (TextFormatting::Bold, 3) => TextFormatting::Normal,
+            (TextFormatting::Bold, 5) => TextFormatting::Italic,
+            (TextFormatting::ItalicBold, 2) => TextFormatting::Bold,
+            (TextFormatting::ItalicBold, 3) => TextFormatting::Italic,
+            (TextFormatting::ItalicBold, 5) => TextFormatting::Normal,
+            (_, apostrophe_length) => unreachable!("Unused apostrophe length: {apostrophe_length}"),
+        }
+    }
+}
+
+impl PartialOrd for TextFormatting {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        match (self, other) {
+            (TextFormatting::Normal, TextFormatting::Normal) => Some(Ordering::Equal),
+            (TextFormatting::Normal, TextFormatting::Italic) => Some(Ordering::Less),
+            (TextFormatting::Normal, TextFormatting::Bold) => Some(Ordering::Less),
+            (TextFormatting::Normal, TextFormatting::ItalicBold) => Some(Ordering::Less),
+            (TextFormatting::Italic, TextFormatting::Normal) => Some(Ordering::Greater),
+            (TextFormatting::Italic, TextFormatting::Italic) => Some(Ordering::Equal),
+            (TextFormatting::Italic, TextFormatting::Bold) => None,
+            (TextFormatting::Italic, TextFormatting::ItalicBold) => Some(Ordering::Less),
+            (TextFormatting::Bold, TextFormatting::Normal) => Some(Ordering::Greater),
+            (TextFormatting::Bold, TextFormatting::Italic) => None,
+            (TextFormatting::Bold, TextFormatting::Bold) => Some(Ordering::Equal),
+            (TextFormatting::Bold, TextFormatting::ItalicBold) => Some(Ordering::Less),
+            (TextFormatting::ItalicBold, TextFormatting::Normal) => Some(Ordering::Greater),
+            (TextFormatting::ItalicBold, TextFormatting::Italic) => Some(Ordering::Greater),
+            (TextFormatting::ItalicBold, TextFormatting::Bold) => Some(Ordering::Greater),
+            (TextFormatting::ItalicBold, TextFormatting::ItalicBold) => Some(Ordering::Equal),
+        }
+    }
+}
+
+impl<T: AsRef<str>> From<T> for Text {
+    fn from(value: T) -> Self {
+        let mut text = Text::new();
+        text.pieces
+            .push(TextPiece::Text(value.as_ref().to_string()));
+        text
+    }
 }
 
 impl Display for Text {
@@ -312,13 +403,10 @@ impl Display for TextPiece {
                 }
                 write!(fmt, "]]")
             }
-            TextPiece::FormattedText {
-                formatting: format,
-                text,
-            } => {
-                write!(fmt, "{}", Token::from(*format))?;
+            TextPiece::FormattedText { formatting, text } => {
+                write!(fmt, "{}", formatting)?;
                 write!(fmt, "{}", text)?;
-                write!(fmt, "{}", Token::from(*format))
+                write!(fmt, "{}", formatting)
             }
             TextPiece::ListItem { list_prefix, text } => {
                 write!(fmt, "{list_prefix} {text}")
@@ -334,5 +422,16 @@ impl Display for Attribute {
         }
 
         write!(fmt, "{}", self.value)
+    }
+}
+
+impl Display for TextFormatting {
+    fn fmt(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        match self {
+            TextFormatting::Normal => Ok(()),
+            TextFormatting::Italic => write!(fmt, "''"),
+            TextFormatting::Bold => write!(fmt, "'''"),
+            TextFormatting::ItalicBold => write!(fmt, "'''''"),
+        }
     }
 }

@@ -1,5 +1,5 @@
-use crate::parse_wikitext;
 use crate::wikitext::Headline;
+use crate::{parse_wikitext, TextFormatting, TextPiece};
 
 mod full_pages;
 
@@ -21,6 +21,61 @@ fn test_wiktionary_free_substrings() {
 fn test_wiktionary_nested_formatting() {
     let input = r"{{quote-book|en|year=1988|author=Andrew Radford|title=Transformational grammar: a first course|location=Cambridge, UK|publisher=Cambridge University Press|page=339|chapter=7|passage=But what other kind(s) of syntactic information should be included in Lexical Entries? Traditional '''dictionaries''' such as Hornby's (1974) ''Oxford Advanced Learner's '''Dictionary''' of Current English'' include not only ''categorial'' information in their entries, but also information about the range of ''Complements'' which a given item permits (this information is represented by the use of a number/letter code).}}";
     parse_wikitext(&input, Default::default()).unwrap();
+}
+
+#[test]
+fn test_wiktionary_nested_formatting_with_combined_open_or_close() {
+    let input = r"0''a'''b'''''c'''d''e'''''f'''''g''h'''i'''''j'''k''l'''''m'''''";
+    assert_eq!(
+        parse_wikitext(&input, Default::default())
+            .unwrap()
+            .root_section
+            .text
+            .pieces,
+        vec![
+            TextPiece::Text("0".to_string()),
+            TextPiece::FormattedText {
+                formatting: TextFormatting::Italic,
+                text: "a".into()
+            },
+            TextPiece::FormattedText {
+                formatting: TextFormatting::ItalicBold,
+                text: "b".into()
+            },
+            TextPiece::Text("c".to_string()),
+            TextPiece::FormattedText {
+                formatting: TextFormatting::Bold,
+                text: "d".into()
+            },
+            TextPiece::FormattedText {
+                formatting: TextFormatting::ItalicBold,
+                text: "e".into()
+            },
+            TextPiece::Text("f".to_string()),
+            TextPiece::FormattedText {
+                formatting: TextFormatting::ItalicBold,
+                text: "g".into()
+            },
+            TextPiece::FormattedText {
+                formatting: TextFormatting::Bold,
+                text: "h".into()
+            },
+            TextPiece::Text("i".to_string()),
+            TextPiece::FormattedText {
+                formatting: TextFormatting::ItalicBold,
+                text: "j".into()
+            },
+            TextPiece::FormattedText {
+                formatting: TextFormatting::Italic,
+                text: "k".into()
+            },
+            TextPiece::Text("l".to_string()),
+            TextPiece::FormattedText {
+                formatting: TextFormatting::ItalicBold,
+                text: "m".into()
+            },
+        ]
+    );
 }
 
 #[test]

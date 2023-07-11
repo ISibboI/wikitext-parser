@@ -1,4 +1,4 @@
-use crate::wikitext::{Headline, Section, TextPiece};
+use crate::wikitext::{Headline, Line, Section};
 
 /// Data structure used to parse wikitext sections and headlines at different levels.
 #[derive(Debug, Clone, Eq, PartialEq)]
@@ -15,8 +15,8 @@ impl LevelStack {
                     label: headline,
                     level: 1,
                 },
-                text: Default::default(),
-                subsections: vec![],
+                paragraphs: Default::default(),
+                subsections: Default::default(),
             }]],
         }
     }
@@ -31,30 +31,9 @@ impl LevelStack {
         debug_assert!(self.stack.len() > 1);
         self.top_mut().push(Section {
             headline,
-            text: Default::default(),
-            subsections: vec![],
+            paragraphs: Default::default(),
+            subsections: Default::default(),
         });
-    }
-
-    /// Append a text piece found on the page.
-    pub fn append_text_piece(&mut self, text_piece: TextPiece) {
-        self.top_mut()
-            .last_mut()
-            .unwrap()
-            .text
-            .pieces
-            .push(text_piece);
-    }
-
-    /// Extend the current last text piece with the given string,
-    /// or append a new text piece created from the given string if there is no text piece
-    /// or the last text piece is not of variant [`Text`](TextPiece::Text).
-    pub fn extend_text_piece(&mut self, text: &str) {
-        self.top_mut()
-            .last_mut()
-            .unwrap()
-            .text
-            .extend_with_text(text);
     }
 
     fn adjust_level(&mut self, level: usize) {
@@ -83,5 +62,36 @@ impl LevelStack {
         let mut level_1 = self.stack.pop().unwrap();
         debug_assert_eq!(level_1.len(), 1);
         level_1.pop().unwrap()
+    }
+
+    /// Starts a new paragraph if the current last is not empty.
+    pub fn new_paragraph(&mut self) {
+        let current_section = self.top_mut().last_mut().unwrap();
+        if current_section
+            .paragraphs
+            .last()
+            .map(|paragraph| !paragraph.lines.is_empty())
+            .unwrap_or(true)
+        {
+            current_section.paragraphs.push(Default::default());
+        }
+    }
+
+    /// Appends a line to the current last paragraph.
+    /// Drops the line if it is empty.
+    pub fn append_line(&mut self, line: Line) {
+        if line.is_empty() {
+            return;
+        }
+        let current_section = self.top_mut().last_mut().unwrap();
+        if current_section.paragraphs.is_empty() {
+            current_section.paragraphs.push(Default::default());
+        }
+        current_section
+            .paragraphs
+            .last_mut()
+            .unwrap()
+            .lines
+            .push(line);
     }
 }

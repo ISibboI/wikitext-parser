@@ -10,6 +10,8 @@ pub struct ParserError {
     pub kind: ParserErrorKind,
     /// The position of the error in text.
     pub position: TextPosition,
+    /// Further information about the error.
+    pub annotations: Vec<String>,
 }
 
 /// The kind of parser error.
@@ -88,6 +90,22 @@ pub enum ParserErrorKind {
         /// The unclosed formatting expression.
         formatting: TextFormatting,
     },
+
+    /// The end of file was found, but further tokens were expected.
+    UnexpectedEof,
+}
+
+impl ParserError {
+    /// Add the given annotation to the error.
+    pub fn annotate(&mut self, annotation: String) {
+        self.annotations.push(annotation);
+    }
+
+    /// Add the given annotation to the error.
+    pub fn annotate_self(mut self, annotation: String) -> Self {
+        self.annotations.push(annotation);
+        self
+    }
 }
 
 impl ParserErrorKind {
@@ -95,6 +113,7 @@ impl ParserErrorKind {
         ParserError {
             kind: self,
             position,
+            annotations: Default::default(),
         }
     }
 }

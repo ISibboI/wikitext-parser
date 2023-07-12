@@ -111,7 +111,7 @@ fn test_complex_internal_links() {
 
 #[test]
 fn test_section_headers() {
-    let input = "<ref name=\\\"ISample\\\"/><ref name=\\\"COttoni\\\"/>";
+    let input = "<ref name=\"ISample\"/><ref name=\"COttoni\"/>";
     parse_wikitext(input, Default::default()).unwrap();
 }
 
@@ -133,4 +133,10 @@ fn test_headlines() {
             Headline::new("c", 5),
         ]
     );
+}
+
+#[test]
+fn test_equals_in_tag() {
+    let input = "{{fake==|English}}\n{{fake===|Noun}}\n{{fake====|Synonyms}}";
+    parse_wikitext(input, Default::default()).unwrap();
 }

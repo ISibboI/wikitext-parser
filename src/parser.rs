@@ -266,16 +266,16 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
     loop {
         let (token, text_position) = tokenizer.peek(0);
         match token {
-            Token::Text(text) => tag.push_str(text),
-            token @ (Token::Newline | Token::Colon) => tag.push_str(token.to_str()),
+            token @ (Token::Text(_) | Token::MultiEquals(_) | Token::Newline | Token::Colon) => {
+                tag.push_str(token.to_str())
+            }
             Token::DoubleCloseBrace | Token::VerticalBar => break,
             Token::Eof => {
                 return Err(
                     ParserErrorKind::UnmatchedDoubleOpenBrace.into_parser_error(*text_position)
                 )
             }
-            token @ (Token::MultiEquals(_)
-            | Token::DoubleOpenBrace
+            token @ (Token::DoubleOpenBrace
             | Token::DoubleOpenBracket
             | Token::DoubleCloseBracket
             | Token::Apostrophe

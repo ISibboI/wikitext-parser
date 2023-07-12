@@ -99,7 +99,7 @@ impl Section {
     /// List the plain parts of the text.
     pub fn list_plain_text(&self, result: &mut Vec<TextPiece>) {
         for text_piece in self.iter_text_pieces() {
-            if matches!(text_piece, TextPiece::Text(_)) {
+            if matches!(text_piece, TextPiece::Text { .. }) {
                 result.push(text_piece.clone());
             }
         }
@@ -176,19 +176,23 @@ impl Text {
 
     /// Extend the current last text piece with the given string,
     /// or append a new text piece created from the given string if there is no text piece
-    /// or the last text piece is not of variant [`Text`](TextPiece::Text) or [`FormattedText`](TextPiece::FormattedText).
-    pub fn extend_with_text(&mut self, text: &str) {
-        if let Some(TextPiece::Text(last)) = self.pieces.last_mut() {
-            last.push_str(text);
-        } else if let Some(TextPiece::FormattedText {
-            text: formatted_text,
-            ..
+    /// or the last text piece is not of variant [`Text`](TextPiece::Text) or has different formatting.
+    pub fn extend_with_formatted_text(&mut self, text_formatting: TextFormatting, text: &str) {
+        if let Some(TextPiece::Text {
+            formatting: last_formatting,
+            text: last,
         }) = self.pieces.last_mut()
         {
-            formatted_text.extend_with_text(text)
-        } else {
-            self.pieces.push(TextPiece::Text(text.to_string()));
+            if text_formatting == *last_formatting {
+                last.push_str(text);
+                return;
+            }
         }
+
+        self.pieces.push(TextPiece::Text {
+            formatting: text_formatting,
+            text: text.to_string(),
+        });
     }
 
     /// Trim whitespace from the beginning and the end of the text.
@@ -202,7 +206,7 @@ impl Text {
         let mut offset = 0;
         while offset < self.pieces.len() {
             match &mut self.pieces[offset] {
-                TextPiece::Text(text) => {
+                TextPiece::Text { text, .. } => {
                     *text = text.trim_start().to_string();
                     if !text.is_empty() {
                         break;
@@ -211,12 +215,6 @@ impl Text {
                 TextPiece::DoubleBraceExpression { .. }
                 | TextPiece::InternalLink { .. }
                 | TextPiece::ListItem { .. } => break,
-                TextPiece::FormattedText { text, .. } => {
-                    text.trim_self_start();
-                    if !text.is_empty() {
-                        break;
-                    }
-                }
             }
             offset += 1;
         }
@@ -228,19 +226,13 @@ impl Text {
         let mut limit = self.pieces.len();
         while limit > 0 {
             match &mut self.pieces[limit - 1] {
-                TextPiece::Text(text) => {
+                TextPiece::Text { text, .. } => {
                     *text = text.trim_end().to_string();
                     if !text.is_empty() {
                         break;
                     }
                 }
                 TextPiece::DoubleBraceExpression { .. } | TextPiece::InternalLink { .. } => break,
-                TextPiece::FormattedText { text, .. } => {
-                    text.trim_self_end();
-                    if !text.is_empty() {
-                        break;
-                    }
-                }
                 TextPiece::ListItem { text, .. } => {
                     text.trim_self_end();
                     break;
@@ -256,8 +248,13 @@ impl Text {
 #[derive(Debug, Clone, Eq, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
 pub enum TextPiece {
-    /// A plain string.
-    Text(String),
+    /// Plain text to be rendered as is, with the given formatting.
+    Text {
+        /// The formatting applied to the text.
+        formatting: TextFormatting,
+        /// The text.
+        text: String,
+    },
     /// A double brace expression.
     DoubleBraceExpression {
         /// The tag of the expression.
@@ -273,13 +270,6 @@ pub enum TextPiece {
         options: Vec<String>,
         /// The label of the link.
         label: Option<Text>,
-    },
-    /// A piece of text that is formatted in e.g. bold or italics.
-    FormattedText {
-        /// The formatting applied to the text.
-        formatting: TextFormatting,
-        /// The text.
-        text: Text,
     },
     /// A list item.
     ListItem {
@@ -355,15 +345,6 @@ impl PartialOrd for TextFormatting {
     }
 }
 
-impl<T: AsRef<str>> From<T> for Text {
-    fn from(value: T) -> Self {
-        let mut text = Text::new();
-        text.pieces
-            .push(TextPiece::Text(value.as_ref().to_string()));
-        text
-    }
-}
-
 impl Display for Text {
     fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {
         for text_piece in &self.pieces {
@@ -376,7 +357,11 @@ impl Display for Text {
 impl Display for TextPiece {
     fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {
         match self {
-            TextPiece::Text(text) => write!(fmt, "{text}"),
+            TextPiece::Text { text, formatting } => {
+                write!(fmt, "{}", formatting)?;
+                write!(fmt, "{text}")?;
+                write!(fmt, "{}", formatting)
+            }
             TextPiece::DoubleBraceExpression {
                 tag,
                 attributes: parameters,
@@ -402,11 +387,6 @@ impl Display for TextPiece {
                     write!(fmt, "|{label}")?;
                 }
                 write!(fmt, "]]")
-            }
-            TextPiece::FormattedText { formatting, text } => {
-                write!(fmt, "{}", formatting)?;
-                write!(fmt, "{}", text)?;
-                write!(fmt, "{}", formatting)
             }
             TextPiece::ListItem { list_prefix, text } => {
                 write!(fmt, "{list_prefix} {text}")

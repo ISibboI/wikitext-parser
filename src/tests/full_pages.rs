@@ -42,13 +42,13 @@ From {{inh|fi|urj-fin-pro|*peütä}}, borrowed from {{der|fi|gem-pro|*beudaz}} (
 * {{l|fi|työpöytä}}
 
 [[Category:fi:Furniture]]"#;
-    let parsed = parse_wikitext(&input, "pöytä".to_string()).unwrap();
+    let parsed = parse_wikitext(input, "pöytä".to_string()).unwrap();
     parsed.print_headlines();
     for double_brace_expression in parsed.list_double_brace_expressions() {
-        println!("{}", double_brace_expression.to_string());
+        println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
-        println!("{}", plain_text.to_string());
+        println!("{}", plain_text);
     }
 }
 
@@ -59,10 +59,10 @@ fn test_wiktionary_free() {
     let parsed = parse_wikitext(&input, "free".to_string()).unwrap();
     parsed.print_headlines();
     for double_brace_expression in parsed.list_double_brace_expressions() {
-        println!("{}", double_brace_expression.to_string());
+        println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
-        println!("{}", plain_text.to_string());
+        println!("{}", plain_text);
     }
 }
 
@@ -73,10 +73,10 @@ fn test_wiktionary_cat() {
     let parsed = parse_wikitext(&input, "cat".to_string()).unwrap();
     parsed.print_headlines();
     for double_brace_expression in parsed.list_double_brace_expressions() {
-        println!("{}", double_brace_expression.to_string());
+        println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
-        println!("{}", plain_text.to_string());
+        println!("{}", plain_text);
     }
 }
 
@@ -87,9 +87,9 @@ fn test_wiktionary_a() {
     let parsed = parse_wikitext(&input, "a".to_string()).unwrap();
     parsed.print_headlines();
     for double_brace_expression in parsed.list_double_brace_expressions() {
-        println!("{}", double_brace_expression.to_string());
+        println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
-        println!("{}", plain_text.to_string());
+        println!("{}", plain_text);
     }
 }

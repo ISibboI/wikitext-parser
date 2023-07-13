@@ -1,0 +1,135 @@
+==English==
+
+===Alternative forms===
+* {{l|en|Abyssian}}, {{l|en|Abyssin}}, {{l|en|Abyssine}} {{qualifier|rare}}
+* {{alter|en|Abissinian||archaic}}
+
+===Etymology===
+{{suffix|en|Abyssinia|n}}
+
+===Pronunciation===
+* {{a|RP}} {{IPA|en|/ˌæb.ɪˈsɪn.ɪ.ən/}}
+* {{audio|en|LL-Q1860 (eng)-Vealhurl-Abyssinian.wav|Audio (Southern England)}}
+* {{a|US}} {{IPA|en|/ˌæb.ɪˈsɪn.i.ən/|/ˌæb.əˈsɪn.i.ən/|/ˌæb.əˈsɪn.jən/}}
+* {{rhymes|en|ɪnjən|ɪniən|s2=5|s1=4}}
+
+===Adjective===
+{{en-adj|-}}
+
+# {{lb|en|dated|usually|_|capitalized}} Of or pertaining to [[Ethiopia]] or its [[inhabitant]]s; [[Ethiopian]]. {{defdate|First attested in the late 18th century.}}<ref name=SOED>{{R:SOED5|page=11}}</ref>
+#* {{quote-book|en|year=2019|author=[[w:Maaza Mengiste|Maaza Mengiste
+]]|title=[[w:The Shadow King (book)|The Shadow King]] |publisher=Canongate Books (2020)|page=335|passage=Our men are frightened of these '''Abyssinian''' women.}}
+
+====Derived terms====
+{{der3|en
+|Abyssinian banana
+|Abyssinian cat
+|Abyssinian primrose
+|Abyssinian tea
+|Abyssinian gold
+|Abyssinian well}}
+
+====Translations====
+{{trans-top|of or pertaining to Abyssinia}}
+* Amharic: {{t|am|ሐበሻ}}
+* Bengali: {{t+|bn|হাবশী|tr=habśī}}
+* Bulgarian: {{t|bg|абиси́нски|m}}
+* Catalan: {{t|ca|abissini}}
+* Czech: {{t+|cs|habešský}}
+* Danish: {{t+|da|abessinsk}}
+* Finnish: {{t|fi|abessinialainen}}
+* French: {{t+|fr|abyssinien}}
+* Galician: {{t+|gl|abisinio}}
+* German: {{t+|de|abessinisch}}
+* Greek: {{t|el|αβησσυνιακός}}
+* Hindi: {{t|hi|हब्शी|m}}, {{t+|hi|हबशी|m}}, {{t+|hi|हबसी|m}}, {{t+|hi|हबशिन|f}}
+* Hungarian: {{t+|hu|abesszin}}
+* Irish: {{t|ga|Aibisíneach}}
+* Norwegian:
+*: Bokmål: {{t|nb|abessinsk}}, {{t|nb|abyssinsk}}, {{t|nb|abyssinisk}}
+*: Nynorsk: {{t|nn|abessinsk}}
+* Polish: {{t+|pl|abisyński}}
+* Portuguese: {{t+|pt|abissínio}}
+* Romanian: {{t|ro|abisinian}}
+* Russian: {{t+|ru|абисси́нский}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|абисински|m|sc=Cyrl}}
+*: Roman: {{t|sh|abisinski|m}}
+* Spanish: {{t+|es|abisinio}}
+* Swedish: {{t+|sv|abessinsk}}
+{{trans-bottom}}
+
+===Noun===
+{{en-noun}}
+{{wikipedia|Abyssinian (cat)}}
+
+# A short-haired [[domestic cat]] descended from [[cat]]s of [[ancient]] [[Egypt]] making it one of the oldest [[breed]]s in the [[world]]; [[Abyssinian cat]]. {{defdate|First attested in the late 19th century.}}<ref name=SOED/>
+# A [[member]] of the {{w|Abyssinian Church}}.
+# {{lb|en|dated}} A native of [[Ethiopia]]. {{defdate|First attested in the mid 18th century.}}<ref name=SOED/>
+#* {{quote-book|en|year=2019|author=[[w:Maaza Mengiste|Maaza Mengiste
+]]|title=[[w:The Shadow King (book)|The Shadow King]] |publisher=Canongate Books (2020)|page=308|passage=A group of '''Abyssinians''' are astride horses in brightly colored saddles at the top of the hill across the valley.}}
+
+====Translations====
+{{trans-top|a native of Abyssinia}}
+* Amharic: {{t|am|ሐበሻ}}
+* Bengali: {{t+|bn|হাবশী|tr=habśī}}
+* Bulgarian: {{t+|bg|абиси́нец|m}}, {{t+|bg|абиси́нка|f}}
+* Czech: {{t+|cs|Habešan|m}}
+* Danish: {{t+|da|abessiner|c}}
+* Finnish: {{t|fi|abessinialainen}}
+* French: {{t+|fr|Abyssinien|m}}, {{t+|fr|Abyssinienne|f}}
+* Galician: {{t+|gl|abisinio|m}}
+* German: {{t+|de|Abessinier|m|m-p}}
+* Greek: {{t|el|Αβησσυνός|m}}
+* Hindi: {{t|hi|हब्शी|m}}, {{t+|hi|हबशी|m}}, {{t+|hi|हबसी|m}}, {{t+|hi|हबशिन|f}}
+* Hungarian: {{t+|hu|abesszin}}
+* Irish: {{t|ga|Aibisíneach|m}}
+* Italian: {{t+|it|abissino|m}}
+* Norwegian:
+*: Bokmål: {{t+|nb|abessinier}}, {{t|nb|abyssiner|m}}
+*: Nynorsk: {{t|nn|abessiniar}}
+* Persian: {{t+|fa|حبشی|tr=habaši}}
+* Polish: {{t+|pl|Abisyńczyk|m-pr}}, {{t+|pl|Abisynka|f}}
+* Portuguese: {{t+|pt|abissínio|m}}
+* Romanian: {{t|ro|abisinian|m}}, {{t|ro|abisiniană|f}}
+* Russian: {{t+|ru|абисси́нец|m}}, {{t+|ru|абисси́нка|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|абисинац|m|sc=Cyrl}}
+*: Latin: {{t+|sh|abisinac|m}}
+* Spanish: {{t+|es|abisinio|m}}, {{t+|es|abisinia|f}}
+{{trans-bottom}}
+
+{{trans-top|cat}}
+* Danish: {{t+|da|abessiner|c}}, {{t+|da|abyssinier|c}}
+* Finnish: {{t|fi|abessinialainen}}
+* German: {{t+|de|Abessinier|f}}
+* Japanese: {{t|ja|アビシニアン|tr=abishinian|sc=Jpan}}
+* Norwegian:
+*: Bokmål: {{t|nb|abyssiner|m}}
+* Polish: {{t|pl|kot abisyński|m}}, {{t+|pl|abisyńczyk|m}} {{qualifier|colloquial}}, {{t+|pl|abisynka|f}} {{qualifier|colloquial}}
+* Portuguese: {{t+|pt|abissínio|m}}
+* Romanian: {{t|ro|abisiniană|f}}
+* Russian: {{t+|ru|абисси́нец|m}}, {{t+|ru|абисси́нка|f}}, {{t|ru|абисси́нский кот|m}}, {{t|ru|абисси́нская ко́шка|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|абисинка|f|sc=Cyrl}}
+*: Roman: {{t|sh|abisinka|f}}
+{{trans-bottom}}
+
+===Proper noun===
+{{en-proper noun}}
+
+# The [[Amharic]] language.
+
+====Derived terms====
+* {{l|en|Abyssinian gold}} - an alloy of 90.74 parts of copper and 8.33 parts of zinc
+* {{l|en|Abyssinian tea}}
+
+====Translations====
+{{trans-see|Amharic}}
+
+===References===
+<references/>
+
+[[Category:en:Domestic cats]]
+[[Category:en:Ethiopia]]
+[[Category:en:Nationalities]]

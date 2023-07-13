@@ -1,0 +1,4391 @@
+{{Swadesh list family|iir|fa|hi|ur|ps|kmr|sa|rom|pa|bn|tg|mzn|ne|gu|zza}}
+==Swadesh lists==
+
+===Automatic list===
+{{Swadesh list auto|iir-pro|sa|ae|peo|pal|fa|kmr|os|var8=iro|hi|rom|translit=1}}
+
+===List 1===
+This is the 100 word Swadesh list.
+
+Northern Kurdish has its own Roman script, adapted in 1932.
+
+<table  class="wikitable" border=1>
+<tr><th>No.</th>
+<th>[[English]]</th>
+<th>Persian<br><small>(Romanized)</small></th>
+<th>[[Persian]]</th>
+<th>Hindi-Urdu<br><small>(Romanized)</small></th>
+<th>Hindi-Urdu</th>
+<th>[[Pashto]]<br><small>(IPA)</small></th>
+<th>[[Northern Kurdish]]/[[Kurmanji]]</th>
+<th>[[Sanskrit]]</th>
+<th>Sanskrit<br><small>(Romanized)</small></th>
+<th>[[Romani]]</th>
+<th>[[Punjabi]]<br><small>([[Gurmukhi]] Script and Romanized)</small></th>
+<th>[[Ossetian]]</th></tr>
+<tr><td>1</td><td>[[I]]</td>
+<td>man</td>
+<td>[[من|مَن]]</td>
+<td>maiṃ</td>
+<td>[[मैं]]<br>[[میں]]</td>
+<td>[[زه]]<br>zə</td>
+<td>[[min]]<br>[[ez]]</td>
+<td>[[अहम्]]</td>
+<td>aham</td>
+<td>[[me]]</td>
+<td>[[ਮੈਂ]]<br>[[main]]</td>
+<td>[[æз]]</td></tr>
+<tr><td>2</td><td>[[thou]]</td>
+<td>to/tu</td>
+<td>[[تو]]</td>
+<td>tū<br>tum<br>āp</td>
+<td>[[तू]]<br>[[तुम]]<br>[[आप]]<br>[[تو]]<br>[[آپ]]</td></td>
+<td>[[ته]] <br> t̪ə</td>
+<td>[[tu]]</td>
+<td>[[त्वम्]]</td>
+<td>tvam<br>bhavant ''hon.''</td>
+<td>[[tu]]</td>
+<td>[[ਤੂੰ]]<br>[[tūn]]</td><td>[[ды]]</td>
+</tr>
+<tr><td>3</td><td>[[we]]</td>
+<td>mā</td><td>[[ما]]</td>
+<td>ham</td>
+<td>[[हम]]<br>[[ہم|هَم]]</td>
+<td>[[موږ]] <br> muʐ/muŋg</td>
+<td>[[em]]<br>[[me]]</td>
+<td>[[वयम्]]</td>
+<td>vayam</td>
+<td>[[ame]]</td>
+<td>[[ਅਸੀਂ]]<br>[[asīn]]</td><td>[[мах]]</td>
+</tr>
+<tr><td>4</td><td>[[this]]</td>
+<td>in</td><td>[[این]]</td>
+<td>yeh<br>is</td>
+<td>[[यह]]<br>[[इस]]<br>[[یہ]]<br>[[اِس]]</td>
+<td>[[دا]] <br> d̪ɑ</td>
+<td>[[ev]]</td>
+<td>[[एतत्]]</td>
+<td>etat</td>
+<td>[[kado]]</td>
+<td>[[ਇਹ]]<br>[[ih]]</td>
+<td>уый</td></tr>
+<tr><td>5</td><td>[[that]]</td>
+<td>ān</td>
+<td>[[آن]]</td>
+<td>voh<br>us</td>
+<td>[[वह]]<br>[[उस]]<br>[[وه]]<br>[[اُس]]</td>
+<td>[[هغه]] <br> haɣa </td>
+<td>[[ew]]</td>
+<td>[[तत्]]</td>
+<td>tat</td>
+<td>[[kodo]]</td>
+<td>[[ਉਹ]]<br>[[uh]]</td>
+<td>[[æй]]</td></tr>
+<tr><td>6</td><td>[[who]]</td>
+<td>ki</td>
+<td>[[کی]]</td>
+<td>kaun</td>
+<td>[[कौन]]</td>
+<td> [[څوک]] <br> t͡sok</td>
+<td>[[kî]]</td>
+<td>[[क]]</td>
+<td>ka</td>
+<td>[[kon]]</td>
+<td>[[ਕੌਣ]]<br>[[kaun]]</td>
+<td>[[чи]]</td></tr>
+<tr><td>7</td><td>[[what]]</td>
+<td>che/chi</td>
+<td>[[چه|چِه]]</td>
+<td>kyā</td>
+<td>[[क्या]]<br>[[کیا]]</td>
+<td>[[څه]] <br> t͡sə</td>
+<td>[[çi]]</td>
+<td>[[किम्]]</td>
+<td>kim</td>
+<td>[[so]]</td>
+<td>[[ਕੀ]]<br>[[kī]]</td>
+<td>цы</td></tr>
+<tr><td>8</td><td>[[not]]</td>
+<td>na</td>
+<td>[[نه|نَه]]</td>
+<td>nahīṃ</td>
+<td>[[नहीं]]<br>[[نہیں]]</td>
+<td>[[نه]] <br> na</td>
+<td>[[na]]<br>[[ne]]</td>
+<td>[[न]]</td>
+<td>na</td>
+<td>[[na]]</td>
+<td>[[ਨਹੀਂ]]<br>[[nahīn]]</td>
+<td>нæ</td></tr>
+<tr><td>9</td><td>[[all]]</td>
+<td>hame/hama</td>
+<td>[[همه]]</td>
+<td>sab<br>sārā</td>
+<td>[[सब]]<br>[[सारा]]<br>[[سب]]<br>[[سارا]]</td>
+<td>[[ټول]] <br> ʈol</td>
+<td>[[hemû]]<br>[[giş]]<br>[[tev]]</td>
+<td>[[सर्व]]<br>[[निखिल]]</td>
+<td>sarva<br>nikhila</td>
+<td>[[sa]]</td>
+<td>[[ਸਭ]]<br>[[sabh]]</td>
+<td>иууылдæр</td></tr>
+<tr><td>10</td>
+<td>[[many]]</td>
+<td>besyār<br>bas</td>
+<td>[[بسیار]]<br>[[بس]]</td>
+<td>bahut<br>zyāda</td>
+<td>[[बहुत]]<br>[[ज़्यादा]]<br>[[بہت]]<br>[[زياده]]</td>
+<td>[[ډېر]] <br> ɖer</td>
+<td>[[gelek]]<br>[[pirr]]</td>
+<td>[[बहु]]</td>
+<td>bahu</td>
+<td>[[but]]</td>
+<td>[[ਬਹੁਤ]]<br>[[bahut]]</td>
+<td>бирæ</td></tr>
+<tr><td>11</td><td>[[one]]</td>
+<td>yek/yak</td>
+<td>[[یک|یک]]</td>
+<td>ek</td>
+<td>[[एक]]<br>[[ایک]]</td>
+<td>[[يو]] <br> jaw</td>
+<td>[[yek]]<br>[[êk]]</td>
+<td>[[एक]]</td>
+<td>eka</td>
+<td>[[jekh]]</td>
+<td>[[ਇੱਕ]]<br>[[ikk]]</td>
+<td>иу</td></tr>
+<tr><td>12</td><td>[[two]]</td>
+<td>do</td>
+<td>[[دو]]</td>
+<td>do</td>
+<td>[[दो]]<br>[[دو]]</td>
+<td>[[دوه]] <br> d̪wa</td>
+<td>[[du]]</td>
+<td>[[द्वि]]</td>
+<td>dvi</td>
+<td>[[duj]]</td>
+<td>[[ਦੋ]]<br>[[do]]</td>
+<td>дыууæ</td></tr>
+<tr><td>13</td><td>[[big]]</td>
+<td>bozorg</td>
+<td>[[بزرگ|بُزُرگ]]</td>
+<td>baṛā</td>
+<td>[[बड़ा]]<br>[[بڑا]]</td>
+<td>[[لوی]] <br> loi</td>
+<td>[[gir]]<br>[[mezin]]<br>[[gewre]]</td>
+<td>[[महन्त्]]</td>
+<td>mahant</td>
+<td>[[baro]]</td>
+<td>[[ਵੱਡਾ]]<br>[[vadda]]</td>
+<td>дынджыр</td></tr>
+<tr><td>14</td><td>[[long]]</td>
+<td>boland</td>
+<td>[[بلند|بُلَند]]</td>
+<td>lambā</td>
+<td>[[लम्बा]]<br>[[لمبا]]</td>
+<td>[[اوږد]] <br> uʐ d̪/ug d̪/ugəd̪</td>
+<td>[[bilind]]</td>
+<td>[[दीर्घ]]</td>
+<td>dīrgha</td>
+<td>[[lungo]]</td>
+<td>[[ਲੰਬਾ]]<br>[[lamba]]</td>
+<td>даргъ</td></tr>
+<tr><td>15</td><td>[[small]]</td>
+<td>kuchek</td>
+<td>[[کوچک|کوچِک]]</td>
+<td>choṭā</td>
+<td>[[छोटा]]<br>[[چهوٹا]]</td>
+<td>[[وړکوټی]] / [[وړوکی]] <br> waɺ̢ukay / waɺ̢koʈay</td>
+<td>biçûk</td>
+<td>[[क्षुद्र]]</td>
+<td>kśudra</td>
+<td>[[cino]]</td>
+<td>[[ਛੋਟਾ]]<br>[[choṭa]]</td>
+<td>чысыл</td></tr>
+<tr><td>16</td><td>[[woman]]</td>
+<td>zan</td>
+<td>[[زن|زَن]]</td>
+<td>aurat<br>nārī</td>
+<td>[[औरत]]<br>[[नारी]]<br>[[عورت]]</td>
+<td>[[ښځه]] <br> ʂəd͡za/xәd͡za</td>
+<td>jin<br>afret</td>
+<td>[[स्त्री]]</td>
+<td>strī</td>
+<td>[[ʒuvli]]</td>
+<td>[[ਜ਼ਨਾਨੀ]]<br>[[zanāni]]</td>
+<td>сылгоймаг</td></tr>
+<tr><td>17</td><td>[[man]]<br><small>(adult male)</small></td>
+<td>mard</td>
+<td>[[مرد|مَرد]]</td>
+<td>ādmī<br>mard</td>
+<td>[[आदमी]]<br>[[मर्द]]<br>[[آدمی]]<br>[[مرد|مَرد]]</td>
+<td>[[سړی]] <br> saɺ̢ai</td>
+<td>mêr</td>
+<td>[[नर]]<br>[[पुरुष]]</td>
+<td>nara<br>purush</td>
+<td>[[mursh]]</td>
+<td>[[ਆਦਮੀ]]<br>[[ādami]]</td>
+<td>лæг</td></tr>
+<tr><td>18</td><td>[[man]]<br><small>(human being)</small></td>
+<td>nafar<br>fard<br>shakhṣ<br>ensān<br>kas</td>
+<td>[[نفر|نَفَر]]<br>[[فرد|فَرد]]<br>[[شخص|شَخص]]<br>[[انسان|اِنسان]]<br>[[کس|کَس]]</td>
+<td>vyakti<br>manuṣya<br>sha<u>kh</u>s<br>insān</td>
+<td>[[व्यक्ति]]<br>[[मनुष्य]]<br>[[इनसान]]<br>[[انسان]]<br>[[شخص]]</td>
+<td>[[وګړى]] <br> wagәɺ̢ai </td>
+<td>mirov<br>meriv</td>
+<td>[[मानव]]<br>[[जन]]<br>[[मनुः]]</td>
+<td>manav<br>jana<br>manuḥ</td>
+<td>[[manuś]]</td>
+<td>[[ਮਨੁੱਖ]]<br>[[manukh]]</td>
+<td>адæймаг, also марддæг</td></tr>
+<tr><td>19</td><td>[[bird]]</td>
+<td>parande</td>
+<td>[[پرنده|پَرَندِه]]</td>
+<td>pakśī<br>ciṛiyā<br>parindā</td>
+<td>[[पक्षी]]<br>[[चिड़िया]]<br>[[پرنده]]</td>
+<td>[[ مرغۍ]] / [[مرغه ]] <br> marγa / mәrγәi </td>
+<td>çivîk<br>balinde</td>
+<td>[[पक्षिन्]]<br>[[खग]]</td>
+<td>pakśin<br>khaga</td>
+<td>[[chiriklyi]]</td>
+<td>[[ਪੰਛੀ]]<br>[[panchhi]]</td>
+<td>цъиу</td></tr>
+<tr><td>20</td><td>[[dog]]</td>
+<td>sag</td>
+<td>[[سگ|سَگ]]</td>
+<td>kuttā</td>
+<td>[[कुत्ता]]<br>[[کتا]]</td>
+<td> [[سپی ]]<br>spai</td>
+<td>[[seg]]<br>kûçik</td>
+<td>[[श्वन्]]</td>
+<td>śvan</td>
+<td>[[zhukel]]</td>
+<td>[[ਕੁੱਤਾ]]<br>[[kutta]]</td>
+<td>куыдз</td></tr>
+<tr><td>21</td><td>[[louse]]</td>
+<td>shepesh</td>
+<td>[[شپش|شِپِش]]</td>
+<td>jūṃ</td>
+<td>[[जूँ]]<br>[[جوں]]</td>
+<td>[[ سپږه ]] <br> spәʐa/spәga</td>
+<td>[[sipî]]</td>
+<td>[[यूक]]</td>
+<td>yūka</td>
+<td>[[zhuv]]</td>
+<td>[[ਜੂੰ]]<br>[[jūn]]</td>
+<td>сыст</td></tr>
+<tr><td>22</td><td>[[tree]]</td>
+<td>derakht</td>
+<td>[[درخت|دِرَخت]]</td>
+<td>peṛ<br>dara<u>kh</u>t</td>
+<td>[[पेड़]]<br>[[درخت]]</td>
+<td>[[ونه]] <br> wəna</td>
+<td>dar</td>
+<td>[[तरु]]<br>[[वृक्ष]]</td>
+<td>taru<br>vṛkśa</td>
+<td>[[kasht]]</td>
+<td>[[ਦਰਖਤ]]<br>[[darakhat]]</td>
+<td>бæлас</td></tr>
+<tr><td>23</td><td>[[seed]]</td>
+<td>dāne<br>tokhm</td>
+<td>[[دانه|دانِه|]]<br>[[تخم|تُخم]]</td>
+<td>bīj</td>
+<td>[[बीज]]</td>
+<td>[[زڼی]]<br>zəɳy</td>
+<td>[[tov]]<br>[[bizir]]</td>
+<td>[[बीज]]<br>[[वाप]]</td>
+<td>bīja<br>vaap</td>
+<td>[[sumburo]]</td>
+<td>[[ਬੀ]]<br>[[bi]]</td>
+<td>тауинаг</td></tr>
+<tr><td>24</td><td>[[leaf]]</td>
+<td>barg</td>
+<td>[[برگ|بَرگ]]</td>
+<td>pattī<br>pattā</td>
+<td>[[पत्ती]]<br>[[पत्ता]]<br>[[پتى]]<br>[[پتا]]</td>
+<td>[[پاڼه]]<br>pɑɳa</td>
+<td>[[pêl]]</td>
+<td>[[पर्ण]]<br>[[पत्र]]</td>
+<td>parṇa<br>patra</td>
+<td>[[patrin]]</td>
+<td>[[ਪੱਤਾ]]<br>[[patta]]</td>
+<td>сыф</td></tr>
+<tr><td>25</td><td>[[root]]</td>
+<td>rishe</td>
+<td>[[ریشه|ریشِه]]</td>
+<td>jaṛ</td>
+<td>[[जड़]]<br>[[جڑ]]</td>
+<td>[[ولۍ]] <br> wələi</td>
+<td>[[reh]]</td>
+<td>[[मूल]]<br>[[जट]]</td>
+<td>mūla<br>jat</td>
+<td>[[rikita]]</td>
+<td>[[ਜੜ]]<br>[[jar]]</td>
+<td>уидæг</td></tr>
+<tr><td>26</td><td>[[bark]]</td>
+<td>pust-e derakht</td>
+<td>[[پوست درخت|پوستِ دِرَخت]]</td>
+<td>chāl</td>
+<td>[[छाल]]<br>[[چھال]]]</td>
+<td>[[برج]] <br> barj </td>
+<td>[[qaşik]]<br>[[qal]]</td>
+<td>[[वल्क]]</td>
+<td>valka</td>
+<td>[[korca]]</td>
+<td>[[ਛਿੱਲ]]<br>[[chhill]]</td>
+<td>рæйд</td></tr>
+<tr><td>27</td><td>[[skin]]</td>
+<td>pust</td>
+<td>[[پوست]]</td>
+<td>tvacā<br>camṛā<br>chāl</td>
+<td>[[त्वचा]]<br>[[चमड़ा]]<br>[[छाल]]<br>[[چهال]]</td>
+<td>[[څرمن]] / [[پوستکی]] <br> t͡sarmən / post̪əkai </td>
+<td>[[çerm]]</td>
+<td>[[त्वचा]]<br>[[चर्मन्]]</td>
+<td>tvacha<br>carman</td>
+<td>[[morchi]]</td>
+<td>[[ਚਮੜੀ]]<br>[[chamri]]</td>
+<td>царм</td></tr>
+<tr><td>28</td><td>[[meat]]</td>
+<td>gusht</td>
+<td>[[گوشت]]</td>
+<td>māṃs<br>gosht</td>
+<td>[[मांस]]<br>[[گوشت]]</td>
+<td>[[غوښه]]<br>ɣwaʂa/ɣwaxa</td>
+<td>[[goşt]]</td>
+<td>[[मांस]]</td>
+<td>māṃsa</td>
+<td>[[mas]]</td>
+<td>[[ਮਾਸ]]<br>[[mās]]</td>
+<td>дзидза, also фыд</td></tr>
+<tr><td>29</td><td>[[blood]]</td>
+<td>khun</td>
+<td>[[خون]]</td>
+<td>rakt<br><u>kh</u>ūn<br>lahū</td>
+<td>[[रक्त]]<br>[[ख़ून]]<br>[[लहू]]<br>[[خون]]</td>
+<td>[[وينه]]<br>wina</td>
+<td>[[xwîn]]</td>
+<td>[[रक्त]]<br>[[रुधिर]]<br>[[लोह]]</td>
+<td>rakta<br>rudhira<br>loha</td>
+<td>[[rat]]</td>
+<td>[[ਖੂਨ]]<br>[[khūn]]</td>
+<td>туг</td></tr>
+<tr><td>30</td><td>[[bone]]</td>
+<td>ostokhān</td>
+<td>[[استخوان|اُستُخوان]]</td>
+<td>asthi<br>haḍḍi</td>
+<td>[[अस्थि]]<br>[[हड्डी]]<br>[[هڈى]]</td>
+<td>[[هډوکى]]<br>haɖukai</td>
+<td>[[hestî]]</td>
+<td>[[अस्थन्]]<br>[[हड्ड]]</td>
+<td>asthan<br>haDDa</td>
+<td>[[kokalo]]</td>
+<td>[[ਹੱਡੀ]]<br>[[haddi]]</td>
+<td>стæг</td></tr>
+<tr><td>31</td><td>[[fat]] (n.)</td>
+<td>rowghan<br>charbi</td>
+<td>[[روغن|رَوغَن]]<br>[[چربی|چَربی]]</td>
+<td>vasā</td>
+<td>[[वसा]]</td>
+<td>[[gwari]]</td>
+<td>[[qelew]]</td>
+<td>[[पुष्ट]]<br>[[स्थूल]]<br>[[मेद]]<br>[[पीवर]]</td>
+<td>puṣṭa<br>sthūla<br>meda<br>pivara</td>
+<td>[[thulo]]</td>
+<td>[[ਚਰਬੀ]]<br>[[charbi]]</td>
+<td>сой</td></tr>
+<tr><td>32</td><td>[[fire]]</td>
+<td>ātesh</td>
+<td>[[آتش|آتِش]]</td>
+<td>āg<br>agni</td>
+<td>[[आग]]<br>[[अग्नि]]<br>[[آگ]]</td>
+<td>[[اور]] <br> or</td>
+<td>[[agir]]</td>
+<td>[[अग्नि]]<br>[[अगिर]]</td>
+<td>agni<br>agira</td>
+<td>[[jag]]</td>
+<td>[[ਅੱਗ]]<br>[[agg]]</td>
+<td>арт</td></tr>
+<tr><td>33</td><td>[[egg]]</td>
+<td>tokhm</td>
+<td>[[تخم|تُخم]]</td>
+<td>aṇḍā</td>
+<td>[[अंडा]]<br>[[انڈا]]</td>
+<td>[[هګۍ]] <br> hagəi</td>
+<td>[[hêk]]</td>
+<td>[[अण्ड]]</td>
+<td>aṇḍa</td>
+<td>[[anro]]</td>
+<td>[[ਅੰਡਾ]]<br>[[anda]]</td>
+<td>айк</td></tr>
+<tr><td>34</td><td>[[horn]]</td>
+<td>shākh</td>
+<td>[[شاخ]]</td>
+<td>sīṅg</td>
+<td>[[सींग]]</td>
+<td>[[ښکر]]<br>xkar/ʂkar</td>
+<td>[[qiloç]]</td>
+<td>[[शृङ्ग]]</td>
+<td>śṛṅga</td>
+<td>[[shing]]</td>
+<td>[[ਸਿੰਙ]]<br>[[sing]]</td>
+<td>сыкъа</td></tr>
+<tr><td>35</td><td>[[tail]]</td>
+<td>dom</td>
+<td>[[دم#Persian|دُم]]</td>
+<td>pūñch<br>dum</td>
+<td>[[पूँछ]]<br>[[دم#Urdu|دم]]</td>
+<td>[[لکۍ]]<br>lakəj</td>
+<td>[[terî]]<br>[[boç]]</td>
+<td>[[पुच्छ]]</td>
+<td>puccha</td>
+<td>[[pori]]</td>
+<td>[[ਪੂੰਛ]]<br>[[pūnchh]]</td>
+<td>дымæг</td></tr>
+<tr><td>36</td><td>[[feather]]</td>
+<td>par</td>
+<td>[[پر|پَر]]</td>
+<td>paṅkh<br>par<br>پنكھ<br>پر</td>
+<td>[[पंख]]<br>[[पर]]</td>
+<td>[[بڼه]] <br>baɳa</td>
+<td>[[reg]]</td>
+<td>[[पिच्छ]]</td>
+<td>piccha</td>
+<td>[[por]]</td>
+<td>[[ਖੰਭ]]<br>[[khambh]]</td>
+<td>сис or пæкъуы</td></tr>
+<tr><td>37</td><td>[[fish]]</td>
+<td>māhi</td>
+<td>[[ماهی]]</td>
+<td>machlī</td>
+<td>[[मछ्ली]]<br>[[مچهلى]]</td>
+<td>[[کب]]<br>kab</td>
+<td>masî</td>
+<td>[[मत्स्य]]<br>[[जलज]]</td>
+<td>matsya<br>jalaja</td>
+<td>[[masho]]</td>
+<td>[[ਮੱਛੀ]]<br>[[machchhi]]</td>
+<td>кæсаг</td></tr>
+<tr><td>38</td><td>[[hair]]</td>
+<td>mu</td>
+<td>[[مو]]</td>
+<td>bāl<br>keś</td>
+<td>[[बाल]]<br>[[केश]]<br>[[بال]]</td>
+<td>[[weʂtə]]</td>
+<td>[[por]]<br>[[mû]]</td>
+<td>[[केशः]]<br>[[कुन्तर]]</td>
+<td>keśaḥ<br>kuntara</td>
+<td>[[bal]]</td>
+<td>[[ਵਾਲ]]<br>[[vāl]]</td>
+<td>хъуын</td></tr>
+<tr><td>39</td><td>[[head]]</td>
+<td>sar</td>
+<td>[[سر|سَر]]</td>
+<td>sar</td>
+<td>[[सर]]<br>[[سر]]</td>
+<td>sar</td>
+<td>[[sar]]</td>
+<td>[[शीर्ष]]<br>[[मस्तक]]</td>
+<td>śīrṣa<br>mastaka</td>
+<td>[[shero]]</td>
+<td>[[ਸਿਰ]]<br>[[sir]]</td>
+<td>сæр</td></tr>
+<tr><td>40</td><td>[[ear]]</td>
+<td>gush</td>
+<td>[[گوش]]</td>
+<td>kān<br>gosh</td>
+<td>[[कान]]<br>[[کان]]<br>گوش</td>
+<td>[[غوږ]]</td>
+<td>[[guh]]</td>
+<td>[[कर्ण]]</td>
+<td>karṇa</td>
+<td>[[kan]]</td>
+<td>[[ਕੰਨ]]<br>[[kann]]</td>
+<td>хъус</td></tr>
+<tr><td>41</td><td>[[eye]]</td>
+<td>cheshm</td>
+<td>[[چشم|چِشم]]</td>
+<td>āṅkh</td>
+<td>[[आँख]]<br>[[آنکه]]</td>
+<td>[[سترګه]]<br>starga</td>
+<td>çav</td>
+<td>[[नेत्र]]</td>
+<td>netra</td>
+<td>[[jakh]]</td>
+<td>[[ਅੱਖ]]<br>[[akkh]]</td>
+<td>цæст</td></tr>
+<tr><td>42</td><td>[[fingernail]]</td>
+<td>nākhun</td>
+<td>[[ناخون]]</td>
+<td>nā<u>kh</u>ūn</td>
+<td>[[नाखून]]<br>[[ناخون]]</td>
+<td>[[nuk]]</td>
+<td>[[neynûk]]</td>
+<td>[[नख]]</td>
+<td>nakha</td>
+<td>[[vundya]]</td>
+<td>[[ਨਹੁੰ]]<br>[[nahun]]</td>
+<td>ных</td></tr>
+<tr><td>43</td><td>[[nose]]</td>
+<td>damāgh<br>bini</td>
+<td>[[دماغ|دَماغ]]<br>[[بینی]]</td>
+<td>nāk</td>
+<td>[[नाक]]<br>[[ناک]]</td>
+<td>[[pazə]]</td>
+<td>[[poz]]<br>lût</td>
+<td>[[नासा]]/[[नासिका]]<br>[[घ्राण]]</td>
+<td>nāsā/nāsikā<br>ghrāṇa</td>
+<td>[[nakh]]</td>
+<td>[[ਨੱਕ]]<br>[[nakk]]</td>
+<td>фындз</td></tr>
+<tr><td>44</td><td>[[mouth]]</td>
+<td>dahān</td>
+<td>[[دهان|دَهان]]</td>
+<td>mūṃh<br>mukh</td>
+<td>[[मूँह]]<br>[[मुख]]</td>
+<td>xwlə</td>
+<td>[[dev]]</td>
+<td>[[मुख]]</td>
+<td>mukha</td>
+<td>[[muj]]</td>
+<td>[[ਮੂੰਹ]]<br>[[mūnh]]</td>
+<td>ком, дзых</td></tr>
+<tr><td>45</td><td>[[tooth]]</td>
+<td>dandān</td>
+<td>[[دندان|دَندان]]</td>
+<td>dānt</td>
+<td>[[दाँत]]<br>[[دانت]]</td>
+<td>[[ɣɑʂ]]</td>
+<td>[[didan]]<br>diran</td>
+<td>[[दन्त]]</td>
+<td>danta</td>
+<td>[[dand]]</td>
+<td>[[ਦੰਦ]]<br>[[dand]]</td>
+<td>дæндæг</td></tr>
+<tr><td>46</td><td>[[tongue]]</td>
+<td>zabān</td>
+<td>[[زبان|زَبان]]</td>
+<td>jībh<br>zabān</td>
+<td>[[जीभ]]<br>[[زبان]]</td>
+<td>ʒəba</td>
+<td>[[ziman]]</td>
+<td>[[जिह्वा]]</td>
+<td>jihva</td>
+<td>[[shib]]</td>
+<td>[[ਜੀਭ]]<br>[[jībh]]</td>
+<td>æвзаг</td></tr>
+<tr><td>47</td><td>[[foot]]</td>
+<td>pā</td>
+<td>[[پا]]</td>
+<td>pair</td>
+<td>[[पैर]]<br>[[پیر]]</td>
+<td>[[پښه / پاپۍ]]<br>papai/px̌a</td>
+<td>[[pê]]</td>
+<td>[[पाद]]</td>
+<td>pāda</td>
+<td>[[punro]]</td>
+<td>[[ਪੈਰ]]<br>[[pair]]</td>
+<td>фад</td></tr>
+<tr><td>48</td><td>[[knee]]</td>
+<td>zānu</td>
+<td>[[زانو]]</td>
+<td>ghuṭnā</td>
+<td>[[घुटना]]<br>[[گهٹنا]]</td>
+<td>[[زنګون]]<br>zangun</td>
+<td>[[çok]]</td>
+<td>[[जानु]]<br>[[जातु]]</td>
+<td>jānu<br>jātu</td>
+<td>[[chang]]</td>
+<td>[[ਗੋਡਾ]]<br>[[goda]]</td>
+<td>уæраг, зоныг</td></tr>
+<tr><td>49</td><td>[[hand]]</td>
+<td>dast</td>
+<td>[[دست|دَست]]</td>
+<td>hāth</td>
+<td>[[हाथ]]<br>[[ہاتھ]]</td>
+<td>lɑs</td>
+<td>[[dest]]</td>
+<td>[[हस्त]]<br>[[भुज]]<br>[[कर]]</td>
+<td>hasta<br>bhuja<br>kara</td>
+<td>[[vast]]</td>
+<td>[[ਹੱਥ]]<br>[[hatth]]</td>
+<td>къух</td></tr>
+<tr><td>50</td><td>[[belly]]</td>
+<td>shekam</td>
+<td>[[شکم|شِکم]]</td>
+<td>peṭ</td>
+<td>[[पेट]]</td>
+<td>[[ګېډه]]<br>[[خېټه]]<br>[[نس]]</td>
+<td>[[zik]]</td>
+<td>[[उदर]]</td>
+<td>udara</td>
+<td>[[per]]</td>
+<td>[[ਢਿੱਡ]]<br>[[dhidd]]</td>
+<td>гуыбын</td></tr>
+<tr><td>51</td><td>[[neck]]</td>
+<td>gardan</td>
+<td>[[گردن|گَردَن]]</td>
+<td>galā<br>gardan</td>
+<td>[[गला]]<br>[[गर्दन]]<br>[[گردن]]</td>
+<td>[[اورمېږ]]</td>
+<td>[[gerden]]</td>
+<td>[[कण्ठ]]</td>
+<td>kaṇṭha</td>
+<td>[[korr]]</td>
+<td>[[ਗਰਦਨ]]<br>[[gardan]]</td>
+<td>æфцæг</td></tr>
+<tr><td>52</td><td>[[breast]]</td>
+<td>pestān</td>
+<td>[[پستان|پِستان]]</td>
+<td>stan<br>chātī<br>sīnā</td>
+<td>[[स्तन]]<br>[[छाती]]<br>[[सीना]]</td>
+<td>[[غېږ]]</td>
+<td>[[pêsîr]]<br>çiçik</td>
+<td>[[स्तन]]<br>[[कुच]]<br>[[वक्षस्]]</td>
+<td>stana<br>kuca<br>vakśas</td>
+<td>[[chuchi]]</td>
+<td>[[ਛਾਤੀ]]<br>[[chhāti]]</td>
+<td>дзидзи</td></tr>
+<tr><td>53</td><td>[[heart]]</td>
+<td>del<br>qalb</td>
+<td>[[دل|دِل]]<br>[[قلب|قَلب]]</td>
+<td>dil</td>
+<td>[[दिल]]<br>[[دل]]</td>
+<td>zɻə</td>
+<td>[[dil]]</td>
+<td>[[हृदय]]</td>
+<td>hṛdaya</td>
+<td>[[jilo]]</td>
+<td>[[ਦਿਲ]]<br>[[dil]]</td>
+<td>Зæрдæ</td></tr>
+<tr><td>54</td><td>[[liver]]</td>
+<td>jegar</td>
+<td>[[جگر|جِگَر]]</td>
+<td>kalejā<br>jigar</td>
+<td>[[कलेजा]]<br>[[جگر]]</td>
+<td>[[اينه]]</td>
+<td>[[ceger]]</td>
+<td>[[यकृत्]]</td>
+<td>yakṛt</td>
+<td>[[buko]]</td>
+<td>[[ਜਿਗਰ]]<br>[[jigar]]</td><td></td></tr>
+<tr><td>55</td><td>[[drink]]</td>
+<td>nushidan</td>
+<td>[[نوشیدن|نوشیدَن]]</td>
+<td>pīnā</td>
+<td>[[पीना]]<br>[[پینا]]</td>
+<td>[[څښل]]</td>
+<td>[[vexwarin]]</td>
+<td>[[पा]]<br>[[पान]]<br>[[पितु]]</td>
+<td>pā<br>paan<br>pitu</td>
+<td>[[pijel]]</td>
+<td><br>[[pīna]]</td>
+<td>нуазын</td></tr>
+<tr><td>56</td><td>[[eat]]</td>
+<td>khordan</td>
+<td>[[خوردن|خَوردَن]]</td>
+<td>khānā</td>
+<td>[[खाना]]<br>[[کهانا]]</td>
+<td>xwaɽal</td>
+<td>xwarin</td>
+<td>[[खाद्]]<br>[[भक्ष्]]<br>[[अद्]]</td>
+<td>khaad<br>bhaksha<br>ad</td>
+<td>[[xal]]</td>
+<td><br>[[khāna]]</td>
+<td>хæрын</td></tr>
+<tr><td>57</td><td>[[bite]]</td>
+<td>gazidan</td>
+<td>[[گزیدن|گَزیدَن]]</td>
+<td>kāṭnā</td>
+<td>[[काटना]]</td>
+<td>[[چيچل]]<br>čičəl</td>
+<td>[[geztin]]</td>
+<td>[[ग्रास]]<br>[[खाद्]]</td>
+<td>gras<br>khād</td>
+<td>[[dindalel]]</td>
+<td><br>[[kattna]]</td><td></td></tr>
+<tr><td>58</td><td>[[see]]</td>
+<td>didan</td>
+<td>[[دیدن|دیدَن]]</td>
+<td>dēkhnā</td>
+<td>[[देखना]]<br>[[دیکهنا]]</td>
+<td>[[ليدل]]</td>
+<td>[[dîtin]]</td>
+<td>[[दृश्]]<br>[[अव-लोक्]]<br>[[वेण्]]</td>
+<td>dṛś<br>ava-lok<br>veN</td>
+<td>[[dikhel]]</td>
+<td><br>[[dekhna]]</td>
+<td>уынын</td></tr>
+<tr><td>59</td><td>[[hear]]</td>
+<td>shenidan</td>
+<td>[[شنیدن|شِنیدَن]]</td>
+<td>sunnā</td>
+<td>[[सुनना]]<br>[[سننا]]</td>
+<td>[[اورول]]</td>
+<td>[[bihîştin]]</td>
+<td>[[श्रु]]</td>
+<td>śru</td>
+<td>[[ashunel]]</td>
+<td><br>[[sunna]]</td>
+<td>хъусын</td></tr>
+<tr><td>60</td><td>[[know]]</td>
+<td>dānestan</td>
+<td>[[دانستن|دانِستَن]]</td>
+<td>jānnā</td>
+<td>[[जानना]]<br>[[جاننا]]</td>
+<td>peʒandal</td>
+<td>zanîn</td>
+<td>[[ज्ञा]]<br>[[विद्]]<br>[[वेण्]]</td>
+<td>jñā<br>vid<br>veN</td>
+<td>[[zhanel]]</td>
+<td><br>[[jānna]]</td>
+<td>зонын</td></tr>
+<tr><td>61</td><td>[[sleep]]</td>
+<td>khābidan</td>
+<td>[[خوابیدن|خوابیدَن]]</td>
+<td>sonā</td>
+<td>[[सोना]]<br>[[سونا]]</td>
+<td>[[بيدېدل]]</td>
+<td>[[razan]]<br>xewtin</td>
+<td>[[स्वप्]]<br>[[शय]]<br>[[निद्रा]]</td>
+<td>svap<br>shaya<br>nidra</td>
+<td>[[sovel]]</td>
+<td><br>[[sauna]]</td>
+<td>хуыссын</td></tr>
+<tr><td>62</td><td>[[die]]</td>
+<td>mordan</td>
+<td>[[مردن|مُردَن]]</td>
+<td>marnā</td>
+<td>[[मरना]]<br>[[مرنا]]</td>
+<td>məɽ kedal</td>
+<td>[[mirin]]</td>
+<td>[[मृ]]/[[म्रयति]]</td>
+<td>mṛ/mṛyati</td>
+<td>[[merel]]</td>
+<td><br>[[marna]]</td>
+<td>мæлын</td></tr>
+<tr><td>63</td><td>[[kill]]</td>
+<td>koshtan</td>
+<td>[[کشتن|کشتَن]]</td>
+<td>mārnā</td>
+<td>[[मारना]]<br>[[مارنا]]</td>
+<td>wažəl / məɽ kawal</td>
+<td>kuştin</td>
+<td>[[हन्]]/[[हन्ति]]/[[हननं]]<br>[[मारयति]]</td>
+<td>han/hanti/hananaṃ<br>mārayati</td>
+<td>[[mudarel]]</td>
+<td><br>[[mārna]]</td>
+<td>марын</td></tr>
+<tr><td>64</td><td>[[swim]]</td>
+<td>shenā kardan</td>
+<td>[[شنا کردن|شِنا کردَن]]</td>
+<td>tairnā</td>
+<td>[[तैरना]]<br>[[تیرنا]]</td>
+<td>[[لامبل]]</td>
+<td>[[ajnaberî lîstin]]<br>mele kirin</td>
+<td>[[तॄ]]/[[तरण]]<br>[[प्लु]]/[[प्लवण]]</td>
+<td>tṝ/taraṇa<br>plu/plavaṇa</td>
+<td>[[plemel]]</td>
+<td><br>[[tairna]]</td>
+<td>ленк кæнын</td></tr>
+<tr><td>65</td><td>[[fly]] (v.)</td>
+<td>paridan</td>
+<td>[[پریدن|پَریدَن]]</td>
+<td>uṛnā</td>
+<td>[[उड़ना]]</td>
+<td>[[الوتل]]<br>alwətəl</td>
+<td>firrîn</td>
+<td>[[पत्]]<br>[[उद्-डी]]</td>
+<td>pat<br>ud-dee</td>
+<td>[[ural]]</td>
+<td>[[uddna]]</td>
+<td>тæхын</td></tr>
+<tr><td>66</td><td>[[walk]]</td>
+<td>rāh raftan</td>
+<td>[[راه رفتن|راه رَفتَن]]</td>
+<td>calnā<br>ṭahalnā</td>
+<td>[[चलना]]<br>[[टहलना]]</td>
+<td>[[ګرځېدل]]</td>
+<td>[[çûn]]</td>
+<td>[[चल्]]<br>[[चर्]]/[[चरति]]</td>
+<td>cal<br>car/carati</td>
+<td>[[phirel]]</td>
+<td><br>[[turna]]</td>
+<td>тезгъо кæнын</td></tr>
+<tr><td>67</td><td>[[come]]</td>
+<td>āmadan</td>
+<td>[[آمدن|آمَدَن]]</td>
+<td>ānā</td>
+<td>[[आना]]<br>[[آنا]]</td>
+<td>[[راتلل]]</td>
+<td>[[hatin]]</td>
+<td>[[आगम्]]<br>[[आगतः]]</td>
+<td>āgam<br>āgataḥ</td>
+<td>[[avel]]</td>
+<td><br>[[auna]]</td>
+<td>цæуын</td></tr>
+<tr><td>68</td><td>[[lie]]</td>
+<td>khābidan<br>derāz keshidan</td>
+<td>[[خوابيدن]]<br>[[دراز كشيدن]]</td>
+<td>leṭnā</td>
+<td>[[लेटना]]</td>
+<td>[[پرېوتل]]</td>
+<td>[[xwe dirêj kirin]]</td>
+<td>[[शी]]<br>[[शेते]]</td>
+<td>śī<br>shete</td>
+<td>[[pashlyol]]</td>
+<td>[[letna]]</td><td></td></tr>
+<tr><td>69</td><td>[[sit]]</td>
+<td>neshastan</td>
+<td>[[نشستن|نِشَستَن]]</td>
+<td>baiṭhnā</td>
+<td>[[बैठना]]</td>
+<td>[[کښېنستل]]<br>kʂenəstəl</td>
+<td>[[rûniştin]]<br>danîşîn</td>
+<td>[[सद्]]/[[सीदति]]</td>
+<td>sad/sīdati</td>
+<td>[[beshel]]</td>
+<td><br>[[baithna]]</td>
+<td>бадын</td></tr>
+<tr><td>70</td><td>[[stand]]</td>
+<td>istādan<br>pā shodan</td>
+<td>[[پا شدن|پا شُدَن]]<br>[[ایستادن|ایستادَن]]</td>
+<td>khaṛā honā</td>
+<td>[[खड़ा होना]]</td>
+<td>[[درېدل]]</td>
+<td>[[rabûn]]<br>westîn</td>
+<td>[[स्था]]</td>
+<td>sthā</td>
+<td>[[tordyol]]</td>
+<td><br>[[kharna]]</td>
+<td>лæууын</td></tr>
+<tr><td>71</td><td>[[give]]</td>
+<td>dādan</td>
+<td>[[دادن|دادَن]]</td>
+<td>denā</td>
+<td>[[देना]]<br>[[دینا]]</td>
+<td>[[ورکول]]</td>
+<td>[[dan]]</td>
+<td>[[दा]]</td>
+<td>dā</td>
+<td>[[del]]</td>
+<td><br>[[dena]]</td>
+<td>дæттын</td></tr>
+<tr><td>72</td><td>[[say]]</td>
+<td>goftan</td>
+<td>[[گفتن|گُفتَن]]</td>
+<td>kahnā</td>
+<td>[[कहना]]<br>[[کہنا]]</td>
+<td>[[ويل]]<br>wəyəl</td>
+<td>[[gotin]]</td>
+<td>[[वद्]]</td>
+<td>vad</td>
+<td>[[phenel]]</td>
+<td><br>[[kahina]]</td>
+<td>зæгъын</td></tr>
+<tr><td>73</td><td>[[sun]]</td>
+<td>khorshid<br>āftāb</td>
+<td>[[خورشید]]<br>[[آفتاب]]</td>
+<td>sūraj</td>
+<td>[[सूरज]]<br>[[سورج]]</td>
+<td>[[لمر]]/[[نمر]]/[[نور]]<br>lmar/nmar/nwar</td>
+<td>[[roj]]<br>xor</td>
+<td>[[सूर्य]]</td>
+<td>sūrya</td>
+<td>[[kham]]</td>
+<td><br>[[sūraj]]</td>
+<td>хур</td></tr>
+<tr><td>74</td><td>[[moon]]</td>
+<td>māh</td>
+<td>[[ماه]]</td>
+<td>cānd</td>
+<td>[[चांद]]<br>[[چاند]]</td>
+<td>[[سپوږمۍ]]<br>spoʐməi/spogməi</td>
+<td>[[meh]]<br>heyv</td>
+<td>[[चन्द्र]]</td>
+<td>candra</td>
+<td>[[shon]]</td>
+<td><br>[[chand]]</td>
+<td>мæй</td></tr>
+<tr><td>75</td><td>[[star]]</td>
+<td>setāre</td>
+<td>[[ستاره|سِتارِه]]</td>
+<td>tārā<br>sitārā</td>
+<td>[[तारा]]<br>[[सितारा]]</td>
+<td>[[ستورى]]<br>st̪orai</td>
+<td>[[stêr]]</td>
+<td>[[तारा]]</td>
+<td>tārā</td>
+<td>[[cherhaj]]</td>
+<td><br>[[tāra]]</td>
+<td>стъæлы</td></tr>
+<tr><td>76</td><td>[[water]]</td>
+<td>āb</td>
+<td>[[آب]]</td>
+<td>pānī</td>
+<td>[[पानी]]<br>[[پانی]]</td>
+<td>[[اوبه]]<br>obə</td>
+<td>av</td>
+<td>[[जल]]</td>
+<td>jala</td>
+<td>[[paji]]</td>
+<td><br>[[pāni]]</td>
+<td>дон</td></tr>
+<tr><td>77</td><td>[[rain]]</td>
+<td>bārān</td>
+<td>[[باران]]</td>
+<td>bāriś</td>
+<td>[[बारिश]]<br>[[بارش]]</td>
+<td>[[شيګره ]] <br> [[ʃigara]]</td>
+<td>[[baran]]</td>
+<td>[[वर्ष]]/[[वर्षा]]<br>[[वृष्टि]]<br>[[पर्जन्य]]</td>
+<td>varṣa/varṣā<br>vṛṣṭi<br>parjanya</td>
+<td>[[brishind]]</td>
+<td><br>[[mīnh]]</td>
+<td>къавдæ, уарæн</td></tr>
+<tr><td>78</td><td>[[stone]]</td>
+<td>sang</td>
+<td>[[سنگ|سَنگ]]</td>
+<td>patthar</td>
+<td>[[पत्थर]]<br>[[پتهر]]</td>
+<td>[[کاڼی]]<br>kɑɳai</td>
+<td>[[kevir]]<br>ber</td>
+<td>[[दृषद्]]<br>[[पाषाण]]<br>[[शिला]]<br>[[अश्मन्]]</td>
+<td>dṛṣad<br>pāṣāna<br>śilā<br>aśman</td>
+<td>[[barr]]</td>
+<td><br>[[patthar]]</td>
+<td>дур</td></tr>
+<tr><td>79</td><td>[[sand]]</td>
+<td>māseh</td>
+<td>[[ماسه|ماسِه]]</td>
+<td>ret<br>bālū<br>maṭṭī</td>
+<td>[[रेत]]<br>[[बालू]]<br>[[مٹى]]</td>
+<td>[[شګه]] <br> ʃəga</td>
+<td>[[qum]]<br>rik</td>
+<td>[[वालुका]]</td>
+<td>vālukā</td>
+<td>[[kishaj]]</td>
+<td><br>[[reta]]</td><td></td></tr>
+<tr><td>80</td><td>[[earth]]</td>
+<td>zamin</td>
+<td>[[زمین|زَمین]]</td>
+<td>dhartī<br>bhūmi<br>zamīn</td>
+<td>[[धरती]]<br>[[भूमि]]<br>[[زمین|زَمین]]</td>
+<td>[[ځمکه]] <br> d͡zməka</td>
+<td>[[erd]]<br>xak</td>
+<td>[[भू]]/[[भूमि]]<br>[[पृथ्वी]]<br>[[धरा]]/[[धरित्री]]/[[धरणी]]</td>
+<td>bhū/bhūmi<br>pūśvī<br>dharā/dharitrī/dharaṇī</td>
+<td>[[phuv]]</td>
+<td><br>[[dharti]]</td>
+<td>Зæхх</td></tr>
+<tr><td>81</td><td>[[cloud]]</td>
+<td>abr</td>
+<td>[[ابر|اَبر]]</td>
+<td>bādal</td>
+<td>[[बादल]]<br>[[بادل]]</td>
+<td>[[اوريځ]] </td>
+<td>[[ewr]]</td>
+<td>[[मेघ]]<br>[[अभ्र]]<br>[[जलद]]<br>[[पयोद]]</td>
+<td>megha<br>abhra<br>jalada<br>payoda</td>
+<td>[[noro]]</td>
+<td><br>[[baddal]]</td>
+<td>мигъ</td></tr>
+<tr><td>82</td><td>[[smoke]]</td>
+<td>dud</td><td>[[دود]]</td>
+<td>dhuāṃ</td>
+<td>[[धुंआ]]</td>
+<td>[[لوګی]] <br> lugai </td>
+<td>[[dûxan]]<br>dûkel</td>
+<td>[[धूम]]</td>
+<td>dhūma</td>
+<td>[[thuv]]</td>
+<td><br>[[dhūān]]</td><td></td></tr>
+<tr><td>83</td><td>[[ashes]]</td>
+<td>khākestar</td>
+<td>[[خاکستر|خاکستَر]]</td>
+<td>rākh</td>
+<td>[[राख]]</td>
+<td>[[ايرې]] <br> ire</td>
+<td>[[xwelî]]</td>
+<td>[[भस्मन्]]</td>
+<td>bhasman</td>
+<td>[[ushara]]</td>
+<td><br>[[suāh]]</td><td></td></tr>
+<tr><td>84</td><td>[[burn]]</td>
+<td>suzāndan (tr.)<br>suxtan (intr.)</td>
+<td>[[سوزاندن|سوزاندَن]]<br>[[سوختن|سوختَن]]</td>
+<td>jalnā (intr.)<br>jalānā (tr.)</td>
+<td>[[जलना]]<br>[[जलाना]]<br>[[جلنا]]<br>[[جلانا]]</td>
+<td>[[سوځېدل]] / [[سېځل]] <br> swad͡zawəl / sed͡zəl</td>
+<td>[[şewtî]]<br>sotîn</td>
+<td>[[दह्]]<br>[[ज्वल्]]</td>
+<td>dah<br>jyal</td>
+<td>[[phabol]]</td>
+<td><br>[[sārna]]</td>
+<td>судзын</td></tr>
+<tr><td>85</td><td>[[road]]</td>
+<td>rāh<br>jāde<br>khiābān</td>
+<td>[[راه]]</td>
+<td>saṛak</td>
+<td>[[सड़क]]<br>[[سڑک]]</td>
+<td>[[لار]] <br> lɑr</td>
+<td>[[rê]]</td>
+<td>[[पथ]]/[[पथन्]]<br>[[मार्ग]]</td>
+<td>patha/pathan<br>mārga</td>
+<td>[[drom]]</td>
+<td><br>[[sarak]]</td>
+<td>фæндаг</td></tr>
+<tr><td>86</td><td>[[mountain]]</td>
+<td>kuh</td>
+<td>[[کوه]]</td>
+<td>pahāṛ</td>
+<td>[[पहाड़]]<br>[[پہاڑ]]</td>
+<td>[[غر]] <br> γar</td>
+<td>[[çiya]]<br>sax</td>
+<td>[[पर्वत]]<br>[[गिरि]]<br>[[शैल]]</td>
+<td>parvata<br>giri<br>śaila</td>
+<td>[[plaj]]</td>
+<td><br>[[pahār]]</td>
+<td>хох</td></tr>
+<tr><td>87</td><td>[[red]]</td>
+<td>qermez<br>sorkh</td>
+<td>[[قرمز|قِرمِز]]<br>[[سرخ|سُرخ]]</td>
+<td>lāl</td>
+<td>[[लाल]]<br>[[لال]]</td>
+<td>[[سور]] <br> sur</td>
+<td>[[sor]]</td>
+<td>[[लोहित]]<br>[[रक्त]]<br>[[रोहित]]</td>
+<td>lohita<br>rakta<br>rohita</td>
+<td>[[lolo]]</td>
+<td><br>[[lāl]]</td>
+<td>сырх</td></tr>
+<tr><td>88</td><td>[[green]]</td>
+<td>sabz</td>
+<td>[[سبز|سَبز]]</td>
+<td>harā</td>
+<td>[[हरा]]<br>[[هرا]]</td>
+<td>[[شين]] <br> ʃin</td>
+<td>[[hêşîn]]<br>kesk</td>
+<td>[[हरि]]/[[हरित]]</td>
+<td>hari/harita</td>
+<td>[[zeleno]]</td>
+<td><br>[[hara]]</td>
+<td>цъæх, кæрдæгхуыз</tr>
+<tr><td>89</td><td>[[yellow]]</td>
+<td>zard</td>
+<td>[[زرد|زَرد]]</td>
+<td>pīlā</td>
+<td>[[पीला]]<br>[[پیلا]]</td>
+<td>[[زېړ]] / [[ژېړ]] <br> zeɽ / ʒeɽ</td>
+<td>[[zer]]</td>
+<td>[[पीत]]</td>
+<td>pīta</td>
+<td>[[galbeno]]</td>
+<td><br>[[pīla]]</td><td></td></tr>
+<tr><td>90</td><td>[[white]]</td>
+<td>sefid</td>
+<td>[[سفید|سِفید]]</td>
+<td>safed</td>
+<td>[[सफ़ेद]]<br>[[سِفید]]</td>
+<td>[[سپين]] <br> spin</td>
+<td>[[spî]]</td>
+<td>[[श्वेत]]<br>[[पाण्डु]]<br>[[शुभ्र]]</td>
+<td>śveta<br>pāṇḍu<br>śubhra</td>
+<td>[[parno]]</td>
+<td><br>[[chitta]]</td>
+<td>урс</td></tr>
+<tr><td>91</td><td>[[black]]</td>
+<td>siāh</td>
+<td>[[سیاه]]</td>
+<td>kālā</td>
+<td>[[काला]]<br>[[کالا]]</td>
+<td>[[تور]] <br> t̪or</td>
+<td>[[reş]]</td>
+<td>[[कृष्ण]]<br>[[काल]]<br>[[श्याम]]</td>
+<td>kṛṣṇa<br>kāla<br>śyāma</td>
+<td>[[kalo]]</td>
+<td><br>[[kāla]]</td>
+<td>сау</td></tr>
+<tr><td>92</td><td>[[night]]</td>
+<td>shab</td>
+<td>[[شب|شَب]]</td>
+<td>rāt/rātri</td>
+<td>[[रात]]/[[रात्रि]]<br>[[رات]]</td>
+<td>[[شپه]] <br> ʃpa</td>
+<td>[[şev]]</td>
+<td>[[रात्रि]]<br>[[रजनी]]<br>[[निश्]]<br>[[नक्त]]</td>
+<td>rātri<br>rajanī<br>niś<br>nakta</td>
+<td>[[ratyi]]</td>
+<td><br>[[rāt]]</td>
+<td>æхсæв</td></tr>
+<tr><td>93</td><td>[[warm]]</td>
+<td>garm</td>
+<td>[[گرم|گَرم]]</td>
+<td>garam</td>
+<td>[[गरम]]<br>[[گرم]]</td>
+<td>[[تود]] <br> t̪awd̪</td>
+<td>[[germ]]</td>
+<td>[[उष्ण]]</td>
+<td>uṣṇa</td>
+<td>[[tato]]</td>
+<td><br>[[garam]]</td>
+<td>хъарм</td></tr>
+<tr><td>94</td><td>[[cold]]</td>
+<td>sard</td>
+<td>[[سرد|سَرد]]</td>
+<td>ṭhaṇḍā</td>
+<td>[[ठंडा]]<br>[[ٹهنڈا]]</td>
+<td>[[يخ]] <br> jax </td>
+<td>[[sar]]</td>
+<td>[[शीत]]</td>
+<td>śīta</td>
+<td>[[shudro]]</td>
+<td><br>[[thanda]]</td>
+<td>уазал</td></tr>
+<tr><td>95</td><td>[[full]]</td>
+<td>pur</td>
+<td>[[پر|پُر]]</td>
+<td>pūrā</td>
+<td>[[पूरा]]<br>[[پورا]]</td>
+<td>[[پوره]] <br> pura</td>
+<td>[[tijî]]<br>pirr</td>
+<td>[[पूर्ण]]<br>[[तृप्त]]</td>
+<td>pūrṇa<br>tṛpta</td>
+<td>[[pherdo]]</td>
+<td><br>[[pūra]]</td>
+<td>йедзаг</td></tr>
+<tr><td>96</td><td>[[new]]</td>
+<td>now<br>tāze</td>
+<td>[[نو|نَو]]<br>[[تازه|تازِه]]</td>
+<td>nayā</td>
+<td>[[नया]]<br>[[نیا]]</td>
+<td>[[نوی]] <br> nəwai</td>
+<td>[[nû]]</td>
+<td>[[नव]]<br>[[नूतन]]<br>[[नवीन]]</td>
+<td>nava<br>nūtana<br>navīna</td>
+<td>[[nyevo]]</td>
+<td><br>[[navān]]</td>
+<td>нæуæг</td></tr>
+<tr><td>97</td><td>[[good]]</td>
+<td>khub</td>
+<td>[[خوب]]</td>
+<td>acchā</td>
+<td>[[अच्छा]]<br>[[اچها]]</td>
+<td>[[ښه]] <br> xə/ʂə</td>
+<td>qenc<br>baş<br>rind</td>
+<td>[[साधु]]<br>[[शुभ]]<br>[[सत्]]<br>[[भद्र]]</td>
+<td>sādhu<br>śubha<br>sat<br>bhadra</td>
+<td>[[lasho]]</td>
+<td><br>[[changa]]</td>
+<td>Хорз</td></tr>
+<tr><td>98</td><td>[[round]]</td>
+<td>gerd</td>
+<td>[[گرد|گِرد]]</td>
+<td>gol</td>
+<td>[[गोल]]<br>[[گول]]</td>
+<td>[[غونډ]] <br> ɤwəŋɖ</td>
+<td>[[girover]]</td>
+<td>[[मण्डल]]<br>[[वर्तुल]]</td>
+<td>maṇḍala<br>vartula</td>
+<td>[[oblo]]</td>
+<td><br>[[gol]]</td>
+<td>тъымбыл</td></tr>
+<tr><td>99</td><td>[[dry]]</td>
+<td>khoshk</td>
+<td>[[خشک|خُشک]]</td>
+<td>sūkhā</td>
+<td>[[सूखा]]<br>[[سوکها]]</td>
+<td>[[وچ]] <br> wәt͡ʃ</td>
+<td>[[zuha]]</td>
+<td>[[शुष्क]]</td>
+<td>śuṣka</td>
+<td>[[shuko]]</td>
+<td><br>[[sukka]]</td><td></td></tr>
+<tr><td>100</td><td>[[name]]</td>
+<td>nām<br>esm</td>
+<td>[[نام]]<br>[[اسم|اِسم]]</td>
+<td>nām</td>
+<td>[[नाम]]<br>[[نام]]</td>
+<td>[[نوم]] <br> num</td>
+<td>nav</td>
+<td>[[नामन्]]<br>[[नाम]]</td>
+<td>nāman<br>nāma</td>
+<td>[[anav]]</td>
+<td><br>[[nām]]</td>
+<td>ном</td></tr>
+</table>
+
+===List 2===
+A special thanks to the
+[http://www.humnet.ucla.edu/languagesofla/default.htm Languages of Los Angeles project]
+for providing a base on which to add the words below for Farsi.
+
+<table class="wikitable" border=1>
+<tr>
+  <th i=X1>No.</th>
+  <th c=EN>English</th>
+  <th c=FA>[[Farsi]]/[[Persian]]</th>
+  <th c=HI>[[Hindi]]</th>
+  <th c=03>[[Bengali]]</th>
+  <th c=04>[[Romani]]</th>
+  <th c=05>[[Tajik]]</th>
+  <th c=06>[[Central Kurdish]]/[[Sorani]]</th>
+  <th c=MZN>[[Mazandarani]]<br /><small>(Tabari)</small></th>
+  <th c=07>[[Punjabi]]<ref>Since Punjabi is a tonal language, the high (falling) and low (rising) tones are denoted by grave and acute accents respectively.</ref></th>
+  <th c=08>[[Urdu]]</th>
+  <th c=NE>[[Nepali]]</th>
+  <th c=GU>[[Gujarati]]</th>
+  <th c=DIQ>[[Zazaki]]</th>
+</tr>
+<tr>
+  <td i=X1>1</td>
+  <td c=EN>[[I]]</td>
+  <td c=FA>[[من ]]<br>[[man]]    </td>
+  <td c=HI>[[मैं]]<br>maĩ</td>
+  <td c=03>[[আমি]]<br>ami</td>
+  <td c=04>[[me]]</td>
+  <td c=05>[[ман]]</td>
+  <td c=06>[[min]]</td>
+  <td c=MZN> أ/مِن<br>A/men</td>
+  <td c=07>[[ਮੈਂ]]<br>mẽ</td>
+  <td c=08>[[میں]]<br>maĩ</td>
+  <td c=NE>[[म]]<br>ma</td>
+  <td c=HI>[[હું]]<br>huṁ</td>
+  <td c=09>[[Ez|ez]]</td>
+</tr>
+<tr>
+  <td i=X1>2</td>
+  <td c=EN>[[you]]</td>
+  <td c=FA>  [[تو]]<br>[[to]]   </td>
+  <td c=HI>[[तू]], [[तुम]], [[आप]]<br>tū, tum, āp</td>
+  <td c=03>[[তুই]], [[তুমি]], [[আপনি]]<br>tui, tumi, apni</td>
+  <td c=04>[[tu]]</td>
+  <td c=05>[[ту]]</td>
+  <td c=06>[[to]]</td>
+  <td c=MZN>ته<br>te</td>
+  <td c=07>[[ਤੂੰ]], [[ਤੁਸੀਂ]]<br>tū̃, tusī̃</td>
+  <td c=08>[[تو]],[[ تُم]],[[آپ]]<br>tū, tum, āp</td></td>
+  <td c=NE>[[तिमी]],[[तँ]], [[तपाई]]</td>
+  <td c=GU>[[તું]], [[તમે]], [[આપ]]<br>tuṁ, tame, āp</td>
+  <td c=DIQ>[[Tı|tı]]</td>
+</tr>
+<tr>
+  <td i=X1>3</td>
+  <td c=EN>[[he]]</td>
+  <td c=FA>[[او]]<br>[[u]]     </td>
+  <td c=HI>[[वह]]<br>vah</td>
+  <td c=03>[[সে]]<br>she</td>
+  <td c=04>[[voj]]</td>
+  <td c=05>[[вай]]</td>
+  <td c=06>[[ew]]</td>
+  <td c=MZN>وه<br>ve</td>
+  <td c=07>[[ਉਹ]]<br>ṓ</td>
+  <td c=08>[[وہ]]<br>vo</td>
+  <td c=NE>[[उ]],[[उहाँ]]</td>
+  <td c=GU>[[તે]]<br>te</td>
+  <td c=DIQ>[[O|o]] (he), [[A|a]] (she)</td>
+</tr>
+<tr>
+  <td i=X1>4</td>
+  <td c=EN>[[we]]</td>
+  <td c=FA>[[ما]]<br>[[må]]     </td>
+  <td c=HI>[[हम]]<br>ham</td>
+  <td c=03>[[আমরা]]<br>amra</td>
+  <td c=04>[[ame]]</td>
+  <td c=05>[[мо]]</td>
+  <td c=06>[[ême]]</td>
+  <td c=MZN>اِما<br>'ema</td>
+  <td c=07>[[ਅਸੀਂ]], [[ਆਪਾਂ]]<br>asī̃, āpā̃</td>
+  <td c=08>[[ہم]]<br>ham</td>
+  <td c=NE>[[हामी]]</td>
+  <td c=GU>[[અમે]], [[આપણે]]<br>ame, āpaṇe</td>
+  <td c=DIQ>[[Ma|ma]]</td>
+</tr>
+<tr>
+  <td i=X1>5</td>
+  <td c=EN>[[you]]</td>
+  <td c=FA>[[شما]]<br>[[shomå]]     </td>
+  <td c=HI>[[तू]], [[तुम]], [[आप]] <br>tū, tum, āp</td>
+  <td c=03>[[তোরা]], [[তোমরা]], [[আপনারা]]<br>tora, tomra, apnara</td>
+  <td c=04>[[tume]]</td>
+  <td c=05>[[шумо]]</td>
+  <td c=06>[[êwe]]</td>
+  <td c=MZN>شِما<br>Šemà</td>
+  <td c=07>[[ਤੂੰ]]/[[ਤੁਸੀਂ]]<br>tū̃, tusī̃</td>
+  <td c=08>[[تو]],[[ تُم]],[[آپ]]<br>tū, tum, āp</td>
+  <td c=NE>[[तिमी]],[[तँ]], [[तपाई]]</td>
+  <td c=GU>[[તું]], [[તમે]], [[આપ]]<br>tuṁ, tame, āp</td>
+  <td c=DIQ>[[Şıma|şıma]]</td>
+</tr>
+<tr>
+  <td i=X1>6</td>
+  <td c=EN>[[they]]</td>
+  <td c=FA>[[ایشان ]]<br> ishån     </td>
+  <td c=HI>[[वे]]<br>vē</td>
+  <td c=03>[[তারা]]<br>tara</td>
+  <td c=04>[[von]]</td>
+  <td c=05>[[онҳо]]</td>
+  <td c=06>[[ewan]]</td>
+  <td c=MZN>وِشون<br>Vešun</td>
+  <td c=07>[[ਉਹ]]<br>ṓ</td>
+  <td c=08>[[وہ]]<br>vo</td>
+  <td c=NE>[[तिनीहरू]], [[उनीहरू]]</td>
+  <td c=GU>[[તે]], [[તેઓ]]<br>te, teo</td>
+  <td c=DIQ>[[Ê|ê, i]]</td>
+</tr>
+<tr>
+  <td i=X1>7</td>
+  <td c=EN>[[this]]</td>
+  <td c=FA>[[این]] <br> in </td>
+  <td c=HI>[[यह]]<br>yah</td>
+  <td c=03>[[এ]]<br>e</td>
+  <td c=04>[[kado]]</td>
+  <td c=05>[[ин]]</td>
+  <td c=06>[[em]]</td>
+  <td c=MZN>اینتا/ارینه<br>Intà/arine</td>
+  <td c=07>[[ਇਹ]]<br>ḗ</td>
+  <td c=08>[[یہ]]<br>ye</td>
+  <td c=NE>[[यो]]</td>
+  <td c=GU>[[આ]]<br>ā</td>
+  <td c=DIQ>[[No]] (masculine), [[Na]] (feminine)</td>
+</tr>
+<tr>
+  <td i=X1>8</td>
+  <td c=EN>[[that]]</td>
+  <td c=FA>[[آن]] <br> ån</td>
+  <td c=HI>[[वह]]<br>vah</td>
+  <td c=03>[[ও]]<br>o</td>
+  <td c=04>[[kodo]]</td>
+  <td c=05>[[он]]</td>
+  <td c=06>[[ew]]</td>
+  <td c=MZN>اونتا/أرونه<br>'Untà/arune</td>
+  <td c=07>[[ਉਹ]]<br>ṓ</td>
+  <td c=08>[[وہ]]<br>vo</td>
+  <td c=NE>[[त्यो]]</td>
+  <td c=GU>[[પેલું]]<br>peluṁ</td>
+  <td c=DIQ>[[Eno]] (masculine), [[Eno]] (feminine)</td>
+</tr>
+<tr>
+  <td i=X1>9</td>
+  <td c=EN>[[here]]</td>
+  <td c=FA>[[اینجا]]<br>injå</td>
+  <td c=HI>[[यहाँ]]<br>yahā̃</td>
+  <td c=03>[[এখান]]<br>ekhan</td>
+  <td c=04>[[kathe]]</td>
+  <td c=05>[[инҷо]]</td>
+  <td c=06>[[êre]]</td>
+  <td c=MZN>اینجه<br>inje</td>
+  <td c=07>[[ਇੱਥੇ]]/[[ਏਥੇ]]<br>ēthē</td>
+  <td c=08>[[ہیاں]]<br>yahā̃</td>
+  <td c=NE>[[यहाँ]]</td>
+  <td c=GU>[[અહિં]]<br>ahiṁ</td>
+  <td c=DIQ>[[İnca|inca]]</td>
+</tr>
+<tr>
+  <td i=X1>10</td>
+  <td c=EN>[[there]]</td>
+  <td c=FA>[[آنجا]]<br>ånjå</td>
+  <td c=HI>[[वहाँ]]<br>vahā̃/td>
+  <td c=03>[[ওখান]]<br>okhan</td>
+  <td c=04>[[kothe]]</td>
+  <td c=05>[[онҷо]]</td>
+  <td c=06>[[ewê]]</td>
+  <td c=MZN>اونجه<br>'unje</td>
+  <td c=07>[[ਉੱਥੇ]]/[[ਓਥੇ]]<br>ōthē</td>
+  <td c=08>[[وہاں]]<br>vahā̃</td>
+  <td c=NE>[[त्यहाँ]]</td>
+  <td c=GU>[[ત્યાં]]<br>tyā̃</td>
+  <td c=DIQ>[[Uca|uca]]</td>
+</tr>
+<tr>
+  <td i=X1>11</td>
+  <td c=EN>[[who]]</td>
+  <td c=FA>[[کی]]<br>ki</td>
+  <td c=HI>[[कौन]]<br>kaun</td>
+  <td c=03>[[কে]]<br>ke</td>
+  <td c=04>[[kon]]</td>
+  <td c=05>[[кӣ]]</td>
+  <td c=06>[[kê]]</td>
+  <td c=MZN>کی<br>ki</td>
+  <td c=07>[[ਕੌਣ]]</td>
+  <td c=08>[[کون]]<br>kaun</td>
+  <td c=NE>[[को]]</td>
+  <td c=GU>[[કોણ]]<br>koṇ</td>
+  <td c=DIQ>[[Kam|kam]]</td>
+</tr>
+<tr>
+  <td i=X1>12</td>
+  <td c=EN>[[what]]</td>
+  <td c=FA>[[چی]]<br>chi</td>
+  <td c=HI>[[क्या]]<br>kyā</td>
+  <td c=03>[[কী]]<br>ki</td>
+  <td c=04>[[so]]</td>
+  <td c=05>[[чӣ]]</td>
+  <td c=06>[[çî]]</td>
+  <td c=MZN>چی/چِچی<br>ci/ceci</td>
+  <td c=07>[[ਕੀ]]</td>
+  <td c=08>[[کیا]]<br>kyā</td>
+  <td c=NE>[[के]]</td>
+  <td c=GU>[[શું]]<br>shuṁ</td>
+  <td c=DIQ>[[Çıçı|çıçı, çı]] [[se]]
+</tr>
+<tr>
+  <td i=X1>13</td>
+  <td c=EN>[[where]]</td>
+  <td c=FA>[[کجا]]<br>kojå</td>
+  <td c=HI>[[किधर]], [[कहाँ]]<br>kidhar, kahān</td>
+  <td c=03>[[কোথায়]], [[কৈ]]<br>kothae, koi</td>
+  <td c=04>[[kaj]]</td>
+  <td c=05>[[куҷо]]</td>
+  <td c=06>[[kwê]]</td>
+  <td c=MZN>کاجه<br>kaje</td>
+  <td c=07>[[ਕਿੱਥੇ]], [[ਕਿੱਧਰ]]</td>
+  <td c=08>[[کدھر]], [[کہاں]]<br>kidhar, kahān</td>
+  <td c=NE>[[कहाँ]]</td>
+  <td c=GU>[[ક્યાં]]<br>kyaṁ</td>
+  <td c=DIQ>[[Kanca|kanca]]
+</tr>
+<tr>
+  <td i=X1>14</td>
+  <td c=EN>[[when]]</td>
+  <td c=FA>[[کی]]<br>key</td>
+  <td c=HI>[[कब]]<br>kab</td>
+  <td c=03>[[কখন]]/[[কবে]]<br>kôkhon/kôbe</td>
+  <td c=04>[[kana]]</td>
+  <td c=05>[[кай]]</td>
+  <td c=06>[[key]]</td>
+  <td c=MZN>که<br>key</td>
+  <td c=07>[[ਕਦੋਂ]]</td>
+  <td c=08>[[کب]]<br>kab</td>
+  <td c=NE>[[कहिले]]</td>
+  <td c=GU>[[ક્યારે]]<br>kyare</td>
+  <td c=DIQ>[[Çı wext|çı wext]]
+</tr>
+<tr>
+  <td i=X1>15</td>
+  <td c=EN>[[how]]</td>
+  <td c=FA>[[چطور]]<br>chetowr</td>
+  <td c=HI>[[कैसा]]<br>kaisā</td>
+  <td c=03>[[কেমন]]/[[কেমনে]]<br>kêmon/kêmne</td>
+  <td c=04>[[sar]]</td>
+  <td c=05>[[чӣ тавр]]</td>
+  <td c=06>[[çon]]</td>
+  <td c=MZN>چِتی<br>cheti</td>
+  <td c=07>[[ਕਿਵੇਂ]], [[ਕਿੱਦਾਂ]]</td>
+  <td c=08>[[کیسا]]<br>kaisā</td>
+  <td c=NE>[[कसरी]]</td>
+  <td c=GU>[[કેવી રીતે]]<br>kevi rite</td>
+  <td c=DIQ>[[Senin/Çıtewri|Senin, seni, çıtewri]]
+</tr>
+<tr>
+  <td i=X1>16</td>
+  <td c=EN>[[not]]</td>
+  <td c=FA>[[نه]]<br>na</td>
+  <td c=HI>[[नहीं]]<br>nahī̃</td>
+  <td c=03>[[না]]/[[নি]]/[[নেই]]<br>na/ni/nei</td>
+  <td c=04>[[na]]</td>
+  <td c=05>[[не]]</td>
+  <td c=06>[[na]]</td>
+  <td c=MZN>/هه/نا<br>Ná/he</td>
+  <td c=07>[[ਨਹੀਂ]], [[ਨਾ]]</td>
+  <td c=08>[[نه کہ]]<br>na ke</td>
+  <td c=NE>[[हैन]],[[नाइँ]]</td>
+  <td c=GU>[[નહિ]],[[નહી]],[[નથી]]<br>nahī,nahi,nathī</td>
+  <td c=DIQ>[[Nê]]
+</tr>
+<tr>
+  <td i=X1>17</td>
+  <td c=EN>[[all]]</td>
+  <td c=FA>[[همه]]<br>hame</td>
+  <td c=HI>[[सब]]/[[सारा]]<br>sab/sārā</td>
+  <td c=03>[[সব]]/[[সারা]]<br>shôb/shara</td>
+  <td c=04>[[sa]]</td>
+  <td c=05>[[ҳама]]</td>
+  <td c=06>[[hemû]]</td>
+  <td c=MZN>دشت<br>dæšt</td>
+  <td c=07>[[ਸਾਰਾ]]/[[ਸਭ]]</td>
+  <td c=08>[[سب]]/[[سارا]]<br>sab/sārā</td>
+  <td c=NE>[[सबै]]</td>
+  <td c=GU></td><td c=DIQ>[[Pêro|pêro]]
+</tr>
+<tr>
+  <td i=X1>18</td>
+  <td c=EN>[[many]]</td>
+  <td c=FA>[[زیاد]]/[[چندین]]<br> chandin/ziåd</td>
+  <td c=HI>[[بہت]]/[[ज़्यादा]]<br>bahut/zyādā</td>
+  <td c=03>[[বহু]]/[[অনেক]]<br>bohu/ônek</td>
+  <td c=04>[[but]]</td>
+  <td c=05>[[бисёр]]</td>
+  <td c=06>[[zor]]</td>
+  <td c=MZN>خله<br>xale</td>
+  <td c=07>[[ਬਹੁਤ]], [[ਕਈ]]</td>
+  <td c=08>[[بہت]]/[[زیادہ]]<br>bahut/ziyādā</td>
+  <td c=NE>[[धेरै]]</td>
+  <td c=GU></td><td c=DIQ>[[Zaf|Zaf, xeylê]]
+</tr>
+<tr>
+  <td i=X1>19</td>
+  <td c=EN>[[some]]</td>
+  <td c=FA>[[برخی]]<br>barkhi</td>
+  <td c=HI>[[कुछ]]<br>kuch</td>
+  <td c=03>[[কিছু]]<br>kichu</td>
+  <td c=04>[[unyi]]</td>
+  <td c=05>[[бархе, ba'ze]]</td>
+  <td c=06>[[hendêk]]</td>
+  <td c=MZN>بعضیون<br>Baèziun</td>
+  <td c=07>[[ਕੁਝ]]</td>
+  <td c=08>[[کچھ]]<br>kuch</td>
+  <td c=NE>[[केही]]</td>
+  <td c=GU></td><td c=DIQ>[[Tayn|tayn]]
+</tr>
+<tr>
+  <td i=X1>20</td>
+  <td c=EN>[[few]]</td>
+  <td c=FA>[[اندک]]<br>andak</td>
+  <td c=HI>[[थोड़ा]]<br>thoṛā</td>
+  <td c=03>[[অল্প]]<br>ôlpo</td>
+  <td c=04>[[cerra]]</td>
+  <td c=05>[[андак]]</td>
+  <td c=06>[[kem]]</td>
+  <td c=MZN>پریک<br>Perik</td>
+  <td c=07>[[ਥੋੜ੍ਹਾ]]</td>
+  <td c=08>[[تھوڑا]]<br>thoṛā</td>
+  <td c=NE>[[थोरै]]</td>
+  <td c=GU></td><td c=DIQ>[[Kemi|Kemi]]
+</tr>
+<tr>
+  <td i=X1>21</td>
+  <td c=EN>[[other]]</td>
+  <td c=FA>[[دیگر]]<br>digar</td>
+  <td c=HI>[[दूसरा]]<br>dūsrā</td>
+  <td c=03>[[অন্য]]<br>onno</td>
+  <td c=04>[[kaver]]</td>
+  <td c=05>[[дигар]]</td>
+  <td c=06>[[dîke]]</td>
+  <td c=MZN>دِی/دی‌یه<br>Dey/diye</td>
+  <td c=07>[[ਹੋਰ]]</td>
+  <td c=08>[[دیگر]]<br>diigar</td>
+  <td c=NE>[[अन्य]], [[अरू]]</td>
+  <td c=GU></td><td c=DIQ>[[Bin|bin]]
+</tr>
+<tr>
+  <td i=X1>22</td>
+  <td c=EN>[[one]]</td>
+  <td c=FA>[[یک]]<br>yek</td>
+  <td c=HI>[[एक]]<br>ēk</td>
+  <td c=03>[[এক]]<br>êk</td>
+  <td c=04>[[jekh]]</td>
+  <td c=05>[[як]]</td>
+  <td c=06>[[yek]]</td>
+  <td c=MZN>اتا/یتا<br>attä/yattä</td>
+  <td c=07>[[ਇੱਕ]]</td>
+  <td c=08>[[ایک]]<br>ēk</td>
+  <td c=NE>[[एक]]</td>
+  <td c=GU></td><td c=DIQ>[[Jü|jü, jew, yew]]
+</tr>
+<tr>
+  <td i=X1>23</td>
+  <td c=EN>[[two]]</td>
+  <td c=FA>[[دو]]<br>do</td>
+  <td c=HI>[[दो]]<br>dō</td>
+  <td c=03>[[দুই]]<br>dui</td>
+  <td c=04>[[duj]]</td>
+  <td c=05>[[ду]]</td>
+  <td c=06>[[dû]]</td>
+  <td c=MZN>دِ<br>de</td>
+  <td c=07>[[ਦੋ]]</td>
+  <td c=08>[[دو]]<br>dō</td>
+  <td c=NE>[[दुई]]</td>
+  <td c=GU></td><td c=DIQ>[[Dı|dı]]
+</tr>
+<tr>
+  <td i=X1>24</td>
+  <td c=EN>[[three]]</td>
+  <td c=FA>[[سه]]<br>se</td>
+  <td c=HI>[[तीन]]<br>tīn</td>
+  <td c=03>[[তিন]]<br>tin</td>
+  <td c=04>[[trin]]</td>
+  <td c=05>[[се]]</td>
+  <td c=06>[[sê]]</td>
+  <td c=MZN>سه<br>se</td>
+  <td c=07>[[ਤਿੰਨ]]</td>
+  <td c=08>[[تین]]<br>tīn</td>
+  <td c=NE>[[तिन]]</td>
+  <td c=GU></td><td c=DIQ>[[Hiri|hri, Hirê]]
+</tr>
+<tr>
+  <td i=X1>25</td>
+  <td c=EN>[[four]]</td>
+  <td c=FA>[[چهار]]<br>chahår</td>
+  <td c=HI>[[चार]]<br>chār</td>
+  <td c=03>[[চার]]<br>car</td>
+  <td c=04>[[shtar]]</td>
+  <td c=05>[[чаҳор]]</td>
+  <td c=06>[[çwar]]</td>
+  <td c=MZN>بِر<br>Ber</td>
+  <td c=07>[[ਚਾਰ]]</td>
+  <td c=08>[[چار]]<br>chār</td>
+  <td c=NE>[[चार]]</td>
+  <td c=GU></td><td c=DIQ>[[Çahar|çehar, çahar]]
+</tr>
+<tr>
+  <td i=X1>26</td>
+  <td c=EN>[[five]]</td>
+  <td c=FA>[[پنج]]<br>panj</td>
+  <td c=HI>[[पाँच]]<br>pā̃c</td>
+  <td c=03>[[পাঁচ]]<br>pãc</td>
+  <td c=04>[[panzh]]</td>
+  <td c=05>[[панҷ]]</td>
+  <td c=06>[[pênc]]</td>
+  <td c=MZN>پِنج<br>Penj</td>
+  <td c=07>[[ਪੰਜ]]</td>
+  <td c=08>[[پانچ]]<br>pā̃c</td>
+  <td c=NE>[[पाँच]]</td>
+  <td c=GU></td><td c=DIQ>[[Ponc|ponc, panc, phonç]]
+</tr>
+<tr>
+  <td i=X1>27</td>
+  <td c=EN>[[big]]</td>
+  <td c=FA>[[بزرگ]] <br>bozorg</td>
+  <td c=HI>[[बड़ा]]<br>baṛā</td>
+  <td c=03>[[বড়]]<br>bôṛo</td>
+  <td c=04>[[baro]]</td>
+  <td c=05>[[бузург, kalon]]</td>
+  <td c=06>[[gewre]]</td>
+  <td c=MZN>گَت<br>gat</td>
+  <td c=07>[[ਵੱਡਾ]]</td>
+  <td c=08>[[بڑا]]<br>baṛā</td>
+  <td c=NE>[[ठुलो]]</td>
+  <td c=GU></td><td c=DIQ>[[Gırd|gırd, pil]]
+</tr>
+<tr>
+  <td i=X1>28</td>
+  <td c=EN>[[long]]</td>
+  <td c=FA>[[بلند]] <br> boland</td>
+  <td c=HI>[[लम्बा]]<br>lambā</td>
+  <td c=03>[[লম্বা]]<br>lômba</td>
+  <td c=04>[[lungo]]</td>
+  <td c=05>[[дароз]]</td>
+  <td c=06>[[drêj]]</td>
+  <td c=MZN>دراز<br>Deráz</td>
+  <td c=07>[[ਲੰਮਾ]]</td>
+  <td c=08>[[لمبا]]<br>lambā</td>
+  <td c=NE>[[लामो]]</td>
+  <td c=GU></td><td c=DIQ>[[Derg|derg]]
+</tr>
+<tr>
+  <td i=X1>29</td>
+  <td c=EN>[[wide]]</td>
+  <td c=FA>[[پهن]] <br> pahn</td>
+  <td c=HI>[[चौड़ा]]<br>chauṛā</td>
+  <td c=03>[[চওরা]]<br>côora</td>
+  <td c=04>[[bulyho]]</td>
+  <td c=05>[[васеъ]]</td>
+  <td c=06>[[pan]]</td>
+  <td c=MZN>پَن<br>pan</td>
+  <td c=07>[[ਮੋਕਲਾ]], [[ਚੌੜਾ]]</td>
+  <td c=08>[[چوڑا]]<br>chauṛā</td>
+  <td c=NE>[[फराकिलो]],[[चौडा]]</td>
+  <td c=GU></td><td c=DIQ>[[Hera|hera]]
+</tr>
+<tr>
+  <td i=X1>30</td>
+  <td c=EN>[[thick]]</td>
+  <td c=FA>[[کلفت]] <br>koloft </td>
+  <td c=HI>[[गाढ़ा]]<br>gāṛhā</td>
+  <td c=03>[[মোটা]]<br>moṭa</td>
+  <td c=04>[[thulo]]</td>
+  <td c=05>[[ғафс]]</td>
+  <td c=06>[[estûr]]</td>
+  <td c=MZN>کالفت<br>kaleft</td>
+  <td c=07>[[ਮੋਟਾ]], [[ਗਾੜ੍ਹਾ]]</td>
+  <td c=08>[[گاڑھا]]<br>gāṛhā</td>
+  <td c=NE>[[मोटो]]</td>
+  <td c=GU></td><td c=DIQ>[[Dik|dik]]
+</tr>
+<tr>
+  <td i=X1>31</td>
+  <td c=EN>[[heavy]]</td>
+  <td c=FA>[[سنگین]]<br>sangin</td>
+  <td c=HI>[[भारी]]<br>bhārī</td>
+  <td c=03>[[ভারী]]<br>bhari</td>
+  <td c=04>[[pharo]]</td>
+  <td c=05>[[вазнин]]</td>
+  <td c=06>[[qurs]]</td>
+  <td c=MZN>سنگین<br>sangin</td>
+  <td c=07>[[ਭਾਰਾ]], [[ਬੋਝਲ]]</td>
+  <td c=08>[[بھاری]]<br>bhārī</td>
+  <td c=NE>[[गह्रौं]],[[भारी]]</td>
+  <td c=GU></td><td c=DIQ>[[Hedi|hedi]]
+</tr>
+<tr>
+  <td i=X1>32</td>
+  <td c=EN>[[small]]</td>
+  <td c=FA>[[کوچک]] <br>kuchak</td>
+  <td c=HI>[[छोटा]]<br>choṭā</td>
+  <td c=03>[[ছোট]]<br>choṭo</td>
+  <td c=04>[[cino]]</td>
+  <td c=05>[[хурд]]</td>
+  <td c=06>[[biçûk]]</td>
+  <td c=MZN>پچوک<br>Pecuk</td>
+  <td c=07>[[ਛੋਟਾ]]</td>
+  <td c=08>[[چھوٹا]]<br>choṭā</td>
+  <td c=NE>[[सानो]]</td>
+  <td c=GU></td><td c=DIQ>[[Qıtek|qıtek]]
+</tr>
+<tr>
+  <td i=X1>33</td>
+  <td c=EN>[[short]]</td>
+  <td c=FA>[[کوتاه]]<br>kutåh </td>
+  <td c=HI>[[संक्षिप्त]]<br>sankshipt</td>
+  <td c=03>[[বেঠে]]<br>beṭhe</td>
+  <td c=04>[[skurto]]</td>
+  <td c=05>[[кӯтоҳ]]</td>
+  <td c=06>[[kurt]]</td>
+  <td c=MZN>کال<br>Kàl</td>
+  <td c=07>[[ਮਧਰਾ]]</td>
+  <td c=08>[[مختصر]]<br>mukhtsar</td>
+  <td c=NE>[[छोटो]]</td>
+  <td c=GU></td><td c=DIQ>[[Kılm|kılm]]
+</tr>
+<tr>
+  <td i=X1>34</td>
+  <td c=EN>[[narrow]]</td>
+  <td c=FA>[[تنگ]]<br>tang</td>
+  <td c=HI>[[तंग]]<br>tang</td>
+  <td c=03>[[চিপা]]<br>cipa</td>
+  <td c=04>[[tang]]</td>
+  <td c=05>[[танг]]</td>
+  <td c=06>[[tesk]], [[teng]]</td>
+  <td c=MZN>زِغ<br>Zeʁ </td>
+  <td c=07>[[ਭੀੜਾ]], [[ਤੰਗ]]</td>
+  <td c=08>[[تنگ]]<br>tang</td>
+  <td c=NE>[[साँघुरो]]</td>
+  <td c=GU></td><td c=DIQ>[[Nık|nık]]
+</tr>
+<tr>
+  <td i=X1>35</td>
+  <td c=EN>[[thin]]</td>
+  <td c=FA>[[نازک]]<br>nåzok</td>
+  <td c=HI>[[पतला]]<br>patlā</td>
+  <td c=03>[[পাতলা]]<br>patla</td>
+  <td c=04>[[sano]]</td>
+  <td c=05>[[нозук]]</td>
+  <td c=06>[[nasik]]</td>
+  <td c=MZN>نازک<br>nazek</td>
+  <td c=07>[[ਪਤਲਾ]]</td>
+  <td c=08>[[پتلا]]<br>patlā</td>
+  <td c=NE>[[पातलो]],[[दुब्लो]]</td>
+  <td c=GU></td><td c=DIQ>[[Tenik|tenik]]
+</tr>
+<tr>
+  <td i=X1>36</td>
+  <td c=EN>[[woman]]</td>
+  <td c=FA>[[زن]]<br>zan</td>
+  <td c=HI>[[औरत]]<br>aurat</td>
+  <td c=03>[[মহিলা]]<br>mohila</td>
+  <td c=04>[[ʒuvli]]</td>
+  <td c=05>[[зан]]</td>
+  <td c=06>[[jin]]</td>
+  <td c=MZN>زنا<br>Zenà</td>
+  <td c=07>[[ਜ਼ਨਾਨੀ]]/[[ਇਸਤਰੀ]]</td>
+  <td c=08>[[عورت]]<br>aurat</td>
+  <td c=NE>[[महिला]],[[स्त्री]], [[आइमाई]]</td>
+  <td c=GU></td><td c=DIQ>[[Cênık|cênık, cên]]
+</tr>
+<tr>
+  <td i=X1>37</td>
+  <td c=EN>[[man]]</td>
+  <td c=FA>[[مرد]]<br> mard</td>
+  <td c=HI>[[आदमी]]/[[मर्द]]<br>ādmī/mard</td>
+  <td c=03>[[পুরুষ]]<br>purush</td>
+  <td c=04>[[mursh]]</td>
+  <td c=05>[[мард]]</td>
+  <td c=06>[[pyaw]]</td>
+  <td c=MZN>مردی<br>mardi</td>
+  <td c=07>[[ਬੰਦਾ]], [[ਆਦਮੀ]]</td>
+  <td c=08>[[آدمی]]/[[مرد]]<br>ādmī/mard</td>
+  <td c=NE>[[पुरुष]]</td>
+  <td c=GU></td><td c=DIQ>[[Camerd|camerd, cuwamerd]]
+</tr>
+<tr>
+  <td i=X1>38</td>
+  <td c=EN>[[person]]</td>
+  <td c=FA>[[نفر]]/[[کس]]/[[انسان]]<br>ensån/kas/nafar</td>
+  <td c=HI>[[मनुष्य]]/[[इंसान]]<br>manuṣya/insān</td>
+  <td c=03>[[মানুষ]]/[[লোক]]<br>manush/lok</td>
+  <td c=04>[[manuś]]</td>
+  <td c=05>[[нафар]]</td>
+  <td c=06>[[kes]]</td>
+  <td c=MZN>آدمیزا<br>Àdmizà</td>
+  <td c=07>[[ਬੰਦਾ]], [[ਮਨੁੱਖ]], [[ਇਨਸਾਨ]]</td>
+  <td c=08>[[شخص]]<br>shaks</td>
+  <td c=NE>[[व्यक्ति]]</td>
+  <td c=GU></td><td c=DIQ>[[Ten|ten]]
+</tr>
+<tr>
+  <td i=X1>39</td>
+  <td c=EN>[[child]]</td>
+  <td c=FA>[[بچه]] <br>bachche</td>
+  <td c=HI>[[बच्चा]]<br>bachchā</td>
+  <td c=03>[[বাচ্চা]]<br>bacca</td>
+  <td c=04>[[shavoro]]</td>
+  <td c=05>[[бача]]</td>
+  <td c=06>[[minall]]</td>
+  <td c=MZN>یال/وچه<br>Vace/yàl</td>
+  <td c=07>[[ਬਾਲ]], [[ਬੱਚਾ]]</td>
+  <td c=08>[[بچه]]<br>bachchā</td>
+  <td c=NE>[[बच्चा]],[[बालक]]</td>
+  <td c=GU></td><td c=DIQ>[[Kidek|kidek, doman, leyr]]
+</tr>
+<tr>
+  <td i=X1>40</td>
+  <td c=EN>[[wife]]</td>
+  <td c=FA> [[زن]]<br>zan</td>
+  <td c=HI>[[पत्नी]]/[[बीवी]]<br>patnī/bīvī</td>
+  <td c=03>[[বউ]]<br>bou</td>
+  <td c=04>[[romnyi]]</td>
+  <td c=05>[[зан]]</td>
+  <td c=06>[[jin]]</td>
+  <td c=MZN>زنا<br>zena</td>
+  <td c=07>[[ਘਰਵਾਲੀ]], [[ਤੀਵੀਂ]], [[ਵਹੁਟੀ]]</td>
+  <td c=08>[[بیوی]]<br>bīvī</td>
+  <td c=NE>[[श्रीमती]],[[पत्नी]]</td>
+  <td c=GU></td><td c=DIQ>[[Cênık|cênık]]
+</tr>
+<tr>
+  <td i=X1>41</td>
+  <td c=EN>[[husband]]</td>
+  <td c=FA> [[شوهر]] <br> showhar </td>
+  <td c=HI>[[पती]]<br>patī</td>
+  <td c=03>[[জামাই]]<br>jamai</td>
+  <td c=04>[[rom]]</td>
+  <td c=05>[[шавҳар]]</td>
+  <td c=06>[[şû]], [[mêrd]]</td>
+  <td c=MZN>شی<br>ŠI</td>
+  <td c=07>[[ਘਰਵਾਲਾ]], [[ਕੰਤ]], [[ਖ਼ਾਵੰਦ]]</td>
+  <td c=08>[[شوہر]]<br>shauhar</td>
+  <td c=NE>[[श्रीमान]],[[पति]]</td>
+  <td c=GU></td><td c=DIQ>[[Camerd|Cüwamerd]]
+</tr>
+<tr>
+  <td i=X1>42</td>
+  <td c=EN>[[mother]]</td>
+  <td c=FA>[[مادر]]<br>mâdar</td>
+  <td c=HI>[[माँ]]/[[माता]]<br>mā̃/mātā</td>
+  <td c=03>[[মা]]/[[আম্মা]]<br>ma/amma</td>
+  <td c=04>[[dej]]</td>
+  <td c=05>[[модар]]</td>
+  <td c=06>[[dayk]]</td>
+  <td c=MZN>مار<br>màr</td>
+  <td c=07>[[ਬੇਬੇ]]/[[ਮਾਂ]]/[[ਮਾਤਾ]]</td>
+  <td c=08>[[ماں]]<br>mā̃</td>
+  <td c=NE>[[आमा]],[[माता]]</td>
+  <td c=GU></td><td c=DIQ>[[Marde|Marde, Maye]]
+</tr>
+<tr>
+  <td i=X1>43</td>
+  <td c=EN>[[father]]</td>
+  <td c=FA>[[پدر]]<br> pedar</td>
+  <td c=HI>[[बाप]]/[[पिता]]<br>bāp/pitā</td>
+  <td c=03>[[বাবা]]/[[আব্বা]]<br>baba/abba</td>
+  <td c=04>[[dad]]</td>
+  <td c=05>[[падар]]</td>
+  <td c=06>[[bawk]]</td>
+  <td c=MZN>پییر<br>piyer</td>
+  <td c=07>[[ਬਾਪੂ]]/[[ਪਿਉ]]/[[ਪਿਤਾ]]</td>
+  <td c=08>[[باپ]]<br>bāp</td>
+  <td c=NE>[[बुवा]],[[पिता]]</td>
+  <td c=GU></td><td c=DIQ>[[Pêr|Pêr, Pi]]
+</tr>
+<tr>
+  <td i=X1>44</td>
+  <td c=EN>[[animal]]</td>
+  <td c=FA>[[جانور]]<br>jânvar</td>
+  <td c=HI>[[जानवर]]<br>jānvar</td>
+  <td c=03>[[জন্তু]]<br>jontu</td>
+  <td c=04>[[pedo]]</td>
+  <td c=05>[[ҷонвар]]</td>
+  <td c=06>[[gyanleber]]</td>
+  <td c=MZN>سور<br>Sur</td>
+  <td c=07>[[ਡੰਗਰ]]/[[ਪਸ਼ੂ]]/[[ਜਾਨਵਰ]]</td>
+  <td c=08>[[جانور]]<br>jânvar</td>
+  <td c=NE>[[जनावर]]</td>
+  <td c=GU></td><td c=DIQ>[[Heywan]]
+</tr>
+<tr>
+  <td i=X1>45</td>
+  <td c=EN>[[fish]]</td>
+  <td c=FA> [[ماهی]]<br>mâhi</td>
+  <td c=HI>[[मछ्ली]]<br>machlī</td>
+  <td c=03>[[মাছ]]<br>mach</td>
+  <td c=04>[[masho]]</td>
+  <td c=05>[[моҳӣ]]</td>
+  <td c=06>[[masî]]</td>
+  <td c=MZN>شیم<br>Šim</td>
+  <td c=07>[[ਮੱਛੀ]]</td>
+  <td c=08>[[مچھلی]]<br>machlī</td>
+  <td c=NE>[[माछा]]</td>
+  <td c=GU></td><td c=DIQ>[[Mase]]
+</tr>
+<tr>
+  <td i=X1>46</td>
+  <td c=EN>[[bird]]</td>
+  <td c=FA>[[پرنده]]<br>parande</td>
+  <td c=HI>[[पक्षी]]/[[चिड़िया]]<br>pakṣī/ciṛiyā</td>
+  <td c=03>[[পাখি]]<br>pakhi</td>
+  <td c=04>[[chiriklyi]]</td>
+  <td c=05>[[парранда]]</td>
+  <td c=06>[[ballinde]], [[pelewer]]</td>
+  <td c=MZN>مِرغ<br>Merʁ </td>
+  <td c=07>[[ਪੰਛੀ]]</td>
+  <td c=08>[[پرنده]]<br>parinda</td>
+  <td c=NE>[[चरा]]</td>
+  <td c=GU></td><td c=DIQ>[[Theyr]]
+</tr>
+<tr>
+  <td i=X1>47</td>
+  <td c=EN>[[dog]]</td>
+  <td c=FA>[[سگ]]<br>sag</td>
+  <td c=HI>[[कुत्ता]]<br>kuttā</td>
+  <td c=03>[[কুকুর]]<br>kukur</td>
+  <td c=04>[[zhukel]]</td>
+  <td c=05>[[саг]]</td>
+  <td c=06>[[seg]]</td>
+  <td c=MZN>سگ<br>sag</td>
+  <td c=07>[[ਕੁੱਤਾ]]</td>
+  <td c=08>[[کتا]]<br>kuttā</td>
+  <td c=NE>[[कुकुर]]</td>
+  <td c=GU></td><td c=DIQ>[[Kutık]]
+</tr>
+<tr>
+  <td i=X1>48</td>
+  <td c=EN>[[louse]]</td>
+  <td c=FA>[[شپش]] <br>šepeš</td>
+  <td c=HI>[[जूँ]]<br>jū̃</td>
+  <td c=03>[[উঁকুন]]<br>ukun</td>
+  <td c=04>[[zhuv]]</td>
+  <td c=05>[[шапиш]]</td>
+  <td c=06>[[espê]]</td>
+  <td c=MZN>اِسپیج<br>espij</td>
+  <td c=07>[[ਜੂੰ]]</td>
+  <td c=08>[[جوں]]<br>jū̃</td>
+  <td c=NE>[[जुम्रा]]</td>
+  <td c=GU></td><td c=DIQ>[[Lıv]]
+</tr>
+<tr>
+  <td i=X1>49</td>
+  <td c=EN>[[snake]]</td>
+  <td c=FA>[[مار]] <br>mâr</td>
+  <td c=HI>[[साँप]]<br>sā̃p</td>
+  <td c=03>[[সাপ]]<br>shap</td>
+  <td c=04>[[sap]]</td>
+  <td c=05>[[мор]]</td>
+  <td c=06>[[mar]]</td>
+  <td c=MZN>مَر<br>mar</td>
+  <td c=07>[[ਸੱਪ]]</td>
+  <td c=08>[[سانپ]]<br>sā̃p</td>
+  <td c=NE>[[सर्प]]</td>
+  <td c=GU></td><td c=DIQ>[[Mar|mar]]
+</tr>
+<tr>
+  <td i=X1>50</td>
+  <td c=EN>[[worm]]</td>
+  <td c=FA>[[کرم]]<br> kerm </td>
+  <td c=HI>[[कीड़ा]]<br>kīṛā</td>
+  <td c=03>[[কৃমি]]<br>krimi</td>
+  <td c=04>[[kermo]]</td>
+  <td c=05>[[кирм]]</td>
+  <td c=06>[[kirm]]</td>
+  <td c=MZN>کرم<br>kerm</td>
+  <td c=07>[[ਕੀੜਾ]]</td>
+  <td c=08>[[کیڑا]]<br>kīṛā</td>
+  <td c=NE>[[किरा]]</td>
+  <td c=GU></td><td c=DIQ>[[Malık|malık]]
+</tr>
+<tr>
+  <td i=X1>51</td>
+  <td c=EN>[[tree]]</td>
+  <td c=FA>[[درخت]] <br>derakht</td>
+  <td c=HI>[[पेड़]]<br>peṛ</td>
+  <td c=03>[[গাছ]]<br>gach</td>
+  <td c=04>[[kasht]]</td>
+  <td c=05>[[дарахт]]</td>
+  <td c=06>[[dar]]</td>
+  <td c=MZN>دار<br>dar</td>
+  <td c=07>[[ਰੁੱਖ]]/[[ਦਰੱਖ਼ਤ]]</td>
+  <td c=08>[[پیڑ]]<br>peṛ</td>
+  <td c=NE>[[जुका]]</td>
+  <td c=GU></td><td c=DIQ>[[Dare|dare]]
+</tr>
+<tr>
+  <td i=X1>52</td>
+  <td c=EN>[[forest]]</td>
+  <td c=FA>[[جنگل]]<br>jangal</td>
+  <td c=HI>[[जंगल]]/[[वन]]<br>jangal/van</td>
+  <td c=03>[[বন]]<br>bôn</td>
+  <td c=04>[[vesh]]</td>
+  <td c=05>[[ҷангал]]</td>
+  <td c=06>[[lêrr]]</td>
+  <td c=MZN>جِنگِل<br>jengel</td>
+  <td c=07>[[ਜੰਗਲ]]</td>
+  <td c=08>[[جنگل]]<br>jangal</td>
+  <td c=NE>[[जङ्गल]]</td>
+  <td c=GU></td><td c=DIQ>[[Bır|Bır]]
+</tr>
+<tr>
+  <td i=X1>53</td>
+  <td c=EN>[[stick]]</td>
+  <td c=FA>[[چماق]]<br>chomågh</td>
+  <td c=HI>[[डंडा]]<br>ḍanḍā</td>
+  <td c=03>[[লাঠি]]<br>laṭhi</td>
+  <td c=04>[[kopal]]</td>
+  <td c=05>[[чомоқ]]</td>
+  <td c=06>[[gopal]]</td>
+  <td c=MZN>چماق<br>chomagh</td>
+  <td c=07>[[ਸੋਟੀ]]</td>
+  <td c=08>[[ڈنڈا]]<br>ḍanḍā</td>
+  <td c=NE>[[लौरो]],[[लठ्ठी]]</td>
+  <td c=GU></td><td c=DIQ>[[Sopa|sopa]]
+</tr>
+<tr>
+  <td i=X1>54</td>
+  <td c=EN>[[fruit]]</td>
+  <td c=FA>[[میوه]]<br>mive</td>
+  <td c=HI>[[फल]]/[[मेवा]]<br>phal/mewa</td>
+  <td c=03>[[ফল]]<br>phôl</td>
+  <td c=04>[[frukto]]</td>
+  <td c=05>[[мева]]</td>
+  <td c=06>[[mêwe]], [[mîwe]]</td>
+  <td c=MZN><br></td>
+  <td c=07>[[ਫਲ]]/[[ਮੇਵਾ]]</td>
+  <td c=08>[[پھل]]/[[میوہ]]<br>phal/mewa</td>
+  <td c=NE>[[फल]]</td>
+  <td c=GU></td><td c=DIQ>[[Meyve|meyve]]
+</tr>
+<tr>
+  <td i=X1>55</td>
+  <td c=EN>[[seed]]</td>
+  <td c=FA>[[دانه]]/[[تخم]] <br>tokhm/dâne</td>
+  <td c=HI>[[बीज]]//[[दाना]]<br>bīj/dānā</td>
+  <td c=03>[[বিচি]]<br>bici</td>
+  <td c=04>[[sumburo]]</td>
+  <td c=05>[[тухм]]</td>
+  <td c=06>[[tow]]</td>
+  <td c=MZN>تیم<br>tim</td>
+  <td c=07>[[ਬੀਂ]]</td>
+  <td c=08>[[بیج]]//[[دانہ]]<br>bīj/dānā</td>
+  <td c=NE>[[बिउ]],[[बीज]]</td>
+  <td c=GU></td><td c=DIQ>[[Toxum|toxum]]
+</tr>
+<tr>
+  <td i=X1>56</td>
+  <td c=EN>[[leaf]]</td>
+  <td c=FA>[[برگ]] <br>barg</td>
+  <td c=HI>[[पत्ती]]<br>pattī</td>
+  <td c=03>[[পাতা]]<br>pata</td>
+  <td c=04>[[patrin]]</td>
+  <td c=05>[[барг]]</td>
+  <td c=MZN>ولگ<br>valge</td>
+  <td c=06>[[gella]]</td>
+  <td c=07>[[ਪੱਤਾ]]</td>
+  <td c=08>[[پتا]]<br>patta</td>
+  <td c=NE>[[पात]]</td>
+  <td c=GU></td><td c=DIQ>[[Pelge|pelge, pele]]
+</tr>
+<tr>
+  <td i=X1>57</td>
+  <td c=EN>[[root]]</td>
+  <td c=FA>[[ریشه]]<br>riše</td>
+  <td c=HI>[[जड़]]<br>jaṛ</td>
+  <td c=03>[[শিকর]]<br>shikôr</td>
+  <td c=04>[[rikita]]</td>
+  <td c=05>[[реша]]</td>
+  <td c=06>[[rîşe]]</td>
+  <td c=MZN>ریشه<br>rishe</td>
+  <td c=07>[[ਜੜ੍ਹ]]</td>
+  <td c=08>[[جڑ]]<br>jaṛ</td>
+  <td c=NE>[[जरा]]</td>
+<td c=GU> </td>
+  <td c=09>[[rıstım]]</td>
+</tr>
+<tr>
+  <td i=X1>58</td>
+  <td c=EN>[[bark]]</td>
+  <td c=FA>[[پوست درخت]]<br>pust-e derakht</td>
+  <td c=HI>[[छाल]]<br>chāl</td>
+  <td c=03>[[ছাল]]<br>chal</td>
+  <td c=04>[[korca]]</td>
+  <td c=05>[[пӯсти дарахт]]</td>
+  <td c=06>[[twêkllî dar]]</td>
+  <td c=MZN>گلام<br>gelam</td>
+  <td c=07>[[ਸੱਕ]]/[[ਛਿੱਲ]]</td>
+  <td c=08>[[چھال]]<br>chāl</td>
+  <td c=NE>[[बोक्रा]], [[भुक्नु]]</td>
+  <td c=GU> </td>
+  <td c=09></td>
+</tr>
+<tr>
+  <td i=X1>59</td>
+  <td c=EN>[[flower]]</td>
+  <td c=FA>[[گل]]<br> gol</td>
+  <td c=HI>[[फूल]]<br>phūl</td>
+  <td c=03>[[ফুল]]<br>phul</td>
+  <td c=04>[[luludyi]]</td>
+  <td c=05>[[гул]]</td>
+  <td c=06>[[gull]]</td>
+  <td c=MZN>گل<br>gol</td>
+  <td c=07>[[ਫੁੱਲ]]</td>
+  <td c=08>[[پھول]]<br>phūl</td>
+  <td c=NE>[[फूल]]</td>
+  <td c=GU> </td>
+  <td c=09>[[Vıle|vıle, fıle]]</td>
+</tr>
+<tr>
+  <td i=X1>60</td>
+  <td c=EN>[[grass]]</td>
+  <td c=FA>[[علف]]<br> alaf</td>
+  <td c=HI>[[घास]]<br>ghās</td>
+  <td c=03>[[গাস]]<br>ghash</td>
+  <td c=04>[[char]]</td>
+  <td c=05>[[алаф]]</td>
+  <td c=06>[[allif]]</td>
+  <td c=MZN>بند ِواش<br>band-e-vash</td>
+  <td c=07>[[ਘਾਹ]]</td>
+  <td c=08>[[گھاس]]<br>ghās</td>
+  <td c=NE>[[घाँस]]</td>
+  <td c=GU> </td>
+  <td c=09>[[vaş]]</td>
+</tr>
+<tr>
+  <td i=X1>61</td>
+  <td c=EN>[[rope]]</td>
+  <td c=FA>[[طناب]]<br>tanåb</td>
+  <td c=HI>[[डोरी]]<br>ḍōrī</td>
+  <td c=03>[[দড়ী]]<br>ḍori</td>
+  <td c=04>[[shelo]]</td>
+  <td c=05>[[таноб]]</td>
+  <td c=06>[[tenaf]]</td>
+  <td c=MZN>رَسِن<br>rasen</td>
+  <td c=07>[[ਰੱਸੀ]]</td>
+  <td c=08>[[رسی]]<br>rassī</td>
+  <td c=NE>[[डोरी]]</td>
+  <td c=GU> </td>
+  <td c=09>[[urgan]]</td>
+</tr>
+<tr>
+  <td i=X1>62</td>
+  <td c=EN>[[skin]]</td>
+  <td c=FA>[[پوست]]<br> pust</td>
+  <td c=HI>[[चमड़ी ]]<br>camṛī</td>
+  <td c=03>[[চামড়া]]<br>camṛa</td>
+  <td c=04>[[morchi]]</td>
+  <td c=05>[[пӯст]]</td>
+  <td c=06>[[pêst]]</td>
+  <td c=MZN>جلد<br>jeld</td>
+  <td c=07>[[ਖੱਲ]]/[[ਚਮੜੀ]]</td>
+  <td c=08>[[چمڑا]]<br>camṛa</td>
+  <td c=NE>[[छाला]]</td>
+  <td c=GU> </td>
+  <td c=09>[[post]]</td>
+</tr>
+<tr>
+  <td i=X1>63</td>
+  <td c=EN>[[meat]]</td>
+  <td c=FA>[[گوشت]]<br>gušt</td>
+  <td c=HI>[[मांस]]/[[गोश्त]]<br>mā̃s/gośt</td>
+  <td c=03>[[মাংস]]/[[গোশ্ত]]<br>mangsho/goshto</td>
+  <td c=04>[[mas]]</td>
+  <td c=05>[[гӯшт]]</td>
+  <td c=06>[[goşt]]</td>
+  <td c=MZN>گوشت<br>gusht</td>
+  <td c=07>[[ਮਾਸ]]</td>
+  <td c=08>[[گوشت]]<br>gošt</td>
+  <td c=NE>[[मासु]]</td>
+  <td c=GU> </td>
+  <td c=09>[[goşt]]</td>
+</tr>
+<tr>
+  <td i=X1>64</td>
+  <td c=EN>[[blood]]</td>
+  <td c=FA>[[خون]]<br> khun</td>
+  <td c=HI>[[रक्त]], [[ख़ून]], [[लहू]]<br>rakt, xūn, lahū</td>
+  <td c=03>[[রক্ত]]<br>rôkto</td>
+  <td c=04>[[rat]]</td>
+  <td c=05>[[хун]]</td>
+  <td c=06>[[xwên]]</td>
+  <td c=MZN>خون<br>khun</td>
+  <td c=07>[[ਲਹੂ]]/[[ਖ਼ੂਨ]]/[[ਰੱਤ]]</td>
+  <td c=08>[[خون]], [[لہو]]<br>rakt, xūn, lahū</td>
+  <td c=NE>[[रगत]]</td>
+  <td c=GU> </td>
+  <td c=09>[[goni]]</td>
+</tr>
+<tr>
+  <td i=X1>65</td>
+  <td c=EN>[[bone]]</td>
+  <td c=FA>[[استخوان]]<br>ostokhån</td>
+  <td c=HI>[[हड्डी]]<br>haḍḍī</td>
+  <td c=03>[[হাড়ী]]<br>haṛi</td>
+  <td c=04>[[kokalo]]</td>
+  <td c=05>[[устухон]]</td>
+  <td c=06>[[êsk]]</td>
+  <td c=MZN>هِسِّکا<br>hesseka</td>
+  <td c=07>[[ਹੱਡੀ]]</td>
+  <td c=08>[[ہڈی]]<br>haḍḍī</td>
+  <td c=NE>[[हाड]],[[हड्डी]]</td>
+  <td c=GU> </td>
+  <td c=09>[[este]]</td>
+</tr>
+<tr>
+  <td i=X1>66</td>
+  <td c=EN>[[fat]] (n.)</td>
+  <td c=FA>[[روغن]]/[[چربی]]<br>charbi/rowghan</td>
+  <td c=HI>[[वसा]]/[[चरबी]]<br>vasā/carbī</td>
+  <td c=03>[[চর্বি]]<br>corbi</td>
+  <td c=04>[[thulo]]</td>
+  <td c=05>[[равған]]</td>
+  <td c=06>[[çewrî]]</td>
+  <td c=MZN>راغون/چَلبی<br>raghun/chalbi</td>
+  <td c=07>[[ਚਰਬੀ]]</td>
+  <td c=08>[[چربی]]<br>carbī</td>
+  <td c=NE>[[बोसो]]</td>
+  <td c=GU></td><td c=09>[[şişman]]</td>
+</tr>
+<tr>
+  <td i=X1>67</td>
+  <td c=EN>[[egg]]</td>
+  <td c=FA>[[تخم]]<br>tokhm</td>
+  <td c=HI>[[अंडा]]<br>anḍā</td>
+  <td c=03>[[ডিম]]<br>ḍim</td>
+  <td c=04>[[anro]]</td>
+  <td c=05>[[тухм]]</td>
+  <td c=06>[[hêlke]]</td>
+  <td c=MZN>مرغانه<br>merghane</td>
+  <td c=07>[[ਆਂਡਾ]]</td>
+  <td c=08>[[انڈا]]<br>anḍā</td>
+  <td c=NE>[[फुल]],[[अण्डा]]</td>
+  <td c=GU></td><td c=09>[[hag]]</td>
+</tr>
+<tr>
+  <td i=X1>68</td>
+  <td c=EN>[[horn]]</td>
+  <td c=FA>[[شاخ]]<br>šâkh</td>
+  <td c=HI>[[सींग]]<br>sī̃g</td>
+  <td c=03>[[শিং]]<br>shing</td>
+  <td c=04>[[shing]]</td>
+  <td c=05>[[шох]]</td>
+  <td c=06>[[şax]]</td>
+  <td c=MZN><br></td>
+  <td c=07>[[ਸਿੰਗ]]</td>
+  <td c=08>[[سینگ]]<br>sī̃g</td>
+  <td c=NE>[[सिङ]]</td>
+  <td c=GU></td><td c=09>[[ustıne]]</td>
+</tr>
+<tr>
+  <td i=X1>69</td>
+  <td c=EN>[[tail]]</td>
+  <td c=FA>[[دم]]<br>dom</td>
+  <td c=HI>[[दुम]]/[[पूँछ]]<br>dum/pū̃ch</td>
+  <td c=03>[[লেজ]]<br>lej</td>
+  <td c=04>[[pori]]</td>
+  <td c=05>[[дум]]</td>
+  <td c=06>[[kilk]]</td>
+  <td c=MZN>دم<br>dem</td>
+  <td c=07>[[ਪੂਛ]]</td>
+  <td c=08>[[دم]]<br>dum</td>
+  <td c=NE>[[पुच्छर]]</td>
+  <td c=GU></td><td c=09>[[tım]], [[dım]]</td>
+</tr>
+<tr>
+  <td i=X1>70</td>
+  <td c=EN>[[feather]]</td>
+  <td c=FA>[[پر]]<br> par </td>
+  <td c=HI>[[पंख]]/[[पर]]<br>pãkh/par</td>
+  <td c=03>[[পর]]<br>pôr</td>
+  <td c=04>[[por]]</td>
+  <td c=05>[[пар]]</td>
+  <td c=06>[[perr]]</td>
+  <td c=MZN>پر<br>par</td>
+  <td c=07>[[ਖੰਭ]]/[[ਪਰ]]</td>
+  <td c=08>[[پر]]<br> par </td>
+  <td c=NE>[[प्वाँख]]</td>
+  <td c=GU></td><td c=09>[[fır]], [[mu]]</td>
+</tr>
+<tr>
+  <td i=X1>71</td>
+  <td c=EN>[[hair]]</td>
+  <td c=FA>[[مو]]<br> mu</td>
+  <td c=HI>[[बाल]]/[[केश]]<br>bāl/keś</td>
+  <td c=03>[[চুল]]<br>cul</td>
+  <td c=04>[[bal]]</td>
+  <td c=05>[[мӯ]]</td>
+  <td c=06>[[mû]]</td>
+  <td c=MZN>می<br>mi</td>
+  <td c=07>[[ਵਾਲ਼]]/[[ਕੇਸ]]</td>
+  <td c=08>[[بال]]<br>bāl</td>
+  <td c=NE>[[कपाल]],[[रौँ]]</td>
+  <td c=GU></td><td c=09>[[gıck]], [[porr]]</td>
+</tr>
+<tr>
+  <td i=X1>72</td>
+  <td c=EN>[[head]]</td>
+  <td c=FA>[[سر]] <br> sar </td>
+  <td c=HI>[[सर]]<br>sar</td>
+  <td c=03>[[মাথা]]<br>matha</td>
+  <td c=04>[[shero]]</td>
+  <td c=05>[[сар]]</td>
+  <td c=06>[[ser]]</td>
+  <td c=MZN>سَر<br>sar</td>
+  <td c=07>[[ਸਿਰ]]</td>
+  <td c=08>[[سر]] <br> sar </td>
+  <td c=NE>[[टाउको]],[[शिर]]</td>
+  <td c=GU></td><td c=09>[[ser]], [[qaf]]</td>
+</tr>
+<tr>
+  <td i=X1>73</td>
+  <td c=EN>[[ear]]</td>
+  <td c=FA>[[گوش]] <br> guš </td>
+  <td c=HI>[[कान]]<br>kān</td>
+  <td c=03>[[কান]]<br>kān</td>
+  <td c=04>[[kan]]</td>
+  <td c=05>[[гӯш]]</td>
+  <td c=06>[[gwê]]</td>
+  <td c=MZN>گوش<br>gush</td>
+  <td c=07>[[ਕੰਨ]]</td>
+  <td c=08>[[کان]]<br>kān</td>
+  <td c=NE>[[कान]]</td>
+  <td c=GU></td><td c=09>[[goş]]</td>
+</tr>
+<tr>
+  <td i=X1>74</td>
+  <td c=EN>[[eye]]</td>
+  <td c=FA>[[چشم]]<br>cheshm</td>
+  <td c=HI>[[आँख]]<br>ā̃kh</td>
+  <td c=03>[[চোখ]]<br>cokh</td>
+  <td c=04>[[jakh]]</td>
+  <td c=05>[[чашм]]</td>
+  <td c=06>[[çaw]]</td>
+  <td c=MZN>چـِش<br>chesh</td>
+  <td c=07>[[ਅੱਖ]]/[[ਨੈਣ]]</td>
+  <td c=08>[[آنکھ]]<br>ā̃kh</td>
+  <td c=NE>[[आँखा]]</td>
+  <td c=GU></td><td c=09>[[çım]]</td>
+</tr>
+<tr>
+  <td i=X1>75</td>
+  <td c=EN>[[nose]]</td>
+  <td c=FA>[[دماغ]]/[[بینی]]<br>bini/damågh</td>
+  <td c=HI>[[नाक]]<br>nāk</td>
+  <td c=03>[[নাক]]<br>nak</td>
+  <td c=04>[[nakh]]</td>
+  <td c=05>[[bini]]</td>
+  <td c=06>[[lût]]</td>
+  <td c=MZN>دِماغ<br>demagh</td>
+  <td c=07>[[ਨੱਕ]]</td>
+  <td c=08>[[ناک]]<br>nāk</td>
+  <td c=NE>[[नाक]]</td>
+  <td c=GU></td><td c=09>[[zınci]], [[pırnıke]]</td>
+</tr>
+<tr>
+  <td i=X1>76</td>
+  <td c=EN>[[mouth]]</td>
+  <td c=FA>[[دهن]]<br>dahan</td>
+  <td c=HI>[[मूँह]]/[[मुख]]<br>mū̃h/mukh</td>
+  <td c=03>[[মুখ]]<br>mukh</td>
+  <td c=04>[[muj]]</td>
+  <td c=05>[[даҳон]]</td>
+  <td c=06>[[dem]], [[zar]]</td>
+  <td c=MZN>داهون<br>dahun</td>
+  <td c=07>[[ਮੂੰਹ]]</td>
+  <td c=08>[[منہ]]<br>mū̃h</td>
+  <td c=NE>[[मुख]]</td>
+  <td c=GU></td><td c=09>[[fek]]</td>
+</tr>
+<tr>
+  <td i=X1>77</td>
+  <td c=EN>[[tooth]]</td>
+  <td c=FA>[[دندان]]<br>dandån</td>
+  <td c=HI>[[दाँत]]<br>dãt</td>
+  <td c=03>[[দাঁত]]<br>dãt</td>
+  <td c=04>[[dand]]</td>
+  <td c=05>[[дандон]]</td>
+  <td c=06>[[didan]]</td>
+  <td c=MZN><br></td>
+  <td c=07>[[ਦੰਦ]]</td>
+  <td c=08>[[دانت]]<br>dãt</td>
+  <td c=NE>[[दाँत]]</td>
+  <td c=GU></td><td c=09>[[dından]]</td>
+</tr>
+<tr>
+  <td i=X1>78</td>
+  <td c=EN>[[tongue]]</td>
+  <td c=FA>[[زبان]]<br>zabån</td>
+  <td c=HI>[[जीभ]]/[[ज़बान]]<br>jībh/zabān</td>
+  <td c=03>[[জীভ]]/[[জিহবা]]<br>jibh/jibba</td>
+  <td c=04>[[shib]]</td>
+  <td c=05>[[забон]]</td>
+  <td c=06>[[ziman]]</td>
+  <td c=MZN>زوون<br>zevun</td>
+  <td c=07>[[ਜੀਭ]]/[[ਜ਼ੁਬਾਨ]]</td>
+  <td c=08>[[زبان]]<br>zabån</td>
+  <td c=NE>[[जिब्रो]]</td>
+  <td c=GU></td><td c=09>[[zon]], [[zuan]]</td>
+</tr>
+<tr>
+  <td i=X1>79</td>
+  <td c=EN>[[fingernail]]</td>
+  <td c=FA>[[ناخن]]<br>nâkhun</td>
+  <td c=HI>[[नाख़ुन]]<br>nāxūn</td>
+  <td c=03>[[নখ]]<br>nôkh</td>
+  <td c=04>[[vundya]]</td>
+  <td c=05>[[нохун]]</td>
+  <td c=06>[[nînok]]</td>
+  <td c=MZN><br></td>
+  <td c=07>[[ਨਹੁੰ]]</td>
+  <td c=08>[[ناخن]]<br>nâkhun</td>
+  <td c=NE>[[नङ]]</td>
+  <td c=GU></td><td c=09>[[nengu]], [[nake]]</td>
+</tr>
+<tr>
+  <td i=X1>80</td>
+  <td c=EN>[[foot]]</td>
+  <td c=FA>[[پا]]<br>pâ</td>
+  <td c=HI>[[पैर]]/[[पांव]]<br>pair/pā̃v</td>
+  <td c=03>[[পা]]<br>pa</td>
+  <td c=04>[[punro]]</td>
+  <td c=05>[[по]]</td>
+  <td c=06>[[pê]]</td>
+  <td c=MZN>چَک<br>chak</td>
+  <td c=07>[[ਪੈਰ]]</td>
+  <td c=08>[[پیر]]/[[پاؤں]]<br>pair/pā̃v</td>
+  <td c=NE>[[खुट्टा]]</td>
+  <td c=GU></td><td c=09>[[pa]]</td>
+</tr>
+<tr>
+  <td i=X1>81</td>
+  <td c=EN>[[leg]]</td>
+  <td c=FA>[[لنگ]]<br>leng </td>
+  <td c=HI>[[टांग]]/[[पांव]]<br>ṭāng/pā̃v</td>
+  <td c=03>[[পা]]<br>pa</td>
+  <td c=04>[[fujeri]]</td>
+  <td c=05>[[poy]]</td>
+  <td c=06>[[laq]], [[ling]]</td>
+  <td c=MZN>لینگ<br>ling</td>
+  <td c=07>[[ਲੱਤ]]</td>
+  <td c=08>[[ٹانگ]]/[[پاؤں]]<br>ṭāng/pā̃v</td>
+  <td c=NE>[[गोडा]]</td>
+  <td c=GU></td><td c=09>[[leng]]</td>
+</tr>
+<tr>
+  <td i=X1>82</td>
+  <td c=EN>[[knee]]</td>
+  <td c=FA>[[زانو]]<br>zânu</td>
+  <td c=HI>[[घुटना]]<br>ghuṭnā</td>
+  <td c=03>[[হাঁটু]]<br>hãṭu</td>
+  <td c=04>[[chang]]</td>
+  <td c=05>[[зону]]</td>
+  <td c=06>[[ejno]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਗੋਡਾ]]</td>
+  <td c=08>[[زانو]]<br>zânu</td>
+  <td c=NE>[[घुँडा]]</td>
+  <td c=GU></td><td c=09>[[zana]]</td>
+</tr>
+<tr>
+  <td i=X1>83</td>
+  <td c=EN>[[hand]]</td>
+  <td c=FA>[[دست]]<br> dast </td>
+  <td c=HI>[[हाथ]]<br>hāth</td>
+  <td c=03>[[হাত]]<br>hat</td>
+  <td c=04>[[vast]]</td>
+  <td c=05>[[даст]]</td>
+  <td c=06>[[dest]]</td>
+  <td c=MZN>دَس/بال<br>das/bal</td>
+  <td c=07>[[ਹੱਥ]]</td>
+  <td c=08>[[ہاتھ]]<br>hāth</td>
+  <td c=NE>[[हात]]</td>
+  <td c=GU></td><td c=09>[[dest]]</td>
+</tr>
+<tr>
+  <td i=X1>84</td>
+  <td c=EN>[[wing]]</td>
+  <td c=FA>[[بال]]<br>bâl</td>
+  <td c=HI>[[पंख]]<br>pãkh</td>
+  <td c=03>[[পাখা]]<br>pakha</td>
+  <td c=04>[[phak]]</td>
+  <td c=05>[[бол]]</td>
+  <td c=06>[[ball]]</td>
+  <td c=MZN>بال<br>bal</td>
+  <td c=07>[[ਖੰਭ]]</td>
+  <td c=08>[[پر]]<br>par</td>
+  <td c=NE>[[पंखेटा]]</td>
+  <td c=GU></td><td c=09>[[perre]]</td>
+</tr>
+<tr>
+  <td i=X1>85</td>
+  <td c=EN>[[belly]]</td>
+  <td c=FA>[[شکم]]<br>šekam</td>
+  <td c=HI>[[पेट]]<br>peṭ</td>
+  <td c=03>[[পেট]]<br>peṭ</td>
+  <td c=04>[[per]]</td>
+  <td c=05>[[шикам]]</td>
+  <td c=06>[[sik]]</td>
+  <td c=MZN>اِشکِم<br>eshkem</td>
+  <td c=07>[[ਢਿੱਡ]]</td>
+  <td c=08>[[پیٹ]]<br>peṭ</td>
+  <td c=NE>[[पेट]]</td>
+  <td c=GU></td><td c=09>[[navık]]</td>
+</tr>
+<tr>
+  <td i=X1>86</td>
+  <td c=EN>[[guts]]</td>
+  <td c=FA>[[روده]]<br>e</td>
+  <td c=HI>[[अंतड़ी]]<br>antaṛī</td>
+  <td c=03>[[ভুড়ী]]<br>bhuṛi</td>
+  <td c=04>[[porra]]</td>
+  <td c=05>[[рӯда]]</td>
+  <td c=06>[[rîxolle]]</td>
+  <td c=MZN>چنیک<br>chenik</td>
+  <td c=07>[[ਆਂਦਰ]]</td>
+  <td c=08>[[انتڑی]]<br>antaṛī</td>
+  <td c=NE>[[आन्द्रा]]</td>
+  <td c=GU></td><td c=09>[[Logare]]</td>
+</tr>
+<tr>
+  <td i=X1>87</td>
+  <td c=EN>[[neck]]</td>
+  <td c=FA>[[گردن]]<br>gardan</td>
+  <td c=HI>[[गर्दन]]<br>gardan</td>
+  <td c=03>[[গলা]]<br>gôla</td>
+  <td c=04>[[korr]]</td>
+  <td c=05>[[гардан]]</td>
+  <td c=06>[[mil]]</td>
+  <td c=MZN>گِس<br>ges</td>
+  <td c=07>[[ਧੌਣ]]/[[ਗਲ]]</td>
+  <td c=08>[[گردن]]<br>gardan</td>
+  <td c=NE>[[घाँटी]]</td>
+  <td c=GU></td><td c=09>[[gerdan]]</td>
+</tr>
+<tr>
+  <td i=X1>88</td>
+  <td c=EN>[[back]]</td>
+  <td c=FA>[[پشت]]/[[پس]]<br>pas/posht</td>
+  <td c=HI>[[पीठ]]<br>pīṭh</td>
+  <td c=03>[[পীঠ]]<br>piṭh</td>
+  <td c=04>[[dumo]]</td>
+  <td c=05>[[пушт]]</td>
+  <td c=06>[[dwa]], [[pişt]]</td>
+  <td c=MZN>پِشت<br>pesht</td>
+  <td c=07>[[ਕੰਡ]]/[[ਢੂੰਹੀ]]</td>
+  <td c=08>[[پیٹھ]]<br>pīṭh</td>
+  <td c=NE>[[पिठ्युँ]],[[ढाड]]</td>
+  <td c=GU></td><td c=09>[[pey]]</td>
+</tr>
+<tr>
+  <td i=X1>89</td>
+  <td c=EN>[[breast]]</td>
+  <td c=FA>[[سینه]]<br>[[sine]]</td>
+  <td c=HI>[[छाती]]/[[सीना]]<br>chātī/sīnā</td>
+  <td c=03>[[বুক]]<br>buk</td>
+  <td c=04>[[chuchi]]</td>
+  <td c=05>[[сина]]</td>
+  <td c=06>[[sîng]]</td>
+  <td c=MZN>سینه<br>sine</td>
+  <td c=07>[[ਹਿੱਕ]]/[[ਛਾਤੀ]]</td>
+  <td c=08>[[چھاتی]]/[[سینه]]<br>chātī/sīnā</td>
+  <td c=NE>[[स्तन]]</td>
+  <td c=GU></td><td c=09>[[sine]]</td>
+</tr>
+<tr>
+  <td i=X1>90</td>
+  <td c=EN>[[heart]]</td>
+  <td c=FA>[[دل]]<br>del</td>
+  <td c=HI>[[दिल]]<br>dil</td>
+  <td c=03>[[মন]]/[[হৃদয়]]</td>
+  <td c=04>[[jilo]]</td>
+  <td c=05>[[дил]]</td>
+  <td c=06>[[dill]]</td>
+  <td c=MZN>دل<br>del</td>
+  <td c=07>[[ਦਿਲ]]/[[ਹਿਰਦਾ]]</td>
+  <td c=08>[[دل]]<br>dil</td>
+  <td c=NE>[[मुटु]]</td>
+  <td c=GU></td><td c=09>[[zerre]]</td>
+</tr>
+<tr>
+  <td i=X1>91</td>
+  <td c=EN>[[liver]]</td>
+  <td c=FA>[[جگر]]<br>jegar</td>
+  <td c=HI>[[कलेजा]]<br>kalejā</td>
+  <td c=03>[[কলজে]]<br>kolje</td>
+  <td c=04>[[buko]]</td>
+  <td c=05>[[ҷигар]]</td>
+  <td c=06>[[cerg]]</td>
+  <td c=MZN>جیگر<br>jiger</td>
+  <td c=07>[[ਜਿਗਰ]]/[[ਕਾਲਜਾ]]</td>
+  <td c=08>[[جگر]]<br>jigar</td>
+  <td c=NE>[[कलेजो]]</td>
+  <td c=GU></td><td c=09>[[cigera siya]]</td>
+</tr>
+<tr>
+  <td i=X1>92</td>
+  <td c=EN>[[drink]]</td>
+  <td c=FA>[[نوشیدن]]<br>nušidan</td>
+  <td c=HI>[[पीना]]<br>pīnā</td>
+  <td c=03>[[পান]]<br>pana</td>
+  <td c=04>[[pijel]]</td>
+  <td c=05>[[нӯшидан]]</td>
+  <td c=06>[[xwardinewe]]</td>
+  <td c=MZN><br></td>
+  <td c=07>[[ਪੀਣਾ]]</td>
+  <td c=08>[[پینا]]<br>pīnā</td>
+  <td c=NE>[[पिउनु]]</td>
+  <td c=GU></td><td c=09>[[şimitene]]</td>
+</tr>
+<tr>
+  <td i=X1>93</td>
+  <td c=EN>[[eat]]</td>
+  <td c=FA>[[خوردن]]<br>khordan</td>
+  <td c=HI>[[खाना]]<br>khānā</td>
+  <td c=03>[[খাওয়া ]]<br>khaoa</td>
+  <td c=04>[[xal]]</td>
+  <td c=05>[[хӯрдан]]</td>
+  <td c=06>[[xwardin]]</td>
+  <td c=MZN>بَخاردِن<br>baxarden</td>
+  <td c=07>[[ਖਾਣਾ]]</td>
+  <td c=08>[[کھانا]]<br>khānā</td>
+  <td c=NE>[[खानु]]</td>
+  <td c=GU></td><td c=09>[[werdene]]</td>
+</tr>
+<tr>
+  <td i=X1>94</td>
+  <td c=EN>[[bite]]</td>
+  <td c=FA>[[گزیدن]]<br>gazidan</td>
+  <td c=HI>[[काटना]]<br>kāṭnā</td>
+  <td c=03>[[কামড়ানো ]]<br>kamṛano</td>
+  <td c=04>[[dindalel]]</td>
+  <td c=05>[[газидан]]</td>
+  <td c=06>[[gestin]]</td>
+  <td c=MZN>دَئیشتِن<br>da'ishten</td>
+  <td c=07>[[ਵੱਢਣਾ]]</td>
+  <td c=08>[[کترنا]]<br>kaṭarnā</td>
+  <td c=NE>[[टोक्नु]]</td>
+  <td c=GU></td><td c=09>[[baziten]]</td>
+</tr>
+<tr>
+  <td i=X1>95</td>
+  <td c=EN>[[suck]]</td>
+  <td c=FA>[[مکیدن]]<br>makidan</td>
+  <td c=HI>[[चूसना]]<br>cūsnā</td>
+  <td c=03>[[চোষা ]]<br>cosha</td>
+  <td c=04>[[chuchi pel]]</td>
+  <td c=05>[[макидан]]</td>
+  <td c=06>[[mijtin]]</td>
+  <td c=MZN>بَلِشتِن<br>baleshten</td>
+  <td c=07>[[ਚੂਸਣਾ]]</td>
+  <td c=08>[[چوسنا]]<br>cūsnā</td>
+  <td c=NE>[[चुस्नु]]</td>
+  <td c=GU></td><td c=09>[[likitene]]</td>
+</tr>
+<tr>
+  <td i=X1>96</td>
+  <td c=EN>[[spit]]</td>
+  <td c=FA>[[دشنه]]/[[تف]]<br>tof/dešne</td>
+  <td c=HI>[[थूक]]<br>thūk</td>
+  <td c=03>[[ছ্যাপ]]/[[থুতু]]<br>sêp/thutu</td>
+  <td c=04>[[shungardel]]</td>
+  <td c=05>[[туф кардан]]</td>
+  <td c=06>[[tif kirdin]]</td>
+  <td c=MZN>تف<br>tof</td>
+  <td c=07>[[ਥੁੱਕਣਾ]]</td>
+  <td c=08>[[تھوکنا]]<br>thūk</td>
+  <td c=NE>[[थुक्नु]]</td>
+  <td c=GU></td><td c=09>[[tu kerdış]]</td>
+</tr>
+<tr>
+  <td i=X1>97</td>
+  <td c=EN>[[vomit]]</td>
+  <td c=FA>[[kai kardan]]     [[قی کردن]]</td>
+  <td c=HI>[[क़ै]]<br>Qay</td>
+  <td c=03>[[বমি]]<br>bomi</td>
+  <td c=04>[[shandel]]</td>
+  <td c=05>[[қай кардан]]</td>
+  <td c=06>[[rişanewe]]</td>
+  <td c=MZN>اخ تف<br>akh tof</td>
+  <td c=07>[[ਕੈ ਕਰਨੀ]]/[[ਉਲਟੀ ਕਰਨੀ</td>
+  <td c=08>[[قے]]<br>Qay</td>
+  <td c=NE>[[बान्ता]]</td>
+  <td c=GU></td><td c=09>[[ravırıznayene]]</td>
+</tr>
+<tr>
+  <td i=X1>98</td>
+  <td c=EN>[[blow]]</td>
+  <td c=FA>[[وزیدن]]<br>vazidan</td>
+  <td c=HI>[[फूँकना]]<br>phũkna</td>
+  <td c=03>[[ফুঁ দেত্তয়া]]<br>phũ dêoa</td>
+  <td c=04>[[phurdel]]</td>
+  <td c=05>[[вазидан]]</td>
+  <td c=06>[[fû kirdin]]</td>
+  <td c=MZN>سَر هاکِردِن<br>sar hakerden</td>
+  <td c=07>[[ਫੂਕਣਾ]]/[[ਝੱਲਣਾ]]</td>
+  <td c=08>[[پھونکنا]]<br>phũkna</td>
+  <td c=NE>[[फुक्नु]]</td>
+  <td c=GU></td><td c=09>[[puf kerdış]]</td>
+</tr>
+<tr>
+  <td i=X1>99</td>
+  <td c=EN>[[breathe]]</td>
+  <td c=FA>[[دم زدن]]/[[نفس کشیدن]]<br>nafas kashidan/dam zadan</td>
+  <td c=HI>[[सांस लेना]]<br>sā̃s lenā</td>
+  <td c=03>[[শ্বাস নেওয়া]]<br>shash neoa</td>
+  <td c=04>[[shanshel]]</td>
+  <td c=05>[[нафас кашидан]]</td>
+  <td c=06>[[henase dan]]</td>
+  <td c=MZN>نفس بَکشی‌ین<br>nafes bakshiyen</td>
+  <td c=07>[[ਸਾਹ ਲੈਣਾ]]</td>
+  <td c=08>[[سانس لینا]]<br>sā̃s lenā</td>
+  <td c=NE>[[स्वास लिनु]]</td>
+  <td c=GU></td><td c=09>[[nefes gırewtene]]</td>
+</tr>
+<tr>
+  <td i=X1>100</td>
+  <td c=EN>[[laugh]]</td>
+  <td c=FA>[[خندیدن]]<br>khandidan</td>
+  <td c=HI>[[हँसना]]<br>hãsnā</td>
+  <td c=03>[[হাসা ]]<br>hasha</td>
+  <td c=04>[[assal]]</td>
+  <td c=05>[[хандидан]]</td>
+  <td c=06>[[pêkenîn]]</td>
+  <td c=MZN>ریک<br>rik</td>
+  <td c=07>[[ਹੱਸਣਾ]]</td>
+  <td c=08>[[ہنسنا]]<br>hãsnā</td>
+  <td c=NE>[[हाँस्नु]]</td>
+  <td c=GU></td><td c=09>[[huyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>101</td>
+  <td c=EN>[[see]]</td>
+  <td c=FA>[[دیدن]] <br> didan</td>
+  <td c=HI>[[देखना]]<br>dekhnā</td>
+  <td c=03>[[দেখা]]<br>dêkha</td>
+  <td c=04>[[dikhel]]</td>
+  <td c=05>[[дидан]]</td>
+  <td c=06>[[dîtin]]</td>
+  <td c=MZN>هارشی‌ین/بَدی‌ین<br>harshiyen/badiyen</td>
+  <td c=07>[[ਵੇਖਣਾ]]</td>
+  <td c=08>[[دیکھنا]]<br>dekhnā</td>
+  <td c=NE>[[देख्नु]]</td>
+  <td c=GU></td><td c=09>[[vitene]]</td>
+</tr>
+<tr>
+  <td i=X1>102</td>
+  <td c=EN>[[hear]]</td>
+  <td c=FA>[[شنیدن]] <br> šenidan </td>
+  <td c=HI>[[सुनना]]<br>sunnā</td>
+  <td c=03>[[শোনা]]<br>shona</td>
+  <td c=04>[[ashunel]]</td>
+  <td c=05>[[шунидан]]</td>
+  <td c=06>[[bîstin]]</td>
+  <td c=MZN>بشناسِّن<br>beshnassen</td>
+  <td c=07>[[ਸੁਣਨਾ]]</td>
+  <td c=08>[[سننا]]<br>sunnā</td>
+  <td c=NE>[[सुन्नु]]</td>
+  <td c=GU></td><td c=09>[[eşitene]]</td>
+</tr>
+<tr>
+  <td i=X1>103</td>
+  <td c=EN>[[know]]</td>
+  <td c=FA>[[دانستن]] <br>dânestan</td>
+  <td c=HI>[[जानना]]<br>jānnā</td>
+  <td c=03>[[জানা]]<br>jana</td>
+  <td c=04>[[zhanel]]</td>
+  <td c=05>[[донистан]]</td>
+  <td c=06>[[zanîn]]</td>
+  <td c=MZN>دونستن<br>dunesten</td>
+  <td c=07>[[ਜਾਣਨਾ]]</td>
+  <td c=08>[[جاننا]]<br>jānnā</td>
+  <td c=NE>[[जान्नु]]</td>
+  <td c=GU></td><td c=09>[[şınasnayene]]</td>
+</tr>
+<tr>
+  <td i=X1>104</td>
+  <td c=EN>[[think]]</td>
+  <td c=FA>[[اندیشیدن]] <br> andishidan</td>
+  <td c=HI>[[सोचना]]<br>sochnā</td>
+  <td c=03>[[ভাবা]]<br>bhaba</td>
+  <td c=04>[[gindil]]</td>
+  <td c=05>[[андешидан]]</td>
+  <td c=06>[[hizir kirdin]]</td>
+  <td c=MZN>فکر هاکردن<br>fekr hakerden</td>
+  <td c=07>[[ਸੋਚਣਾ]]</td>
+  <td c=08>[[سوچنا]]<br>sochnā</td>
+  <td c=NE>[[सोच्नु]]</td>
+  <td c=GU></td><td c=09>[[fikir kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>105</td>
+  <td c=EN>[[smell]]</td>
+  <td c=FA>[[بوييدن]] <br> buedan</td>
+  <td c=HI>[[सूंघना]]<br>suunghna</td>
+  <td c=03>[[শোঁকা]]<br>shonka</td>
+  <td c=04>[[sungal]]</td>
+  <td c=05>[[бӯидан]]</td>
+  <td c=06>[[bon kirdin]]</td>
+  <td c=MZN>دَیِّن<br>dayyen</td>
+  <td c=07>[[ਸੁੰਘਣਾ]]</td>
+  <td c=08>[[سونگھنا]]<br>suunghna</td>
+  <td c=NE>[[सुँघ्नु]]</td>
+  <td c=GU></td><td c=09>[[boe dayene]]</td>
+</tr>
+<tr>
+  <td i=X1>106</td>
+  <td c=EN>[[fear]]</td>
+  <td c=FA>[[ترسیدن]] <br> tarsidan</td>
+  <td c=HI>[[डरना]]<br>ḍarnā</td>
+  <td c=03>[[ভয় করা]]/[[ডরা]]<br>bhôe kôra/dôra</td>
+  <td c=04>[[daral]]</td>
+  <td c=05>[[тарсидан]]</td>
+  <td c=06>[[tirsan]]</td>
+  <td c=MZN>بترسی‌ین<br>batersiyen</td>
+  <td c=07>[[ਡਰਨਾ]]</td>
+  <td c=08>[[ڈرنا]]<br>ḍarnā</td>
+  <td c=NE>[[डराउनु]]</td>
+  <td c=GU></td><td c=09>[[terseyene]]</td>
+</tr>
+<tr>
+  <td i=X1>107</td>
+  <td c=EN>[[sleep]]</td>
+  <td c=FA>[[خوابیدن]]<br> khåbidan</td>
+  <td c=HI>[[सोना]]<br>sonā</td>
+  <td c=03>[[ঘুমা]]<br>ghuma</td>
+  <td c=04>[[sovel]]</td>
+  <td c=05>[[хобидан]]</td>
+  <td c=06>[[xewtin]]</td>
+  <td c=MZN>بخاتن<br>bakhaten</td>
+  <td c=07>[[ਸੌਣਾ]]</td>
+  <td c=08>[[سونا]]<br>sonā</td>
+  <td c=NE>[[सुत्नु]],[[निदाउनु]]</td>
+  <td c=GU></td><td c=09>[[rakewtene]]</td>
+</tr>
+<tr>
+  <td i=X1>108</td>
+  <td c=EN>[[live]]</td>
+  <td c=FA>[[زیستن]] <br> zistan</td>
+  <td c=HI>[[जीना]]<br>jīnā</td>
+  <td c=03>[[বাঁচা]]<br>bãca</td>
+  <td c=04>[[zhuvel]]</td>
+  <td c=05>[[зистан]]</td>
+  <td c=06>[[jiyam]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਜਿਊਣਾ]]</td>
+  <td c=08>[[جینا]]<br>jīnā</td>
+  <td c=NE>[[बाँच्नु]]</td>
+  <td c=GU></td><td c=09>[[cüwıyene]]</td>
+</tr>
+<tr>
+  <td i=X1>109</td>
+  <td c=EN>[[die]]</td>
+  <td c=FA>[[مردن]]<br> mordan</td>
+  <td c=HI>[[मरना]]<br>marnā</td>
+  <td c=03>[[মরা]]<br>môra</td>
+  <td c=04>[[merel]]</td>
+  <td c=05>[[мурдан]]</td>
+  <td c=06>[[mirdin]]</td>
+  <td c=MZN>بمردن<br>bamerden</td>
+  <td c=07>[[ਮਰਨਾ]]</td>
+  <td c=08>[[مرنا]]<br>marnā</td>
+  <td c=NE>[[मर्नु]]</td>
+  <td c=GU></td><td c=09>[[merdene]]</td>
+</tr>
+<tr>
+  <td i=X1>110</td>
+  <td c=EN>[[kill]]</td>
+  <td c=FA>[[کشتن]]<br> koshtan</td>
+  <td c=HI>[[मारना]]<br>mārnā</td>
+  <td c=03>[[মারা]]/[[মেরে ফেলা]]<br>mara/mere phêla</td>
+  <td c=04>[[mudarel]]</td>
+  <td c=05>[[куштан]]</td>
+  <td c=06>[[kuştin]]</td>
+   <td c=MZN>بکاشتن<br>bakashten</td>
+    <td c=07>[[ਮਾਰਨਾ]]</td>
+  <td c=08>[[مارنا]]<br>mārnā</td>
+  <td c=NE>[[मार्नु]]</td>
+  <td c=GU></td><td c=09>[[kıştene]]</td>
+</tr>
+<tr>
+  <td i=X1>111</td>
+  <td c=EN>[[fight]]</td>
+  <td c=FA>[[جنگیدن]]<br> jangidan</td>
+  <td c=HI>[[झगड़ना]]/[[लड़ना]]<br>jhagaṛnā/laṛnā</td>
+  <td c=03>[[লড়া]]<br>lôṛa</td>
+  <td c=04>[[marel]]</td>
+  <td c=05>[[ҷангидан]]</td>
+  <td c=06>[[şerr kirdin]]</td>
+  <td c=MZN>بجنگستن<br>bajengesten</td>
+  <td c=07>[[ਲੜਨਾ]]</td>
+  <td c=08>[[لڑنا]]/[[جھگڑنا]]<br>jhagaṛnā/laṛnā</td>
+  <td c=NE>[[झगडा गर्नु]]</td>
+  <td c=GU></td><td c=09>[[pero dayene]]</td>
+</tr>
+<tr>
+  <td i=X1>112</td>
+  <td c=EN>[[hunt]]</td>
+  <td c=FA>[[شکار کردن]]<br>shekâr kardan</td>
+  <td c=HI>[[शिकार करना]]<br>shikār karnā</td>
+  <td c=03>[[সীকার করা]]/[[মৃগয়া করা]]<br>shikar kôra/mrigoea kôra</td>
+  <td c=04>[[mudarel]]</td>
+  <td c=05>[[шикор кардан]]</td>
+  <td c=06>[[raw kirdin]]</td>
+  <td c=MZN>اشکار هاکردن<br>eshkar hakerden</td>
+  <td c=07>[[ਟੋਲਣਾ]]/[[ਸ਼ਿਕਾਰ ਕਰਨਾ]]</td>
+  <td c=08>[[شکار کرنا]]<br>shikār karnā</td>
+  <td c=NE>[[शिकार गर्नु]]</td>
+  <td c=GU></td><td c=09>[[sayuyane]]</td>
+</tr>
+<tr>
+  <td i=X1>113</td>
+  <td c=EN>[[hit]]</td>
+  <td c=FA>[[زدن]]<br>zadan</td>
+  <td c=HI>[[मारना]]<br>mārnā</td>
+  <td c=03>[[মারা]]<br>mara</td>
+  <td c=04>[[chalavel]]</td>
+  <td c=05>[[задан]]</td>
+  <td c=06>[[lêdan]]</td>
+  <td c=MZN>بزوئن<br>bazuen</td>
+  <td c=07>[[ਜੜਨਾ]]</td>
+  <td c=08>[[مارنا]]<br>mārnā</td>
+  <td c=NE>[[हान्नु]], [[हिर्काउनु]]</td>
+  <td c=GU></td><td c=09>-</td>
+</tr>
+<tr>
+  <td i=X1>114</td>
+  <td c=EN>[[cut]]</td>
+  <td c=FA>[[بریدن]]<br>boridan</td>
+  <td c=HI>[[काटना]]<br>kāṭnā</td>
+  <td c=03>[[কাটা]]<br>kaṭa</td>
+  <td c=04>[[shinel]]</td>
+  <td c=05>[[буридан]]</td>
+  <td c=06>[[birrîn]]</td>
+  <td c=MZN>بَوری‌ین<br>bavriyen</td>
+  <td c=07>[[ਕੱਟਣਾ]]</td>
+  <td c=08>[[کاٹنا]]<br>kāṭnā</td>
+  <td c=NE>[[काट्नु]]</td>
+  <td c=GU></td><td c=09>-[[cıra kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>115</td>
+  <td c=EN>[[split]]</td>
+  <td c=FA>[[شکافتن]]<br>shekâftan</td>
+  <td c=HI>[[तोड़ना]]<br>toṛna</td>
+  <td c=03>[[ভাগ]]<br>bhag</td>
+  <td c=04>[[pharravel]]</td>
+  <td c=05>[[ҷудо кардан]]</td>
+  <td c=06>[[jya kirdinewe]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਪਾੜਨਾ]]</td>
+  <td c=08>[[توڑنا]]<br>toṛna</td>
+  <td c=NE>[[च्यात्नु]], [[छुट्याउनु]]</td>
+  <td c=GU></td><td c=09>-[[bırnayış]]</td>
+</tr>
+<tr>
+  <td i=X1>116</td>
+  <td c=EN>[[stab]]</td>
+  <td c=FA>[[زخم زدن]]<br> zakhm zadan </td>
+  <td c=HI>[[भोंकना]]<br>bhõknā</td>
+  <td c=03>[[ছোরা মারা]]<br>chora mara(v)</td>
+  <td c=04>[[pusavel]]</td>
+  <td c=05>[[захм задан]]</td>
+  <td c=06>[[xencer lêdan]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਖੋਭਣਾ]]</td>
+  <td c=08>[[گھونپنا]]<br>ghõknā</td>
+  <td c=NE>[[घोप्नु]]</td>
+  <td c=GU></td><td c=09>-[[kardi kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>117</td>
+  <td c=EN>[[scratch]]</td>
+  <td c=FA>[[خراشیدن]]<br>kharâshidan</td>
+  <td c=HI>[[खरोंचना]]<br>kharõchnā</td>
+  <td c=03>[[খামচানো]]<br>khamcano (v)</td>
+  <td c=04>[[xarundel]]</td>
+  <td c=05>[[харошидан]]</td>
+  <td c=06>[[rûşandin]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਘਰੂੰਡਣਾ]]/[[ਖੁਰਚਣਾ]]</td>
+  <td c=08>[[کھروچنا]]<br>kharõchnā</td>
+  <td c=NE>[[कोर्नु]]</td>
+  <td c=GU></td><td c=09>-[[çızgi eştene]]</td>
+</tr>
+<tr>
+  <td i=X1>118</td>
+  <td c=EN>[[dig]]</td>
+  <td c=FA>[[حفر کردن]]<br> hafr kardan</td>
+  <td c=HI>[[खोदना]]<br>khodnā</td>
+  <td c=03>[[খোঁড়া]]<br>khõṛa</td>
+  <td c=04>[[hunavel]]</td>
+  <td c=05>[[ҳафр задан]]</td>
+  <td c=06>[[kollîn]]</td>
+  <td c=MZN>بکندسن<br>bakendesen</td>
+  <td c=07>[[ਪੁੱਟਣਾ]]/[[ਗੋਡਨਾ]]</td>
+  <td c=08>[[کھودنا]]<br>khodnā</td>
+  <td c=NE>[[खन्नु]]</td>
+  <td c=GU></td><td c=09>-[[dik kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>119</td>
+  <td c=EN>[[swim]]</td>
+  <td c=FA>[[شنا کردن]]<br>šenâ kardan</td>
+  <td c=HI>[[तैरना]]<br>tairnā</td>
+  <td c=03>[[সাঁতরানো]]<br>shãtrano</td>
+  <td c=04>[[plemel]]</td>
+  <td c=05>[[шино кардан]]</td>
+  <td c=06>[[mele kirdin]]</td>
+  <td c=MZN>هولی هاکردن<br>huli hakerden</td>
+  <td c=07>[[ਤੈਰਨਾ]]</td>
+  <td c=08>[[تیرنا]]<br>tairnā</td>
+  <td c=NE>[[पौडिनु]]</td>
+  <td c=GU></td><td c=09>-[[asnaw kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>120</td>
+  <td c=EN>[[fly]] (v.)</td>
+  <td c=FA>[[پریدن]]<br>paridan</td>
+  <td c=HI>[[उड़ना]]<br>uṛna</td>
+  <td c=03>[[ওড়া]]<br>oṛa</td>
+  <td c=04>[[ural]]</td>
+  <td c=05>[[паридан]]</td>
+  <td c=06>[[firrîn]]</td>
+  <td c=MZN>بپرستن<br>baperesten</td>
+  <td c=07>[[ਉੱਡਣਾ]]</td>
+  <td c=08>[[اڑنا]]<br>uṛna</td>
+  <td c=NE>[[उड्नु]]</td>
+  <td c=GU></td><td c=09>-[[fılayene]]</td>
+</tr>
+<tr>
+  <td i=X1>121</td>
+  <td c=EN>[[walk]]</td>
+  <td c=FA>[[راه رفتن]]<br>râh raftan</td>
+  <td c=HI>[[चलना]]/[[टहलना]]<br>calnā/ṭahalnā</td>
+  <td c=03>[[হাঁটা]]<br>hãta</td>
+  <td c=04>[[phirel]]</td>
+  <td c=05>[[роҳ рафтан]]</td>
+  <td c=06>[[royîştin]]</td>
+  <td c=MZN>را بوردن<br>ra burden</td>
+  <td c=07>[[ਤੁਰਨਾ]]</td>
+  <td c=08>[[چلنا]]/[[ٹہلنا]]<br>calnā/ṭahalnā</td>
+  <td c=NE>[[हिड्नु]]</td>
+  <td c=GU></td><td c=09>-[[aver şiyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>122</td>
+  <td c=EN>[[come]]</td>
+  <td c=FA>[[آمدن]]<br>âmadan</td>
+  <td c=HI>[[आना]]<br>ānā</td>
+  <td c=03>[[আসা]]<br>asha</td>
+  <td c=04>[[avel]]</td>
+  <td c=05>[[омадан]]</td>
+  <td c=06>[[hatin]]</td>
+  <td c=MZN>بموئن<br>bemuen</td>
+  <td c=07>[[ਆਉਣਾ]]/[[ਅੱਪੜਨਾ]]</td>
+  <td c=08>[[آنا]]<br>ānā</td>
+  <td c=NE>[[आउनु]]</td>
+  <td c=GU></td><td c=09>-[[ameyene]]</td>
+</tr>
+<tr>
+  <td i=X1>123</td>
+  <td c=EN>[[lie]]</td>
+  <td c=FA>[[خوابيدن]]/[[دراز کشيدن]]<br>khâbidan/derâz kishidan</td>
+  <td c=HI>[[लेटना]]<br>leṭnā</td>
+  <td c=03>[[শোয়া]]<br>shoa</td>
+  <td c=04>[[pashlyol]]</td>
+  <td c=05>[[хобидан]]/[[дароз кашидан]]</td>
+  <td c=06>[[rakişan]]</td>
+  <td c=MZN>له بوردن<br>le burden</td>
+  <td c=07>[[ਪੈਣਾ]]</td>
+  <td c=08>[[لیٹنا]]<br>leṭnā</td>
+  <td c=NE>[[पल्टनु]], [[सुत्नु]]</td>
+  <td c=GU></td><td c=09>-[[zur kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>124</td>
+  <td c=EN>[[sit]]</td>
+  <td c=FA>[[نشستن]]<br>neshastan</td>
+  <td c=HI>[[बैठना]]<br>baiṭhna</td>
+  <td c=03>[[বসা]]<br>bôsha</td>
+  <td c=04>[[beshel]]</td>
+  <td c=05>[[нишастан]]</td>
+  <td c=06>[[daniştin]]</td>
+  <td c=MZN>هنیشتن<br>henishten</td>
+  <td c=07>[[ਬਹਿਣਾ]]</td>
+  <td c=08>[[بیٹھنا]]<br>baiṭhna</td>
+  <td c=NE>[[बस्नु]]</td>
+  <td c=GU></td><td c=09>-[[roniştene]]</td>
+</tr>
+<tr>
+  <td i=X1>125</td>
+  <td c=EN>[[stand]]</td>
+  <td c=FA>[[istådan]]/[[på shodan]]</td>
+  <td c=HI>[[खड़ा होना]]<br>khaṛa hona</td>
+  <td c=03>[[দাঁড়ানো]]<br>dãṛano</td>
+  <td c=04>[[tordyol]]</td>
+  <td c=05>[[истодан]]</td>
+  <td c=06>[[bêstan]]</td>
+  <td c=MZN>هرستائن<br>herestaen</td>
+  <td c=07>[[ਖੜ੍ਹਨਾ]]</td>
+  <td c=08>[[کھڑاہونا]]<br>khaṛa hona</td>
+  <td c=NE>[[उभिनु]], [[उठ्नु]]</td>
+  <td c=GU></td><td c=09>-[[vindene]]</td>
+</tr>
+<tr>
+  <td i=X1>126</td>
+  <td c=EN>[[turn]]</td>
+  <td c=FA>[[gardidan]]</td>
+  <td c=HI>[[मुड़ना]]<br>muṛnā</td>
+  <td c=03>[[ঘোরা]]<br>ghora</td>
+  <td c=04>[[boldel]]</td>
+  <td c=05>[[гардидан]]</td>
+  <td c=06>[[]]</td>
+  <td c=MZN>بگردستن<br>bagerdesen</td>
+  <td c=07>[[ਮੁੜਨਾ]]/[[ਮੋੜਨਾ]], [[ਘੁੰਮਣਾ]]/[[ਘੁਮਾਉਣਾ]]</td>
+  <td c=08>[[مڑنا]]<br>muṛnā</td>
+  <td c=NE>[[फर्कनु]]</td>
+  <td c=GU></td><td c=09>-[[tadayene]]</td>
+</tr>
+<tr>
+  <td i=X1>127</td>
+  <td c=EN>[[fall]]</td>
+  <td c=FA>[[oftådan]]</td>
+  <td c=HI>[[गिरना]]<br>girnā</td>
+  <td c=03>[[পড়া]]<br>pôṛa</td>
+  <td c=04>[[perel]]</td>
+  <td c=05>[[афтидан]]</td>
+  <td c=06>[[kewtin]]</td>
+  <td c=MZN>دکتن<br>daketen</td>
+  <td c=07>[[ਡਿੱਗਣਾ]]</td>
+  <td c=08>[[گرنا]]<br>girnā</td>
+  <td c=NE>[[खस्नु]]</td>
+  <td c=GU></td><td c=09>-[[finiyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>128</td>
+  <td c=EN>[[give]]</td>
+  <td c=FA>[[dådan]]</td>
+  <td c=HI>[[देना]]<br>denā</td>
+  <td c=03>[[দেত্তয়া]]<br>dêoa</td>
+  <td c=04>[[del]]</td>
+  <td c=05>[[додан]]</td>
+  <td c=06>[[dan]]</td>
+  <td c=MZN>هدائن<br>hedaen</td>
+  <td c=07>[[ਦੇਣਾ]]</td>
+  <td c=08>[[دینا]]<br>denā</td>
+  <td c=NE>[[दिनु]]</td>
+  <td c=GU></td><td c=09>-[[dayene]]</td>
+</tr>
+<tr>
+  <td i=X1>129</td>
+  <td c=EN>[[hold]]</td>
+  <td c=FA>[[negah dashtan]]</td>
+  <td c=HI>[[पकड़ना]]<br>pakaṛnā</td>
+  <td c=03>[[ধরা]]<br>dhôra</td>
+  <td c=04>[[xutyilel]]</td>
+  <td c=05>[[нигоҳ доштан]]</td>
+  <td c=06>[[ragirtin]]</td>
+  <td c=MZN>نگه داشتن<br>negah dashtan</td>
+  <td c=07>[[ਫੜਨਾ]]</td>
+  <td c=08>[[رکھنا]]<br>rakhnā</td>
+  <td c=NE>[[समात्नु]],[[रोक्नु]]</td>
+  <td c=GU></td><td c=09>-[[tepiştene]]</td>
+</tr>
+<tr>
+  <td i=X1>130</td>
+  <td c=EN>[[squeeze]]</td>
+  <td c=FA>[[feshordan]]</td>
+  <td c=HI>[[निचोड़ना]]<br><br>nichoṛna</td>
+  <td c=03>[[চেপ]]<br>chep-</td>
+  <td c=04>[[kikidel]]</td>
+  <td c=05>[[фишурдан]]</td>
+  <td c=06>[[guşîn]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਨਚੋੜਨਾ]]/[[ਫਿਹਣਾ]]</td>
+  <td c=08>[[نچوڑنا]]<br><br>nichoṛna</td>
+  <td c=NE>[[निचोर्नु]]</td>
+  <td c=GU></td><td c=09>-[[sıxkerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>131</td>
+  <td c=EN>[[rub]]</td>
+  <td c=FA>[[sudan]]</td>
+  <td c=HI>[[रगड़ना]]/[[मलना]]<br>ragaṛnā/malnā</td>
+  <td c=03>[[ঘষা]]<br>ghosha</td>
+  <td c=04>[[morel]]</td>
+  <td c=05>[[молидан]]</td>
+  <td c=06>[[mallîn]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਮਲ਼ਨਾ]]/[[ਰਗੜਨਾ]]/[[ਮਾਂਜਣਾ]]</td>
+  <td c=08>[[رگڑنا]]/[[ملنا]]<br>ragaṛnā/malnā</td>
+  <td c=NE>[[माड्नु]]</td>
+  <td c=GU></td><td c=09>-[[sudene]]</td>
+</tr>
+<tr>
+  <td i=X1>132</td>
+  <td c=EN>[[wash]]</td>
+  <td c=FA>[[shostan]]</td>
+  <td c=HI>[[धोना]]<br>dhonā</td>
+  <td c=03>[[ধোয়া]]<br>dhoa</td>
+  <td c=04>[[thovel]]</td>
+  <td c=05>[[шустан]]</td>
+  <td c=06>[[shordin]]</td>
+  <td c=MZN>بشستن<br>bashesten</td>
+  <td c=07>[[ਧੋਣਾ]]</td>
+  <td c=08>[[دھونا]]<br>dhonā</td>
+  <td c=NE>[[धुनु]]</td>
+  <td c=GU></td><td c=09>-[[şutene]]</td>
+</tr>
+<tr>
+  <td i=X1>133</td>
+  <td c=EN>[[wipe]]</td>
+  <td c=FA>[[zedudan]]</td>
+  <td c=HI>[[पोंछना]]<br>põchnā</td>
+  <td c=03>[[মোছা]]<br>mocha</td>
+  <td c=04>[[khosel]]</td>
+  <td c=05>[[пок кардан]]</td>
+  <td c=06>[[sirrînewe]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਹੂੰਝਣਾ]]</td>
+  <td c=08>[[پونچھنا]]<br>põchnā</td>
+  <td c=NE>[[पुछ्नु]]</td>
+  <td c=GU></td><td c=09>-[[esterıtene]]</td>
+</tr>
+<tr>
+  <td i=X1>134</td>
+  <td c=EN>[[pull]]</td>
+  <td c=FA>[[keshidan]]</td>
+  <td c=HI>[[खींचना]]<br>khiinchna</td>
+  <td c=03>[[টানা]]<br>ṭana</td>
+  <td c=04>[[cirdel]]</td>
+  <td c=05>[[кашидан]]</td>
+  <td c=06>[[kêşan]]</td>
+  <td c=MZN>دَکشی‌ین<br>dakshiyen</td>
+  <td c=07>[[ਖਿੱਚਣਾ]]</td>
+  <td c=08>[[کھینچنا]]<br>khiinchna</td>
+  <td c=NE>[[तान्नु]]</td>
+  <td c=GU></td><td c=09>-[[onciyene]]</td>
+</tr>
+<tr>
+  <td i=X1>135</td>
+  <td c=EN>[[push]]</td>
+  <td c=FA>[[feshar dådan]]</td>
+  <td c=HI>[[धक्का देना]]<br> dhakkā denā</td>
+  <td c=03>[[ঠেলা]]<br>ṭhêla</td>
+  <td c=04>[[pizdel]]</td>
+  <td c=05>[[фишор додан]]</td>
+  <td c=06>[[guşar dan]]</td>
+  <td c=MZN>فشار هدائن<br>feshar hedaen</td>
+  <td c=07>[[ਧੱਕਣਾ]]</td>
+  <td c=08>[[دھکا دینا]]<br> dhakkā denā</td>
+  <td c=NE>[[धकेल्नु]]</td>
+  <td c=GU></td><td c=09>-[[pişar dayene]]</td>
+</tr>
+<tr>
+  <td i=X1>136</td>
+  <td c=EN>[[throw]]</td>
+  <td c=FA>[[part kardan]]</td>
+  <td c=HI>[[फेंकना]]<br>phẽknā</td>
+  <td c=03>[[ফেলা ]]<br>phêla</td>
+  <td c=04>[[shudel]]</td>
+  <td c=05>[[андохтан]]</td>
+  <td c=06>[[hawîştin]]</td>
+  <td c=MZN>کپّل هاکردن<br>kappel hakerden</td>
+  <td c=07>[[ਸੁੱਟਣਾ]]</td>
+  <td c=08>[[پھینکنا]]<br>phẽknā</td>
+  <td c=NE>[[फाल्नु]], [[फ्याँक्नु]]</td>
+  <td c=GU></td><td c=09>-[[eştene]]</td>
+</tr>
+<tr>
+  <td i=X1>137</td>
+  <td c=EN>[[tie]]</td>
+  <td c=FA>[[gereh zadan]]</td>
+  <td c=HI>[[बाँधना]]<br>bãndhnā</td>
+  <td c=03>[[বাঁধা]]<br>bãdha</td>
+  <td c=04>[[phandel]]</td>
+  <td c=05>[[гиреҳ задан]]</td>
+  <td c=06>[[grê dan]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਬੰਨ੍ਹਣਾ]]</td>
+  <td c=08>[[باندھنا]]<br>bãndhnā</td>
+  <td c=NE></td>
+<td c=GU></td>
+  <td c=09>[[gırey kerdene]]</td>
+
+</tr>
+<tr>
+  <td i=X1>138</td>
+  <td c=EN>[[sew]]</td>
+  <td c=FA>[[dukhtan]]</td>
+  <td c=HI>[[सीना]]<br>sīnā</td>
+  <td c=03>[[টাঁকা]]<br>ṭanka</td>
+  <td c=04>[[suvel]]</td>
+  <td c=05>[[дӯхтан]]</td>
+  <td c=06>[[dûrîn]]</td>
+  <td c=MZN>بَدوتِن<br>baduten</td>
+  <td c=07>[[ਸਿਊਂਣਾ]]</td>
+  <td c=08>[[سینا]]<br>sīnā</td>
+  <td c=NE>[[सिउनु]]</td>
+  <td c=GU></td>
+<td c=09>[[suvetene]]</td>
+</tr>
+<tr>
+  <td i=X1>139</td>
+  <td c=EN>[[count]]</td>
+  <td c=FA>[[shomardan]]</td>
+  <td c=HI>[[गिनना]]<br>ginnā</td>
+  <td c=03>[[গোনা]]<br>gona</td>
+  <td c=04>[[ginavel]]</td>
+  <td c=05>[[шумурдан]]</td>
+  <td c=06>[[bijardin]]</td>
+  <td c=MZN>بشمارستن<br>beshmaresten</td>
+  <td c=07>[[ਗਿਣਨਾ]]</td>
+  <td c=08>[[گننا]]<br>ginnā</td>
+  <td c=NE>[[गन्नु]]</td>
+  <td c=GU></td><td c=09>[[amortene]]</td>
+</tr>
+<tr>
+  <td i=X1>140</td>
+  <td c=EN>[[say]]</td>
+  <td c=FA>[[goftan]]</td>
+  <td c=HI>[[कहना]]/[[बोलना]]<br>kêhnā/bolnā</td>
+  <td c=03>[[বলা]]<br>bôla</td>
+  <td c=04>[[phenel]]</td>
+  <td c=05>[[гуфтан]]</td>
+  <td c=06>[[witin]]</td>
+  <td c=MZN>بائوتن<br>bauten</td>
+  <td c=07>[[ਆਖਣਾ]]/[[ਕਹਿਣਾ]]</td>
+  <td c=08>[[کہنا]]/[[بولنا]]<br>kêhnā/bolnā</td>
+  <td c=NE>[[भन्नु]]</td>
+  <td c=GU></td><td c=09>[[vatene]]</td>
+</tr>
+<tr>
+  <td i=X1>141</td>
+  <td c=EN>[[sing]]</td>
+  <td c=FA>[[khåndan]]</td>
+  <td c=HI>[[गाना]]<br>gānā</td>
+  <td c=03>[[গাওয়া]]<br>gaoa</td>
+  <td c=04>[[gilyabel]]</td>
+  <td c=05>[[хондан]]</td>
+  <td c=06>[[goranî witin]]</td>
+  <td c=MZN>ریکن<br>riken</td>
+  <td c=07>[[ਗਾਉਣਾ]]</td>
+  <td c=08>[[گانا]]<br>gānā</td>
+  <td c=NE>[[गाउनु]]</td>
+  <td c=GU></td><td c=09>[[kılam vatene]]</td>
+</tr>
+<tr>
+  <td i=X1>142</td>
+  <td c=EN>[[play]]</td>
+  <td c=FA>[[båzi kardan]]</td>
+  <td c=HI>[[खेलना]]<br>khelna</td>
+  <td c=03>[[খেলা]]<br>khêla</td>
+  <td c=04>[[khelel]]</td>
+  <td c=05>[[бозӣ кардан]]</td>
+  <td c=06>[[kaye kirdin]]</td>
+  <td c=MZN>کا هاکردن<br>ka hakerden</td>
+  <td c=07>[[ਖੇਡਣਾ]]</td>
+  <td c=08>[[کھیلنا]]<br>khelna</td>
+  <td c=NE>[[खेल्नु]]</td>
+  <td c=GU></td><td c=09>[[kay kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>143</td>
+  <td c=EN>[[float]]</td>
+  <td c=FA>[[ایستادن]]</td>
+  <td c=HI>[[बहाव]]<br>bahāv</td>
+  <td c=03>[[ভাসা]]<br>bhasha</td>
+  <td c=04>[[urnel]]</td>
+  <td c=05>[[истодан]]</td>
+  <td c=06>[[bêstan]]</td>
+  <td c=MZN>هرستائن<br>herestaen</td>
+  <td c=07>[[ਤਾਰਨਾ]]/[[ਠੇਲ੍ਹਣਾ]]</td>
+  <td c=08>[[بہاؤ]]<br>bahāo</td>
+  <td c=NE>[[]]</td>
+  <td c=GU></td><td c=09>[[asnaw kerdene]]</td>
+</tr>
+<tr>
+  <td i=X1>144</td>
+  <td c=EN>[[flow]]</td>
+  <td c=FA>[[]]</td>
+  <td c=HI>[[बहना]]<br>bêhnā</td>
+  <td c=03>[[বহা]]<br>bôha</td>
+  <td c=04>[[shordyol]]</td>
+  <td c=05>[[rechtan]]</td>
+  <td c=06>[[]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਵਗਣਾ]]</td>
+  <td c=08>[[بہنا]]<br>bêhnā</td>
+  <td c=NE>[[बग्नु]]</td>
+  <td c=GU></td><td c=09>[[şiyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>145</td>
+  <td c=EN>[[freeze]]</td>
+  <td c=FA>[[yakh zadan]]</td>
+  <td c=HI>[[जमना]]<br>jamnā</td>
+  <td c=03>[[জমা]]<br>jôma</td>
+  <td c=04>[[pahosajvel]]</td>
+  <td c=05>[[ях шудан]]</td>
+  <td c=06>[[bestin]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਜੰਮਣਾ]]</td>
+  <td c=08>[[جمنا]]<br>jamnā</td>
+  <td c=NE>[[जम्नु]]</td>
+  <td c=GU></td><td c=09>[[cemed biyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>146</td>
+  <td c=EN>[[swell]]</td>
+  <td c=FA>[[]]</td>
+  <td c=HI>[[फूलना]]/[[सूजना]]<br>phūlnā/sūjnā</td>
+  <td c=03>[[ফাঁপা]]<br>phãpa</td>
+  <td c=04>[[shulyol]]</td>
+  <td c=05>[[бод кардан]]</td>
+  <td c=06>[[masîn]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਸੁੱਜਣਾ]]/[[ਫੁੱਲਣਾ]]</td>
+  <td c=08>[[پھولنا]]/[[سوجھنا]]<br>phūlnā/sūjhnā</td>
+  <td c=NE>[[सुन्निनु]], [[फुल्नु]]</td>
+  <td c=GU></td><td c=09>[[hera biyayene]]</td>
+</tr>
+<tr>
+  <td i=X1>147</td>
+  <td c=EN>[[sun]]</td>
+  <td c=FA>[[khorshid]]</td>
+  <td c=HI>[[सूरज]]<br>sūraj</td>
+  <td c=03>[[সূর্য]]<br>shurjo</td>
+  <td c=04>[[kham]]</td>
+  <td c=05>[[офтоб]]</td>
+  <td c=06>[[xwer]]</td>
+  <td c=MZN>خورشید<br>khorshid</td>
+  <td c=07>[[ਸੂਰਜ]]</td>
+  <td c=08>[[سورج]]<br>sūraj</td>
+  <td c=NE>[[सुर्य]]</td>
+  <td c=GU></td><td c=09>[[roc]], [[roz]]</td>
+</tr>
+<tr>
+  <td i=X1>148</td>
+  <td c=EN>[[moon]]</td>
+  <td c=FA>[[måh]]</td>
+  <td c=HI>[[चांद]]<br>chãd</td>
+  <td c=03>[[চাঁদ]]<br>cãd</td>
+  <td c=04>[[shon]]</td>
+  <td c=05>[[моҳ]]</td>
+  <td c=06>[[mang]]</td>
+  <td c=MZN>ماه/مونک<br>mah/munek</td>
+  <td c=07>[[ਚੰਨ]]</td>
+  <td c=08>[[چاند]]<br>chãd</td>
+  <td c=NE>[[चन्द्र]], [[चन्द्रमा]]</td>
+  <td c=GU></td><td c=09>[[aşme]], [[menge]]</td>
+</tr>
+<tr>
+  <td i=X1>149</td>
+  <td c=EN>[[star]]</td>
+  <td c=FA>[[setåre]]</td>
+  <td c=HI>[[तारा]]/[[सितारा]] <br>tārā/sitārā</td>
+  <td c=03>[[তারা]]<br>tara</td>
+  <td c=04>[[cherhaj]]</td>
+  <td c=05>[[ситора]]</td>
+  <td c=06>[[estêre]]</td>
+  <td c=MZN>اساره<br>esare</td>
+  <td c=07>[[ਤਾਰਾ]]</td>
+  <td c=08>[[تارا]]/[[ستارہ]] <br>tārā/sitārā</td>
+  <td c=NE>[[तारा]]</td>
+  <td c=GU></td><td c=09>[[astar]]</td>
+</tr>
+<tr>
+  <td i=X1>150</td>
+  <td c=EN>[[water]]</td>
+  <td c=FA>[[åb]]</td>
+  <td c=HI>[[पानी]]<br>pānī</td>
+  <td c=03>[[পানি]]/[[জল]]<br>pani/jôl</td>
+  <td c=04>[[paji]]</td>
+  <td c=05>[[об]]</td>
+  <td c=06>[[aw]]</td>
+  <td c=MZN>ئو<br>o</td>
+  <td c=07>[[ਪਾਣੀ]]</td>
+  <td c=08>[[پانی]]<br>pānī</td>
+  <td c=NE>[[पानी]]</td>
+  <td c=GU></td><td c=09>[[ou]]</td>
+</tr>
+<tr>
+  <td i=X1>151</td>
+  <td c=EN>[[rain]]</td>
+  <td c=FA>[[bårån]]</td>
+  <td c=HI>[[बारिश]]/<br>bāriś</td>
+  <td c=03>[[বৃষ্টি]]<br>brishti</td>
+  <td c=04>[[brishind]]</td>
+  <td c=05>[[борон]]</td>
+  <td c=06>[[baran]]</td>
+  <td c=MZN>وارش<br>varesh</td>
+  <td c=07>[[ਮੀਂਹ]]</td>
+  <td c=08>[[بارش]]/<br>bāriś</td>
+  <td c=NE>[[वर्षा]]</td>
+  <td c=GU></td><td c=09>[[şili]], [[varıt]]</td>
+</tr>
+<tr>
+  <td i=X1>152</td>
+  <td c=EN>[[river]]</td>
+  <td c=FA>[[رودخانه]]<br/> rudxâne</td>
+  <td c=HI>[[नदी]]<br>nadī</td>
+  <td c=03>[[নদী]]<br>nodi</td>
+  <td c=04>[[len]]</td>
+  <td c=05>[[дарё,   рӯд]]</td>
+  <td c=06>[[rûbar]]</td>
+  <td c=MZN>روخنه/درکا<br>rokhene/derka</td>
+  <td c=07>[[ਦਰਿਆ]]</td>
+  <td c=08>[[ندی]]<br>nadī</td>
+  <td c=NE>[[नदी]]</td>
+  <td c=GU></td><td c=09>[[çay]], [[ro]]</td>
+</tr>
+<tr>
+  <td i=X1>153</td>
+  <td c=EN>[[lake]]</td>
+  <td c=FA>[[daryåche]]</td>
+  <td c=HI>[[झील]]<br>jhīl</td>
+  <td c=03>[[পুকুর]]<br>pukur</td>
+  <td c=04>[[baro paji]]</td>
+  <td c=05>[[кӯл]]</td>
+  <td c=06>[[zeryaçe]]</td>
+  <td c=MZN>دریامونا<br>deryamuna</td>
+  <td c=07>[[ਝੀਲ]]</td>
+  <td c=08>[[جھیل]]<br>jhīl</td>
+  <td c=NE>[[ताल]]</td>
+  <td c=GU></td><td c=09>[[gol]]</td>
+</tr>
+<tr>
+  <td i=X1>154</td>
+  <td c=EN>[[sea]]</td>
+  <td c=FA>[[daryå]]</td>
+  <td c=HI>[[समंदर]]<br>samandar</td>
+  <td c=03>[[সমুদ্র]]<br>shomudro</td>
+  <td c=04>[[marja]]<br>[[baro paji]]</td>
+  <td c=05>[[баҳр]]</td>
+  <td c=06>[[zerya]]</td>
+  <td c=MZN>دریا<br>derya</td>
+  <td c=07>[[ਸਮੁੰਦਰ]]</td>
+  <td c=08>[[سمندر]]<br>samandar</td>
+  <td c=NE>[[समुन्द्र]]</td>
+  <td c=GU></td><td c=09>[[dengız]]</td>
+</tr>
+<tr>
+  <td i=X1>155</td>
+  <td c=EN>[[salt]]</td>
+  <td c=FA>[[نمک]]<br>namak</td>
+  <td c=HI>[[नमक]]<br>namak</td>
+  <td c=03>[[নুন]]/[[লবন]]<br>nun/lôbon</td>
+  <td c=04>[[lon]]</td>
+  <td c=05>[[намак]]</td>
+  <td c=06>[[xwê]]</td>
+  <td c=MZN>نمک<br>nemek</td>
+  <td c=07>[[ਲੂਣ]]</td>
+  <td c=08>[[نمک]]<br>namak</td>
+  <td c=NE>[[नुन]]</td>
+  <td c=GU></td><td c=09>[[sol]]</td>
+</tr>
+<tr>
+  <td i=X1>156</td>
+  <td c=EN>[[stone]]</td>
+  <td c=FA>[[سنگ]]<br>sang</td>
+  <td c=HI>[[पत्थर]]<br>patthar</td>
+  <td c=03>[[পাথর]]<br>pathor</td>
+  <td c=04>[[barr]]</td>
+  <td c=05>[[санг]]</td>
+  <td c=06>[[berd]]</td>
+  <td c=MZN>سنگ/کالوم<br>sang/kalum</td>
+  <td c=07>[[ਪੱਥਰ]]</td>
+  <td c=08>[[پتھر]]<br>patthar</td>
+  <td c=NE>[[ढुंगा]]</td>
+  <td c=GU></td><td c=09>[[kerre]], [[salıke]]</td>
+</tr>
+<tr>
+  <td i=X1>157</td>
+  <td c=EN>[[sand]]</td>
+  <td c=FA>[[måse]]</td>
+  <td c=HI>[[रेत]]]/[[बालू]]<br>ret/bālū</td>
+  <td c=03>[[বালি]]<br>bali</td>
+  <td c=04>[[kishaj]]</td>
+  <td c=05>[[reg]]</td>
+  <td c=06>[[xîz]]</td>
+  <td c=MZN>ماسه<br>mase</td>
+  <td c=07>[[ਰੇਤਾ]]</td>
+  <td c=08>[[ریت]]]/[[ریگ]]<br>ret/reg</td>
+  <td c=NE>[[बालुवा]]</td>
+  <td c=GU></td><td c=09></td>
+</tr>
+<tr>
+  <td i=X1>158</td>
+  <td c=EN>[[dust]]</td>
+  <td c=FA>[[gard o khåk]]</td>
+  <td c=HI>[[धूल]]/[[ख़ाक]]<br>dhūl/xāk</td>
+  <td c=03>[[ধুলো]]<br>dhulo</td>
+  <td c=04>[[praho]]</td>
+  <td c=05>[[чанг, gard]]</td>
+  <td c=06>[[toz]]</td>
+<td c=MZN><br></td>
+  <td c=07>[[ਧੂੜ]]</td>
+  <td c=08>[[دھول]]/[[خاک]]<br>dhūl/xāk</td>
+  <td c=NE>[[धुलो]]</td>
+  <td c=GU></td><td c=09>[[dos]]</td>
+</tr>
+<tr>
+  <td i=X1>159</td>
+  <td c=EN>[[earth]]</td>
+  <td c=FA>[[zamin]]</td>
+  <td c=HI>[[भूमि]]/[[ज़मीन]]<br>bhūmi/zamīn</td>
+  <td c=03>[[মাটি]]<br>mati</td>
+  <td c=04>[[phuv]]</td>
+  <td c=05>[[замин]]</td>
+  <td c=06>[[zewî]]</td>
+  <td c=MZN>بنه<br>bene</td>
+  <td c=07>[[ਧਰਤੀ]]</td>
+  <td c=08>[[ارض]]/[[زمین]]<br>arz/zamīn</td>
+  <td c=NE>[[पृथ्वी]],[[जमिन]]</td>
+  <td c=GU></td><td c=09>[[erd]]</td>
+</tr>
+<tr>
+  <td i=X1>160</td>
+  <td c=EN>[[cloud]]</td>
+  <td c=FA>[[abr]]</td>
+  <td c=HI>[[बादल]]<br>bādal</td>
+  <td c=03>[[মেঘ]]<br>megh</td>
+  <td c=04>[[noro]]</td>
+  <td c=05>[[абр]]</td>
+  <td c=06>[[hewr]]</td>
+  <td c=MZN>میاه<br>miyah</td>
+  <td c=07>[[ਬੱਦਲ]]</td>
+  <td c=08>[[بادل]]<br>bādal</td>
+  <td c=NE>[[बादल]]</td>
+  <td c=GU></td><td c=09>[[hun]]</td>
+</tr>
+<tr>
+  <td i=X1>161</td>
+  <td c=EN>[[fog]]</td>
+  <td c=FA>[[meh]]</td>
+  <td c=HI>[[कोहरा]]<br>kohrā</td>
+  <td c=03>[[কুয়াশা]]<br>kuasha</td>
+  <td c=04>[[muglya]]</td>
+  <td c=05>[[тира]]</td>
+  <td c=06>[[mij]]</td>
+  <td c=MZN>میاه<br>miyah</td>
+  <td c=07>[[ਧੁੰਧ]]</td>
+  <td c=08>[[کہرا]]<br>kohrā</td>
+  <td c=NE>[[कुहिरो]]</td>
+  <td c=GU></td><td c=09>[[düman]]</td>
+</tr>
+<tr>
+  <td i=X1>162</td>
+  <td c=EN>[[sky]]</td>
+  <td c=FA>[[åsemån]]</td>
+  <td c=HI>[[आसमान]]<br>āsamān</td>
+  <td c=03>[[আকাশ]]<br>akash</td>
+  <td c=04>[[cheri]]</td>
+  <td c=05>[[осмон]]</td>
+  <td c=06>[[asmam]]</td>
+  <td c=MZN>آسمون<br>asemun</td>
+  <td c=07>[[ਅਸਮਾਨ]]</td>
+  <td c=08>[[آسمان]]<br>āsamān</td>
+  <td c=NE>[[आकास]]</td>
+  <td c=GU></td><td c=09>[[asmen]]</td>
+</tr>
+<tr>
+  <td i=X1>163</td>
+  <td c=EN>[[wind]]</td>
+  <td c=FA>[[båd]]</td>
+  <td c=HI>[[हवा]]<br>havā</td>
+  <td c=03>[[বাতাস]]<br>batash</td>
+  <td c=04>[[balval]]</td>
+  <td c=05>[[шамол, bod]]</td>
+  <td c=06>[[ba]]</td>
+  <td c=MZN>وا<br>va</td>
+  <td c=07>[[ਹਵਾ]]</td>
+  <td c=08>[[ہوا]]<br>havā</td>
+  <td c=NE>[[हावा]]</td>
+  <td c=GU></td><td c=09>[[vad]]</td>
+</tr>
+<tr>
+  <td i=X1>164</td>
+  <td c=EN>[[snow]]</td>
+  <td c=FA>[[barf]]</td>
+  <td c=HI>[[बर्फ़]]<br>barf</td>
+  <td c=03>[[বরফ]]<br>bôrof</td>
+  <td c=04>[[jiv]]</td>
+  <td c=05>[[барф]]</td>
+  <td c=06>[[befr]]</td>
+  <td c=MZN>ورف<br>varf</td>
+  <td c=07>[[ਬਰਫ਼]]</td>
+  <td c=08>[[پرف]]<br>barf</td>
+  <td c=NE>[[हिउँ]]</td>
+  <td c=GU></td><td c=09>[[vowr]]</td>
+</tr>
+<tr>
+  <td i=X1>165</td>
+  <td c=EN>[[ice]]</td>
+  <td c=FA>[[yakh]]</td>
+  <td c=HI>[[बर्फ़]]<br>barf</td>
+  <td c=03>[[বরফ]]<br>bôrof</td>
+  <td c=04>[[paho]]</td>
+  <td c=05>[[ях]]</td>
+  <td c=06>[[seholl]]</td>
+  <td c=MZN>یخ<br>yakh</td>
+  <td c=07>[[ਬਰਫ਼]]</td>
+  <td c=08>[[پرف]]<br>barf</td>
+  <td c=NE>[[बरफ]]</td>
+  <td c=GU></td><td c=09>[[cemed]]</td>
+</tr>
+<tr>
+  <td i=X1>166</td>
+  <td c=EN>[[smoke]]</td>
+  <td c=FA>[[dud]]</td>
+  <td c=HI>[[धुंआ]]<br>dhũā</td>
+  <td c=03>[[ধুঁয়ো]]<br>dhũo</td>
+  <td c=04>[[thuv]]</td>
+  <td c=05>[[дуд]]</td>
+  <td c=06>[[dûkall]]</td>
+  <td c=MZN>دی<br>di</td>
+  <td c=07>[[ਧੂੰਆਂ]]</td>
+  <td c=08>[[دھنواں]]<br>dhũvā</td>
+  <td c=NE>[[धुँवा]]</td>
+  <td c=GU></td><td c=09>[[düman]]</td>
+</tr>
+<tr>
+  <td i=X1>167</td>
+  <td c=EN>[[fire]]</td>
+  <td c=FA>[[åtash]], [[âzar]]</td>
+  <td c=HI>[[आग]]/[[अग्नि]]<br>āg/agni</td>
+  <td c=03>[[আগুন]]<br>agun</td>
+  <td c=04>[[jag]]</td>
+  <td c=05>[[оташ]]</td>
+  <td c=06>[[awir]]</td>
+  <td c=MZN>تش<br>tash</td>
+  <td c=07>[[ਅੱਗ]]</td>
+  <td c=08>[[آگ]]/[[آتش]]<br>āg/åtish</td>
+  <td c=NE>[[आगो]]</td>
+  <td c=GU></td><td c=09>[[adfır]]</td>
+</tr>
+<tr>
+  <td i=X1>168</td>
+  <td c=EN>[[ash]]</td>
+  <td c=FA>[[khåkestar]]</td>
+  <td c=HI>[[राख]]<br>rākh</td>
+  <td c=03>[[ছাই]]<br>chai</td>
+  <td c=04>[[ushara]]</td>
+  <td c=05>[[хокистар]]</td>
+  <td c=06>[[xollemêş]]</td>
+  <td c=MZN>کلین<br>kelin</td>
+  <td c=07>[[ਸੁਆਹ]]</td>
+  <td c=08>[[راکھ]]<br>rākh</td>
+  <td c=NE>[[खरानी]]</td>
+  <td c=GU></td><td c=09>[[eş]]</td>
+</tr>
+<tr>
+  <td i=X1>169</td>
+  <td c=EN>[[burn]]</td>
+  <td c=FA>[[sukhtan]] (intr)<br>[[suzåndan]] (tr)</td>
+  <td c=HI>[[जलना]]<br>jalanā (intr)<br>[[जलाना]]<br>jalānā (tr)</td>
+  <td c=03>[[পোরা]]/[[জলা]]<br>pora/jôla (intr)<br>[[পোরানো]]/[[জালানো]]<br>porano/jalano (tr)</td>
+  <td c=04>[[phabol]]</td>
+  <td c=05>[[сӯхтан]]</td>
+  <td c=06>[[sûtan]]</td>
+  <td c=MZN>بسوتن<br>basuten</td>
+  <td c=07>[[ਸੜਨਾ]]/[[ਸਾੜਨਾ]], [[ਮੱਚਣਾ]]/[[ਮਚਾਉਣਾ]]</td>
+  <td c=08>[[جلنا]]<br>jalanā (intr)<br>[[جلانا]]<br>jalānā (tr)</td>
+  <td c=NE>[[बाल्नु]],[[जल्नु]]</td>
+  <td c=GU></td><td c=09>[[veşnayene]], [[burnayene]]</td>
+</tr>
+<tr>
+  <td i=X1>170</td>
+  <td c=EN>[[road]]</td>
+  <td c=FA>[[råh]]/[[råh]]/[[khiåbån]]</td>
+  <td c=HI>[[सड़क]]/[[मार्ग]]/[[रास्ता]]/[[राह]]<br>saṛak/mārg/rāstā/rāh</td>
+  <td c=03>[[রাস্তা]]/[[পথ]]<br>rasta/pôth</td>
+  <td c=04>[[drom]]</td>
+  <td c=05>[[роҳ]]</td>
+  <td c=06>[[rê]]</td>
+  <td c=MZN>را<br>ra</td>
+  <td c=07>[[ਸੜਕ]][[ਰਾਹ]]</td>
+  <td c=08>[[سڑک]]/[[راستہ]]/[[راہ]]<br>saṛak/rāstā/rāh</td>
+  <td c=NE>[[सडक]]</td>
+  <td c=GU></td><td c=09>[[rahe]]</td>
+</tr>
+<tr>
+  <td i=X1>171</td>
+  <td c=EN>[[mountain]]</td>
+  <td c=FA>[[kuh]]</td>
+  <td c=HI>[[पहाड़]]<br>pahāṛ</td>
+  <td c=03>[[পাহাড়]]<br>pahaṛ</td>
+  <td c=04>[[plaj]]</td>
+  <td c=05>[[кӯҳ]]</td>
+  <td c=06>[[]]</td>
+  <td c=MZN>سی<br>si</td>
+  <td c=07>[[ਪਹਾੜ]]</td>
+  <td c=08>[[پہاڑ]]<br>pahāṛ</td>
+  <td c=NE>[[हिमाल]]</td>
+  <td c=GU></td><td c=09>[[koh]]</td>
+</tr>
+<tr>
+  <td i=X1>172</td>
+  <td c=EN>[[red]]</td>
+  <td c=FA>[[ghermez]], [[sorkh]]</td>
+  <td c=HI>[[लाल]]<br>lāl</td>
+  <td c=03>[[লাল]]<br>lal</td>
+  <td c=04>[[lolo]]</td>
+  <td c=05>[[сурх]]</td>
+  <td c=06>[[sûr]]</td>
+  <td c=MZN>سِرخ<br>serkh</td>
+  <td c=07>[[ਰੱਤਾ]]/[[ਸੁਰਖ਼]]/[[ਲਾਲ]]</td>
+  <td c=08>[[لال]]<br>lāl</td>
+  <td c=NE>[[रातो]]</td>
+  <td c=GU></td><td c=09>[[sur]]</td>
+</tr>
+<tr>
+  <td i=X1>173</td>
+  <td c=EN>[[green]]</td>
+  <td c=FA>[[sabz]]</td>
+  <td c=HI>[[हरा]]<br>harā</td>
+  <td c=03>[[সবুজ]]<br>shobuj</td>
+  <td c=04>[[zeleno]]</td>
+  <td c=05>[[сабз]]</td>
+  <td c=06>[[sewz]]</td>
+  <td c=MZN>سبز<br>sabz</td>
+  <td c=07>[[ਹਰਾ]]</td>
+  <td c=08>[[ہرا]]<br>harā</td>
+  <td c=NE>[[हरियो]]</td>
+  <td c=GU></td><td c=09>[[aşıl]]</td>
+</tr>
+<tr>
+  <td i=X1>174</td>
+  <td c=EN>[[yellow]]</td>
+  <td c=FA>[[zard]]</td>
+  <td c=HI>[[पीला]]<br>pīlā</td>
+  <td c=03>[[হলুদ]]<br>holud</td>
+  <td c=04>[[galbeno]]</td>
+  <td c=05>[[зард]]</td>
+  <td c=06>[[zerd]]</td>
+  <td c=MZN>زرد<br>zard</td>
+  <td c=07>[[ਪੀਲ਼ਾ]]</td>
+  <td c=08>[[پیلا]]<br>pīlā</td>
+  <td c=NE>[[पहेंलो]]</td>
+  <td c=GU></td><td c=09>[[ziyerd]]</td>
+</tr>
+<tr>
+  <td i=X1>175</td>
+  <td c=EN>[[white]]</td>
+  <td c=FA>[[sefid]]</td>
+  <td c=HI>[[सफ़ेद]]<br>safed</td>
+  <td c=03>[[সাদা]]<br>shada</td>
+  <td c=04>[[parno]]</td>
+  <td c=05>[[сафед]]</td>
+  <td c=06>[[spî]]</td>
+  <td c=MZN>اسپه<br>espe</td>
+  <td c=07>[[ਚਿੱਟਾ]]</td>
+  <td c=08>[[سفید]]<br>safed</td>
+  <td c=NE>[[सेतो]]</td>
+  <td c=GU></td><td c=09>[[sepi]]</td>
+</tr>
+<tr>
+  <td i=X1>176</td>
+  <td c=EN>[[black]]</td>
+  <td c=FA>[[siåh]]</td>
+  <td c=HI>[[काला]]<br>kālā</td>
+  <td c=03>[[কালো]]<br>kalo</td>
+  <td c=04>[[kalo]]</td>
+  <td c=05>[[сиёҳ]]</td>
+  <td c=06>[[reş]]</td>
+  <td c=MZN>سیو<br>siyu</td>
+  <td c=07>[[ਕਾਲ਼ਾ]]</td>
+  <td c=08>[[کالا]]<br>kālā</td>
+  <td c=NE>[[कालो]]</td>
+  <td c=GU></td><td c=09>[[siya]]</td>
+</tr>
+<tr>
+  <td i=X1>177</td>
+  <td c=EN>[[night]]</td>
+  <td c=FA>[[shab]]</td>
+  <td c=HI>[[रात]]<br>rāt</td>
+  <td c=03>[[রাত্র]]/[[রাত]]<br>ratro/rat</td>
+  <td c=04>[[ratyi]]</td>
+  <td c=05>[[шаб]]</td>
+  <td c=06>[[şew]]</td>
+  <td c=MZN>شو<br>sho</td>
+  <td c=07>[[ਰਾਤ]]</td>
+  <td c=08>[[رات]]<br>rāt</td>
+  <td c=NE>[[रात]]</td>
+  <td c=GU></td><td c=09>[[şan]]</td>
+</tr>
+<tr>
+  <td i=X1>178</td>
+  <td c=EN>[[day]]</td>
+  <td c=FA>[[ruz]]</td>
+  <td c=HI>[[दिन]]<br>din</td>
+  <td c=03>[[দিন]]<br>din</td>
+  <td c=04>[[dyes]]</td>
+  <td c=05>[[рӯз]]</td>
+  <td c=06>[[roj]]</td>
+  <td c=MZN>روز<br>ruj</td>
+  <td c=07>[[ਦਿਹਾੜਾ]]/[[ਦਿਨ]]</td>
+  <td c=08>[[دن]]<br>din</td>
+  <td c=NE>[[दिन]]</td>
+  <td c=GU></td><td c=09>[[ruec]]</td>
+</tr>
+<tr>
+  <td i=X1>179</td>
+  <td c=EN>[[year]]</td>
+  <td c=FA>[[sål]]</td>
+  <td c=HI>[[साल]]/[[बरस]] <br>sāl/baras</td>
+  <td c=03>[[বছর]]<br>bôchor</td>
+  <td c=04>[[bersh]]</td>
+  <td c=05>[[сол]]</td>
+  <td c=06>[[sal]]</td>
+  <td c=MZN>سال<br>sal</td>
+  <td c=07>[[ਵਰ੍ਹਾ]]/[[ਸਾਲ]]</td>
+  <td c=08>[[سال]]/[[برس]] <br>sāl/baras</td>
+  <td c=NE>[[बर्ष]], [[साल]]</td>
+  <td c=GU></td><td c=09>[[serre]]</td>
+</tr>
+<tr>
+  <td i=X1>180</td>
+  <td c=EN>[[warm]]</td>
+  <td c=FA>[[garm]]</td>
+  <td c=HI>[[गर्म]]<br>garm</td>
+  <td c=03>[[গরম]]<br>gôrom</td>
+  <td c=04>[[tato]]</td>
+  <td c=05>[[гарм]]</td>
+  <td c=06>[[germ]]</td>
+  <td c=MZN>گرم<br>garm</td>
+  <td c=07>[[ਨਿੱਘਾ]]</td>
+  <td c=08>[[گرم]]<br>garm</td>
+  <td c=NE>[[तातो]], [[न्यानो]]</td>
+  <td c=GU></td><td c=09>[[germ]]</td>
+</tr>
+<tr>
+  <td i=X1>181</td>
+  <td c=EN>[[cold]]</td>
+  <td c=FA>[[sard]]</td>
+  <td c=HI>[[ठंडा]]<br>ṭhanḍā</td>
+  <td c=03>[[ঠাণ্ডা]]<br>ṭhanḍa</td>
+  <td c=04>[[shudro]]</td>
+  <td c=05>[[сард]]</td>
+  <td c=06>[[sard]]</td>
+  <td c=MZN>سرد<br>sard</td>
+  <td c=07>[[ਠੰਢਾ]]</td>
+  <td c=08>[[ٹھنڈا]]<br>ṭhanḍā</td>
+  <td c=NE>[[चिसो]], [[ठण्डा]]</td>
+  <td c=GU></td><td c=09>[[serd]]</td>
+</tr>
+<tr>
+  <td i=X1>182</td>
+  <td c=EN>[[full]]</td>
+  <td c=FA>[[por]]</td>
+  <td c=HI>[[पूरा]]<br>pūrā</td>
+  <td c=03>[[ভরা]]<br>bhôra</td>
+  <td c=04>[[pherdo]]</td>
+  <td c=05>[[пур]]</td>
+  <td c=06>[[pirr]]</td>
+  <td c=MZN>پر<br>per</td>
+  <td c=07>[[ਪੂਰਾ]]</td>
+  <td c=08>[[پورا]]<br>pūrā</td>
+  <td c=NE>[[भरी]], [[पूर्ण]]</td>
+  <td c=GU></td><td c=09>[[pur]]</td>
+</tr>
+<tr>
+  <td i=X1>183</td>
+  <td c=EN>[[new]]</td>
+  <td c=FA>[[now]]</td>
+  <td c=HI>[[नया]]<br>nayā</td>
+  <td c=03>[[নতুন]]<br>notun</td>
+  <td c=04>[[nyevo]]</td>
+  <td c=05>[[нав]]</td>
+  <td c=06>[[nwê]]</td>
+  <td c=MZN>نو<br>no</td>
+  <td c=07>[[ਨਵਾਂ]]</td>
+  <td c=08>[[نیا]]<br>nayā</td>
+  <td c=NE>[[नयाँ]]</td>
+  <td c=GU></td><td c=09>[[newe]]</td>
+</tr>
+<tr>
+  <td i=X1>184</td>
+  <td c=EN>[[old]]</td>
+  <td c=FA>[[kohne]]</td>
+  <td c=HI>[[पुराना]]<br>purānā</td>
+  <td c=03>[[পুরানো]]<br>purano</td>
+  <td c=04>[[phurano]]</td>
+  <td c=05>[[кӯҳна]]</td>
+  <td c=06>[[kone]]</td>
+  <td c=MZN>قدیمی<br>ghadimi</td>
+  <td c=07>[[ਪੁਰਾਣਾ]]</td>
+  <td c=08>[[پرانا]]<br>purānā</td>
+  <td c=NE>[[पुरानो]], [[बुढो]]</td>
+  <td c=GU></td><td c=09>[[kıhan]]</td>
+</tr>
+<tr>
+  <td i=X1>185</td>
+  <td c=EN>[[good]]</td>
+  <td c=FA>[[khub]]</td>
+  <td c=HI>[[अच्छा]]<br>acchā</td>
+  <td c=03>[[ভালো]]<br>bhalo</td>
+  <td c=04>[[lasho]]</td>
+  <td c=05>[[хуб]]</td>
+  <td c=06>[[baş]]</td>
+  <td c=MZN>خار<br>khar</td>
+  <td c=07>[[ਚੰਗਾ]]/[[ਵਧੀਆ]]</td>
+  <td c=08>[[اچھا]]<br>achchhā</td>
+  <td c=NE>[[रामो]], [[असल]]</td>
+  <td c=GU></td><td c=09>[[hewl]]</td>
+</tr>
+<tr>
+  <td i=X1>186</td>
+  <td c=EN>[[bad]]</td>
+  <td c=FA>[[bad]]</td>
+  <td c=HI>[[ख़राब]]/[[बुरा]] <br>xarāb/burā</td>
+  <td c=03>[[খারাপ]]<br>kharap</td>
+  <td c=04>[[nasul]]</td>
+  <td c=05>[[бад]]</td>
+  <td c=06>[[xirap]]</td>
+  <td c=MZN>بد<br>bad</td>
+  <td c=07>[[ਮਾੜਾ]]/[[ਬੁਰਾ]]</td>
+  <td c=08>[[خراب]]/[[برا]] <br>xarāb/burā</td>
+  <td c=NE>[[नराम्रो]], [[खराब]]</td>
+  <td c=GU></td><td c=09>[[pis]]</td>
+</tr>
+<tr>
+  <td i=X1>187</td>
+  <td c=EN>[[rotten]]</td>
+  <td c=FA>[[puside]]</td>
+  <td c=HI>[[सड़ा]]<br>saṛā</td>
+  <td c=03>[[পচা]]<br>pôca</td>
+  <td c=04>[[kerno]]</td>
+  <td c=05>[[пӯсида]]</td>
+  <td c=06>[[rizîw]]</td>
+  <td c=MZN>بپیسّه<br>bapisse</td>
+  <td c=07>[[ਬੁੱਸਿਆ]]/[[ਗਲਿਆ]]/[[ਸੜਿਆ]]</td>
+  <td c=08>[[سڑا]]<br>saṛā</td>
+  <td c=NE>[[कुहिएको]], [[सडेगलेको]]</td>
+  <td c=GU></td><td c=09></td>
+</tr>
+<tr>
+  <td i=X1>188</td>
+  <td c=EN>[[dirty]]</td>
+  <td c=FA>[[cherkin]]</td>
+  <td c=HI>[[मैला]]/[[गन्दा]]<br>mailā/gandā</td>
+  <td c=03>[[ময়লা]]<br>môela</td>
+  <td c=04>[[melalo]]</td>
+  <td c=05>[[чиркин]]</td>
+  <td c=06>[[pîs]]</td>
+  <td c=MZN>لَچِر<br>lacher</td>
+  <td c=07>[[ਮਲੀਨ]]।[[ਮੈਲਾ]]</td>
+  <td c=08>[[میلا]]/[[گندہ]]<br>mailā/gandā</td>
+  <td c=NE>[[मैलो]], [[फोहर]]</td>
+  <td c=GU></td><td c=09>[[pis]]</td>
+</tr>
+<tr>
+  <td i=X1>189</td>
+  <td c=EN>[[straight]]</td>
+  <td c=FA>[[råst]]</td>
+  <td c=HI>[[सीधा]]<br>sīdhā</td>
+  <td c=03>[[সোজা]]<br>shoja</td>
+  <td c=04>[[vorta]]</td>
+  <td c=05>[[рост]]</td>
+  <td c=06>[[rast]]</td>
+  <td c=MZN>راست<br>rast</td>
+  <td c=07>[[ਸਿੱਧਾ]]</td>
+  <td c=08>[[سیدھا]]<br>sīdhā</td>
+  <td c=NE>[[सिधा]]</td>
+  <td c=GU></td><td c=09>[[raşt]]</td>
+</tr>
+<tr>
+  <td i=X1>190</td>
+  <td c=EN>[[round]]</td>
+  <td c=FA>[[gerd]]</td>
+  <td c=HI>[[गोल]]<br>gōl</td>
+  <td c=03>[[গোল]]<br>gol</td>
+  <td c=04>[[oblo]]</td>
+  <td c=05>[[гирд]]</td>
+  <td c=06>[[gird]], [[xirr]]</td>
+  <td c=MZN>گرد<br>gerd</td>
+  <td c=07>[[ਗੋਲ]]</td>
+  <td c=08>[[گول]]<br>gōl</td>
+  <td c=NE>[[गोलो]]</td>
+  <td c=GU></td><td c=09></td>
+</tr>
+<tr>
+  <td i=X1>191</td>
+  <td c=EN>[[sharp]]</td>
+  <td c=FA>[[tiz]]</td>
+  <td c=HI>[[तीखा]]<br>tīkhā</td>
+  <td c=03>[[চোক্ষা]]<br>cokkha</td>
+  <td c=04>[[kucime]]</td>
+  <td c=05>[[тез]]</td>
+  <td c=06>[[têj]], [[tîj]]</td>
+  <td c=MZN>تِج<br>tej</td>
+  <td c=07>[[ਤਿੱਖਾ]]</td>
+  <td c=08>[[تیکھا]]<br>tīkhā</td>
+  <td c=NE>[[तिखो]]</td>
+  <td c=GU></td><td c=09></td>
+</tr>
+<tr>
+  <td i=X1>192</td>
+  <td c=EN>[[dull]]</td>
+  <td c=FA>[[kond]]</td>
+  <td c=HI>[[कुंद]]<br>kũnd</td>
+  <td c=03>[[ভোঁতা]]<br>bhōm̐ta</td>
+  <td c=04>[[bikucime]]</td>
+  <td c=05>[[кунд]]</td>
+  <td c=06>[[kul]]</td>
+  <td c=MZN>مس مسی<br>mes-mesi</td>
+  <td c=07>[[ਖੁੰਢਾ]]</td>
+  <td c=08>[[بے حرکت]]<br>be-harkat</td>
+  <td c=NE>[[]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>193</td>
+  <td c=EN>[[smooth]]</td>
+  <td c=FA>[[ھموار]]<br>hamvår</td>
+  <td c=HI>[[[चिकना]]<br>ciknā</td>
+  <td c=03>[[মসৃণ]]<br>masr̥ṇa</td>
+  <td c=04>[[samtalo]]</td>
+  <td c=05>[[ҳамвор]]</td>
+  <td c=06>[[saf]]</td>
+  <td c=MZN>ساف<br>saf</td>
+  <td c=07>[[ਕੂਲਾ]]/[[ਮੁਲਾਇਮ]]</td>
+  <td c=08>[[ہموار]]<br>hamvår</td>
+  <td c=NE>[[नरम]], [[चिल्लो]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>194</td>
+  <td c=EN>[[wet]]</td>
+  <td c=FA>[[tar]]</td>
+  <td c=HI>[[गीला]]/[[ओदा]]<br>gīlā/ōdā</td>
+  <td c=03>[[ভেজা]]<br>bheja</td>
+  <td c=04>[[kindyilo]]</td>
+  <td c=05>[[тар]]</td>
+  <td c=06>[[terr]]</td>
+  <td c=MZN>تار<br>tar</td>
+  <td c=07>[[ਗਿੱਲਾ]]</td>
+  <td c=08>[[گیلا]]/[[تر]]<br>gīlā/tar</td>
+  <td c=NE>[[भिजेको]], [[चिसो]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>195</td>
+  <td c=EN>[[dry]]</td>
+  <td c=FA>[[خشک]]<br>khoshk</td>
+  <td c=HI>[[सूखा]]<br>sūkhā</td>
+  <td c=03>[[শুকনা]]<br>shukna</td>
+  <td c=04>[[shuko]]</td>
+  <td c=05>[[хушк]]</td>
+  <td c=06>[[wişk]]</td>
+  <td c=MZN>خاشک<br>khashk</td>
+  <td c=07>[[ਸੁੱਕਾ]]</td>
+  <td c=08>[[سوکھا]]/[[خشک]]<br>sūkhā/khushk</td>
+  <td c=NE>[[सुख्खा]], [[सुकेको]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>196</td>
+  <td c=EN>[[correct]]</td>
+  <td c=FA>[[درست]]<br>dorost</td>
+  <td c=HI>[[ठीक]]<br>ṭhīk</td>
+  <td c=03>[[ঠিক]]<br>ṭhik</td>
+  <td c=04>[[uchito]]</td>
+  <td c=05>[[дуруст]]</td>
+  <td c=06>[[drust]]</td>
+  <td c=MZN>درست<br>derest</td>
+  <td c=07>[[ਸਹੀ]]/[[ਠੀਕ]]</td>
+  <td c=08>[[درست]]/[[ٹھیک]]<br>dorost/ṭhīk</td>
+  <td c=NE>[[ठिक]], [[सही]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>197</td>
+  <td c=EN>[[near]]</td>
+  <td c=FA>[[nazdik]]</td>
+  <td c=HI>[[क़रीब]]/[[नज़दीक]]/[[के पास]]<br>qarīb/nazdīk/ke pās</td>
+  <td c=03>[[কাছে]]<br>kache</td>
+  <td c=04>[[pashe]]</td>
+  <td c=05>[[наздик]]</td>
+  <td c=06>[[nizîk]]</td>
+  <td c=MZN>نزیک<br>nazzik</td>
+  <td c=07>[[ਨੇੜੇ]]/[[ਕੋਲ਼]]</td>
+  <td c=08>[[قریب]]/[[نزدیک]]/[[کے پاس]]<br>qarīb/nazdīk/ke pās</td>
+  <td c=NE>[[नजिक]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>198</td>
+  <td c=EN>[[far]]</td>
+  <td c=FA>[[dur]]</td>
+  <td c=HI>[[दूर]]<br>dūr</td>
+  <td c=03>[[দূর]]<br>dur</td>
+  <td c=04>[[dur]]</td>
+  <td c=05>[[дур]]</td>
+  <td c=06>[[dûr]]</td>
+  <td c=MZN>دیر<br>dir</td>
+  <td c=07>[[ਦੂਰ]]</td>
+  <td c=08>[[دور]]<br>dūr</td>
+  <td c=NE>[[टाढा]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>199</td>
+  <td c=EN>[[right]]</td>
+  <td c=FA>[[råst]]</td>
+  <td c=HI>[[दायाँ]]<br>dāyāṅ</td>
+  <td c=03>[[ডান]]<br>dan</td>
+  <td c=04>[[chacho]]</td>
+  <td c=05>[[рост]]</td>
+  <td c=06>[[rast]]</td>
+  <td c=MZN>راست<br>rast</td>
+  <td c=07>[[ਸੱਜਾ]]</td>
+  <td c=08>[[دایاں]]<br>dāyāṅ</td>
+  <td c=NE>[[दायाँ]]<br>dāyāṅ</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>200</td>
+  <td c=EN>[[left]]</td>
+  <td c=FA>[[chap]]</td>
+  <td c=HI>[[बायाँ]]<br>bāyāṅ</td>
+  <td c=03>[[বাঁ]]<br>bã</td>
+  <td c=04>[[stungo]]</td>
+  <td c=05>[[чап]]</td>
+  <td c=06>[[çep]]</td>
+  <td c=MZN>چپ<br>chap</td>
+  <td c=07>[[ਖੱਬਾ]]</td>
+  <td c=08>[[بایاں]]<br>bāyāṅ</td>
+  <td c=NE>[[बायाँ]]<br>bāyāṅ</td>
+  <td c=GU></td><td c=09>[[çewt]]</td>
+</tr>
+<tr>
+  <td i=X1>201</td>
+  <td c=EN>[[at]]</td>
+  <td c=FA>[[dar]]</td>
+  <td c=HI>[[पर]]/[[में]]<br>par/mẽ</td>
+  <td c=03>-এ<br>-e</td>
+  <td c=04>[[kaj]]</td>
+  <td c=05>[[дар]]</td>
+  <td c=06>[[le]]</td>
+  <td c=MZN>دله<br>dele</td>
+  <td c=07>[[ਵਿਖੇ]]/[[ਤੇ]]</td>
+  <td c=08>[[پر]]/[[میں]]<br>par/mẽ</td>
+  <td c=NE>[[मा]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>202</td>
+  <td c=EN>[[in]]</td>
+  <td c=FA>[[]]</td>
+  <td c=HI>[[में]]/[[के अन्दर]]<br><br>mẽ/ke anḍar</td>
+  <td c=03>-এ<br>-e</td>
+  <td c=04>[[ando]]</td>
+  <td c=05>[[дар]]</td>
+  <td c=06>[[de]], [[le]]</td>
+  <td c=MZN>دله<br>dele</td>
+  <td c=07>[[ਵਿੱਚ]]</td>
+  <td c=08>[[میں]]/[[کے اندر]]<br><br>mẽ/ke anḍar</td>
+  <td c=NE>[[भित्र]], [[मा]]</td>
+  <td c=GU></td><td c=09>[[id]]</td>
+</tr>
+<tr>
+  <td i=X1>203</td>
+  <td c=EN>[[with]]</td>
+  <td c=FA>[[bå]]</td>
+  <td c=HI>[[से]]/[[के साथ]]/[[के पास]]/[[के संग]]<br>se/ke sāth/ke pās/ke sang</td>
+  <td c=03>-র [[সাথে]]/[[সঙ্গে]]<br>-r shathe/shôngge</td>
+  <td c=04>[[-ca]]</td>
+  <td c=05>[[бо]]</td>
+  <td c=06>[[legell]]</td>
+  <td c=MZN>جه<br>je</td>
+  <td c=07>[[ਨਾਲ਼]]</td>
+  <td c=08>[[سے]]/[[کے ساتھ]]/[[کے پاس]]/[[مع]]<br>se/ke sāth/ke pās/ma'</td>
+  <td c=NE>[[सँग]]</td>
+  <td c=GU></td>
+<td c=09>[[ebe]]</td>
+</tr>
+<tr>
+  <td i=X1>204</td>
+  <td c=EN>[[and]]</td>
+  <td c=FA>[[va]]</td>
+  <td c=HI>[[और]]<br>aur</td>
+  <td c=03>[[আর]]/[[ও]]/[[এবং]]<br>ar/o/ebong</td>
+  <td c=04>[[thaj]]</td>
+  <td c=05>[[ва]]</td>
+  <td c=MZN>و<br>o</td>
+  <td c=06>[[u]]</td>
+  <td c=07>[[ਅਤੇ]]</td>
+  <td c=08>[[اور]]<br>aur</td>
+  <td c=NE>[[र]], [[तथा]]</td>
+  <td c=GU></td><td c=09>[[u]]</td>
+</tr>
+<tr>
+  <td i=X1>205</td>
+  <td c=EN>[[if]]</td>
+  <td c=FA>[[agar]]</td>
+  <td c=HI>[[अगर]]<br>agar</td>
+  <td c=03>[[যদি]]<br>jodi</td>
+  <td c=04>[[te]]</td>
+  <td c=05>[[агар]]</td>
+  <td c=06>[[eger]]</td>
+  <td c=MZN>اگه<br>age</td>
+  <td c=07>[[ਜੇ]]</td>
+  <td c=08>[[اگر]]<br>agar</td>
+  <td c=NE>[[यदि]]</td>
+  <td c=GU></td><td c=09>[[eke]]</td>
+</tr>
+<tr>
+  <td i=X1>206</td>
+  <td c=EN>[[because]]</td>
+  <td c=FA>[[zirå]]</td>
+  <td c=HI>[[क्योंकि]]<br>kyõnki</td>
+  <td c=03>[[কারণ]]<br>karon</td>
+  <td c=04>[[ke]]</td>
+  <td c=05>[[зеро, chunki]]</td>
+  <td c=MZN>چون<br>chon</td>
+  <td c=06>[[çun ke]]</td>
+  <td c=07>[[ਕਿਉਂਕਿ]]</td>
+  <td c=08>[[کیونکہ]]<br>kyõnke</td>
+  <td c=NE>[[किनभने]], [[किनकी]]</td>
+<td></td><td></td>
+</tr>
+<tr>
+  <td i=X1>207</td>
+  <td c=EN>[[name]]</td>
+  <td c=FA>[[nåm]], [[esm]]</td>
+  <td c=HI>[[नाम]]<br>nām</td>
+  <td c=03>[[নাম]]<br>nam</td>
+  <td c=04>[[anav]]</td>
+  <td c=05>[[ном]]</td>
+  <td c=06>[[naw]]</td>
+  <td c=MZN>نوم<br>num</td>
+  <td c=07>[[ਨਾਂ]]</td>
+  <td c=08>[[نام]]<br>nām</td>
+  <td c=NE>[[नाम]]<br>nām</td>
+  <td c=GU></td><td c=09>[[name]]</td>
+</tr>
+</table>
+
+==References==
+*McGregor, R.S, ed. ''The Oxford Hindi-English Dictionary''. Oxford, 1993 <!--all up to 30/3/06 have been checked against this for the Hindi-->
+*Platts, John T. ''[http://dsal.uchicago.edu/dictionaries/platts/ A dictionary of Urdu, Classical Hindi, and English]'' Oxford, 1884.
+*Monier-Williams, Monier. ''[http://www.sanskrit-lexicon.uni-koeln.de/monier/ A Sanskrit-English Dictionary]''. Oxford, 1899.
+
+Symbols for transliterating Indic scripts are provided by the [[w:International Alphabet of Sanskrit Transliteration|International Alphabet of Sanskrit Transliteration]].
+
+This [http://en.wikipedia.org/wiki/IPA_in_Unicode site] is helpful for entering special characters.
+
+(A special thanks to the [http://www.humnet.ucla.edu/languagesofla/default.htm Languages of Los Angeles project] for providing a base on which to add the above words for Persian.)
+
+== See also ==
+*[[w:Template:Iranian_Languages|Wikipedia Iranian Languages template]]
+*[[Appendix:Proto-Indo-Iranian_Swadesh_list|Proto-Indo-Iranian Swadesh list]]
+
+{{Swadesh lists}}

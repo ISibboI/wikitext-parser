@@ -1,0 +1,761 @@
+{{also|Finger}}
+==English==
+[[File:Finger = 4 open.JPG|thumb|right|200px|A human hand, showing its four fingers and thumb.]]
+[[File:Mallet Xray anterior.png|thumb|right|200px|An X-ray of human fingers.]]
+[[File:Fishfinger1.jpg|thumb|200px|Fish fingers.]]
+
+===Etymology===
+{{PIE word|en|pénkʷe}}
+From {{inh|en|enm|fynger}}, {{m|enm|finger}}, from {{der|en|ang|finger||finger}}, from {{der|en|gmw-pro|*fingr}}, from {{der|en|gem-pro|*fingraz||finger}}, from {{der|en|ine-pro|*penkʷrós}}, from {{m|ine-pro|*pénkʷe||five}}.
+
+Compare {{cog|fy|finger}}, Low German/{{cog|de|Finger}}, {{cog|nl|vinger}}, {{cog|da|finger}}; also {{cog|xcl|հինգերորդ|հինգեր-որդ|fifth}}). More at [[five]].
+
+===Pronunciation===
+* {{a|RP}} {{IPA|en|/ˈfɪŋɡə/}}
+* {{a|GA}} {{enPR|fĭngʹ-gər}}, {{IPA|en|/ˈfɪŋɡɚ/}}
+* {{audio|en|En-us-finger.ogg|Audio (GA)}}
+* {{a|Scotland}} {{IPA|en|/ˈfɪŋəɹ/}}
+* {{rhymes|en|ɪŋɡə(ɹ)|s=2}}
+* {{hyphenation|en|fin|ger}}
+
+===Noun===
+{{en-noun}}
+
+# {{lb|en|anatomy}} A [[slender]] [[joint]]ed [[extremity]] of the [[human]] [[hand]], {{lb|en|often}} [[exclusive]] of the [[thumb]].
+#: {{ux|en|Humans have two hands and ten '''fingers'''. Each hand has one thumb and four '''fingers'''.}}
+#* {{quote-book|en|author=W[illiam] Ellis|authorlink=William Ellis (writer on agriculture)|title=The Country Housewife's Family Companion{{...}}|location=London|publisher=James Hodges; B. Collins|year=1750|page=157|pageurl=https://books.google.com/books?id=euRhAAAAcAAJ&pg=PA157|oclc=837728611|passage=[M]aking a Cut here big enough to put her '''Finger''' in, which ſhe thruſts under the Guts, and with it rakes or tears out the Stone that lies neareſt to it.}}
+#* {{quote-journal|en|year=1916|title=The Finger Talk of Chicago's Wheat-Pit|journal=[[s:Popular Science Monthly|Popular Science Monthly]]|section=[[s:Popular Science Monthly/Volume 89|Vol. 89]], [[s:Page:Popular Science Monthly Volume 89.djvu/95|p. 81]]
+|passage=Each '''finger''' extended represents one-eighth of a cent. Thus when all four '''fingers''' and the thumb are extended, all being spread out from one another, it means five-eighths.}}
+#* {{quote-journal|en|date=2014-03-29| volume=410| issue=8880| magazine={{w|The Economist}}| title=[http://www.economist.com/news/science-and-technology/21599755-how-get-rid-yips-dont-cramp-my-style Don’t cramp my style]| passage=In 1993 [Victor Candia] noticed that the '''fingers''' of his left hand were starting to curl up as he played [on his guitar]. It felt to him as if a magnet in his palm were preventing him from opening them. A week later, he could not play at all.}}
+# {{lb|en|zoology}} [[similar|Similar]] or [[similar]]-[[looking]] [[extremities]] in [[other]] [[animal]]s, ''[[particularly]]'':
+#* {{quote-journal|en|year=1915|author={{w|Eleanor Stackhouse Atkinson}}|title=[[s:The How and Why Library|The How and Why Library]]|journal=[[s:The How and Why Library/Life|Life]]|section=[[s:The How and Why Library/Life/Animals-Section VIII|Section VIII]]
+|passage=The starfish eats with five '''fingers'''.}}
+## The [[lower]], [[small]]er [[segment]] of an [[arthropod]] [[claw]].
+## One of the [[support]]ing [[structure]]s of [[wing]]s in [[bird]]s, [[bat]]s, etc. [[evolve]]d from [[earlier]] [[toe]]s or fingers.
+## One of the [[slender]] [[bony]] [[structure]]s before the [[pectoral]] [[fin]]s of [[gurnard]]s and [[sea robin]]s ([[Triglidae]]).
+# [[something|Something]] [[similar]] in [[shape]] to the [[human]] finger, ''[[particularly]]:''
+#* {{quote-text|en|year=1814|author={{w|William Wordsworth}}|title=The Excursion|page=250
+|passage=...spires whose ‘silent '''finger''' points to Heaven’...}}
+## {{lb|en|cuisine}} Finger-[[shaped]] [[piece]]s of [[food]].
+##: {{ux|en|chocolate '''fingers'''; fish '''fingers'''; cheese '''fingers'''}}
+##* {{quote-text|en|year=2014|author=Laurie David|title=The Family Cooks
+|passage=By now, we hope you have said “no” to processed nuggets and '''[[chicken finger|fingers]]'''. Instead, how about taking some real chicken, tossing it with real eggs, a little tangy mustard, and a crunchy quinoa coating?}}
+## {{lb|en|chemistry}} A [[tube]] extending from a sealed system, or sometimes into one in the case of a [[cold finger]].
+##* {{quote-text|en|year=1996|author=Susan Trumbore|title=Mass Spectrometry of Soils|page=318
+|passage=An oven is placed over the '''finger''' with Co catalyst (oven temperature will depend on whether a quartz or Pyrex '''finger''' is used, see Ref. 24), and a cold '''finger''' (usually a copper rod immersed in dry ice–isopropanol slurry) is placed on the other tube.}}
+## {{lb|en|UK|_|regional|botany|usually|in the plural|obsolete}} {{syn of|en|foxglove|nodot=a}} (''[[Digitalis purpurea|D. purpurea]]'').
+# [[something|Something]] [[similarly]] [[extend]]ing, {{lb|en|especially}} from a [[larger]] [[body]], ''[[particularly]]:''
+#: ''a '''finger''' of land; a '''finger''' of smoke''
+## {{lb|en|botany}} [[various|Various]] [[protruding]] [[plant]] [[structure]]s, as a [[banana]] from its [[hand]].
+## {{lb|en|anatomy|obsolete}} A [[lobe]] of the [[liver]].
+## {{lb|en|historical}} The [[teeth]] [[parallel]] to the [[blade]] of a [[scythe]], [[fitted]] to a [[wooden]] [[frame]] [[called]] a [[crade]].
+## The [[projection]]s of a [[reaper]] or [[mower]] which [[similarly]] [[separate]] the [[stalk]]s for [[cutting]].
+## {{lb|en|nautical}} {{clipping of|en|finger pier|nodot=a}}: a [[shorter]], [[narrower]] [[pier]] [[project]]ing from a [[larger]] [[dock]].
+## {{lb|en|aviation}} {{syn of|en|jet bridge|nodot=a}}: the [[narrow]] [[elevate]]d [[walkway]] [[connect]]ing a [[plane]] to an [[airport]].
+## {{lb|en|comptheory}} A [[leaf]] in a [[finger tree]] [[data structure]].
+# [[something|Something]] [[similar]] in [[function]] or [[agency]] to the [[human]] finger, {{lb|en|usually}} [[with regard to]] [[touch]]ing, [[grasp]]ing, or [[point]]ing.
+#* '''1611''', Bible (KJV), Exodus 8:19:
+#*: The Magicians said [[unto|vnto]] Pharaoh; This is the '''finger''' of God.
+## {{lb|en|obsolete}} {{syn of|en|hand|nodot=a}}, the [[part]] of a [[clock]] [[point]]ing to the [[hour]], [[minute]], or [[second]].
+## {{lb|en|US|obsolete|_|slang}} A [[policeman]] or [[prison]] [[guard]].
+## {{lb|en|US|rare|_|slang}} An [[informer]] to the [[police]], {{lb|en|especially}} one who [[identifies]] a [[criminal]] during a [[lineup]].
+## {{lb|en|US|rare|_|slang}} A [[criminal]] who [[scout]]s for [[prospective]] [[victim]]s and [[target]]s or who [[perform]]s [[reconnaissance]] before a [[crime]].
+## {{lb|en|figurative}} That which points; an [[indicator]], as of [[guilt]], [[blame]], or [[suspicion]].
+##: ''The '''finger''' of suspicion pointed clearly at the hotel manager.''
+# {{lb|en|units of measure}} [[various|Various]] [[unit]]s of [[measure]] [[base]]d or [[notionally]] [[base]]d on the [[adult]] [[human]] finger, ''[[particularly]]''
+## {{lb|en|historical}} {{syn of|en|digit|nodot=a}}: [[former]] [[unit]]s of [[measure]] [[notionally]] [[base]]d on its [[width]] but [[variously]] [[standardized]], {{lb|en|especially}} the [[English]] [[digit]] of {{frac|1|16}}{{nbsp}}[[foot]] ([[about]] 1.9{{nbsp}}[[cm]]).
+##* {{RQ:Wilkins Mathematical Magick}}
+##*: a piece of steel three '''fingers''' thick
+## {{lb|en|historical}} A [[unit]] of [[length]] [[notionally]] [[base]]d on the [[length]] of an [[adult]] [[human]]'s [[middle finger]], [[standardized]] as 4½{{nbsp}}[[inch]]es (11.43{{nbsp}}[[cm]]).
+## {{lb|en|historical}} {{syn of|en|digit|nodot=a}}: {{frac|1|12}} the [[observe]]d [[diameter]] of the [[sun]] or [[moon]], {{lb|en|especially}} [[with regard to]] [[eclipse]]s.
+## {{lb|en|originally|_|US}} An [[informal]] [[measure]] of [[alcohol]] [[base]]d on its [[height]] in a [[given]] [[glass]] [[compare]]d to the [[width]] of the [[pourer]]'s [[finger]]s while [[hold]]ing it.
+##: ''Gimme three '''fingers''' of bourbon.''
+# {{lb|en|fashion}} A [[part]] of a [[glove]] [[intend]]ed to [[cover]] a finger.
+# {{lb|en|informal|obsolete}} [[skill|Skill]] in the [[use]] of the fingers, [[as in]] [[play]]ing upon a [[musical instrument]].
+#* {{quote-text|en|year=1786|author={{w|Thomas Busby (composer)|Thomas Busby}}|title=Musical Dictionary
+|passage=A performer capable of doing justice to rapid or expressive passages, is said to have a good '''finger'''}}
+# {{lb|en|informal|rare}} [[someone|Someone]] [[skill]]ed in the [[use]] of [[their]] fingers, {{lb|en|especially}} a [[pickpocket]].
+# {{lb|en|UK|_|slang}} A [[person]].
+# {{lb|en|especially in the phrase 'give someone the finger'}} An obscene or insulting gesture made by raising one's middle finger towards someone with the palm of one's hand facing inwards.
+# {{lb|en|radio}} Any of the individual [[receiver]]s used in a [[rake receiver]] to decode signal components.
+# {{lb|en|vulgar}} The act of fingering, inserting a finger into someone's vagina or rectum for sexual pleasure.
+
+====Synonyms====
+* {{sense|anatomy}} {{seeSynonyms|en|finger|sense=1}}
+* {{sense|zoology}} {{l|en|toe}} {{qualifier|when on four legs}}; {{l|en|claw}}, {{l|en|talon}} {{qualifier|usually sharp}}
+* {{sense|finger-shaped objects}} {{l|en|tendril}} {{qualifier|in plants}}
+* {{sense|airport walkway}} ''See'' '''{{l|en|jet bridge}}'''
+* {{sense|finger width}} ''See'' '''{{l|en|digit}}'''
+* {{sense|slang for police informer}} {{seeSynonyms|en|informant|sense=1}}
+* {{sense|skill with the fingers}} {{l|en|fingering}} {{l|en|technique}}; {{l|en|touch}}
+* {{sense|British slang for person}} {{l|en|bloke}}, {{l|en|lad}}, {{l|en|boy}}, {{l|en|guv}}
+
+====Hyponyms====
+* {{sense|anatomy}} {{l|en|index finger}}, {{l|en|forefinger}}; {{l|en|middle finger}}; {{l|en|ring finger}}; {{l|en|little finger}}, {{l|en|pinkie}}; {{l|en|thumb}}, {{l|en|hallux}}
+
+====Derived terms====
+{{col3|en
+|all fingers and thumbs
+|at one's fingertips
+|bring up on the finger
+|burn one's fingers
+|butterfingers
+|click of the fingers
+|cross one's fingers
+|dead man's fingers
+|devil's fingers
+|dip one's finger in
+|dog's fingers
+|easy as kiss my finger
+|fat finger
+|finger ache
+|finger alphabet
+|finger and thumb
+|finger and toe
+|fingerbang
+|finger-bang
+|finger bang
+|finger-bar
+|finger-beam
+|finger berry
+|finger biscuit
+|fingerboard
+|finger bone
+|finger bowl
+|finger bread
+|fingerbreadth
+|finger-breadth
+|finger breadth
+|finger brush
+|finger buffet
+|finger cherry
+|finger chip
+|finger-click
+|finger-clicking
+|finger-cold
+|finger-comb
+|finger-combed
+|finger coral
+|finger counting
+|finger crotch
+|finger cymbal
+|finger-director
+|finger dry
+|finger-dry
+|finger-dried
+|finger-drying
+|fingered
+|finger exercise
+|finger-fed
+|finger fern
+|finger fillip
+|finger fish
+|finger flower
+|finger food
+|fingerfuck
+|finger-fuck
+|finger fuck
+|finger game
+|finger glass
+|finger grass
+|finger grip
+|finger guard
+|finger hole
+|finger impression
+|fingering
+|finger joint
+|finger lake
+|finger language
+|finger-length
+|finger-licking
+|finger-lickin' good
+|finger-light
+|finger lime
+|fingerling
+|finger lith
+|finger-loping
+|finger man
+|fingermark
+|finger mark
+|finger-marked
+|fingermeal
+|finger millet
+|finger mirror
+|finger muffin
+|finger neb
+|fingernail
+|finger nut
+|finger orchis
+|fingerpaint
+|finger-paint
+|finger paint
+|finger painting
+|finger-parted
+|finger passage
+|finger piano
+|finger pick
+|fingerpicking
+|finger-piece
+|finger pier
+|finger pillory
+|fingerplate
+|finger plum
+|finger-pop
+|finger-popping
+|fingerpost
+|finger post
+|finger prayer book
+|finger prick
+|fingerprint
+|finger puff
+|finger puppet
+|finger-reading
+|finger ring
+|finger-roll
+|finger roll
+|finger root
+|finger sandwich
+|fingersbreadth
+|finger's-breadth
+|finger screw
+|fingers and thumbs
+|fingers and toes
+|fingers crossed
+|finger-shade
+|finger shell
+|finger shield
+|fingersmith
+|finger-snap
+|finger-snapping
+|finger speech
+|fingerspell
+|fingerspelling
+|finger spin
+|finger-spinner
+|finger splint
+|finger sponge
+|fingerstall
+|finger steel
+|finger stick
+|finger stocks
+|fingers were made before forks
+|finger-talk
+|finger talking
+|finger-talking
+|finger tap
+|finger-tapping
+|finger-tight
+|fingertip
+|finger-tray
+|finger trouble
+|finger-wag
+|finger-wagging
+|finger watch
+|finger wave
+|finger-waving
+|finger weaving
+|fish finger
+|five-finger
+|five-finger discount
+|five-finger exercise
+|forefinger
+|get one's finger out
+|get one's fingers burnt
+|get one's fingers onto
+|give the finger
+|give the fingers
+|hang long betwixt one's fingers
+|hang long betwixt the fingers
+|have a fine finger
+|have a finger in
+|have a finger in every pie
+|have green fingers
+|have fingers made of lime-twigs
+|have more of in one's finger
+|have one's finger on the pulse
+|have one's fingers in many pies
+|have one's fingers in the till
+|have the most fingers
+|index finger
+|in one's fingers
+|king's finger
+|ladies' fingers
+|ladyfinger
+|lay a finger on
+|let one's fingers do the walking
+|lift a finger
+|little finger
+|long finger
+|look through one's fingers
+|lords' and ladies' fingers
+|middle finger
+|move a finger
+|old finger
+|one's fingers are all thumbs
+|one's fingers itch
+|out of one's fingers
+|pinkie finger
+|point the finger at
+|pull one's finger on
+|pull one's finger out
+|put a finger to the wind
+|put one's finger in a hole
+|put one's finger in the fire
+|put one's finger in the dyke
+|put one's finger on
+|put on the long finger
+|put the finger on
+|putty in someone's fingers
+|raise a finger
+|raise a finger against
+|ring finger
+|skirt finger
+|slip through one's fingers
+|snap of the fingers
+|snap one's fingers
+|split finger
+|stick two fingers up
+|sticky fingers
+|stir a finger
+|suck out of one's finger
+|trigger finger
+|two fingers
+|two-finger salute
+|wag a finger
+|wag one's finger
+|with a wet finger
+|within one's fingers
+|with one's finger in one's mouth
+|with one's finger up one's ass
+|work one's fingers to the bone
+|wrap around one's fingers
+|zinc finger
+| arrow-finger|big finger|black finger crab|board finger|Chinese finger puzzle|Chinese finger trap|ear finger|ear-finger|fat-finger|fickle finger of fate|finger bar|finger bun|finger chips|finger cot|finger fan|finger gun|finger heart|finger in the dike|finger in the dyke|finger in the pie|finger mask|finger nail|finger on the pulse|finger pad|finger purse|finger spinner|finger steak|finger tight|finger to the wind|finger width|finger work|finger wrestling|finger-and-toe|finger-four|finger-friendly|finger-fumbler|finger-pointing|finger-post|finger-print|first finger|five finger|five finger discount|five finger exercise|foam finger|fourth finger|fuck finger|fuck-you finger|fucked by the fickle finger of fate|gold-finger|itchy trigger finger|lady's finger|leech-finger|light-finger|mallet finger|marriage finger|medical finger|medicinal finger|mercurial finger|mid-finger|middle-finger|nameless finger|one finger salute|one-finger salute|physic finger|physical finger|physician finger|pinky finger|pointer finger|pull my finger|pussy finger|ring-finger|Scotch finger|seal finger|showing finger|snap of a finger|split-finger fastball|sticky finger|sticky-finger|the finger|third finger|three-finger salute|twist around one's little finger|vibration white finger|wedding finger|wind around one's little finger|word of finger|wrap around one's little finger}}
+
+====Descendants====
+* {{desc|srn|finga}}
+
+====Translations====
+{{see translation subpage|Noun}}
+
+===Verb===
+{{en-verb}}
+
+# {{lb|en|transitive}} To [[identify]] or [[point out]]; to [[blame]] for something.
+#* {{quote-book|en|author=Joseph Henrich|authorlink=Joseph Henrich|title=The Secret of Our Success{{...|: How Culture is Driving Human Evolution, Domesticating our Species, and Making us Smarter}}|year=2016|publisher=Princeton University Press|location=Princeton|chapter=6|isbn=978-0-691-16685-8|passage=This makes it quite difficult to '''finger''' specific gene variants, since any one variant contributes only tiny effects.}}
+#* {{quote-journal|en|year=2018|month=January|work=North and South|title=Wild Things|author=|volume=|number=|passage=I'm rose-tinting my teenage years, for sure, but Twenge isn't the only generational-change researcher to '''finger''' the ubiquitous smartphone for contributing to higher rates of teen depression and anxiety.}}
+# {{lb|en|transitive}} To report to or identify for the authorities; to inform on.
+#: {{syn|en|put the finger on|rat on|rat out|squeal on|tattle on|turn in|Thesaurus:rat out}}
+# {{lb|en|transitive}} To [[poke]], [[probe]], [[feel]], or [[fondle]] with a [[#Noun|finger]] or fingers.
+#* {{RQ:Shakespeare Two Gentlemen of Verona|act=I|scene=ii|passage|passage=Goe, get you gone: and let the papers lye: / You would be '''fingring''' them, to anger me.}} 
+#* {{RQ:Wells War of the Worlds|passage="They have done a foolish thing," said I, '''fingering''' my wineglass.}}
+#* {{quote-book|1=en|year=1956|year_published=1972|author=Anthony Burgess|authorlink=Anthony Burgess|title=Time for a Tiger|series=The Malayan Trilogy|page=121|passage=Alladad Khan, left alone, dandled unhandily his child in unfatherly arms. He wanted to '''finger''' his moustache, but could not.}}
+#* {{quote-book|en|year=2009|author=Win Blevins|title=Dreams Beneath Your Feet|page=135|passage=Feeling tender around the face, she '''fingered''' herself gingerly. Yes, it was swollen, very sore around the cheekbones, with dried blood on the outsides of her eye sockets, below her nostrils, and below one ear.}}
+# {{lb|en|transitive|sex}} To use the [[#Noun|finger]]s to [[penetrate]] or  [[sexually]] [[stimulate]] one's own or another person's [[vulva]], [[vagina]], or [[anus]].
+#: {{syn|en|fingerbang|fingerfuck}}
+#* {{quote-book|en|year=2007|author=Madeline Bastinado|title=A Talent for Surrender|page=201|passage=She '''fingered''' him, spreading the gel and sliding the tip of her finger inside him.}}
+#* {{quote-book|en|year=2008|editor=Thomas Wainwright|title=Erotic Tales|page=56|passage=She smiled, a look of amazement on her face, as if thinking that maybe this was the cock that she had been fantasizing about just now, as she '''fingered''' herself to a massive, body-engulfing orgasm.}}
+# {{lb|en|transitive|music}} To use specified [[#Noun|finger]] [[position]]s in producing [[note]]s on a [[musical instrument]].
+# {{lb|en|transitive|music}} To provide [[instructions]] in written [[music]] as to which [[#Noun|finger]]s are to be used to produce particular [[note]]s or [[passage]]s.
+# {{lb|en|transitive|internet}} To [[query]] (a user's status) using the {{w|Finger (protocol)|Finger protocol}}.
+#* {{quote-book|en|author=Marc Saltzman|title=Internet Games Directory|year=1996|publisher=Lycos Press|page=29|pageurl=https://books.google.com/books?id=Eaqs0orGgAAC&q=&dq=finger&hl=&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwiFgdWhi8L_AhUsRaQEHaUzAzE4ChDoAXoECAUQAg|isbn=978-0-7897-1055-0|author2=Sean McFadden|passage=There is also a hot-link to "'''finger'''" the guys at id to see what they're working on next (John Carmack, John Cash {{...}}}}
+#* {{quote-newsgroup|en|year=1996|author=Yves Bellefeuille|title=List of useful freeware|newsgroup=comp.archives.msdos.d
+|passage=PGP mail welcome ('''finger''' me for my key).}}
+# {{lb|en|obsolete}} To [[steal]]; to [[purloin]].
+#* {{RQ:Shakespeare Hamlet|act=V|scene=ii|passage=in the dark / Grop'd I to finde out them; had my desire, / '''Finger'd''' their Packet, and in fine, withdrew / To mine owne roome againe, }}
+# {{lb|en|transitive|obsolete}} To [[execute]], as any delicate work.
+
+====Translations====
+{{trans-top|to identify or point out}}
+* Armenian: {{t+|hy|մատնանշել}}
+* Bulgarian: {{t+|bg|посочвам}}
+* Chinese:
+*: Gan: {{t|gan|約}}
+* Danish: {{t+|da|udpege}}, {{t|da|pege}} på
+* Dutch: {{t+|nl|aanwijzen}}
+* Finnish: {{t+|fi|osoittaa}}, {{t+|fi|näyttää}}
+* French: {{t+|fr|pointer}}
+* Greek: {{t+|el|υποδεικνύω|sc=Grek}}
+* Macedonian: {{t|mk|покажува}}, {{t|mk|посочува}}, {{t|mk|укажува}}
+* Portuguese: {{t+|pt|apontar}}
+* Russian: {{t+|ru|указа́ть}}, {{t+|ru|показа́ть}}
+* Sicilian: {{t|scn|nnicari}}, {{t|scn|sincaliari}}
+* Spanish: {{t+|es|apuntar}}, {{t+|es|señalar}}
+* Swedish: {{t+|sv|peka ut}}, {{t+|sv|utpeka}}
+* Turkish: {{t+|tr|işaret etmek}}
+* Vietnamese: {{t|vi|chỉ ra}}, {{t|vi|chỉ đến}}
+* Zazaki: {{t|zza|işaret kerden}}
+{{trans-bottom}}
+
+{{trans-top|to poke}}
+* Azerbaijani: {{t|az|barmaqlamaq}}
+* Bulgarian: {{t+|bg|пипам}}
+* Chinese:
+*: Gan: {{t|gan|拈|tr=nien}}
+* Danish: {{t|da|fingerere}}, {{t|da|famle}} ved
+* Dutch: {{t+|nl|porren}}
+* Finnish: {{t+|fi|sormeilla}}, {{t|fi|näpelöidä}}, {{t+|fi|hivellä}}
+* French: {{t+|fr|tripoter}}
+* Greek: {{t+|el|ψηλαφίζω|sc=Grek}}, {{t+|el|πασπατεύω|sc=Grek}}
+* Occitan: {{t|oc|tocassejar}}, {{t|oc|chaspar}}, {{t|oc|patejar}}
+* Portuguese: {{t+|pt|cutucar}}
+* Russian: {{t+|ru|ткнуть}}
+* Sicilian: {{t|scn|scuncicari}}, {{t|scn|stuzziniari}}
+* Spanish: {{t+|es|hurgar}}
+* Swedish: {{t+|sv|fingra}}, {{t+|sv|peta}}
+* Turkish: {{t+|tr|parmak atmak}}
+* Vietnamese: {{t+|vi|chọc}}, {{t+|vi|đâm}}
+* Zazaki: {{t|zza|gışt kuwen}}
+{{trans-bottom}}
+
+{{trans-top|to penetrate and sexually stimulate with one's finger}}
+* Arabic: {{t|ar|صَبَّعَ}}
+* Czech: {{t+|cs|prstit|impf}}
+* Danish: {{t|da|give finger}}
+* Dutch: {{t+|nl|vingeren}}
+* Esperanto: {{t+|eo|fingrumi}}
+* Finnish: {{t+|fi|sormettaa}}
+* French: {{t+|fr|doigter}}
+* German: {{t+|de|fingern}}
+* Greek: {{t|el|[[βάζω]] [[δάχτυλο]]|sc=Grek}}
+* Hungarian: {{t|hu|ujjaz}}
+* Icelandic: {{t|is|putta}}
+* Norwegian:
+*: Bokmål: {{t|nb|fingre}}
+* Occitan: {{t|oc|detar}}, {{t|oc|detejar}}
+* Sicilian: {{t|scn|nfilari i jita}}
+* Slovak: {{t|sk|prstiť|impf}}
+* Spanish: {{t|es|dedear}}
+* Swedish: {{t+|sv|pulla}}
+* Zazaki: {{t|zza|gışt eşten}}
+{{trans-bottom}}
+
+{{trans-top|to use specified finger positions to produce notes on a musical instrument}}
+* Esperanto: {{t|eo|fingri}}
+* Finnish: {{t+|fi|sormittaa}}
+* Maori: {{t|mi|pokipoki}}
+* Zazaki: {{t|zza|ploğnayen}}
+{{trans-bottom}}
+
+{{trans-top|to provide instructions about the use of fingers in music}}
+* Danish: angive {{t|da|fingersætning}} i
+* Esperanto: {{t|eo|fingri}}
+* Finnish: {{t+|fi|sormittaa}}
+* French: {{t+|fr|doigter}}
+* Vietnamese: [[đánh]], [[bấm]] (a); [[ghi]] [[cách]] [[bấm]] (b)
+{{trans-bottom}}
+
+===See also===
+* {{l|en|artiodactyl}}
+* {{l|en|dactyl}}
+* {{l|en|dactylography}}
+* {{l|en|dactylology}}
+* {{l|en|fist}}
+* {{l|en|macrodactyly}}
+* {{l|en|perissodactyl}}
+* {{l|en|prestidigitation}}
+* {{l|en|pterodactyl}}
+
+===References===
+* "finger, ''n.'', in the ''Oxford English Dictionary'', Oxford: Oxford University Press.
+
+===Anagrams===
+* {{anagrams|en|a=efginr|fringe}}
+
+{{cln|en|autohyponyms}}
+{{c|en|Fingers|Masturbation|Sex|Plantain family plants}}
+
+==Danish==
+
+===Etymology 1===
+From {{inh|da|non|fingr}}, from {{inh|da|gem-pro|*fingraz}}, from {{inh|da|ine-pro|*penkʷrós}}.
+
+====Pronunciation====
+* {{IPA|da|/fenɡər/|[ˈfeŋˀɐ]}}
+
+====Noun====
+{{da-noun|en|fingre}}
+
+# [[finger#English|finger]]
+
+=====Inflection=====
+{{da-noun-infl|en|fingre|fingrene}}
+
+=====Further reading=====
+* {{pedia|lang=da}}
+
+===Etymology 2===
+See {{m|da|fingere||to simulate}}.
+
+====Pronunciation====
+* {{IPA|da|/fenɡɡeːr/|[ˈfeŋɡ̊eːˀɐ̯]|[ˈfeŋɡ̊eɐ̯ˀ]}}
+
+====Verb====
+{{head|da|verb form|head=finger ''or'' fingér}}
+
+# {{imperative of|da|fingere}}
+
+==Middle English==
+
+===Noun===
+{{head|enm|noun}}
+
+# {{alternative form of|enm|fynger}}
+
+==Norwegian Bokmål==
+{{wikipedia|lang=no}}
+
+===Etymology===
+From {{der|nb|non|fingr}}, from {{der|nb|gem-pro|*fingraz}}, from {{der|nb|ine-pro|*penkʷrós}}.
+
+===Noun===
+{{nb-noun-irreg|m|fingeren|fingre|ip2=fingrer|fingrene}}
+
+# {{lb|nb|anatomy}} a {{l|en|finger}}
+
+====Derived terms====
+{{col4-u|nb
+|fingeravtrykk
+|fingerbøl
+|fingermat
+|fingernegl
+|fingertupp
+|få ut fingeren
+|langfinger
+|lillefinger
+|pekefinger
+|ringfinger
+|tolvfingertarm
+|tommelfinger
+}}
+
+====Related terms====
+* {{l|nb|tommel}}
+
+===References===
+* {{R:The Bokmål Dictionary}}
+
+==Norwegian Nynorsk==
+
+===Etymology===
+From {{der|nn|non|fingr}}, from {{der|nn|gem-pro|*fingraz}}, from {{der|nn|ine-pro|*penkʷrós}}.
+
+===Noun===
+{{nn-noun-m1||fingr}}
+
+# {{lb|nn|anatomy}} a {{l|en|finger}}
+
+====Derived terms====
+{{col4-u|nn
+|fingeravtrykk
+|fingermat
+|fingertupp
+|få ut fingeren
+|langfinger
+|peikefinger
+|ringfinger
+|tolvfingertarm
+|tommelfinger
+|veslefinger
+}}
+
+====Related terms====
+* {{l|nn|tommel}}
+
+===References===
+* {{R:The Nynorsk Dictionary}}
+
+==Old English==
+
+===Etymology===
+{{dercat|ang|gem-pro|ine-pro|inh=1}}
+From {{inh|ang|gmw-pro|*fingr}}. Compare {{cog|ofs|finger}}, {{cog|osx|fingar}}, {{cog|goh|fingar}}, {{cog|non|fingr}}, {{cog|got|𐍆𐌹𐌲𐌲𐍂𐍃}}.
+
+===Pronunciation===
+* {{ang-IPA|finger}}
+
+===Noun===
+{{ang-noun|m}}
+
+# {{l|en|finger}}
+#: {{ux|ang|Sēo hand hæfþ fīf fingras: þone þūman, þone sċytefinger, þone middelfinger, þone hringfinger, and þone lȳtlan finger.|The hand has five fingers: the thumb, the index finger, the middle finger, the ring finger, and the pinky.}}
+
+====Declension====
+{{ang-decl-noun-a-m|fingr|nomsg=finger}}
+
+====Derived terms====
+{{der4|ang
+|ēarfinger
+|goldfinger
+|hringfinger
+|lǣċefinger
+|lǣst finger
+|lēawfinger
+|lȳtel finger
+|middelfinger
+|sċytefinger
+|sċytelfinger
+}}
+
+====Descendants====
+* {{desctree|enm|fynger}}
+
+{{topics|ang|Anatomy}}
+
+==Old Frisian==
+
+===Etymology===
+{{dercat|ofs|gem-pro|ine-pro|inh=2}}
+From {{inh|ofs|gmw-pro|*fingr}}.
+
+===Noun===
+{{ofs-noun|m}}
+
+# [[#English|finger]]
+
+====Inflection====
+{{ofs-decl-noun-a-m|finger}}
+
+====Descendants====
+* North Frisian:
+*: Föhr-Amrum: {{l|frr|fanger}}
+* {{desc|fy|finger}}
+
+==Old Swedish==
+
+===Etymology===
+From {{inh|gmq-osw|non|fingr}}, from {{inh|gmq-osw|gem-pro|*fingraz}}.
+
+===Pronunciation===
+* {{IPA|gmq-osw|/ˈfiŋɡɛr/}}
+
+===Noun===
+{{head|gmq-osw|noun|g=m}}
+
+# {{l|en|finger}}
+
+====Declension====
+{{gmq-osw-decl-noun-cons|fingr|fing|head=finger|nom_sg=finger|nom_sg_d=fingrin|acc_sg=finger|dat_sg=fingri, -e|dat_sg_d=fingrinum, -enom|gen_sg=fingers|gen_sg_d=fingersins}}
+''or (with neuter gender)''
+{{gmq-osw-decl-noun-a-n|fingr|nom_sg=finger|acc_sg=finger|gen_sg=fingers|nom_pl=finger|acc_pl=finger}}
+
+====Descendants====
+* {{desc|sv|finger}}
+
+==Serbo-Croatian==
+
+===Etymology===
+{{unadapted borrowing|sh|en|finger}}.
+
+===Pronunciation===
+{{sh-IPA|finger}}
+* {{hyph|sh|fin|ger}}
+
+===Noun===
+{{sh-noun|g=m}}
+
+# {{lb|sh|aviation|travel}} [[jet bridge]]
+
+==Spanish==
+
+===Etymology===
+{{ubor|es|en|finger}}.
+
+===Pronunciation===
+{{es-pr|fínguer<hyph:+>}}
+
+===Noun===
+{{es-noun|m}}
+
+# {{lb|es|food}} {{l|en|finger}}
+# {{lb|es|aviation|travel}} [[jet bridge]]
+
+====Usage notes====
+{{es-unadapted}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Swedish==
+{{wikipedia|lang=sv}}
+
+===Etymology===
+From {{inh|sv|gmq-osw|finger}}, from {{inh|sv|non|fingr}}, from {{inh|sv|gem-pro|*fingraz}}, from {{inh|sv|ine-pro|*penkʷrós}}.
+
+===Pronunciation===
+* {{IPA|sv|/ˈfɪŋːɛr/}}
+* {{audio|sv|Sv-finger.ogg|audio}}
+
+===Noun===
+{{sv-noun|n|g2=c}}
+
+# {{lb|sv|anatomy}} a [[#English|finger]] (the body part)
+
+====Usage notes====
+The neuter declension is much more common than the common declension.
+
+====Declension====
+{{sv-noun-irreg-n|2=fingret|3=fingrar|4=fingrarna|6=fingrets}}
+{{sv-noun-irreg-c|2=fingern|3=fingrar|4=fingrarna|6=fingerns}}
+
+====Derived terms====
+{{col4-u|sv
+|fingeravtryck
+|fingerblomma
+|fingerborg
+|fingerbred
+|fingerbredd
+|fingerböld
+|fingerformad
+|fingerfärdig
+|fingerfärdighet
+|fingerfärg
+|fingerhål
+|fingerkrok
+|fingerled
+|fingerlik
+|fingernagel
+|fingerring
+|fingerskiva
+|fingerspets
+|fingersvamp
+|fingersättning
+|fingertopp
+|fingertuta
+|fingervante
+|fingervarm
+|fingervisning
+|fingerört
+|fingra
+|fingrad
+|lillfinger
+|långfinger
+|pekfinger
+|ringfinger
+}}
+
+===See also===
+* {{l|sv|hand}}
+* {{l|sv|knoge}}
+* {{l|sv|nagel}}
+* {{l|sv|tumme}}
+
+===References===
+* {{R:svenska.se|saol}}
+
+==West Frisian==
+
+===Etymology===
+{{dercat|fy|gem-pro|ine-pro|inh=1}}
+From {{inh|fy|ofs|finger}}, from {{inh|fy|gmw-pro|*fingr}}.
+
+===Pronunciation===
+* {{IPA|fy|/ˈfɪŋər/}}
+
+===Noun===
+{{fy-noun|c|fingers|fingerke}}
+
+# {{topics|fy|Body parts}} [[#English|finger]]
+
+====Further reading====
+* {{R:WFT|25423}}

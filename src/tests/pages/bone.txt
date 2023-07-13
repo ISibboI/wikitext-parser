@@ -1,0 +1,657 @@
+{{also|Bone|Bône|boné|bóne|bône}}
+==English==
+{{wikipedia}}
+
+===Pronunciation===
+* {{a|GA}} {{enPR|bōn}}, {{IPA|en|/ˈboʊn/}}
+* {{a|RP}} {{IPA|en|/bəʊn/}}
+* {{a|Australia}} {{IPA|en|/bəʉn/}}
+* {{a|New Zealand}} {{IPA|en|/bɐʉn/}}
+* {{audio|en|en-us-bone.ogg|Audio (US)}}
+* {{audio|en|EN-AU ck1 bone.ogg|Audio (AU)}}
+* {{rhymes|en|əʊn|s=1}}
+
+===Etymology 1===
+From {{inh|en|enm|bon}}, from {{inh|en|ang|bān|t=bone, tusk; the bone of a limb}}, from {{inh|en|gem-pro|*bainą|t=bone}}, from {{m|gem-pro|*bainaz|t=straight}}, from {{der|en|ine-pro|*bʰeyh₂-|t=to hit, strike, beat}}.
+
+Cognate with {{cog|sco|bane}}, {{m|sco|been}}, {{m|sco|bean}}, {{m|sco|bein}}, {{m|sco|bain|t=bone}}, {{cog|frr|bien||bone}}, {{cog|fy|bien|t=bone}}, {{cog|nl|been|t=bone; leg}}, {{cog|nds-de|Been}}, {{m|nds-de|Bein|t=bone}}, {{cog|de|Bein|t=leg}}, {{cog|de|Gebein|t=bones}}, {{cog|sv|ben|t=bone; leg}}, {{cog|no|-}} and {{cog|is|bein|t=bone}}, {{cog|br|benañ|t=to cut, hew}}, {{cog|la|perfinēs|t=break through, break into pieces, shatter}}, {{cog|ae|𐬠𐬫𐬈𐬥𐬙𐬈|t=they fight, hit}}. Related also to {{cog|non|beinn|t=straight, right, favourable, advantageous, convenient, friendly, fair, keen}} (whence {{cog|enm|bain}}, {{m|enm|bayne}}, {{m|enm|bayn}}, {{m|enm|beyn|t=direct, prompt}}, {{cog|sco|bein}}, {{m|sco|bien|t=in good condition, pleasant, well-to-do, cosy, well-stocked, pleasant, keen}}), {{cog|is|beinn|t=straight, direct, hospitable}}, {{cog|no|bein|t=straight, direct, easy to deal with}}. See {{l|en|bain}}, {{l|en|bein}}.
+
+====Alternative forms====
+* {{alter|en|bane|byen||dialectal}}
+
+====Noun====
+[[Image:Humerus ant.jpg|thumb|64px|A '''bone'''.]]
+{{en-noun|~}}
+
+# {{lb|en|uncountable}} A [[composite]] [[material]] consisting largely of [[calcium]] [[phosphate]] and [[collagen]] and making up the [[skeleton]] of most [[vertebrate]]s.
+#* {{quote-book|en|year=a1420
+|year_published=1894
+|author=The British Museum Additional MS, 12,056
+|by={{w|Lanfranc of Milan}}
+|title=Lanfranc's "Science of cirurgie."
+|url=http://books.google.com/books?id=6XktAAAAYAAJ&pg=PA63
+|original=
+|chapter=Wounds complicated by the Dislocation of a Bone
+|section=
+|isbn=1163911380
+|edition=
+|publisher=K. Paul, Trench, Trübner & Co
+|location=London
+|editor=Robert von Fleischhacker
+|volume=
+|page=63
+|passage=Ne take noon hede to brynge togidere þe parties of þe '''boon''' þat is to-broken or dislocate, til viij. daies ben goon in þe wyntir, & v. in þe somer; for þanne it schal make quytture, and be sikir from swellynge; & þanne brynge togidere þe brynkis eiþer þe disiuncture after þe techynge þat schal be seid in þe chapitle of algebra.}}
+# {{lb|en|countable}} Any of the components of an [[endoskeleton]], made of bone.
+#* {{RQ:Shakespeare Hamlet|act=IV|scene=v|page=275|column=1|passage=No Trophee, Sword, nor Hatchment o're his '''bones'''.}}
+# A bone of a [[fish]]; a [[fishbone]].
+# A [[bonefish]].
+#* {{quote-journal|en|year=2019|title=Tres Bocas|author=Scott Sadil|journal=California Fly Fisher
+|passage=The reason I rarely fish for Mag Bay '''bones''' with a 5-weight or 6-weight is the number of fish that can turn light stuff inside out.}}
+# One of the rigid parts of a [[corset]] that forms its frame, the [[boning]], originally made of whalebone.
+# One of the fragments of bone held between the fingers of the hand and rattled together to keep time to music.
+# Anything made of bone, such as a [[bobbin]] for weaving [[bone lace]].
+# {{lb|en|figurative}} The [[framework]] of anything.
+# An [[off-white]] colour, like the [[colour]] of bone.
+#: {{color panel|E4D4BA}}
+# {{lb|en|US|informal}} A [[dollar]].
+# {{lb|en|American football|informal}} The [[wishbone]] formation.
+# {{lb|en|slang}} An [[erect]] penis; a [[boner]].
+# {{lb|en|slang|mostly|in the plural}} A [[domino]] or [[dice]].
+#* {{RQ:Conrad Heart of Darkness|passage=The Accountant had brought out already a box of dominoes, and was toying architecturally with the '''bones'''.}}
+# {{lb|en|slang}} A [[cannabis]] [[cigarette]]; a [[joint]].
+#* {{quote-text|en|year=2006|author=Sean Conway|title=Gillis Huckabee|page=140
+|passage=In between sets I took her outside, sat against a fence near the dumpster, and smoked a '''bone''' with her.}}
+# {{lb|en|figurative}} A [[reward]].
+#* {{quote-text|en|year=1979|author=Pink Floyd|title=Nobody Home
+|passage=When I'm a good dog they sometimes throw me a '''bone''' in}}
+
+=====Synonyms=====
+* {{l|en|os}} {{q|rare}}
+* {{sense|rigid parts of a corset}} {{l|en|rib}}, {{l|en|stay}}
+* {{sense|reward}} {{l|en|doggy treat}}
+
+=====Hypernyms=====
+* [[skeleton]]
+
+=====Hyponyms=====
+{{col4|en
+|aitchbone
+|alveolar bone
+|armbone
+|auditory bone
+|backbone
+|barebone
+|breastbone
+|calf bone
+|cannon bone
+|capitate bone
+|carpal bone
+|cheekbone
+|chevron bone
+|coffin bone
+|collarbone
+|cramp bone
+|crazy bone
+|cuboid bone
+|cuneiform bone
+|cuttlebone
+|cuttlefish bone
+|dentary bone
+|dermal bone
+|dog bone
+|dragonbone
+|dry bone
+|earbone
+|elbow bone
+|epipubic bone
+|ethmoid bone
+|exercise bone
+|featherbone
+|fingerbone
+|fishbone
+|footbone
+|forearm bone
+|frontal bone
+|funny bone
+|hamate bone
+|haunch bone
+|heel bone
+|herringbone
+|hip bone
+|huckle bone
+|hyoid bone
+|incisive bone
+|innominate bone
+|intermediate cuneiform bone
+|jawbone
+|knucklebone
+|lacrimal bone
+|lateral cuneiform bone
+|legbone
+|lingual bone
+|long bone
+|lunate bone
+|malar bone
+|marrowbone
+|marsupial bone
+|mastoid bone
+|medial cuneiform bone
+|membrane bone
+|metacarpal bone
+|nasal bone
+|navicular bone
+|neckbone
+|occipital bone
+|oracle bone
+|otic bone
+|palatine bone
+|parietal bone
+|penile bone
+|penis bone
+|pin bone
+|pisiform bone
+|pizza bone
+|plate bone
+|pneumatic bone
+|point the bone
+|pull bone
+|pulley bone
+|quadrate bone
+|ridgebone
+|roofing bone
+|rostral bone
+|scaphoid bone
+|semilunar bone
+|sesamoid bone
+|shinbone
+|shoulder bone
+|sit bone
+|skullbone
+|soup bone
+|sphenoid bone
+|splenial bone
+|splint bone
+|stirrup bone
+|tailbone
+|tarsal bone
+|T-bone
+|temporal bone
+|tongue bone
+|trapezium bone
+|trapezoid bone
+|triquetral bone
+|turbinate bone
+|vomer bone
+|wishbone
+|Wormian bone
+|wristbone
+|yellow bone
+|zygomatic bone
+|aitch-bone|arm bone|back-bone|bone age|bone apple tea|bone black|bone dry|bone folder|bone graft|bone head|bone idle|bone in one's body|bone oil|bone seeker|bone spur|bone tired|bone-ash|bone-fire|bone-hard|bone-in|bone-meal|bone-mouth|bone-on|bone-seeker|bone-shaker|bone-tired|breast bone|canon bone|cheek bone|cheek-bone|chill to the bone|collar bone|collar-bone|cuboidal bone|falling off the bone|flesh and bone|folding bone|folding-bone|glass bone disease|H bone|herring-bone|Ishango bone|jaw bone|jaw-bone|lachrymal bone|like a bulldog with a bone|membrane-bone|Murphy-Lane bone skid|pedal bone|radial bone|rag-and-bone man|rag-and-bone shop|rider's bone|ridge-bone|romancing the bone|ruel-bone|speal-bone|splinter bone|spoke-bone|t-bone|tail bone|tau bone|throw someone a bone|Tilly bone|to one's bone|toss a bone to|toss them a bone|triquetrum bone|twitter-bone|tympanic bone|what's bred in the bone will come out in the flesh|wishing bone}}
+
+=====Derived terms=====
+{{der4|en
+|all skin and bones|break-bones|chew the meat and spit out the bones|flesh and bones|lazy bones|Napier's bones|skin and bones|skull and bones|soaked to the bones|St. Hugh's bones|to one's bones|to the bones
+|bad to the bone
+|bag of bones
+|bare-bones
+|bone ash
+|bonebed
+|boneblack
+|bone china
+|bone-chilling
+|bone-cruncher
+|bone-crunching
+|boned
+|bone-deep
+|bone density
+|bonedigger
+|bone-dry
+|bone earth
+|bone-eating snot flower worm
+|bone fire
+|bonefish
+|bone folder
+|bone-grubber
+|bone hard
+|bonehead
+|boneheaded
+|boneheadedly
+|boneheadedness
+|bone-house wasp
+|bone-idle
+|bone in her teeth
+|bone in the throat
+|bone lace
+|boneless
+|bonelessness
+|bonelet
+|bone loss
+|bone marrow
+|bone mass
+|bone meal
+|bone morphogenetic protein
+|bone of contention
+|boner
+|bone scan
+|boneseeker
+|bonesetter
+|boneshaker
+|bone-shaking
+|bone-shakingly
+|Bonesman
+|bone spavin
+|bone structure
+|bone tissue
+|bone to pick
+|bone turquoise
+|bone up
+|bone wax
+|boneyard
+|bony
+|bred-in-the-bone
+|breed in the bone
+|brittle bone disease
+|close to the bone
+|crossbones
+|dog and bone
+|dog bone spanner
+|dog bone wrench
+|dry as a bone
+|God's bones
+|have a bone in one's leg
+|have a bone to pick
+|in one's bones
+|jump one's bones
+|keep one's bone green
+|like a dog with a bone
+|lucky-bone
+|make no bones about
+|make old bones
+|make one's bones
+|meat on the bones
+|near the bone
+|no bones about it
+|oracle bone script
+|phantom bone disease
+|rag and bone man
+|rag and bone shop
+|rattle the bones
+|rickle of bones
+|ring-bone
+|sawbones
+|skin and bone
+|soaked to the bone
+|sticks and stones may break my bones, but words will never hurt me
+|T-bone steak
+|throw a bone to
+|tickle someone's funny bone
+|to the bone
+|whirl-bone
+|with every bone in one's body
+|work one's fingers to the bone}}
+
+=====Translations=====
+{{see translation subpage|Noun}}
+
+====Adjective====
+{{en-adj|-}}
+
+# Of an [[off-white]] colour, like the colour of bone.
+
+====Verb====
+{{en-verb}}
+
+# To [[prepare]] (meat, etc) by [[remove|removing]] the bone or bones from.
+#: {{syn|en|debone|unbone}}
+#* {{quote-book|en|year=1949|author={{w|Kenneth Lewis Roberts}}|title=I Wanted to Write|url=http://books.google.com.au/books?id=upsEAQAAIAAJ&q=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&dq=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&hl=en&sa=X&ei=KyP_TrXtI6PsmAWp8MzvCw&redir_esc=y|page=44|passage=One of the fish stalls specialized in '''boning''' shad, and he who has never eaten a '''boned''' shad baked twenty minutes on a hot oak plank has been deprived of the most delicious morsel that the ocean yields.}}
+#* {{quote-book|en|year=1977|author=Prosper Montagné, Charlotte Snyder Turgeon|title=The New Larousse Gastronomique|url=http://books.google.com.au/books?id=rqQRAQAAMAAJ&q=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&dq=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&hl=en&sa=X&ei=wRb_Tuv2O-XMmAXioqiIAg&redir_esc=y|page=73|passage=The ballottine is made of a piece of meat, fowl, game or fish which is '''boned''', stuffed, and rolled into the shape of a bundle. The term ballottine should strictly apply only to meat, '''boned''' and rolled, but not stuffed.}}
+#* {{quote-book|en|year=2009|author=Maguelonne Toussaint-Samat|title=A History of Food|url=http://books.google.com.au/books?id=QmevzbQ0AsIC&pg=PA379&dq=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&hl=en&sa=X&ei=0w7_Toz1FYyUmQX25YSjAg&redir_esc=y#v=onepage&q=%22boned%22|%22boning%22%20-intitle%3A%22boned|boning%22%20-inauthor%3A%22boned|boning%22&f=false|page=379|passage=Then it is '''boned'''; keeping the bone in during cooking improves the flavour and enriches the meat with calcium.}}
+#* {{quote-book|en|year=2011|author=Aliza Green, Steve Legato|title=The Fishmonger's Apprentice|url=http://books.google.com.au/books?id=hDe3j9hIgw0C&pg=PT38&dq=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&hl=en&sa=X&ei=1_X-Tv-rDO_zmAXHqsG1Ag&redir_esc=y#v=onepage&q=%22boned%22|%22boning%22%20-intitle%3A%22boned|boning%22%20-inauthor%3A%22boned|boning%22&f=false|page=38|passage=Other fish suited to '''boning''' through the back include small bluefish, Arctic char, steelhead salmon, salmon, small wild striped bass, hybrid striped bass, Whitefish, drum, trout, and sea trout.}}
+# To [[fertilize]] with bone.
+#* {{quote-journal|en|date=July 9 1859|magazine={{w|The Economist}}|url=https://books.google.com/books?id=3tcjAQAAMAAJ&dq=%E2%80%9Cstill%20markedly%20luxuriant%20beyond%20any%20other%20grass%20land%20in%20the%20same%22&pg=PA758#v=onepage&q=%E2%80%9Cstill%20markedly%20luxuriant%20beyond%20any%20other%20grass%20land%20in%20the%20same%22&f=false|page=758|passage=He cites an instance of land heavily '''boned''' 70 years ago as “still markedly luxuriant beyond any other grass land in the same district.”}}
+# To put [[whalebone]] into.
+#* {{quote-book|en|1871||Figure-Training|passage=Having my stays very fully '''boned''' and fitted with shoulder-straps.}}
+# {{lb|en|civil engineering}} To make level, using a particular procedure; to survey a level line.
+#: {{ux|en|[[boning rod]]}}
+# {{lb|en|vulgar|slang|usually of a man|ambitransitive}} To have [[sexual intercourse]] (with).
+#: {{syn|en|Thesaurus:copulate|Thesaurus:copulate with}}
+#: <small>Related terms:</small> {{l|en|boned|id=screwed}}, {{l|en|boner#Noun}}
+#* {{quote-song|en|year=1993|title=Back Seat (of My Jeep)|album={{w|14 Shots to the Dome}}|artist={{w|LL Cool J}}|passage=We're '''bonin'''{{'}} on the dark blocks / Wearin' out the shocks, wettin' up the dashboard clock}}
+#* {{quote-song|en|year=1997|title={{w|It's All About the Benjamins}}|album=No Way Out|artist={{w|Sean Combs|Puff Daddy}}|passage=Stash in the buildin wit this chick named Alona / From Daytona, when I was young I wants to '''bone''' her}}
+#* {{quote-song|en|year=2006|lyricist=Masta Ace|title=Sick of it all|album=Pariah|passage={{...|I am sick of rappers claiming they hot when they really not / I am sick of rappers bragging about shit they ain't really got}}These cats stay rapping about cars they don't own / I am sick of rappers bragging about models they don't '''bone'''}}
+#* {{quote-av|en|actor=James Arnold Taylor|role=The Jew Producer|title=The Elimination Special, Part II: The Elimination|series=Drawn Together|season=3|number=14|writer=Stacey Deddo|network=Comedy Central|year=2007|passage=When we return we'll find out which one of our six remaining contestants' dreams will be totally ruined, like your mom's reputation after I '''bone''' her face.}}
+#* {{quote-av|en|actor=Mary Birdsong|role=Deputy Cherisha Kimball|title=Reno Mounties|series=Reno 911!|season=4|number=11|writer=|network=Comedy Central|year=2007|passage=I swear on the good book that if you pull through, I will '''bone''' Travis Junior.}}
+# {{lb|en|Australia|dated|in [[Aboriginal]] culture}} To perform "bone pointing", a [[ritual]] that is intended to bring [[illness]] or even death to the victim.
+#* {{quote-book|en|year=1962|author=Arthur Upfield|title=The Will of the Tribe|publisher=Collier Books|page=48|passage="You don't know!", Bony echoed. "You can tell me who '''boned''' me fifteen years ago on the other side of the world, and you can't tell me who killed the white-fella in the Crater".}}
+# {{lb|en|usually with "up"}} To study.
+#: {{ux|en|[[bone up]]}}
+#* {{quote-book|en|year=1896|author=Burt L. Standish|title=Frank Merriwell's Chums|passage="I know it. You do not study." "What's the use of '''boning''' all the time! I wasn't cut out for it."}}
+# To polish boots to a shiny finish.
+#* {{quote-book|1=en|year={{circa|1980}}|author=F. van Zy|url=http://uk.geocities.com/sadf_history1/ferdivz.html|title=SADF National Service (1979-1980)|passage={{...}} the permanent '''boning''' (excessive polishing) of boots by recruits {{...}}|archiveurl=https://web.archive.org/web/20040622112824/http://uk.geocities.com/sadf_history1/ferdivz.html|archivedate=22 June 2004}}
+# To nag, especially for an unpaid debt.
+#* {{quote-av|en|year=1950|title=Asphalt Jungle|passage=Dix Handley: Don't '''bone''' me!<br />Cobby: Now look, I'm not '''boning''' you, Dix—<br />Dix: Did I ever welsh?<br />Cobby: Nobody said you did—<br />Dix: You just '''boned''' me!}}
+
+=====Derived terms=====
+{{der4|en
+|bonable
+|boning
+|boning rod
+|debone
+|unbone}}
+
+=====Translations=====
+{{trans-top|to remove bones}}
+* Bulgarian: {{t|bg|обезкостявам}}
+* Catalan: {{t+|ca|desossar}}
+* Chinese:
+*: Cantonese: {{t|yue|起骨|tr=hei2 gwat1}}
+*: Mandarin: {{t|cmn|去骨|tr=[[qùgǔ]]}}, {{t|cmn|剔骨|tr=tīgǔ}}
+* Finnish: {{t|fi|poistaa luut}}
+* French: {{t+|fr|désosser}}
+* German: {{t+|de|entbeinen}}, {{t+|de|ausbeinen}}
+* Greek: {{t+|el|ξεκοκαλίζω}}
+* Hungarian: {{t+|hu|kicsontoz}}
+* Ido: {{t+|io|desostizar}}
+* Italian: {{t+|it|disossare}}
+* Latin: {{t|la|exossō}}
+* Macedonian: {{t|mk|вади коски}}
+* Maori: {{t|mi|kōhurehure}}, {{t|mi|kokoki}}, {{t|mi|mākiri}} {{qualifier|refers specifically to poultry)}}, {{t|mi|kōhaha}} {{qualifier|refers to fish}}
+* Portuguese: {{t+|pt|desossar}}
+* Russian: {{t|ru|[[снима́ть]] [[мясо]] [[с]] [[кость|костей]]}}
+* Slovak: {{t|sk|odkostiť}}
+* Spanish: {{t+|es|deshuesar}} {{qualifier|meat}}, {{t|es|[[quitar]] [[las]] [[espinas]]}} {{qualifier|fish}}
+* Swedish: {{t|sv|bena ur}} {{qualifier|fish}}
+* Turkish: {{t|tr|kılçık temizlemek}} {{qualifier|fish}}
+* Vietnamese: {{t|vi|gỡ xương}}
+* Zazaki: {{t|zza|zela weçinen}}
+{{trans-bottom}}
+
+{{trans-top|slang: have sexual intercourse with}}
+* Finnish: {{t+|fi|naida}}, {{t+|fi|nussia}}
+* French: {{t+|fr|fourrer}}, {{t+|fr|emmancher}}, {{t+|fr|tirer sa crampe}}, {{t+|fr|forniquer}}, {{t+|fr|s’envoyer en l’air}}
+* German: {{t+|de|ficken}}, {{t+|de|bumsen}}, {{t+|de|vögeln}}, {{t+|de|poppen}}, {{t+|de|nageln}}
+* Hebrew: {{t|he|זיין|tr=ziyén}}, {{t+|he|דפק|tr=dafák}}
+* Italian: {{t+|it|fottere}}, {{t+|it|scopare}}, {{t+|it|chiavare}}
+* Norwegian: {{t+|no|pule}}, {{t+|no|knulle}}
+* Portuguese: {{t+|pt|transar}}, {{t+|pt|foder}}, {{t+|pt|comer}}
+* Slovak: {{t|sk|pichať}}
+* Spanish: {{t+|es|joder}} con, {{qualifier|Spain}} {{t+|es|follar}} con, {{qualifier|Mexico}} {{t+|es|coger}} con, {{t+|es|culear}} {{qualifier|Chile}}, {{t+|es|tirarse}} a {{qualifier|Spain}}
+* Turkish: {{t+|tr|sikişmek}}
+{{trans-bottom}}
+
+{{trans-top|to study}}
+* French: {{t+|fr|potasser}}
+* Spanish: {{qualifier|Mexico}} {{t|es|[[quemar]]se las [[pestaña]]s}}
+{{trans-bottom}}
+
+====See also====
+* [[Appendix:Bones]]
+
+====Further reading====
+* [[w:List of bones of the human skeleton|Wikipedia list of bones in the human skeleton]]
+
+===Etymology 2===
+{{unk|en}}; probably related in some way to Etymology 1, above.
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|transitive|slang}} To [[apprehend]], [[steal]].
+#* {{quote-book|en|year=1839|author={{w|Charles Dickens}}|title={{w|Nicholas Nickleby}}|url=http://books.google.com.au/books?id=fOQXAQAAIAAJ&pg=PA127&dq=%22boned%22|%22boning%22+-intitle:%22boned|boning%22+-inauthor:%22boned|boning%22&hl=en&sa=X&ei=2B3_TtvrC4f_mAXim5XJAg&redir_esc=y#v=onepage&q=%22boned%22|%22boning%22%20-intitle%3A%22boned|boning%22%20-inauthor%3A%22boned|boning%22&f=false|page=127|passage=“Did I?” said Squeers, “Well it was rather a startling thing for a stranger to come and recommend himself by saying that he knew all about you, and what your name was, and why you were living so quiet here, and what you had '''boned''', and who you had '''boned''' it from.”}}
+#* {{quote-book|en|year=1915|author=William Roscoe Thayer|title=The Life and Letters of John Hay|passage={{...}}as long as you and I live I take it for granted that you will not suspect me of '''boning''' them. But to guard against casualties hereafter, I have asked Nicolay to write you a line saying that I have never had in my possession or custody any of the papers which you entrusted to him.}}
+#* {{quote-book|en|year=1936|author=J.R.R. Tolkien|chapter=The Root of the Boot|title=Songs for the Philologists|passage=But troll's old seat is much the same, <br>And the bone he '''boned''' from its owner}}
+#* {{quote-book|en|year=1942|author=Rebecca West|title=Black Lamb and Grey Falcon|year_published=2006|publisher=Canongate|page=802|passage=Therefore she wants to take results that belong to other people: she wants to '''bone''' everybody else's loaf.}}
+
+===Etymology 3===
+Borrowed from {{bor|en|fr|bornoyer}} to look at with one eye, to sight, from {{m|en|borgne}} one-eyed.
+
+====Verb====
+{{en-verb}}
+
+# {{lb|en|carpentry|masonry|surveying}} To [[sight]] along an object or set of objects to check whether they are [[level]] or in line<ref>{{R:Knight AMD}}</ref>.
+#* {{quote-book|en|1846|W. M. Buchanan|A Technological Dictionary||151|Joiners, &c., '''bone''' their work with two straight edges.|url=https://books.google.com/books?id=BzRRAAAAYAAJ&pg=PA151}}
+
+===Etymology 4===
+{{clipping|en|trombone}}
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|slang}} {{clipping of|en|trombone}}
+
+===References===
+<references/>
+
+===Anagrams===
+* {{anagrams|en|a=beno|Beno|Boen|ebon}}
+
+[[Category:en:Colors]]
+[[Category:en:Dominoes]]
+[[Category:en:Elopomorph fish]]
+[[Category:en:Genitalia]]
+[[Category:en:Sex]]
+[[Category:en:Skeleton]]
+[[Category:en:Whites]]
+
+==Afrikaans==
+
+===Noun===
+{{head|af|noun form}}
+
+# {{plural of|af|boon}}
+
+==Danish==
+
+===Etymology 1===
+From {{bor|da|nds|-}} and {{der|da|gml|bōnen}}, from {{der|da|osx|*bōnian}}, from {{der|da|gmw-pro|*bōnijan|t=to polish}}.
+
+====Pronunciation====
+* {{IPA|da|[ˈb̥oːnə]}}
+
+====Verb====
+{{da-verb|bon||er|ede|har|et}}
+
+# to [[polish]]
+
+===Etymology 2===
+Derived from the noun {{m|da|bon||receipt}}, from {{der|da|fr|bon||voucher, ticket}}.
+
+====Pronunciation====
+* {{IPA|da|[ˈb̥ʌŋə]}}
+
+====Verb====
+{{da-verb|bon||er|ede|har|et}}
+
+# to [[enter]] {{q|in the cash register}}
+# to [[charge]]
+
+==Esperanto==
+
+===Etymology===
+From {{af|eo|bona|t1=good|-e}}.
+
+===Pronunciation===
+* {{IPA|eo|/ˈbo.ne/}}
+* {{hyphenation|eo|bon|e}}
+* {{rhymes|eo|one}}
+* {{audio|eo|Eo-bone.ogg|Audio}}
+
+===Adverb===
+{{eo-head}}
+
+# [[well]], [[OK]]
+
+==Hadza==
+
+===Alternative forms===
+* [[bune]]
+
+===Etymology===
+Borrowed from {{bor|hts|suk|βũne||four (class XIV)}}.
+
+===Pronunciation===
+* {{IPA|hts|/bone/}}
+
+===Adjective===
+{{hts-adj|g=m|f=boneko|fpl=bonebee|mpl=bunibii}}
+
+# [[four]]
+
+[[Category:hts:Numbers]]
+
+==Ido==
+{{was fwotd|io|2013|October|30}}
+
+===Etymology===
+From {{der|io|eo|bone|t=well}}, {{af|io|bona|t1=good|-e}}.
+
+===Pronunciation===
+* {{io-IPA}}
+
+===Adverb===
+{{head|io|adverb}}
+
+# [[well]]
+#* '''2008''', Margrit Kennedy, ''Pekunio sen interesti ed inflaciono'', tr. by Alfred Neussner of ''Interest and Inflation Free Money'', page 50:
+#*: To pruvas maxim '''bone''' nia bonstando, se ica sumo distributesus nur proxime pro-porcionale.
+#*:: This would have served '''well''' as a proof of our prosperity if it were evenly distributed. (Original English, page 29)
+
+====Related terms====
+* {{l|io|bona}}
+
+==Italian==
+
+===Adjective===
+{{head|it|adjective form}}
+
+# {{adj form of|it|bono||f|p}}
+
+==Latin==
+
+===Adjective===
+{{la-adj-form|bone}}
+
+# {{inflection of|la|bonus||voc|m|s}}
+
+===References===
+* {{R:L&S}}
+* {{R:Gaffiot}}
+* {{R:Stillwell}}
+
+==Lindu==
+
+===Noun===
+{{head|klw|noun}}
+
+# [[sand]]
+
+==Middle Dutch==
+
+===Etymology===
+{{dercat|dum|gem-pro|ine-pro|inh=1}}
+From {{inh|dum|odt|*bōna}}, from {{inh|dum|gmw-pro|*baunu}}.
+
+===Noun===
+{{dum-noun|head=bône|f}}
+
+# [[bean]]
+
+====Inflection====
+{{rfinfl|dum|noun}}
+
+====Descendants====
+* {{desctree|nl|boon}}
+* {{desc|li|boean}}
+
+===Further reading===
+* {{R:VMNW|ID36523}}
+* {{R:MNW|04990}}
+
+==Middle English==
+<!--this Middle English entry was created using Template:new enm entry-->
+
+===Etymology 1===
+
+====Noun====
+{{head|enm|noun}}
+
+# {{alt form|enm|bane}}
+
+===Etymology 2===
+
+====Noun====
+{{enm-noun}}
+
+# {{alt form|enm|bon}}
+
+===Etymology 3===
+
+====Noun====
+{{head|enm|noun}}
+
+# {{alt form|enm|boon}}
+
+===Etymology 4===
+
+====Adjective====
+{{head|enm|adjective}}
+
+# {{alt form|enm|boon}}
+
+===Etymology 5===
+
+====Adjective====
+{{head|enm|adjective}}
+
+# {{alt form|enm|boun}}
+
+==Northern Sami==
+
+===Pronunciation===
+* {{se-IPA|bonẹ}}
+
+===Verb===
+{{head|se|verb form}}
+
+# {{inflection of|se|botnit||pres|indc|conn|;|2|s|impr|;|impr|conn}}
+
+==Old French==
+
+===Pronunciation===
+* {{IPA|fro|/ˈbu.nə/}}
+
+===Adjective===
+{{head|fro|adjective form}}
+
+# {{inflection of|fro|bon||nom|f|s}}
+# {{inflection of|fro|bon||obl|f|s}}
+
+==Turkish==
+[[Image:Oussama Mellouli 1.jpg|thumb|Bir yüzme yarışı sırasında sporcunun taktığı '''bone'''.]]
+
+===Etymology===
+From {{der|tr|fr|bonnet}}.
+
+===Pronunciation===
+* {{IPA|tr|/bo.ˈne/}}
+* {{hyphenation|tr|bo|ne}}
+
+===Noun===
+{{tr-noun|yi|ler}}
+
+# {{lb|tr|kıyafetler}} [[bathing cap]], [[swim cap]], [[swimming cap]].
+#:{{ux|tr|Yüzücünün yarışta taktığı '''bone''' çıktı.|tr=The '''swimming cap''' that the swimmer wore during the race came off.}}
+
+====Declension====
+{{tr-infl-noun-v|e|poss=1|pred=1}}
+
+===Further reading===
+* {{pedia|lang=tr}}
+
+==Venetian==
+
+===Adjective===
+{{head|vec|adjective form}}
+
+# {{inflection of|vec|bon||f|p}}

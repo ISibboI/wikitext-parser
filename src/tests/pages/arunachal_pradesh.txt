@@ -1,0 +1,72 @@
+==English==
+{{wp}}
+[[File:Arunachal Pradesh in India.svg|thumb||Location of Arunachal Pradesh in India]]
+
+===Etymology===
+{{translit|en|hi|अरुणाचल प्रदेश|lit=Land of the dawn-lit mountains}}.
+
+===Pronunciation===
+* {{IPA|en|/ˌɑːɹəˌnɑːtʃəl pɹəˈdɛʃ/}}
+
+===Proper noun===
+{{en-prop|head=Arunachal [[Pradesh]]}}
+
+# {{place|en|state|in northeastern|c/India|capital=Itanagar}}.
+#: {{syn|en|q1=historical|North-East Frontier Agency|NEFA|South Tibet|q3=China}}<!--{{q|nicknames}} [[Orchid State of India]], [[Paradise of Botanists]]-->
+
+====Translations====
+{{trans-top|state in northeastern India}}
+* Arabic: {{t|ar|أَرُونَاجَل بْرَدِيش|m|tr=ʔarunājal bradīš}}
+* Armenian: {{t|hy|Արունաչալ Պրադեշ|sc=Armn}}
+* Assamese: {{t|as|অৰুণাচল প্ৰদেশ|sc=Beng}}
+* Bengali: {{t+|bn|অরুণাচল প্রদেশ|sc=Beng}}
+* Bulgarian: {{t|bg|Аруначал Прадеш|sc=Cyrl}}
+* Burmese: {{t-needed|my}}
+* Chhattisgarhi: {{t-needed|hne}}
+* Chinese:
+*: Mandarin: {{t+|cmn|阿魯納恰爾邦|tr=Ālǔnàqià'ěr-bāng}}
+* Czech: {{t|cs|Arunáčalpradéš}}
+* Dhivehi: {{t|dv|އަރުނާޗަލް ޕްރަދޭޝް|sc=Thaa}}
+* Esperanto: {{t|eo|Arunaĉal-Pradeŝo}}, {{t|eo|Arunaĉalpradeŝo}}
+* Finnish: {{t|fi|Arunachal Pradesh}}
+* Georgian: {{t|ka|არუნაჩალ-პრადეში|sc=Geor}}
+* Greek: {{t+|el|Αρουνάτσαλ Πραντές|sc=Grek}}
+* Gujarati: {{t|gu|અરુણાચલ પ્રદેશ|sc=Gujr}}
+* Hebrew: {{t|he|ארונצ׳אל פראדש}}
+* Hindi: {{t+|hi|अरुणाचल प्रदेश}}, {{t+|hi|अरुणाचल|f}}
+* Hungarian: {{t+|hu|Arunácsal Pradés}}
+* Japanese: {{t|ja|アルナーチャル・プラデーシュ州|tr=Arunacharu-Puradēshu-shū}}
+* Kannada: {{t+|kn|ಅರುಣಾಚಲ ಪ್ರದೇಶ|sc=Knda}}
+* Khmer: {{t-needed|km}}
+* Korean: {{t|ko|^아루나찰프라데시 주}}
+* Latvian: {{t|lv|Arunāčala Pradēša}}
+* Lithuanian: {{t|lt|Arunačal Pradešas|m}}
+* Malayalam: {{t|ml|അരുണാചൽ പ്രദേശ്}}
+* Marathi: {{t|mr|अरुणाचल प्रदेश|sc=Deva}}
+* Mizo: {{t-needed|lus}}
+* Oriya: {{t|or|ଅରୁଣାଚଳ ପ୍ରଦେଶ|sc=Orya}}
+* Persian: {{t|fa|آروناچال پرادش}}
+* Portuguese: {{t|pt|Arunachal Pradesh}}
+* Punjabi: {{t|pa|ਅਰੁਨਾਚਲ ਪ੍ਰਦੇਸ਼|sc=Guru}}
+* Russian: {{t+|ru|Аруначал-Праде́ш|m}}
+* Sanskrit: {{t|sa|अरुणाचलप्रदेश}}, {{t|sa|अरुणाचलप्रदेशराज्यम्}}
+* Santali: {{t-needed|sat}}
+* Sikkimese: {{t-needed|sip}}
+* Slovak: {{t|sk|Arunáčalpradéš}}
+* Spanish: {{t|es|Arunachal Pradesh}}
+* Tamil: {{t|ta|அருணாசலப் பிரதேசம்}}
+* Telugu: {{t+|te|అరుణాచల్ ప్రదేశ్}}
+* Thai: {{t|th|รัฐอรุณาจัลประเทศ|tr=rát à-rú-naa-jan bprà-têet}}
+* Ukrainian: {{t|uk|Аруначал-Прадеш|sc=Cyrl}}
+* Urdu: {{t|ur|اَرُوناچَل پْرَدیش|m|tr=arūnācal pradeś}}
+{{trans-bottom}}
+
+===See also===
+* {{list:states of India/en}}
+
+==Portuguese==
+
+===Proper noun===
+{{pt-proper noun}}
+
+# {{place|pt|state|c/India|t1=Arunachal Pradesh}}

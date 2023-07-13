@@ -1,0 +1,49 @@
+__NEWSECTIONLINK__
+<small>Wiktionary > [[Wiktionary:Discussion rooms|Discussion rooms]] > Tea room</small>
+{{shortcut|WT:TEA|WT:TR}}
+:''[[WT:TR]] redirects here. For Translation requests, see [[Wiktionary:Translation requests]]. For guidelines on translations, see [[Wiktionary:Translations]]''
+<inputbox>
+bgcolor=transparent
+type=fulltext
+prefix=Wiktionary:Tea room
+break=no
+width=50
+searchbuttonlabel=Search in the archives of Tea room
+</inputbox>
+<div id="new-section-redirect" style="padding: 1em; font-size: 1.4em; text-align: center;">{{clickable button|Click here to start a new Tea room discussion.|class=mw-ui-progressive|url={{fullurl:Wiktionary:Tea room/{{CURRENTYEAR}}/{{CURRENTMONTHNAME}}|action=edit&section=new}}}}</div>
+{{Wiktionary:Discussion rooms}}
+
+[[Image:Tea house party in Japan (not tea ceremony)-J. M. W. Silver.jpg|right|250px]]
+A place to ask for help on finding quotations, etymologies, or other information about particular words. The Tea room is named to accompany the [[Wiktionary:Beer parlour|Beer parlour]].
+
+For questions about the general Wiktionary policies, use the Beer parlour; for technical questions, use the Grease pit. For questions about specific content, you're in the right place.
+
+{{Wiktionary:Tea room/timeline}}
+
+Please '''do not edit section titles''' as this breaks links on talk pages and in other discussion fora.
+
+<div style="float:right;clear:right;background:#F9F9F9;color:#000;">
+<dl style="background:#F2F2F2;color:#000;text-align:center;"><dt>Oldest [[:Category:Tea room|tagged RFTs]]</dt></dl>
+<ul style="list-style-type:none; list-style-image: none;"><li>
+<DynamicPageList>
+category=Tea room
+namespace=0
+count=200
+mode=none
+order=ascending
+</DynamicPageList>
+</li></ul>
+</div>
+
+{{discussion recent months}}
+
+[[Category:High volume discussion pages]]
+
+[[br:Wikeriadur:Goulennoù diwar-benn ar gerioù]]
+[[cs:Wikislovník:Pod lípou (lingvistika)]]
+[[de:Wiktionary:Auskunft]]
+[[es:Wikcionario:Consultas]]
+[[fr:Wiktionnaire:Questions sur les mots]]
+[[sv:Wiktionary:Fikarummet]]
+[[vi:Wiktionary:Bàn tham khảo]]
+[[zh:Wiktionary:茶室]]

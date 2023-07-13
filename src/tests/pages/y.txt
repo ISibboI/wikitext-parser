@@ -1,0 +1,1092 @@
+{{also|y'|у|ყ|Appendix:Variations of "y"}}
+{{character info}}
+{{character info|ʸ|image=}}
+{{character info|ｙ}}
+==Translingual==
+{{wikipedia}}
+
+===Letter===
+{{mul-letter|upper=Y|lower=y|sc=Latn}}
+
+# The twenty-fifth letter of the [[Appendix:Latin script|basic modern Latin alphabet]].
+
+====See also====
+{{Latn-script}}
+
+===Pronunciation===
+* {{audio|mul|Close front rounded vowel.ogg|IPA}}
+
+===Symbol===
+{{wikipedia|Close front rounded vowel}}
+{{head|mul|symbol}}
+
+# {{lb|mul|metrology}} Symbol for the prefix [[yocto-]].
+# {{lb|mul|IPA}} a {{w|close front rounded vowel}}: the German [[ü]]-sound.
+#: {{lb|mul|superscript {{angbr IPA|ʸ}}}} {{IPAfont|[y]}}-coloring, a {{IPAfont|[y]}} on- or off-glide ([[diphthong]]), or a weak, fleeting or epenthetic {{IPAfont|[y]}}.
+# {{lb|mul|{{w|Americanist phonetic alphabet|NAPA}}}} the English y-sound, IPA {{IPAfont|[j]}}.
+#: {{lb|mul|superscript {{angbr IPA|ʸ}}}} [[palatalization]], IPA {{IPAfont|[ʲ]}}.
+# Denoting an item that is twenty-fifth in a list.
+
+===Gallery===
+<gallery caption="Letter styles" perrow="3" mode="packed">
+Image:Latin Y.png|Uppercase and lowercase versions of '''Y''', in normal and italic type
+Image:Fraktur letter Y.png|Uppercase and lowercase '''Y''' in [[Fraktur]]
+</gallery>
+
+===See also===
+{{Letter
+|page=Y
+|NATO=Yankee
+|Morse=–·––
+|Character=Y
+|Braille=⠽
+}}
+
+[[Category:IPA symbols|Y]]
+
+==English==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{sense|letter name}} {{IPA|en|/ˈwaɪ/}}
+* {{audio|en|en-us-y.ogg|Audio (GA)}}
+* {{sense|phoneme}} {{IPA|en|/i/|/ɪ/|/aɪ/|/ə/|/j/}}
+* {{sense|letter name}} {{rhymes|en|aɪ|s=1}}
+* {{homophones|en|why|Wye|wye}}
+
+====Letter====
+{{en-letter|upper=Y|lower=y}}
+
+# {{Latn-def|en|letter|25|wy|wye}}
+
+=====See also=====
+* {{list:Latin script letters/en}}
+* Historically, this letter was sometimes used to approximate [[þ]], as in {{m|en|yt|t=that}}, {{m|en|yͧ|t=thou}}, and {{m|en|ye|t=the}} (which see for more).
+
+===Etymology 2===
+Abbreviations. 
+
+'''{{PAGENAME}}'''
+# {{lb|en|stenoscript}} the sound sequence /ɔɪ̯/.
+# {{lb|en|stenoscript}} {{abbreviation of|en|why}}
+# {{lb|en|stenoscript}} the prefix '''''{{m|en|-ry}}''''' or '''-rry'''.
+
+====Noun====
+{{head|en|noun}}
+
+# {{abbreviation of|en|year}}
+#* {{quote-text|en|year=2003|author=Howard Tanner|author2=Sonia Jones|title=Becoming a Successful Teacher of Mathematics
+|passage=Consider the following questions selected from the tests and estimate the proportion of '''Y'''8 pupils you would expect to answer correctly.}}
+# {{lb|en|UK|television}} {{abbreviation of|en|youth|nodot=1}}, usually followed by an age appropriate for the content so marked.
+#: '''''Y'''7''
+# {{lb|en|computing}} {{abbreviation of|en|yes}}
+
+=====Derived terms=====
+* [[Y2K]]
+
+====Adverb====
+{{en-adv|-}}
+
+# {{lb|en|slang|text messaging|Internet slang|stenoscript}} {{abbreviation of|en|why}}
+
+===See also===
+* [[U]]
+* [[V]]
+
+==Aragonese==
+
+===Etymology===
+From {{inh|an|la|et}}, from {{inh|an|ine-pro|*éti}}.
+
+===Conjunction===
+{{head|an|conjunction}}
+
+# [[and]]
+
+==Asturian==
+
+===Etymology===
+From {{inh|ast|la|et}}, from {{inh|ast|ine-pro|*éti}}.
+
+===Conjunction===
+{{head|ast|conjunction}}
+
+# [[and]]
+
+===Pronoun===
+{{head|ast|pronoun|'''y''' (or '''-y'''), plural '''{{l|ast|ys}}'''/'''{{l|ast|yos}}''' or '''-ys'''/'''-yos'''}}
+
+# Pronoun for the third-person singular [[indirect object]].
+#: {{ux|ast|da-y pan|give him/her bread}}
+
+====Usage notes====
+* Usually seen as {{l|ast|-y}}
+
+==Azerbaijani==
+
+===Pronunciation===
+* {{qualifier|phoneme}} {{IPA|az|/j/}}
+
+===Letter===
+{{az-letter|upper=Y|lower=y}}
+
+# {{Latn-def|az|letter|31}}
+
+====See also====
+* {{list:Latin script letters/az}}
+
+==Basque==
+
+===Pronunciation===
+{{eu-IPA|i greko}}
+
+===Letter===
+{{eu-letter|upper=Y|lower=y}}
+
+# {{Latn-def|eu|letter|26|i greko}}
+
+====Usage notes====
+* Used chiefly in recent loanwords and foreign proper nouns.
+
+====See also====
+* {{list:Latin script letters/eu}}
+
+==Catalan==
+
+===Conjunction===
+{{head|ca|conjunction}}
+
+# {{obsolete form of|ca|i|gloss=and}}
+
+==Cornish==
+
+===Pronunciation===
+* {{IPA|kw|/iː/}}
+
+===Pronoun===
+{{head|kw|pronoun}}
+
+# {{qualifier|Standard Cornish}} {{l|en|they}} {{gloss|third person plural pronoun}}
+# {{qualifier|Standard Cornish|Standard Written Form}} {{l|en|his}}
+
+==Dutch==
+
+===Alternative forms===
+* {{l|nl|ij}} {{qual|in some words}}
+
+===Pronunciation===
+* {{sense|letter name}} {{IPA|nl|/ɛɪ/|/iˈɡrɛk/|/ˌɣrik.sə ˈɛɪ/}}
+* {{audio|nl|Nl-y.ogg|Audio}}
+
+===Letter===
+{{head|nl|letter|lower case||upper case|Y}}
+
+# The twenty-fifth letter of the Dutch alphabet.
+
+====Usage notes====
+In certain dialects the letter is pronounced similar to IPA: /ji:/. In these dialects, they will actually write "y" such as in "jy" (IPA: /ji:/) instead of modern standard Dutch {{l|nl|jij}} (IPA: /jɛɪ/).
+
+===See also===
+* Previous letter: {{l|nl|x}}
+* Next letter: {{l|nl|z}}
+
+==Fala==
+
+===Conjunction===
+{{head|fax|conjunction}}
+
+# {{alternative form of|fax|i}}
+
+==Faroese==
+
+===Pronunciation===
+* {{IPA|fo|/iː/}}
+* {{homophones|fo|i}}
+
+===Letter===
+{{head|fo|letter|upper case|Y}}
+
+# {{Latn-def|fo|letter|26}}
+
+====See also====
+* {{list:Latin script letters/fo}}
+
+==Finnish==
+
+===Etymology===
+{{fi-ety-letter}} In particular, the use of {{orth|y}} for {{IPAchar-lite|/y/}} follows the Swedish orthography, which in turn follows Latin.
+
+===Pronunciation===
+* {{audio|fi|Fi-y.ogg|Audio}}
+
+===Letter===
+{{fi-letter|upper=Y|lower=y}}
+
+# {{Latn-def|fi|letter|24|yy}}
+
+====See also====
+* {{list:Latin script letters/fi}}
+
+==French==
+
+===Etymology 1===
+From {{m|fr|i grec||Greek i}}, referring to the letter [[upsilon]] ([[Υ]]), originally borrowed from the Greek alphabet, as opposed to "Latin i" ([[I]]).
+
+====Pronunciation====
+* {{q|letter name}} {{fr-IPA|igrec}}
+
+====Letter====
+{{head|fr|letter}}
+
+# a letter in the French alphabet, after [[x]] and before [[z]]
+
+===Etymology 2===
+10th century; from {{inh|fr|fro|i}}, from {{inh|fr|la|hīc||here}} (ultimately from {{der|fr|ine-pro|*ǵʰi-ḱe||this, here}}), with meaning influenced by {{der|fr|fro|iv||there, thither}}, itself from {{inh|fr|la|ibī}}. Derivation from the latter poses difficulty from a phonetic standpoint. Compare {{cog|ca|hi}}.
+
+====Pronunciation====
+* {{fr-IPA}}
+* {{homophones|fr|hie|hies|hient|i}}
+
+====Pronoun====
+{{head|fr|pronoun|adverbial}}
+
+# [[there]] (at a place)
+#: {{ux|fr|Il est dans la maison. Il '''y''' est.|He is in the house. He is '''there'''.}}
+# [[there]], [[thither]] (to there)
+#: {{ux|fr|Nous allons au Mexique. Nous '''y''' allons.|We are going to Mexico. We are going '''there'''.}}
+# {{n-g|Used as a pronoun to replace an [[adverbial phrase]] starting with {{m|fr|à}}.}}
+#: {{ux|fr|Je pense à mon pays. J''''y''' pense.|I think about my country. I think '''about it'''.}}
+## With verbs: see [[Appendix:French verbs followed by à]] for verbs which use this structure.
+## {{label|fr|archaic}} With adjectives. Only used with a handful of adjectives (the most common combination being {{m|fr|y compris}}, which is a special case), mainly in legal terminology.
+##: {{uxi|fr|personnes '''y''' nommées|Persons named there(in)
+}}
+##: {{uxi|fr|procédures '''y''' afférentes|Related procedures}}
+##: {{uxi|fr|documents '''y''' relatifs|Related documents}}
+##: {{uxi|fr|eaux '''y''' affluentes|Tributary waters}}
+
+=====Derived terms=====
+* {{l|fr|y avoir}}
+* {{l|fr|y compris}}
+
+=====Related terms=====
+{{French personal pronouns}}
+
+===Etymology 3===
+[[eye dialect|Eye dialect]] spelling or [[contraction]] of {{m|fr|il}} and {{m|fr|ils}}.
+
+====Pronunciation====
+* {{fr-IPA}}
+
+====Pronoun====
+{{fr-pron}}
+
+# {{lb|fr|Quebec|France|colloquial}} [[he]]: {{alternative form of|fr|il|nocap=1}}
+# {{lb|fr|Quebec|France|colloquial}} [[they]]: {{alternative form of|fr|ils|nocap=1}}
+# {{lb|fr|Quebec|colloquial}} [[they]]: {{alternative form of|fr|elles|nocap=1}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+==Fula==
+
+===Pronunciation===
+* {{IPA|ff|/j/}}
+
+===Letter===
+{{ff-letter|upper=Y|lower=y}}
+
+# {{non-gloss definition|A [[letter]] of the Fula [[alphabet]], written in the [[Appendix:Latin script|Latin script]].}}
+
+====Usage notes====
+* {{U:ff:common}}
+
+====See also====
+* {{list:Latin script letters/ff}}
+
+==German==
+
+===Pronunciation===
+* {{qualifier|phoneme}} {{IPA|de|/yː/|/y/|/ʏ/|/i/|/ɪ/|/j/}}
+* {{qualifier|letter name}} {{IPA|de|/ˈʏpsilɔn/}}
+* {{audio|de|De-y.ogg|Audio}}
+
+===Letter===
+{{de-noun|n,-,-}}
+
+# {{non-gloss definition|the letter '''''y'''''}}
+
+==Guaraní==
+
+===Pronunciation===
+* {{IPA|gn|/ɨ/}}
+
+===Noun===
+{{head|gn|noun}}
+
+# [[water]]
+
+====Derived terms====
+* {{l|gn|ysyry|t=river}}
+
+==Haitian Creole==
+
+===Etymology===
+Contraction <!-- Abbreviation? -->of {{m|ht|yo}}.
+
+===Pronunciation===
+* {{IPA|ht|/j/}}
+
+===Pronoun===
+{{head|ht|pronoun}}
+
+# {{contraction of|ht|yo}} <!-- Contraction or abbreviation? -->
+
+==Hungarian==
+
+===Pronunciation===
+* {{sense|phoneme}} {{hu-IPA}}
+* {{sense|letter name}} {{hu-IPA|ipszilon}}
+
+===Letter===
+{{hu-letter|upper=Y|lower=y}}
+
+# {{n-g|A letter of the extended Hungarian [[alphabet]], called ''{{l|hu|ipszilon}}'' and written in the [[Appendix:Latin script|Latin script]]}}.
+
+====Usage notes====
+As shown in the alphabet below, this letter normally occurs in Hungarian words only as part of four digraphs: {{m|hu|gy}},&nbsp;{{m|hu|ly}},&nbsp;{{m|hu|ny}}, and {{m|hu|ty}} (with their long counterparts: {{m|hu||ggy, lly, nny, tty}}). Aside from them, the terms containing {{m|hu||y}} defined in an extensive Hungarian monolingual dictionary<ref>[https://akademiai.hu/55/szotar/magyar_egynyelvu_szotar/magyar_ertelmezo_keziszotar_net 75,000 entries] in {{R:Pusztai 2003}}</ref> are {{m|hu|baby-doll}}, {{m|hu|baby-sitter}}, {{m|hu|body||bodice}}, {{m|hu|body-building}} / {{m|hu|bodyzik}} / {{m|hu|bodyzó}}, {{m|hu|boy}}, {{m|hu|brandy}}, {{m|hu|citoyen}}, {{m|hu|country}}​/​{{m|hu|countryzene}}, {{m|hu|cowboy}}​/​{{m|hu|cowboyfilm}}​/​{{m|hu|cowboykalap}}, {{m|hu|curry}}, {{m|hu|disc jockey|disc-jockey}}, {{m|hu|doyen}}, {{m|hu|dry}}, {{m|hu|dyn}}, {{m|hu|fair play|fair&nbsp;play}},  {{m|hu|háryjános}}​/​{{m|hu|háryjánoskodik}}, {{m|hu|intercity}}, {{m|hu|joystick}}, {{m|hu|play back}}, {{m|hu|playboy}}, {{m|hu|royalista}}, {{m|hu|sherry}}, {{m|hu|spray}}, {{m|hu|whisky}}, {{m|hu|yard}}, {{m|hu|yperit}}, {{m|hu|yuppie}}, {{m|hu|złoty}} and the letter itself. Additionally, a newer and more comprehensive but as yet incomplete dictionary<ref>As of 2021, completed until ELZ. Ittzés, Nóra (ed.). ''A magyar nyelv nagyszótára'' (’A Comprehensive Dictionary of the Hungarian Language’). Budapest: Akadémiai Kiadó, 2006–2031 ''(work in progress)''</ref> contains {{m|hu|bicsérdysta}}, {{m|hu|byte}}, {{m|hu|copyright}}, and {{m|hu|cowboycsizma}}. (The forms {{m|hu||dandy}}, {{m|hu||gentry}}, {{m|hu||happy end|happy ending}}, {{m|hu||jersey}}, {{m|hu||maya}}, {{m|hu||nylon}}, and {{m|hu||yen}} are also mentioned as alternative forms in the former volume, but their current standard spelling is {{m|hu|dendi}}, {{m|hu|dzsentri}}, {{m|hu|dzsörzé}}, {{m|hu|hepiend}}, {{m|hu|jen}}, {{m|hu|maja}}, and {{m|hu|nejlon}}.)
+
+Proper names written with {{m|hu||y}} include the country names {{m|hu|Guyana}}, {{m|hu|Paraguay}}, {{m|hu|Seychelle-szigetek}}, and {{m|hu|Uruguay}} and the capital names {{m|hu|Conakry}}, {{m|hu|Port Moresby}}, and {{m|hu|Reykjavík}}. Other names deriving from Latin alphabets are also retained (such as English {{m|hu||Calgary, Hollywood, Kentucky, Montgomery, New&nbsp;Jersey, New&nbsp;York, Sydney, Wyoming}} etc., German {{m|hu||Bayreuth, Speyer, Steyr}}, French {{m|hu||Lyon, Mayotte, Nancy, Vichy}}, and Polish {{m|hu||Białystok, Bydgoszcz, Przemyśl}}). Otherwise, this letter is usually transcribed in country and city names, for example {{m|hu|Jemen||Yemen}}, {{m|hu|Malajzia||Malaysia}}, {{m|hu|Nepjida||Naypyidaw}}, and {{m|hu|Rijád||Riyadh}}.
+
+====Declension====
+{{hu-infl-nom|y-o|o|-|v=n}}{{hu-pos-otok|y-||ai|j=y}}
+
+====Derived terms====
+{{col4|hu
+|y-nyi
+|y-odik
+|y-os
+}}
+
+===See also===
+* {{list:Latin script letters/hu}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{R:ErtSz}}
+
+==Ido==
+
+===Pronunciation===
+* {{a|context pronunciation}} {{IPA|io|/j/}}
+* {{a|letter name}} {{IPA|io|/je/}}
+
+===Letter===
+{{head|io|letter|upper case|Y}}
+
+# {{Latn-def|io|letter|25}}
+
+====See also====
+* {{list:Latin script letters/io}}
+
+==Indonesian==
+
+===Pronunciation===
+* {{sense|letter name}} {{IPA|id|/je/}}
+* {{qualifier|phoneme}} {{IPA|id|/j/}}
+
+===Letter===
+{{id-letter|upper=Y|lower=y}}
+
+# {{Latn-def|id|letter|25}}
+
+====See also====
+* {{list:Latin script letters/id}}
+
+==Italian==
+
+===Letter===
+{{it-letter}}
+
+# the twenty-fifth letter of the [[:w:Latin alphabet|Latin alphabet]], called ''{{l-lite|it|ipsilon}}'', ''{{l-lite|it|i greco}}'' or ''{{l-lite|it|i greca}}'' in Italian
+
+====Usage notes====
+* The letter '''Y''' is not considered part of the Italian alphabet. It is found mainly in loanwords.
+
+==Kabuverdianu==
+
+===Etymology===
+From {{der|kea|es|y}} and {{der|kea|pt|e}} .
+
+===Conjunction===
+{{head|kea|conjunction}}
+
+# [[and]]
+
+===References===
+* {{R:kea:Gonçalves}}
+
+==Kamayurá==
+
+===Noun===
+{{head|kay|noun}}
+
+# {{alt form|kay|'ɨ}}
+
+===References===
+* ''Languages of the Amazon'' (2012, {{ISBN|0199593566}}
+
+==Khumi Chin==
+
+===Pronunciation===
+* {{IPA|cnk|/ʔɘ˥/}}
+
+===Particle===
+{{head|cnk|particle}}
+
+# [[no]]
+
+===References===
+* {{R:cnk:Herr:2011|page=47}}
+
+==Ladin==
+
+===Conjunction===
+{{head|lld|conjunction}}
+
+# [[and]]
+
+==Latgalian==
+
+===Pronunciation===
+* {{qualifier|phoneme}} {{IPA|ltg|/ɨ/}}
+
+===Letter===
+{{head|ltg|letter|upper case|Y}}
+
+# {{Latn-def|ltg|letter|14}}
+
+===See also===
+* {{list:Latin script letters/ltg}}
+
+==Latin==
+
+===Pronunciation===
+* {{la-IPA|ȳ}}
+
+===Noun===
+{{la-noun|ȳ|g=f|indecl=y}}
+
+# {{non-gloss definition|A name of the letter ''{{l|la|Y}}''.}}
+
+====Synonyms====
+* {{sense|name of the letter ''Y''}} {{l|la|ī graeca}}, {{l|la|ȳpsīlon}}
+
+====Coordinate terms====
+* {{Latin letter names of the Roman alphabet}}
+
+===References===
+* {{R:du Cange}}
+* [[w:Basil Lanneau Gildersleeve|Basil Lanneau Gildersleeve]], ''Latin Grammar'' (3rd ed., 1895), <span class="plainlinks">[http://books.google.co.uk/books?id=Qk7foW63cO0C&pg=PA1&dq=%22The+Latin+names+for+the+letters+were%22&hl=en&sa=X&ei=w-IrT6HUH9Tb8QP875WBDw&ved=0CD0Q6AEwAA#v=onepage&q=%22The%20Latin%20names%20for%20the%20letters%20were%22&f=false page 1]</span>
+*: The Latin names for the letters… For Y the sound was used, for Z the Greek name (zēta).
+
+[[Category:la:Latin letter names]]
+
+==Lithuanian==
+
+===Pronunciation===
+* {{qualifier|phoneme}} {{IPA|lt|/iː/}}
+
+===Letter===
+{{head|lt|letter|upper case|Y}}
+
+# {{Latn-def|lt|letter|15|i ilgoji}}
+
+===See also===
+* {{list:Latin script letters/lt}}
+
+==Lower Sorbian==
+
+===Pronunciation===
+* {{IPA-lite|dsb|/ɨ/}}
+
+===Letter===
+{{dsb-letter|upper=Y}}
+
+# {{Latn-def-lite|dsb|letter|31|y}}
+# {{Latn-def-lite|dsb|name|y|Y}}
+
+===See also===
+* {{see-temp|list:Latin script letters/dsb}}
+* {{see-temp|list:Latin script letter names/dsb}}
+
+==Malay==
+
+===Letter===
+{{ms-letter|upper=Y|lower=y}}
+
+# {{Latn-def|ms|letter|25}}
+
+====See also====
+* {{list:Latin script letters/ms}}
+
+==Mandinka==
+
+===Pronoun===
+{{head|mnk|pronoun}}
+
+# [[they]], [[them]] {{gloss|personal pronoun}}
+
+====See also====
+{{mnk-personal pronouns}}
+
+==Manx==
+
+===Article===
+{{head|gv|article}}
+
+# {{alternative form of|gv|yn}}
+
+==Mbyá Guaraní==
+
+===Noun===
+{{head|gun|noun}}
+
+# [[water]]
+
+===References===
+* ''[http://pubman.mpdl.mpg.de/pubman/item/escidoc:400788 Léxico Guaraní, dialeto Mbyá : versão para fins acadêmicos]'' (1998)
+
+==Middle English==
+
+===Etymology 1===
+
+====Pronoun====
+{{head|enm|pronoun}}
+
+# {{alt form|enm|I}}
+
+===Etymology 2===
+
+====Preposition====
+{{head|enm|preposition}}
+
+# {{alt form|enm|in|t=in|id=in}}
+
+==Middle French==
+
+===Adverb===
+{{head|frm|adverb}}
+
+# [[there]] (in a given place)
+#* {{quote-book|frm|year=1488|author=Jean Dupré|title=Lancelot du Lac|passage=Or me dictes fist Lancelot, des lettres qui illec sont escriptes, savez vous qui les '''y''' fist mettre|page=[http://gallica.bnf.fr/ark:/12148/bpt6k111060r/f12.item.zoom 12]|translation=Now tell me, said Lancelot, about these letters that are written here, do you know who put them here?}}
+
+==Navajo==
+
+===Pronunciation===
+# {{IPA-lite|nv|/j/|/ɣ/}}
+
+===Letter===
+{{head-lite|nv|letters|langname=Navajo|upper case|Y}}
+
+# {{Latn-def-lite|nv|letter|indef=a}}
+
+====Usage notes====
+The letter {{angbr|y}} is used for the phoneme {{IPAfont|/j/}}, but also for {{IPAfont|/ɣ/}} before a [[front vowel]], where that is pronounced {{IPAfont|[ʝ]}}. 
+
+====See also====
+* [[Appendix:Navajo alphabet]]
+
+==Norwegian==
+
+===Pronunciation===
+* {{sense|letter name}} {{IPA|no|/yː/}}
+* {{sense|phoneme}} {{IPA|no|/yː/|/y/}}
+* {{audio|nb|LL-Q9043 (nor)-Jon Harald Søby (WMNO)-y.wav|Audio}}
+
+===Letter===
+{{head|no|letter}}
+
+# {{Latn-def|no|letter|25}}
+
+====Usage notes====
+* Perhaps the most troublesome sound in Norwegian. Even some native speakers tend to merge it into {{IPAchar|/i(ː)/|lang=no}}.
+
+==Norwegian Nynorsk==
+
+===Etymology 1===
+From {{inh|nn|non|ýr}}, from {{inh|nn|gem-pro|*īhwaz}}. Akin to {{cog|en|yew}}.
+
+====Noun====
+{{nn-noun-m1}}
+
+# {{lb|nn|obsolete}} [[yew]]
+#: {{syn|nn|barlind}}
+
+=====Related terms=====
+* {{l|nn|Ivar|g=m}}
+* {{l|nn|Iveland}}
+* {{l|nn|Ivesdal}}
+
+===Etymology 2===
+From {{inh|nn|non|úa}}, influenced by {{m|nn|kry}}.
+
+====Verb====
+{{nn-verb-3}}
+
+# to [[crawl]] {{q|about small animals}}
+
+===References===
+* {{R:The Nynorsk Dictionary}}
+
+==Nupe==
+
+===Pronunciation===
+* {{sense|phoneme}} {{IPA|nup|/j/}}
+
+===Letter===
+{{nup-letter|upper=Y|lower=y}}
+
+# {{Latn-def|nup|letter|28}}
+
+====See also====
+* {{list:Latin script letters/nup}}
+
+==Old Polish==
+
+===Alternative forms===
+* {{alter|pl|ÿ}}
+
+===Etymology===
+{{inh+|zlw-opl|sla-pro|sc=Latinx|*i}}, from {{der-lite|zlw-opl|ine-pro|sc=Latinx|*ei}}, an early locative singular determiner, formed from the root {{m-lite|ine-pro|sc=Latinx|*h₁e-}}, {{m-lite|ine-pro|sc=Latinx|*h₁o-}}.
+
+===Conjunction===
+{{head|zlw-opl|conjunction}}
+
+# [[and]] {{gl|cumulative coordinating conjunction}}
+
+====Descendants====
+* {{desc|pl|i|id=conjunction}}
+
+===References===
+* {{R:zlw-opl:SPJSP|i, hi}}
+
+==Old Tupi==
+
+===Pronunciation===
+* {{IPA|tpw|/ˈʔɨ/}}
+
+===Noun===
+{{head|tpw|noun}}
+
+# [[water]]
+# [[river]]
+
+===References===
+* LEMOS BARBOSA, A. ''[http://biblio.etnolinguistica.org/barbosa-1956-curso Curso de Tupi antigo]''. Rio de Janeiro: Livraria São José, 1956.
+
+==Papiamentu==
+
+===Alternative forms===
+* {{alter|pap|i}} {{q|alternative spelling}}
+
+===Etymology===
+From {{der|pap|es|y}} and {{der|pap|pt|e}} and {{der|pap|kea|i}}.
+
+===Conjunction===
+{{head|pap|conjunction}}
+
+# [[and]]
+
+==Polish==
+
+===Etymology===
+{{pl-ety-letter}}
+
+===Pronunciation===
+* {{pl-IPA|y}}
+
+===Letter===
+{{head|pl|letter|upper case|Y|lower case||}}
+
+# {{Latn-def|pl|letter|29|y|igrek}}
+
+====See also====
+* {{list:Latin script letters/pl}}
+
+==Portuguese==
+
+===Pronunciation===
+Letter name: {{q|{{l|pt|ípsilon}}}}
+{{pt-IPA|br=ípsilom}}
+** {{audio|pt|Pt-br-y.ogg|Audio (BR)}}
+Letter name: {{q|{{l|pt|i grego}}}}
+{{pt-IPA|í grêgo}}
+
+Phoneme:
+* {{IPA|pt|/i/|/j/}} {{q|loanwords}}
+
+===Letter===
+{{pt-letter|upper=Y|lower=y}}
+
+# {{Latn-def|pt|letter|25}}
+
+====See also====
+* {{list:Latin script letters/pt}}
+
+==Quechua==
+
+===Adverb===
+{{head|qu|adverb}}
+
+# [[really]], [[truly]]
+
+==Romanian==
+
+===Pronunciation===
+* {{IPA|ro|/j/|/i/}}
+
+===Letter===
+{{ro-letter|upper=Y|lower=y}}
+
+# {{Latn-def|ro|letter|30|igrec|i grec}}
+
+====Usage notes====
+Used chiefly in recent loanwords and foreign proper nouns.
+
+====See also====
+* {{list:Latin script letters/ro}}
+
+==Spanish==
+
+===Etymology 1===
+
+====Pronunciation====
+{{es-pr|raw:/ʝ/<q:phoneme>,raw:/i/|ye<q:letter name>}}
+* {{IPAchar|/i/}} in the conjunction (see below) and in word-final diphthongs (e.g. {{m|es|hoy}}, {{m|es|rey}}); otherwise {{IPAchar|/ʝ/}}.
+
+====Letter====
+{{head|es|letter|lower case||upper case|Y}}
+
+# {{Latn-def|es|letter|26|ye|i griega}}
+
+====See also====
+* {{list:Latin script letters/es}}
+
+===Etymology 2===
+{{inh+|es|osp|è}} or {{m|osp|e}}, from {{inh|es|la|et}}.
+
+====Alternative forms====
+* {{alt|es|e}}
+* {{alt|es|i||obsolete}}
+
+====Pronunciation====
+{{es-pr|y<q:preconsonantal>|raw:/ʝ/<q:prevocalic>|audio=LL-Q1321 (spa)-Rodelar-y.wav<a:Spain>}}
+
+====Conjunction====
+{{head|es|conjunction}}
+
+# [[and]]
+#* '''1605''', Miguel de Cervantes Saavedra, ''Don Quijote de la Mancha''<sup>[http://books.google.com/books?id=VpUWAAAAYAAJ 1]</sup>, Chapter I:
+#*: {{quote|es|Es, pues, de saber que este sobredicho hidalgo, los ratos que estaba ocioso —que eran los más del año—, se daba a leer libros de caballerías, con tanta afición '''y''' gusto, que olvidó casi de todo punto el ejercicio de la caza '''y''' aun la administración de su hacienda; '''y''' llegó a tanto su curiosidad '''y''' desatino en esto, que vendió muchas hanegas de tierra de sembradura para comprar libros de caballerías en que leer, '''y''', así, llevó a su casa todos cuantos pudo haber dellos.|You must know, then, that the above-named gentleman whenever he was at leisure (which was mostly all the year round) gave himself up to reading books of chivalry with such ardour '''and''' avidity that he almost entirely neglected the pursuit of his field-sports, '''and''' even the management of his property; '''and''' to such a pitch did his eagerness and infatuation go that he sold many an acre of tillageland to buy books of chivalry to read, '''and''' brought home as many of them as he could get.}}
+# {{lb|es|in names of number}} [[and]]
+#: {{uxi|es|setenta '''y''' seis|seventy-six}}
+# {{lb|es|in arithmetic}} [[plus]], [[and]]
+#: {{uxi|es|uno '''y''' uno son dos|one '''plus''' one is two}}
+# {{lb|es|informal}} [[well]]
+#: {{uxi|es|¡'''Y''' por supuesto!|'''Well''', of course!}}
+# {{lb|es|informal}} [[what about]], [[how about]], where is/are the
+#: {{uxi|es|Pero, ¿'''y''' el concierto? ¿Ya no vamos?|But '''what about''' the concert? Are we not going anymore?}}
+#: {{uxi|es|¿'''Y''' la niña? ¿Está a salvo?|'''How about''' the girl? Is she safe?}}
+#: {{uxi|es|¿'''Y''' los archivos? Debo echarles un vistazo.|'''Where are''' the files? I should take a look at them.}}
+
+=====Usage notes=====
+* Before words that begin with the {{IPAchar|/i/}} sound, the form {{m|es|e}} is used instead.
+
+=====Derived terms=====
+{{col-auto|es
+|y comercial
+|y qué<alt:¿y qué?>
+}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Tagalog==
+
+===Etymology===
+From {{bor|tl|es|y}}. Each pronunciation has a different source:
+* Filipino alphabet pronunciation is influenced by {{der|tl|en|y}}.
+* Abakada alphabet pronunciation is influenced by Baybayin character {{m|tl|{{tl-bay sc|ya}}}}.
+* Abecedario pronunciation is from {{der|tl|es|y}}. 
+
+===Pronunciation===
+* {{hyph|tl|Y}}
+* {{tl-IPA|way|pre={{sense|letter name|Filipino alphabet}}}}
+* {{tl-IPA|ya|pre={{sense|letter name|Abakada alphabet}}}}
+* {{tl-IPA|ye|pre={{sense|letter name|Abecedario}}}}
+* {{sense|phoneme}} {{IPA|tl|/j/|[j]}}
+* {{sense|phoneme|used as a vowel}} {{IPA|tl|/i/|[ɪ]}}
+* {{rhymes|tl|aj|a|e|s=1}}
+
+===Letter===
+{{head|tl|letters|lower case||upper case|Y|Baybayin spelling|{{tl-bay sc|way}}|f3sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{Latn-def-lite|tl|letter|27|way|alphabet name={{w|Filipino alphabet}}}}
+
+====See also====
+* {{list:Latin script letters/tl}}
+
+===Letter===
+{{head|tl|letters|lower case||upper case|Y|Baybayin spelling|{{tl-bay sc|ya}}|f3sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{Latn-def-lite|tl|letter|20|ya|alphabet name={{w|Abakada alphabet}}}}
+
+===Letter===
+{{head-lite|tl|letters|lower case||upper case|Y|Baybayin spelling|{{tl-bay sc|ye}}|f3sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{lb|tl|historical}} {{Latn-def-lite|tl|letter|27|ye|alphabet name={{w|Filipino orthography#Adoption of the Latin script|Abecedario}}}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+
+==Tày==
+
+===Pronunciation===
+{{tyz-IPA}}
+
+===Verb===
+{{tyz-verb}}
+# to [[imitate]], to [[mimic]]
+
+===Preposition===
+{{tyz-prep}}
+# [[along]]
+#: {{uxi|tyz|'''y''' te hết|do like he/she does (literally do along him/her)}}
+#: {{ux|tyz|Đăm nà '''y''' thỏi cáu|Follow the old customs when planting rice (literally Plant rice like the previous rows)}}
+# [[according to]]
+#: {{uxi|tyz|'''y''' cằm po̱ me̱|according to the parents' words}}
+
+===References===
+{{R:Lương Bèn}}
+
+==Turkish==
+
+===Letter===
+{{tr-letter|upper=Y|lower=y}}
+
+# {{Latn-def|tr|letter|28|ye}}
+
+====See also====
+* {{list:Latin script letters/tr}}
+
+==Turkmen==
+
+===Pronunciation===
+* {{qualifier|phoneme}} {{IPA|tk|/ɯ/|/ɯː/}}
+
+===Letter===
+{{head|tk|letter|upper case|Y}}
+
+# {{Latn-def|tk|letter|28|y}}
+
+===See also===
+* {{list:Latin script letters/tk}}
+
+==Vietnamese==
+{{wikipedia|lang=vi|y học}}
+
+===Pronunciation===
+{{vi-pron}}
+
+===Etymology 1===
+{{vi-etym-sino|伊}}.
+
+====Pronoun====
+{{vi-pronoun}}
+
+# {{lb|vi|archaic|literary}} {{l|en|[[he]]; [[him]]; [[she]]; [[her]]}}
+#* {{quote-book|vi|1958|last=Nguyễn|first=Đổng Chi|chapter=Thạch Sùng còn thiếu mẻ kho hay là Sự tích con mối|title=Kho tàng truyện cố tích Việt Nam|publisher=NXB Văn sử địa|text=Hồi đó ở kinh đô có một người em hoàng hậu họ Vương. '''Y''' cũng là tay cự phú nổi tiếng tiền rừng biển bạc và xài phí vào bậc nhất.|t=At the time, there was in the capital a brother of the queen of the Wáng family. '''He''' was also a famous for being immensely rich and was an extravagant spender of first degree.}}
+# {{lb|vi|derogatory}} [[he]], [[him]]
+
+=====See also=====
+* {{vi-l|thị}}
+
+===Etymology 2===
+{{vi-etym-sino|依}}.
+
+====Adverb====
+{{vi-adv}}
+
+# {{lb|vi|informal}} {{l|en|[[exactly]]; [[precisely]]}} (like)
+#: {{uxi|vi|'''y''' như|exactly like/as}}
+#: {{uxi|vi|'''y''' như thật|so realistic|lit=exactly like real life}}
+#: {{uxi|vi|'''y''' chang|very much like}}
+
+=====Derived terms=====
+{{vi-der|y hệt|y chóc|y chang|y xì}}
+
+===Etymology 3===
+{{vi-etym-sino|醫|}}.
+
+====Noun====
+{{vi-noun}}
+
+# {{lb|vi|medicine}} [[medicine]]; [[physician]]
+
+=====Derived terms=====
+{{der3|vi
+|{{vi-l|y tá|醫佐|[[nurse]]}}
+|{{vi-l|Đông y|東醫|[[traditional]] [[East Asian]] medicine]]}}
+|{{vi-l|y học|醫學|[[medicine]]}}
+|{{vi-l|Tây y|西醫|[[modern]] [[medicine]]}}
+|{{vi-l|pháp y|法醫|[[forensic]] [[science]]}}
+|{{vi-l|y khoa|醫科|[[medicine]]}}
+|{{vi-l|y sĩ|醫士|([[junior]]) [[physician]]}}
+|{{vi-l|y tế|醫濟|[[health care]]}}
+|{{vi-l|nan y|難醫|(of [[disease]]) [[difficult]] to [[cure]]}}
+|{{vi-l|lương y|良醫|([[literary]]) a [[good]] [[physician]]}}
+|{{vi-l|y sinh|醫生|[[physician]]}}
+|{{vi-l|y dược|醫藥|[[medicine]] and [[pharmacy]]}}
+|{{vi-l|y viện|醫院|([[literary]]) [[hospital]]}}
+|{{vi-l|lương y như từ mẫu|良醫如慈母|([[literary]]) a [[good]] [[physician]] is [[like]] a good [[mother]]}}
+|{{vi-l|y đạo|醫道|([[literary]]) [[art]] of [[healing]]}}
+|{{vi-l|y lệnh|醫令|[[doctor]]'s [[instructions]]}}
+}}
+
+{{cln|vi|personal pronouns|third person pronouns}}
+
+==Wayampi==
+
+===Noun===
+{{head|oym|noun}}
+
+# {{alternative form of|oym|ɨɨ||water}}
+#: {{ux|oym|a'''y'''&apos;ú.|inline=1|I drink '''water'''.}}
+
+===References===
+* ''Handbook of Amazonian Languages'', volume 4 (1998), edited by Desmond C. Derbyshire, Geoffrey K. Pullum
+
+==Welsh==
+
+===Etymology 1===
+
+====Alternative forms====
+* {{i|with [[grave accent]] to indicate otherwise unpredictable short vowel {{IPAchar|/ə/}}}}: {{l|cy|ỳ}}
+* {{i|with [[acute accent]] to indicate unusually stressed short vowel}}: {{l|cy|ý}}
+* {{i|with [[circumflex]] to indicate otherwise unpredictable or unusually stressed long vowel}}: {{l|cy|ŷ}}
+* {{i|with [[diaeresis]] to indicate disyllabicity}}: {{l|cy|ÿ}}
+
+====Pronunciation====
+* {{a|standard}} {{IPA|cy|/ə/}}
+** {{a|informal}} {{IPA|cy|/əː/}}
+* {{rhymes|cy|ə|s=1}}
+
+====Letter====
+{{cy-letter|upper=Y|lower=y}}
+
+# {{Latn-def|cy|letter|29|y}} ''It is preceded by {{l|cy|w}}.''
+
+=====Mutation=====
+* y cannot be mutated but, being a vowel, does take {{l|en|h-prothesis}}, for example with the word {{m|cy|ysgol||school; ladder}}:
+{{cy-mut|ysgol}}
+
+=====Derived terms=====
+* Digraph sequences: {{l|cy|yw}}
+
+=====See also=====
+* {{list:Latin script letters/cy}}
+* {{list:Latin script letter names/cy}}
+
+====Noun====
+{{cy-noun|f|yau}}
+
+# {{Latn-def|cy|name|Y|y}}
+
+=====Mutation=====
+{{cy-mut|y}}
+
+===Etymology 2===
+From {{inh|cy|wlm|y}}, {{m|wlm|yr}}, from {{inh|cy|owl|ir}}, ultimately from {{der|cy|cel-pro|*sindos}}.
+
+====Alternative forms====
+* {{l|cy|'r}} {{qualifier|used after vowels}}
+* {{l|cy|yr}} {{qualifier|used before vowels and h}}
+
+====Pronunciation====
+* {{IPA|cy|/ə/}}
+* {{rhymes|cy|ə|s=1}}
+
+====Article====
+{{head|cy|article|definite}} {{qualifier|triggers soft mutation of a feminine singular noun, except ''ll'' and ''rh'' remain unmutated}}
+
+# [[the]]
+#: {{ux|cy|'''y''' [[bachgen]] {{g|m}}|inline=1|'''the''' boy}}
+#: {{ux|cy|'''y''' [[merch|<u>f</u>erch]] {{g|f}}|inline=1|'''the''' girl}}
+#: {{ux|cy|'''y''' [[llong]] {{g|f}}|inline=1|'''the''' ship}}
+#: {{ux|cy|'''y''' [[bechgyn]] {{g|p}}|inline=1|'''the''' boys}}
+#: {{ux|cy|'''y''' [[merched]] {{g|p}}|inline=1|'''the''' girls}}
+
+===Etymology 3===
+{{etymid|cy|particle}}
+Merger of two formerly distinct particles, {{m|cy|ydd}} and {{m|cy|yd}}.
+* (1) from earlier {{m|cy|ydd}}, from {{inh|cy|wlm|yð}}, from {{inh|cy|cel-pro|*ide-}} (compare {{cog|br|e}}, {{m|br|ez}}, {{cog|kw|y}}, {{m|kw|yth}}, {{cog|sga|id}}), from {{inh|cy|ine-pro|*h₁i-dʰei-}} (compare {{cog|la|ibi||here}}, {{cog|ae|𐬌𐬛𐬁||here, in the same way}}, and {{cog|sa|इह|tr=ihá||here}}).
+* (2) from earlier {{m|cy|yd}}, from {{inh|cy|wlm|yt}}, from {{inh|cy|owl|it}}, from {{inh|cy|cel-pro|*ita-}} (compare {{cog|br|e}}, {{m|br|ez}}); akin to {{cog|la|ita||so, thus}}, dialectal {{cog|lt|it||as}}, and {{cog|sa|íti||thus, in this manner}}.
+
+====Alternative forms====
+* {{l|cy|yr}} {{qualifier|used before vowels and ''h''}}
+
+====Pronunciation====
+* {{IPA|cy|/ə/}}
+* {{rhymes|cy|ə|s=1}}
+
+====Particle====
+{{head|cy|particle}}
+
+# {{lb|cy|literary}} [[that]] {{qualifier|preverbal particle used to mark a [[subordinate clause]]}}
+#: {{ux|cy|Wyt ti'n meddwl '''y''' gall hi ddod?|Do you think '''that''' she can come?}}
+#: {{ux|cy|Mae hi'n gwybod '''y''' byddet ti'n gwrando arni hi.|She knows '''that''' you would listen to her.}}
+# {{lb|cy|literary}} [[which]], [[whom]] {{qualifier|particle used with indirect relative clauses}}
+#: {{ux|cy|y dyn '''y''' dysgais ei fab|the man '''whose''' son I taught|inline=1}}
+#: {{ux|cy|y ferch '''y''' gwrandewais arni|the girl to '''whom''' I listened|inline=1}}
+# {{lb|cy|literary}} {{non-gloss definition|preverbal particle used to mark an affirmative verb in a [[main clause]]}}
+#* {{quote-text|cy|year=1620|author=William Morgan|title=Y Bibl Cyssegr-lan|section=[[s:cy:Beibl (1620)/Genesis|Genesis 1:1]]
+|passage=Yn y dechreuad '''y''' creodd Duw y nefoedd a’r ddaear.
+|translation=In the beginning God created the heavens and the earth.}}
+
+=====Usage notes=====
+* ''y'' is almost always omitted in colloquial speech.
+* ''y'' is used to mean 'that' (i.e. mark a subordinate clause) when the subordinate clause begins with an affirmative form of ''{{l|cy|bod}}'' not in the present tense, or another affirmative verb in any tense apart from the preterite.
+
+=====Related terms=====
+* {{l|cy|a}}
+* {{l|cy|bod}}
+* {{l|cy|mai}} {{lb|cy|with fronted element, marked for emphasis}}
+* {{l|cy|i}}
+* {{l|cy|na}} {{lb|cy|negative}}
+
+==Yoruba==
+
+===Pronunciation===
+* {{sense|phoneme}} {{IPA|yo|/j/}}
+* {{sense|letter name}} {{IPA|yo|/jí/}}
+
+===Letter===
+{{yo-letter|upper=Y|lower=y}}
+
+# {{Latn-def|yo|letter|25|yí}}
+
+====See also====
+* {{list:Latin script letters/yo}}
+
+==Zulu==
+
+===Letter===
+{{zu-letter}}
+
+# {{Latn-def|zu|letter|25}}
+
+====See also====
+* {{list:Latin script letters/zu}}

@@ -1,0 +1,40 @@
+{{also|Pöytä}}
+
+==Finnish==
+
+===Etymology===
+From {{inh|fi|urj-fin-pro|*peütä}}, borrowed from {{der|fi|gem-pro|*beudaz}} (compare {{cog|ang|bēod}}).
+
+===Pronunciation===
+{{fi-pronunciation}}
+
+===Noun===
+{{wikipedia|lang=fi}}
+{{fi-noun}}
+
+# [[table]], [[desk]] {{gloss|standing piece of furniture with a flat top}}
+#: {{ux|fi|Pötyä '''pöytään'''!|Food onto the '''table'''!}}
+
+====Declension====
+{{fi-decl-koira|pöy|t|d|ä}}
+
+====Derived terms====
+* {{l|fi|apupöytä}}
+* {{l|fi|jalkapöytä}}
+* {{l|fi|joulupöytä}}
+* {{l|fi|jättää pöydälle}}
+* {{l|fi|kirjoituspöytä}}
+* {{l|fi|myyntipöytä}}
+* {{l|fi|neuvottelupöytä}}
+* {{l|fi|päivällispöytä}}
+* {{l|fi|pöydänjalka}}
+* {{l|fi|pöydätä}}
+* {{l|fi|pöytäliina}}
+* {{l|fi|pöytätaso}}
+* {{l|fi|pöytätavat}}
+* {{l|fi|pöytävuori}}
+* {{l|fi|ruokapöytä}}
+* {{l|fi|sohvapöytä}}
+* {{l|fi|työpöytä}}
+
+[[Category:fi:Furniture]]

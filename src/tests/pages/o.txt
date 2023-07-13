@@ -1,0 +1,2635 @@
+{{also|Appendix:Variations of "o"|O}}
+{{character info}}
+{{character info|ᵒ}}
+{{character info/subpage|ｏ}}
+==Translingual==
+{{wikipedia}}
+
+===Letter===
+{{mul-letter|upper=O|lower=o|sc=Latn}}
+
+# {{n-g-lite|The fifteenth letter of the [[Appendix:Latin script|basic modern Latin alphabet]].}}
+#: {{lb|mul|superscript}} {{ng|See [[º]]}}.
+
+===Pronunciation===
+* {{IPA-lite|mul|/o/}}
+* {{audio|mul|Close-mid back rounded vowel.ogg|IPA}}
+
+===Symbol===
+{{wikipedia|Close-mid back rounded vowel}}
+{{head-lite|mul|symbols}}
+
+# {{lb|mul|IPA}} a {{w|close-mid back rounded vowel}}.
+#: {{lb|mul|superscript {{angbr IPA|ᵒ}}}} {{IPAfont|[o]}}-coloring or a weak, fleeting or epenthetic {{IPAfont|[o]}}.
+
+===Gallery===
+<gallery caption="Letter styles" perrow="3" mode="packed">
+Image:Latin O.png|Uppercase and lowercase versions of '''O''', in normal and italic type
+Image:Fraktur letter O.png|Uppercase and lowercase '''O''' in [[Fraktur]]
+</gallery>
+
+===See also===
+{{Latn-script}}
+{{Letter
+|page=O
+|NATO=Oscar
+|Morse=–––
+|Character=O
+|Braille=⠕
+}}
+
+[[Category:IPA symbols|O]]
+
+==English==
+
+===Etymology 1===
+
+====Pronunciation====
+{{qual|Name of letter:}} 
+* {{a|UK}} {{IPA-lite|en|/ˈəʊ/}}
+* {{audio|en|en-uk-o.ogg|Audio (RP)}}
+* {{a|US}} {{IPA-lite|en|/ˈoʊ/}}
+* {{audio|en|en-us-o.ogg|Audio (GA)}}
+* {{homophones|en|oh|owe}}
+* {{rhymes-lite|en|əʊ|s=1}}
+
+====Letter====
+{{en-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|en|letter|15|o}}
+# {{altform|en|ο}}, ''the fifteenth [[letter]] of the [[Classical Greek|Classical]] and [[Modern Greek]] [[alphabet]]s, called [[omicron]] and'' {{lb|en|astronomy}} ''[[used]] as an [[abbreviation]] of [[omicron]] in [[star]] [[name]]s.''
+#: {{ux-lite|en|The system's {{w|Bayer designation}} is '''o Persei'''.}}
+
+=====See also=====
+* {{list:Latin script letters/en/simple}}
+
+====Number====
+{{en-number|upper=O|lower=o}}
+
+# {{Latn-def-lite|en|ordinal|15|o}}
+
+====Noun====
+{{en-noun|es}}
+
+# {{Latn-def-lite|en|name|O|o}}
+# A [[zero]] {{qualifier-lite|used in reading out numbers}}.
+#: {{ux-lite|en|It is currently two-'''o'''-five in the afternoon (2:05 PM).}}
+#: {{ux-lite|en|The first permanent English settlement in America was in Jamestown in sixteen-'''o'''-seven (1607).}}
+
+=====Alternative forms=====
+* {{alter|en|oh}}
+
+=====Derived terms=====
+* {{l-lite|en|kayo}}
+* {{l-lite|en|o-dark-thirty}}
+* {{l-lite|en|okay}}
+
+=====Translations=====
+{{see translation subpage|Noun}}
+
+=====See also=====
+* {{list:Latin script letter names/en/simple}}
+* [[oh#Noun|oh]]
+
+===Etymology 2===
+
+====Particle====
+{{head-lite|en|particles}}
+
+# {{lb|en|nonstandard}} alternative form of [[O#Particle|O]] (vocative particle)
+#* {{quote-text|en|year=2007|year_published=1640|title=The Bay Psalm Book|publisher=Cosimo Classics|section=p.37, 41 & 46
+|passage=I lift my soule to thee '''o''' Lord<br>mee, '''o''' Iehovah, heare<br>In thee, '''o''' Lord, I put my trust}}
+
+=====Translations=====
+{{trans-see|vocative particle to mark direct address|O#Particle}}
+
+====Interjection====
+{{en-interj}}
+
+# {{alt form-lite|en|oh}}
+
+====Noun====
+{{en-noun|?}}
+
+# {{lb|en|IRC|acronym of}} [[operator|Operator]]
+# {{lb|en|acronym of}} [[object|Object]], see [[SVO]]
+
+====Adjective====
+{{en-adj|?}}
+
+# [[over|Over]]
+
+===Etymology 3===
+See {{m-lite|en|o'}}.
+
+====Preposition====
+{{en-preposition}}
+
+# {{senseid|en|preposition}} {{alt form-lite|en|of}}
+
+===Etymology 4===
+Abbreviations.
+
+# {{lb|en|stenoscript}} a word-initial letter ⟨o⟩.
+# {{lb|en|stenoscript}} the long vowel /oʊ/ at the end of a word, or before a final consonant that is not /dʒ, v, z/. (Note:  the final consonant is not written; [ɔə˞], [ɔː˞] count as /oʊr/.)
+#: Thus the words {{m-lite|en|or}}, {{m-lite|en|owe}}.
+# {{lb|en|stenoscript}} the words {{m-lite|en|on}}, {{m-lite|en|so}}.
+
+[[Category:English abbreviations]]
+[[Category:en:Zero]]
+
+==Albanian==
+
+===Alternative forms===
+* {{l-lite|sq|-o|id=vocative}}
+
+===Etymology===
+{{rfe|sq}}
+
+===Pronunciation===
+* {{IPA-lite|sq|/oː/}}
+
+===Particle===
+{{head-lite|sq|particles}}
+
+# {{senseid|sq|vocative}}{{l-lite|en|O|id=vocative}} ({{n-g-lite|[[emphatic]] [[vocative]] marker of nouns}})
+#: {{ux-lite|sq|'''O''' malet e Shqipërisë!|'''O''' mountains of Albania!}}
+
+====Usage notes====
+Used with [[indefinite]] forms only. Can be placed either before or after the noun:
+* {{m-lite|sq|Qup||pos=indefinite|Coby}} + '''''-o''''' → {{m-lite|sq||Qup'''-o'''|'''O''' Coby}}.
+* '''{{m-lite|sq|o}}''' + {{m-lite|sq||Qup}} → {{m-lite|sq||'''o''' Qup|'''O''' Coby}}.
+
+====Further reading====
+* [https://fjalorthi.com/o "''o'' pjesëz"], in ''Fjalor Shqip'' (''Albanian Dictionary'')
+
+==Aragonese==
+
+===Etymology===
+From {{inh-lite|an|la|illum}}, accusative form of {{m-lite|la|ille||that}}.
+
+===Article===
+{{head-lite|an|articles|g=m|definite singulars}}
+
+# [[the]]
+#: {{ux-lite|inline=1|an|'''O''' río Ebro|The Ebro River}}
+
+====Usage notes====
+* Becomes {{m-lite|an|l'}} before many words beginning with a vowel.
+* The form {{m-lite|an|lo}}, either pronounced as ''lo'' or ''ro'', can be found after words ending with an -o.
+* Eastern dialects use the form {{m-lite|an|el}}.
+
+==Asturian==
+
+===Etymology===
+From {{inh-lite|ast|la|aut}}.
+
+===Conjunction===
+{{head-lite|ast|conjunctions}}
+
+# [[or]]
+
+==Azerbaijani==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{qualifier-lite|phoneme}} {{IPA-lite|az|/ɔ/}}
+
+====Letter====
+{{az-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|az|letter|21}}
+
+=====See also=====
+* {{list:Latin script letters/az/simple}}
+
+===Etymology 2===
+From {{inh-lite|az|trk-oat|sc=ota-Arab|اول|tr=ol}}, {{inh-lite|az|trk-pro|sc=Latinx|*ol}}.
+
+====Pronoun====
+{{az-variant|о|او}}
+{{az-pron|acc=onu|pl=onlar}}
+
+# [[he]], [[she]], [[it]]
+#: {{uxi|az|O [[ev|evdə]] [[deyil]]|S/he is not at home.}}
+#: {{uxi|az|O [[çox]] [[yaxşı]] [[insan]]dır.|S/he is a very good person.}}
+
+=====Declension=====
+{{az-personal-pronouns-decl}}
+
+=====Derived terms=====
+* {{l-lite|az|onunku}}
+
+====Determiner====
+{{head-lite|az|determiners}}
+
+# [[that]], [[that]] [[one]]
+#: {{uxi|az|'''O''' [[ev|evdə]] [[deyil]]|S/he isn't at '''that''' house.}}
+#* {{quote-web|1=az|work=joy.az|url=https://joy.az/din/11398-namaz-q305l305n.html|date=January 22, 2010|text=Amma nə xoş '''o''' insana ki, səhvini başa düşüb və [[tövbə]] edib haqq yoluna qayıdır|t=But blissful is '''the/that''' person who realizes his mistake and repents and returns to the path of righteous.|title=Archived copy|accessdate=4 March 2022|archiveurl=https://web.archive.org/web/20220304104515/https://joy.az/din/11398-namaz-q305l305n.html|archivedate=4 March 2022}}
+#: {{ant-lite|az|bu}}
+
+[[Category:Azerbaijani personal pronouns]]
+
+==Basque==
+
+===Pronunciation===
+{{eu-IPA}}
+
+===Letter===
+{{eu-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|eu|letter|16|o}}
+
+====See also====
+* {{list:Latin script letters/eu/simple}}
+
+===Noun===
+{{head-lite|eu|nouns|[[Appendix:Glossary#indeclinable|indeclinable]]}}
+
+# {{Latn-def-lite|eu|name|O|o}}
+
+====See also====
+* {{list:Latin script letter names/eu/simple}}
+
+==Borôro==
+
+===Pronunciation===
+* {{IPA-lite|bor|/ˈɔ/}}
+
+===Noun===
+{{head-lite|bor|nouns}}
+
+# [[tooth]]
+
+==Catalan==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{ca-IPA|ó}}
+
+====Noun====
+{{ca-noun|f}}
+
+# the [[Appendix:Latin script|Latin]] letter [[O]] (lowercase [[#Translingual|o]])
+
+===Etymology 2===
+From {{inh-lite|ca|la|aut}}.
+
+====Pronunciation====
+* {{ca-IPA|ò}}
+
+====Conjunction====
+{{head-lite|ca|conjunctions}}
+
+# [[or]]
+
+=====Derived terms=====
+* {{l-lite|ca|o bé}}
+
+{{C|ca|Latin letter names}}
+
+==Corsican==
+
+===Etymology===
+From {{inh-lite|co|la|aut}}. Cognates include {{cog-lite|it|o}} and {{cog-lite|es|o}}.
+
+===Conjunction===
+{{head-lite|co|conjunctions}}
+
+# [[or]]
+
+====References====
+* http://infcor.adecec.net/
+
+==Crimean Tatar==
+
+===Etymology===
+From {{inh-lite|crh|trk-pro|sc=Latinx|*ol}}. Compare {{cog-lite|tr|o}} and {{cog-lite|az|o}}.
+
+===Pronoun===
+{{head-lite|crh|pronouns|cat2=personal pronouns|cat3=demonstrative pronouns}}
+
+# {{lb|crh|personal pronoun}} [[he]], [[she]], [[it]]
+#: {{syn-lite|crh|anav|q1=Northern dialect}}
+# {{lb|crh|demonstrative pronoun}} [[that]]
+
+==Czech==
+
+===Etymology===
+From {{inh-lite|cs|sla-pro|sc=Latinx|*o(b)}}, from {{der-lite|cs|ine-pro|sc=Latinx|*h₃ebʰi}}.
+
+===Pronunciation===
+* {{IPA-lite|cs|/o/}}
+* {{audio|cs|Cs-o.ogg|Audio}}
+
+===Preposition===
+{{head-lite|cs|prepositions}} {{+obj|cs|locative}}
+
+# [[about]]
+
+===Preposition===
+{{head-lite|cs|prepositions}} {{+obj|cs|accusative}}
+
+# [[for]]
+
+===Further reading===
+* {{R:cs:PSJC}}
+* {{R:cs:SSJC}}
+
+==Danish==
+
+===Particle===
+{{head-lite|da|particles}}
+
+# {{lb|da|elevated|or|jocular}} {{n-g-lite|Vocative particle.}}
+#: {{seeCites|da}}
+
+==Dutch==
+
+===Pronunciation===
+* {{rhymes-lite|nl|oː|s=1}}
+* {{IPA-lite|nl|/oː/}}
+* {{audio|nl|Nl-o.ogg|Audio}}
+
+===Interjection===
+{{head-lite|nl|interjections}}
+
+# [[oh]]
+
+===Letter===
+{{head-lite|nl|letters|lower case||upper case|O}}
+
+# {{Latn-def-lite|nl|letter|15}}
+
+====See also====
+* Previous letter: [[n#Dutch|n]]
+* Next letter: [[p#Dutch|p]]
+
+==Esperanto==
+
+===Pronunciation===
+* {{sense-lite|letter name}} {{IPA-lite|eo|/o/}}
+* {{sense-lite|phoneme}} {{IPA-lite|eo|/o/}}
+* {{audio|eo|Eo-o.ogg|Audio:}}
+
+===Letter===
+{{eo-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|eo|letter|19|o}}
+
+====See also====
+* {{list:Latin script letters/eo/simple}}
+
+===Noun===
+{{eo-head}}
+
+# {{Latn-def-lite|eo|name|O|o}}
+
+====See also====
+* {{list:Latin script letter names/eo/simple}}
+
+==Estonian==
+{{wikipedia|lang=et}}
+
+===Pronunciation===
+* {{et-IPA|oo}}
+
+===Letter===
+{{et-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|et|letter|15|oo}}
+
+====See also====
+* {{list:Latin script letters/et/simple}}
+
+==Extremaduran==
+
+===Etymology===
+From {{inh-lite|ext|la|aut}}. Cognates include {{cog-lite|es|o}} and {{cog-lite|it|o}}.
+
+===Conjunction===
+{{head-lite|ext|conjunctions}}
+
+# [[or]]
+
+==Fala==
+
+===Etymology 1===
+From {{inh-lite|fax|roa-opt|o}}, from {{inh-lite|fax|la|illo||he}}.
+
+====Article====
+{{head-lite|fax|articles|g=m-s|plural|os|feminine|a|feminine plural|as}}
+
+# {{lb|fax|[[mañegu|Mañegu]]}} {{n-g-lite|Masculine singular definite article}}; [[the]]
+#* {{quote-book|fax|year=2000|author=Domingo Frades Gaspar|title=Vamus a falal: Notas pâ coñocel y platical en nosa fala|publisher=Editora regional da Extremadura|section=Chapter 1: Lengua Española|passage='''O''' términu de Valverdi, mais grandi, limita con Portugal, precisamenti con dois distintius Departamentos, que eran Beira Alta con capital en Guarda, a Beira Baixa con capital en Castelo Branco.|translation='''The''' Valverde locality, the biggest, borders Portugal, more precisely with two distinct departments, which were Beira Alta with Guarda as its capital, and Beira Baixa with Castelo Branco as its capital.}}
+
+====Pronoun====
+{{head-lite|fax|pronouns}}
+
+# {{lb|fax|Mañegu}} {{n-g-lite|Third person singular masculine accusative pronoun}}; [[him]]
+
+====See also====
+{{fax-personal pronouns}}
+
+===Etymology 2===
+From {{inh-lite|fax|roa-opt|ou}}, from {{inh-lite|fax|la|aut||or}}.
+
+====Conjunction====
+{{head-lite|fax|conjunctions}}
+
+# [[or]]
+#* {{quote-book|fax|year=2000|author=Domingo Frades Gaspar|title=Vamus a falal: Notas pâ coñocel y platical en nosa fala|publisher=Editora regional da Extremadura|section=Theme 6|passage=Poin encontralsi, a o millol, hasta “oito” '''o''' mais.|translation=There can be found, at best, up to “eight” '''or''' more.}}
+
+===References===
+* {{R:fax:Diccionariu|212}}
+
+==Faroese==
+
+===Pronunciation===
+* {{IPA-lite|fo|/oː/}}
+* {{homophones|fo|og|ov}}
+
+===Letter===
+{{head-lite|fo|letters|upper case|O}}
+
+# {{Latn-def-lite|fo|letter|17}}
+
+====See also====
+* {{list:Latin script letters/fo/simple}}
+
+==Finnish==
+
+===Etymology===
+{{fi-ety-letter}}
+
+===Pronunciation===
+* {{audio|fi|Fi-o.ogg|Audio}}
+
+===Letter===
+{{fi-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|fi|letter|15|oo}}
+
+====See also====
+* {{list:Latin script letters/fi/simple}}
+
+==French==
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|LL-Q150 (fra)-Jules78120-o.wav|Audio}}
+* {{rhymes-lite|fr|o|s=1}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{Latn-def-lite|fr|name|O|o}}
+
+====Derived terms====
+{{col3|fr
+|e dans l'o
+}}
+
+===Symbol===
+{{head-lite|fr|symbols}}
+
+# {{lb|fr|computing}} [[octet]] {{gloss-lite|[[B]] ([[byte]])}}
+
+====Derived terms====
+* {{sense-lite|computing}} {{l-lite|fr|ko}}, {{l-lite|fr|Mo}}, {{l-lite|fr|Go}}, {{l-lite|fr|To}}, {{l-lite|fr|Po}}, {{l-lite|fr|Eo}}, {{l-lite|fr|Zo}}, {{l-lite|fr|Yo}}
+* {{sense-lite|computing}} [[o/s]], [[ko/s]], [[Mo/s]], [[Go/s]], [[To/s]], [[Po/s]], [[Eo/s]], [[Zo/s]], [[Yo/s]]
+
+==Fula==
+
+===Etymology 1===
+
+====Letter====
+{{ff-letter|upper=O|lower=o}}
+
+# {{n-g-lite|A [[letter]] of the Fula [[alphabet]], written in the [[Appendix:Latin script|Latin script]].}}
+
+=====Usage notes=====
+* {{U:ff:common}}
+
+=====See also=====
+* {{list:Latin script letters/ff/simple}}
+
+===Etymology 2===
+
+====Suffix====
+{{head-lite|ff|suffixes|cat2=inflectional suffixes|plural|ɓe}}
+
+# {{n-g-lite|Noun class indicator for nouns (singular) having to do with people, and for loan words}}
+
+=====Usage notes=====
+* {{U:ff:common}}
+
+====Pronoun====
+{{ff-pron}}
+
+# [[he]], [[she]] (third person singular subject pronoun; short form)
+
+=====Usage notes=====
+* {{U:ff:common}}
+* This is used in all conjugations except for affirmative non-accomplished (where the long form is used).
+
+=====Alternative forms=====
+* {{alter|ff|mo}}
+
+=====Derived terms=====
+* {{l-lite|ff|makko}} (possessive pronoun)
+
+=====Related terms=====
+* {{l-lite|ff|omo}} (second person singular subject pronoun; long form)
+* {{l-lite|ff|himo}} (second person singular subject pronoun; long form; variant in [[Pular]])
+* {{l-lite|ff|kanko}} (emphatic form)
+
+====Article====
+{{head-lite|ff|articles}}
+
+# {{lb|ff|definite}} [[the]] (when it follows the noun)
+#: {{ux-lite|inline=1|ff|Debbo o|the woman}}
+
+=====Usage notes=====
+* {{U:ff:common}}
+
+====Determiner====
+{{head-lite|ff|determiners}}
+
+# {{n-g-lite|used in indicating someone}}
+#: {{ux-lite|inline=1|ff|O debbo|this/that woman}}
+
+=====Usage notes=====
+* {{U:ff:common}}
+
+==Galician==
+
+===Pronunciation===
+* {{IPA-lite|gl|/o̝/|[ʊ]}}
+* {{audio|gl|Gl-o.ogg|Audio}}
+
+===Etymology 1===
+From {{inh-lite|gl|roa-opt|o}}, from {{inh-lite|gl|la|illum}}, from {{m-lite|la|ille}}.
+
+====Alternative forms====
+* {{alter|gl|lo}}
+
+====Article====
+{{head-lite|gl|articles|g=m-s|feminine singular|a|masculine plural|os|feminine plural|as}}
+
+# Masculine singular definite article; [[the]]
+
+=====Usage notes=====
+* The definite article {{m-lite|gl||o}} (in all its forms), due to historical [[sandhi]], regularly forms contractions when it follows the prepositions {{m-lite|gl|a||to}}, {{m-lite|gl|con||with}}, {{m-lite|gl|de||of, from}}, and {{m-lite|gl|en||in}}. For example, {{m-lite|gl||con o|with the}} contracts to {{m-lite|gl|co}}, and {{m-lite|gl||en o|in the}} contracts to {{m-lite|gl|no}}.
+* The definite article {{m-lite|gl||o}} (in all its forms), due to historical [[sandhi]], contracts with preceding words which ends in [s] or [r] into the second form of the article {{m-lite|gl|lo}} ({{m-lite|gl|la}}, {{m-lite|gl|los}}, {{m-lite|gl|las}}); this feature, frequent in spoken Galician, is not always marked in the written language. When done, a [[hyphen]] is used to separate both words:
+: {{ux-lite|inline=1|gl|Debes comer o caldo ~ Debes come-lo caldo|You should eat the soup}}
+
+=====Derived terms=====
+{{der3|gl|ao|co|do|no|ó}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Pronoun====
+{{head-lite|gl|pronoun forms}}
+
+# {{inflection of|gl|el||acc}}
+
+=====Usage notes=====
+The Galician pronouns, being atones, are usually appended to the verb; though [[sandhi]], {{m-lite|gl|o}} could acquire the form -''no'' (for example, when appended to a verb form ended in a {{w|falling diphthong}} or in a nasal consonant, the nasal in -''no'' having an antihiatic epenthetic origin) or -''lo'' (when appended to a verb form ended in a -s or -r, the ''l'' having its origin in the assimilation of the -s or -r with the ''l'' present in the pronoun before the 12th century).
+
+===Further reading===
+* {{R:gl:DRAG}}
+
+==German==
+
+===Pronunciation===
+* {{audio|de|De-o2.ogg|Audio}}
+
+===Interjection===
+{{head-lite|de|interjections}}
+
+# [[O]]
+#* {{quote-book|de|year=1843|author=Gallus Schwab|title=Gebetbuch für katholische Christen|publisher=Bamberg|page=45
+|passage=Sei gegrüßet, '''o''' Du mein Jesu! Mit tieftster Demuth bete ich Dich an und verehre Dich!}}
+
+==Gothic==
+
+===Romanization===
+{{got-rom|head=ō}}
+
+# {{romanization of|got|𐍉}}
+
+==Guaraní==
+
+===Etymology===
+{{clipping|gn|óga}}.
+
+===Noun===
+{{head-lite|gn|nouns}}
+
+# [[house]]
+
+==Hawaiian==
+
+===Conjunction===
+{{head-lite|haw|conjunctions}}
+
+# [[or]], [[lest]]
+
+===Preposition===
+{{head-lite|haw|prepositions}}
+
+# [[of]], [[belonging]] to
+
+====Usage notes====
+* Used for possessions that are inherited, out of personal control, and for things that can be got into (houses, clothes, cars), while {{m-lite|haw|a}} is used for acquired possessions.
+
+==Hungarian==
+
+===Pronunciation===
+* {{sense-lite|phoneme}} {{hu-IPA}}
+* {{sense-lite|letter name}} {{hu-IPA}}
+
+===Letter===
+{{hu-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|hu|letter|24|o}}
+<!--Commented out to save memory
+
+====Declension====
+{{hu-infl-nom|o-|o}}{{hu-pos-tok|o-}}-->
+
+====See also====
+* {{list:Latin script letters/hu/simple}}
+
+===Further reading===
+* [https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/o-4243D o] in [[w:Géza Bárczi|Bárczi, Géza]] and [[w:László Országh|László Országh]]. ''A magyar nyelv értelmező szótára'' (’The Explanatory Dictionary of the Hungarian Language’). Budapest: Akadémiai Kiadó, 1959–1962. Fifth&nbsp;ed., 1992: {{ISBN|9630535793}}
+
+==Ido==
+
+===Pronunciation===
+* {{a|context pronunciation, letter name}} {{IPA-lite|io|/o/}}
+
+===Letter===
+{{head-lite|io|letters|upper case|O}}
+
+# {{Latn-def-lite|io|letter|15}}
+
+====See also====
+* {{list:Latin script letters/io/simple}}
+
+===Conjunction===
+{{head-lite|io|conjunctions}}
+
+# {{apocopic form of|io|od}}
+
+====Related terms====
+* {{l-lite|io|e||and}}
+* {{l-lite|io|a||to}}
+
+==Igbo==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{IPA-lite|ig|/o/}}
+
+====Letter====
+{{head-lite|ig|letters|upper case|O}}
+
+# {{Latn-def-lite|ig|letter|24}}
+
+===Etymology 2===
+
+====Alternative forms====
+* {{l-lite|ig|ọ}} (''retracted tongue position'')
+
+====Pronunciation====
+* {{IPA-lite|ig|/o/}}
+
+====Pronoun====
+{{ig-pos|pronoun|o}} (''dependent form, independent form'' '''[[ya#Igbo|ya]]''')
+# (''personal, [[Appendix:Glossary#epicene|epicene]]'') [[he]], [[she]], [[it]]
+#: '''''O''' nyere m mmiri.''
+#:: '''She''' gave me water.
+
+=====See also=====
+{{ig-personal pronouns}}
+
+==Indonesian==
+
+===Pronunciation===
+* {{sense-lite|letter name}} {{IPA-lite|id|/o/}}
+* {{sense-lite|phoneme}} {{IPA-lite|id|/o/|[o]|[ɔ]}}
+
+===Letter===
+{{id-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|id|letter|15}}
+
+====See also====
+* {{list:Latin script letters/id/simple}}
+
+==Italian==
+
+===Etymology 1===
+From {{inh-lite|it|la|o|ō|pos=the name of the letter {{m-lite|la|O}}}}.
+
+====Pronunciation====
+{{it-pr|ò*<hmp:ho>}}
+
+====Letter====
+{{it-letter}}
+
+# {{Latn-def-lite|it|letter|13|o}}
+
+====Noun====
+{{it-noun|f|#}}
+
+# {{Latn-def-lite|it|name|O|o}}
+
+=====See also=====
+* {{list:Latin script letter names/it/simple}}
+
+===Etymology 2===
+From {{inh-lite|it|la|aut}}.<ref>Angelo Prati, "Vocabolario Etimologico Italiano", Torino, 1951</ref>
+
+====Alternative forms====
+* {{alt|it|od||used optionally before words beginning with a vowel}}
+
+====Pronunciation====
+{{it-pr|o*,o}}
+
+====Conjunction====
+{{head-lite|it|conjunctions}}
+
+# [[or]]
+
+====References====
+<references/>
+
+====Further reading====
+* {{R:it:DiPI}}
+
+===Etymology 3===
+
+====Verb====
+{{head-lite|it|misspellings}}
+
+# {{misspelling of|it|ho}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|お}}
+# {{ja-romanization of|オ}}
+# {{ja-romanization of|を}}
+# {{ja-romanization of|ヲ}}
+
+==Kapampangan==
+
+===Pronunciation===
+* {{pam-IPA}}
+
+===Etymology 1===
+Borrowed from {{bor-lite|pam|es|o||or}}.
+
+====Conjunction====
+{{head-lite|pam|conjunctions}}
+
+# [[or]]
+#: {{syn-lite|pam|o kaya|ekaya}}
+#: {{ux-lite|pam|Mangan ka '''o''' pinandit naka?|Are you going to eat '''or''' later?}}
+#: {{ux-lite|pam|Mansanas '''o''' sagin.|Apple '''or''' banana?}}
+
+===Etymology 2===
+
+====Alternative forms====
+* {{alt|pam|oh}}
+
+====Particle====
+{{head-lite|pam|particles}}
+
+# {{lb|pam|colloquial}} {{n-g|sentence-ending particle used to express warning or to catch someone's attention. See also {{m|pam|oy}}, {{m|pam|uy}} and {{m|pam|ay}}.}}
+#: {{ux-lite|pam|Palako nayu o.|S/he's leaving.}}
+#: {{ux-lite|pam|Makanini namu o.|Just do it this way.}}
+#: {{ux-lite|pam|Nanu o.|What? huh?}}
+# {{lb|pam|colloquial}} {{n-g-lite|used as a [[vocative]] particle to address the topic in question.}}
+#: {{ux-lite|pam|Juan o lawen me.|John! look!}}
+#: {{ux-lite|pam|Ginu o sana iligtas yu.|God, I hope you help them!}}
+#: {{ux-lite|pam|Mina o aini na.|Mina, here it is.}}
+
+====Interjection====
+{{head-lite|pam|interjections}}
+
+# {{lb|pam|colloquial}} {{n-g-lite|expression of surprise, wonder, amazement, or awe}}: [[oh]]!
+#: {{syn-lite|pam|ba|aru|uru}}
+# {{lb|pam|colloquial}} {{n-g-lite|used to refer to something given or offered to someone}}: [[here you are]]! [[here you go]]!
+#: {{syn-lite|pam|aini|aita|ayan}}
+
+==Khumi Chin==
+[[Image:Jabalí 13. F. FOTO-ARDEIDAS.jpg|thumb|O.]]
+
+===Pronunciation===
+* {{IPA-lite|cnk|/ʔo˧/}}
+
+===Noun===
+{{head-lite|cnk|nouns}}
+
+# [[pig]]
+
+===References===
+* {{R:cnk:Herr:2011|page=47}}
+
+[[Category:cnk:Even-toed ungulates]]
+
+==Kikuyu==
+
+===Pronunciation===
+* {{IPA-lite|ki|/ɔ/}}
+
+===Pronoun===
+{{head-lite|ki|pronouns|cat2=personal pronouns|third person plural}}
+
+# [[they]]
+
+====Related terms====
+* {{l-lite|ki|-ao||their}}
+
+====See also====
+{{ki-personal pronouns}}
+
+===References===
+* {{R:Benson1964|entry=o|p=355}}
+
+==Ladin==
+
+===Etymology===
+From {{inh-lite|lld|la|aut}}.
+
+===Conjunction===
+{{head-lite|lld|conjunctions}}
+
+# [[or]]
+
+==Latin==
+
+===Etymology 1===
+From {{der-lite|la|ett|-}} letter {{m-lite|ett|sc=Ital|𐌏|tr=o}}, from {{der-lite|la|grc|-}} letter {{m-lite|grc|sc=polytonic|ο||tr=o|omicron}}, derived from the {{der-lite|la|phn|-}} letter {{m-lite|phn|sc=Phnx|𐤏||tr=ʿ|ayin}}, from the {{der-lite|la|egy|-}} hieroglyph {{m-lite|egy|sc=Egyp|𓁹}}.
+
+====Letter====
+{{head-lite|la|letters}}
+
+# {{n-g-lite|A letter of the Latin alphabet.}}
+
+===Etymology 2===
+{{rfe-lite|la}}
+
+====Pronunciation====
+* {{la-IPA|ō}}
+
+====Noun====
+{{la-noun|ō|g=f|indecl=y}}
+
+# {{n-g-lite|The name of the letter ''{{l-lite|la|O}}''.}}
+
+=====Coordinate terms=====
+* {{Latin letter names of the Roman alphabet}}
+
+====References====
+* [http://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=o&lang=latin o] in {{cite-book|author=Charlton T. Lewis and Charles Short|title=[[w:A Latin Dictionary|A Latin Dictionary]]|publisher=Clarendon Press|location=Oxford|year=1879}}
+* [http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0060:entry=o o] in {{cite-book|author=Charlton T. Lewis|title=An Elementary Latin Dictionary|publisher=Harper & Brothers|location=New York|year=1891}}
+* {{R:du Cange}}
+* {{R:Gaffiot}}<!--
+* {{R:M&A}}-->
+* [http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0062:entry=o-harpers o] in {{cite-book|editor=Harry Thurston Peck|title=Harper's Dictionary of Classical Antiquities|publisher=Harper & Brothers|location=New York|year=1898}}
+* Arthur E. Gordon, ''The Letter Names of the Latin Alphabet'' ([[w:University of California Press|University of California Press]], 1973; volume 9 of ''University of California Publications: Classical Studies''), part III: “Summary of the Ancient Evidence”, page 32: "Clearly there is no question or doubt about the names of the vowels A, E, I, O, U. They are simply long A, long E, etc. (ā, ē, ī, ō, ū). Nor is there any uncertainty with respect to the six mutes B, C, D, G, P, T. Their names are bē, cē, dē, gē, pē, tē (each with a long E). Or about H, K, and Q: they are hā, kā, kū—each, again, with a long vowel sound."
+
+===Etymology 3===
+{{rfe|la}}
+
+====Alternative forms====
+* {{alter|la|ô||for the vocative particle}}
+* {{alter|la|ōh||for the interjection meaning "oh"}}
+
+====Pronunciation====
+* {{la-IPA|ō}}
+
+====Interjection====
+{{la-interj|ō}}
+
+# [[#English|o]]! (vocative particle)
+#* {{Q|la|Cicero|Catiline|Oratio in Catilinam Prima in Senatu Habita|II|quote='''O''' tempora, '''o''' mores! Senatus haec intellegit, consul videt; hic tamen vivit. Vivit?|trans=Shame on the age and on its principles! The senate is aware of these things; the consul sees them; and yet this man lives. Lives!}}
+#* 4th century, [[w:St Jerome|St Jerome]], [[w:Vulgate|Vulgate]], [[Judges]] 3:19
+#*: et reversus de Galgalis ubi erant idola dixit ad regem verbum secretum habeo ad te '''o''' rex et ille imperavit silentium egressisque omnibus qui circa eum erant (Then returning from Galgal, where the idols were, he said to the king: I have a secret message to thee, '''O''' king. And he commanded silence: and all being gone out that were about him,)
+# [[oh]]!
+
+[[Category:la:Latin letter names]]
+
+==Latvian==
+{{wikipedia|lang=lv}}
+
+===Etymology===
+Proposed in 1908 as part of the new Latvian spelling by the scientific commission headed by [[w:Kārlis Mīlenbahs|K. Mīlenbahs]], which was accepted and began to be taught in schools in 1909. Prior to that, Latvian had been written in German [[Fraktur]], and sporadically in [[Cyrillic]].
+
+===Pronunciation 1===
+* {{lv-IPA|uə̯}}, {{lv-IPA|o}}, {{lv-IPA|oː}}
+{{rfap|lv}}
+
+====Letter====
+[[File:Latin alphabet Oo.svg|thumb|upright=1.13|O]]
+{{lv-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|lv|letter|23|o}}
+
+=====Usage notes=====
+In native Latvian words (and in some older borrowings), ''o'' represents the sound of IPA [uə̯] (e.g., {{m-lite|lv|otrs}} [uə̯tɾs]). In more recent borrowings, it represents the original sound of the word, i.e. [o] or [oː] (e.g., {{m-lite|lv|opera}} [oːpeɾa]).
+
+=====See also=====
+* {{list:Latin script letters/lv/simple}}
+
+===Pronunciation 2===
+* {{lv-IPA|o}}
+
+====Noun====
+{{lv-noun|m|-}}
+
+# {{n-g-lite|The name of the [[Appendix:Latin script|Latin script]] letter {{l-lite|lv|O}}/{{l-lite|lv|o}}.}}
+
+=====See also=====
+* {{list:Latin script letter names/lv/simple}}
+
+==Ligurian==
+{{Ligurian definite articles}}
+
+===Etymology===
+From earlier {{m-lite|lij||ro}} ← {{m-lite|lij|lo}}, from {{inh-lite|lij|la|illum}}, form of {{m-lite|la|ille||that}}.
+
+===Pronunciation===
+* {{IPA-lite|lij|/u/}}
+
+===Article===
+{{head-lite|lij|articles|g=m-s|plural|i}}
+
+# [[the]]
+
+==Lithuanian==
+
+===Etymology===
+From {{inh-lite|lt|ine-bsl-pro|sc=Latinx|*ō}}. Cognate with {{cog-lite|ltg|a}} and {{cog-lite|sla-pro|sc=Latinx|*a||and, but}}. From {{inh-lite|lt|ine-pro|sc=Latinx|*h₁od}}; compare {{cog-lite|sa|sc=Deva|आत्||tr=āt|afterwards, then, so}}, {{cog-lite|ae|sc=Avst|𐬁𐬀𐬝||tr=āat̰|afterward, then}}, perhaps the ablative singular of {{m-lite|ine-pro|sc=Latinx|*éy|*h₁e-|demonstrative pronoun}}.
+
+===Pronunciation===
+{{IPA-lite|lt|/oː/}}
+
+===Conjunction===
+{{head-lite|lt|conjunctions|head=õ}}
+
+# {{lb|lt|coordinating|adversative}} [[and]], [[but]] {{gloss-lite|used to express [[binary]] contrasts}}
+#: {{ux-lite|inline=1|lt|Taĩ ne kažkàs, ką̃ víenas gãli darýti, '''õ''' kìtas – nè.|It's not something that some people can do '''and''' others can't.}}
+
+==Livonian==
+
+===Pronunciation===
+* {{qualifier-lite|phoneme}} {{liv-IPA|o}}
+
+===Letter===
+{{head-lite|liv|letters|upper case|O}}
+
+# {{Latn-def-lite|liv|letter|22}}
+
+====See also====
+* {{list:Latin script letters/liv}}
+
+==Lower Sorbian==
+
+===Pronunciation===
+* {{IPA-lite|dsb|/ɔ/}}
+
+===Letter===
+{{dsb-letter|upper=O}}
+
+# {{Latn-def-lite|dsb|letter|21|o}}
+# {{Latn-def-lite|dsb|name|o|O}}
+
+===See also===
+* {{see-temp|list:Latin script letters/dsb}}
+* {{see-temp|list:Latin script letter names/dsb}}
+
+==Malay==
+
+===Letter===
+{{head-lite|ms|letters}}
+
+# {{Latn-def-lite|ms|letter|15}}
+
+====See also====
+* {{list:Latin script letters/ms/simple}}
+
+==Maltese==
+
+===Pronunciation===
+* {{IPA-lite|mt|/ɔ/}} {{q-lite|short phoneme}}
+* {{IPA-lite|mt|/ɔː/}} {{q-lite|long phoneme}}
+* In inherited words, long ''o'' occurs only next to vowelised {{m-lite|mt|għ}} or {{m-lite|mt|h}}. In Romance words, it can be long on its own.
+
+===Letter===
+{{head-lite|mt|letters|lower case||upper case|O}}
+
+# {{Latn-def-lite|mt|letter|19}}
+
+====See also====
+* {{list:Latin script letters/mt}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin}}
+
+# {{cmn-pinyin of|哦}}
+
+===Romanization===
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|ō}}
+# {{nonstandard spelling of|cmn|ó}}
+# {{nonstandard spelling of|cmn|ǒ}}
+# {{nonstandard spelling of|cmn|ò}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Maori==
+
+===Particle===
+{{mi-part}}
+
+# [[of]]
+#: {{quote-book|mi|year=2006|author=Joanne Barker|title=Sovereignty Matters|pageurl=http://books.google.com/books?id=nHp7-BTy57MC&pg=PA208&lpg=PA208|page=208
+|passage=In 1979 a gathering of elders at the Waananga kaumatua affirmed te reo Maori ''“Ko te reo te mauri '''o''' te mana Maori” the language is the life principle of Maori mana''.}}
+
+====Usage notes====
+Used instead of {{m-lite|mi|a}} when the possessor has no control over the relationship (inalienable possession).
+
+==Mbyá Guaraní==
+
+===Verb===
+{{head-lite|gun|verbs}}
+
+# to [[go]]
+
+====Conjugation====
+{{gun-conj-irr-o}}
+
+==Middle English==
+
+===Etymology 1===
+From {{bor-lite|enm|fro}}, from {{der-lite|enm|la}}.
+
+====Alternative forms====
+* {{alter|enm|oo|oa}}
+
+====Pronunciation====
+* {{IPA-lite|enm|/ɔː/}}
+
+====Interjection====
+{{head-lite|enm|interjections}}
+
+# [[oh]], [[ah]]
+
+=====Descendants=====
+* {{desc|en|oh}}
+* {{desc|yol|o}}
+
+=====References=====
+* {{R:MED Online|entry=ō|pos=interj|id=MED30040}}
+
+===Etymology 2===
+
+====Article====
+{{head-lite|enm|articles}}
+
+# {{lb|enm|rare}} {{alt form-lite|enm|an}} {{q-lite|preconsonantal}}
+
+===Etymology 3===
+
+====Numeral====
+{{head-lite|enm|numerals}}
+
+# {{alt form-lite|enm|oo|id=one|t=one}}
+
+====Adjective====
+{{head-lite|enm|adjectives}}
+
+# {{alt form-lite|enm|oo|id=one|t=first}}
+
+====See also====
+* {{list:Latin script letters/zu/simple}} <!-- Why is this here? -->
+
+==Middle Irish==
+
+===Preposition===
+{{head-lite|mga|prepositions}}
+
+# {{alt sp|mga|ó}}
+
+==Middle Low German==
+
+===Etymology===
+From {{inh-lite|gml|gem-pro|sc=Latinx|*awjō}}. Cognate with {{cog-lite|non|ey}} ({{cog-lite|sv|ö}}, {{cog-lite|no|øy}}).
+
+===Pronunciation===
+* '''[[Wiktionary:About_Middle_Low_German#Stem_vowels|Stem vowel]]: ȫ²'''
+** {{a|originally}} {{IPA-lite|gml|/œːj/}}
+
+===Noun===
+{{head-lite|gml|nouns|head=ö}}
+
+# [[island]]
+
+==Mokilese==
+
+===Etymology===
+From Proto-Chuukic ''*yawo'', from {{w|Proto-Micronesian}} ''*awo'', from {{inh-lite|mkj|poz-oce-pro|*apon}}, from {{inh-lite|mkj|poz-pro|*hapən}}.
+
+===Noun===
+{{head|mkj|noun}}
+
+# [[fishing line]]
+
+==Navajo==
+
+===Letter===
+{{head-lite|nv|letters}}
+
+# {{n-g-lite|The twenty-second letter of the [[Appendix:Roman script#Navajo alphabet|Navajo alphabet]]}}:
+#: o = {{IPAchar-lite|/o˨/}}
+#: ǫ = {{IPAchar-lite|/õ˨/}}
+#: ó = {{IPAchar-lite|/o˥/}}
+#: ǫ́ = {{IPAchar-lite|/õ˥/}}
+#: oo = {{IPAchar-lite|/oː˨˨/}}
+#: ǫǫ = {{IPAchar-lite|/õː˨˨/}}
+#: óo = {{IPAchar-lite|/oː˥˨/}}
+#: ǫ́ǫ = {{IPAchar-lite|/õː˥˨/}}
+#: oó = {{IPAchar-lite|/oː˨˥/}}
+#: ǫǫ́ = {{IPAchar-lite|/õː˨˥/}}
+#: óó = {{IPAchar-lite|/oː˥˥/}}
+#: ǫ́ǫ́ = {{IPAchar-lite|/õː˥˥/}}
+
+[[Category:Navajo letters|O]]
+
+==Neapolitan==
+
+===Etymology===
+From {{inh-lite|nap|la|aut}}.
+
+===Pronunciation===
+* {{IPA-lite|nap|/oː/}}
+
+===Particle===
+{{head-lite|nap|conjunctions}}
+
+# [[or]]
+
+==Norwegian==
+
+===Pronunciation===
+* {{sense-lite|letter name}} {{IPA-lite|no|/uː/}}
+* {{sense-lite|phoneme}} {{IPA-lite|no|/uː/|/ʊ/|/ɔ/}}
+* {{audio|nb|LL-Q9043 (nor)-Jon Harald Søby (WMNO)-o.wav|Audio}}
+
+===Letter===
+{{head-lite|no|letters}}
+
+# {{Latn-def-lite|nb|letter|15}}
+
+==Norwegian Nynorsk==
+
+===Letter===
+{{head|nn|letter|cat2=nouns|upper case|O|definite singular|o-en|indefinite plural|o-ar|definite plural|o-ane}}
+
+# {{Latn-def-lite|nn|letter|15}}
+
+===Interjection===
+{{head-lite|nn|interjections}}
+
+# {{lb|nn|dated|or|jocular}} [[oh]]
+
+===Pronoun===
+{{head-lite|nn|pronouns}}
+
+# {{lb|nn|eye dialect}} {{pronunciation spelling of|nocap=1|nodot=1|nn|ho}}
+
+===References===
+* {{R:ND}}
+
+==Nupe==
+
+===Pronunciation===
+* {{sense|phoneme}} {{IPA-lite|nup|/o/}}
+
+===Letter===
+{{nup-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|nup|letter|18}}
+
+====See also====
+* {{list:Latin script letters/nup}}
+
+==O'odham==
+
+===Particle===
+{{head-lite|ood|particles}}
+
+# {{n-g-lite|future tense marker}}: [[will]]; [[going to]].
+
+====Usage notes====
+Not to be confused with {{l-lite|ood|ʼo}}, the third person copula.
+
+====See also====
+{{ood-auxiliary}}
+
+===References===
+* {{cite-book|author=Zepeda, Ofelia|year=1983|title=A Tohono Oʼodham Grammar|location=Tucson|publisher=The University of Arizona Press|pages=169}}
+
+==Occitan==
+
+===Etymology 1===
+From {{der-lite|oc|la|aut}}.
+
+====Conjunction====
+{{head-lite|oc|conjunctions}}
+
+# [[or]]
+
+===Etymology 2===
+
+====Noun====
+{{oc-noun|f}}
+
+# [[#Translingual|o]] {{gloss-lite|the letter o, O}}
+
+[[Category:oc:Latin letter names]]
+
+==Old Galician-Portuguese==
+
+===Etymology===
+From earlier ''lo'', ''la'', from {{inh-lite|roa-opt|la|illum}}, ''illam''  (the initial ''l'' having disappeared; compare {{cog-lite|es|lo}} and {{m-lite|es|la}}).
+
+===Pronunciation===
+* {{sense-lite|article}} {{IPA-lite|roa-opt|/o/}}
+
+===Article===
+{{head-lite|roa-opt|articles}}
+
+# {{senseid|roa-opt|article}} {{l-lite|en|the}} {{gloss-lite|masculine singular definite article}}
+#* 13th Century - Cantiga de Santa Maria no. 23
+#*: Esta é como Santa Maria acrecentou '''o''' vinho n'''o''' tonel, por amor d'''a''' bõa dona de Bretanha.
+#*:: This is how Holy Mary added '''the''' wine to '''the''' barrel, out of love for '''the''' good lady of Britain;
+#* 13th Century - Cantiga de Santa Maria no. 48
+#*: Esta é como Santa Maria tolheu '''a''' agua d'''a''' fonte a'''o''' cavaleiro.
+#*:: This is how Holy Mary restricted '''the''' water of '''the''' fountain from '''the''' knight.
+
+====Usage notes====
+* ''O'' becomes {{m-lite|pt|no|-no}} and ''a'' becomes {{m-lite|pt|na|-na}} after nasal sounds:
+*: {{ux-lite|inline=1|roa-opt|Non queria o meu coraçon nen-'''nos''' meus olhos.|She wanted neither (the) my heart nor (the) my eyes.}}
+*: {{ux-lite|inline=1|roa-opt|Ambas eran-'''nas''' melhores que (h)omen pode cousir.|Both were '''the''' best that (a) man can contemplate.}}
+* ''O'' becomes {{m-lite|pt|lo|-lo}} and ''a'' becomes {{m-lite|pt|la|-la}} after other consonants, and the preceding consonant is elided:
+*: {{ux-lite|inline=1|roa-opt|E vós faredes depoi-'''lo''' melhor!|And later ye shall do '''the''' best!}}
+*: {{ux-lite|inline=1|roa-opt|Sobre toda-'''las''' bondades que ela (h)avia era que muito fiava en Santa Maria;|Above all '''the''' virtues she possessed was how much she trusted Holy Mary.}}
+* ''O'' becomes {{m-lite|pt|el|el-}} in front of the noun ''rei'':
+*: {{ux-lite|inline=1|roa-opt|Deu ora '''el'''-rei seus dinheiros a Belpelho.|'''The''' king, then, gave his money to Belpelho.}}
+*: {{ux-lite|inline=1|roa-opt|Se fosse seu o tesouro que '''el'''-rei de França ten.|Were it his the treasure that '''the''' king of France has.}}
+
+====Descendants====
+* {{desc|gl|o}}
+* {{desc|pt|o}}
+
+==Old Irish==
+
+===Preposition===
+{{head-lite|sga|prepositions}}
+
+# {{alt sp|sga|ó}}
+
+===Noun===
+{{head-lite|sga|nouns}}
+
+# {{alt sp|sga|ó}}
+
+===Mutation===
+{{sga-mutation|o|}}
+
+==Old Polish==
+
+===Etymology 1===
+{{etymid|zlw-opl|preposition}}
+{{dercat|zlw-opl|ine-bsl-pro|ine-pro}}
+{{inh+|zlw-opl|sla-pro|*o}}.
+
+====Preposition====
+{{head-lite|zlw-opl|prepositions}}
+
+# [[about]], [[concerning]] {{+obj|zlw-opl|acc}} or {{+obj|zlw-opl|loc}}
+# [[on]], [[against]] {{+obj|zlw-opl|acc}}
+# [[because of]] {{+obj|zlw-opl|acc}}
+# {{n-g-lite|denotes location}}; [[at]] {{+obj|zlw-opl|acc}}
+# {{n-g-lite|denotes location}}; [[at]] {{+obj|zlw-opl|loc}}
+# [[with]], [[by means of]] {{+obj|zlw-opl|loc}}
+# {{lb|zlw-opl|used in descriptions}} [[with]], [[having]] {{+obj|pl|loc}}
+# [[for]] {{+obj|pl|acc}}
+
+=====Descendants=====
+* {{desc|pl|o|id=preposition}}
+
+===Etymology 2===
+{{etymid|zlw-opl|interjection}}
+{{inh+|zlw-opl|sla-pro|*o}}.
+
+====Interjection====
+{{head-lite|zlw-opl|interjections}}
+
+# [[oh]]! {{n-g-lite|expression of surprise or outrage}}
+
+=====Descendants=====
+* {{desc|pl|o|id=interjection}}
+
+===References===
+* {{R:zlw-opl:SPJSP}}
+
+==Old Spanish==
+
+===Etymology===
+From {{inh-lite|osp|la|ubi||where}}. Cognate with {{cog-lite|fr|où||where}}, {{cog-lite|it|dove||where}}, {{cog-lite|pt|u||where}} (''archaic, replaced by {{m-lite|pt|onde}}'').
+
+===Adverb===
+{{head-lite|osp|adverbs}}
+
+# {{l-lite|en|where}}
+
+====Usage notes====
+* ''O'' has been displaced in Modern Spanish by {{m-lite|es|donde}}.
+* ''O'' can be encountered in some Modern Spanish words such as {{m-lite|es|doquiera}} ({{m-lite|osp|do}} (contraction of {{m-lite|osp|de}} ("of") + {{m-lite|osp|o}} ("where")) + {{m-lite|osp|quiera}} ("it may want"), literally ''" where it may want"'') and its ''[[apocopic]]'' form, {{m-lite|es|doquier}}.
+
+==Pnar==
+
+===Etymology===
+Compare {{cog-lite|lbn|-}} [Nkris] ''ʔɔːʔ'', {{cog-lite|ril|-}} [Sak] ''ʔoʔ¹''.
+
+===Pronunciation===
+* {{IPA-lite|pbv|/ʔɔ/}}
+
+===Pronoun===
+{{head-lite|pbv|pronouns}}
+
+# [[I]]
+
+====Usage notes====
+* It identifies A or S arguments and therefore "nominative". Its topic-position and accusative counterpart is {{m-lite|pbv|nga}}.
+
+==Polish==
+
+===Pronunciation===
+{{pl-p|a=Pl-o.ogg|mp=+}}
+
+===Etymology 1===
+{{etymid|pl|letter}}
+{{pl-ety-letter}}
+
+====Letter====
+{{head-lite|pl|letters|upper case|O|lower case||}}
+
+# {{Latn-def-lite|pl|letter|20|o}}
+
+=====See also=====
+* {{list:Latin script letters/pl/simple}}
+
+===Etymology 2===
+{{etymid|pl|preposition}}
+{{dercat|pl|ine-bsl-pro|ine-pro}}
+{{inh+|pl|zlw-opl|o|id=preposition}}, from {{inh-lite|pl|sla-pro|*o(b)}}.
+
+====Preposition====
+{{head-lite|pl|prepositions}}
+
+# [[about]] {{gl|concerning}} {{+obj|pl|loc}}
+#: {{uxi|pl|Opowiedz mi '''o''' twojej pracy.|Tell me about your job.}}
+#: {{uxi|pl|Ta książka jest '''o''' potędze miłości.|This book is about the power of love.}}
+# [[at]] {{q-lite|telling the time}} {{+obj|pl|loc}}
+#: {{uxi|pl|Spotkajmy się '''o''' piątej po południu.|Let's meet at five PM.}}
+# {{lb|pl|used in descriptions}} [[with]], [[having]] {{+obj|pl|loc}}
+#: {{uxi|pl|Była piękną kobietą '''o''' długich jasnych włosach.|She was a beautiful woman with long fair hair.}}
+#: {{uxi|pl|chłopiec '''o''' zielonych oczach|a boy with green eyes; a green-eyed boy}}
+# [[on]], [[against]] {{+obj|pl|acc}}
+#: {{uxi|pl|Nie opierajcie się '''o''' te drzwi.|Don't lean on this door.}}
+#: {{uxi|pl|Dziewczynka uderzyła głową '''o''' stół.|The little girl hit her head on the table.}}
+# [[for]] {{+obj|pl|acc}}
+#: {{uxi|pl|Weronika poprosiła mnie wczoraj '''o''' pomoc.|Veronica asked me for help yesterday.}}
+#: {{uxi|pl|Walczyliśmy dzielnie '''o''' naszą wolność.|We were bravely fighting for our freedom.}}
+# [[by]] {{q-lite|a difference}} {{+obj|pl|acc}}
+#: {{uxi|pl|Spóźniła się '''o''' piętnaście minut.|She was fifteen minutes late.}}
+#: {{uxi|pl|Czuję się '''o''' wiele lepiej.|I feel much better.}}
+#: {{uxi|pl|Obniż podkład '''o''' dwa półtony.|Lower the instrumental by two semitones.}}
+
+===Etymology 3===
+{{etymid|pl|interjection}}
+Inherited from {{inh-lite|pl|zlw-opl|o|id=interjection}}, from {{inh-lite|pl|sla-pro|*o}}, ultimately a {{onom|pl|title=natural expression}}.
+
+====Interjection====
+{{head|pl|interjections}}
+
+# [[oh]]! {{n-g-lite|expression of surprise or outrage}}
+#: {{uxi|pl|'''O''' mój boże...|'''Oh''' my god...}}
+
+===Trivia===
+{{pl-freq 1990|533|598|724|607|610|3072|14|298|1}}
+
+===References===
+{{reflist}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+* {{R:pl:SXVI|o|73657}}
+* {{R:pl:SXVI|o|73658}}
+* {{R:pl:SXVI|o|73659}}
+* {{R:pl:SXVII|O I|3876|SPas|18.06.2019}}
+* {{R:pl:SXVII|O II|19404|date=19.08.2019}}
+* {{R:pl:SXVII|}}
+* {{R:pl:SJP1807}}
+* {{R:pl:SJP1861}}
+* {{R:pl:SJP1900||429|3}}
+
+==Portuguese==
+
+===Pronunciation===
+* {{sense-lite|letter}} {{IPA-lite|pt|/ɔ/|/o/}}
+* {{sense-lite|article, pronoun}} {{IPA-lite|pt|/u/}}
+
+===Etymology 1===
+
+====Letter====
+{{pt-letter|upper=O|lower=o}}
+
+# {{senseid|pt|letter}} {{Latn-def-lite|pt|letter|15}}
+
+=====See also=====
+* {{list:Latin script letters/pt/simple}}
+
+===Etymology 2===
+{{etymid|pt|article-pronoun}}
+From {{inh-lite|pt|roa-opt|o}} (compare {{cog-lite|gl|o}}), from {{inh-lite|pt|VL.|lo}}, *''illu'', from {{inh-lite|pt|la|illum}}, from {{m-lite|la|ille}} (with an initial ''l'' having disappeared; compare {{cog-lite|es|lo}}).
+
+====Article====
+{{pt-article}}
+
+# {{senseid|pt|article}} [[the]] {{gloss-lite|masculine singular definite article}}
+#* {{RQ:mul:Rowling Harry Potter|pt-BR|6|page=135|text=Não vi '''o''' tempo passar.|t=I didn't notice the time passing.}}
+
+=====Usage notes=====
+For the most part, usage of the definite article in Portuguese is the same as in English. Some differences include:
+* it is optionally but commonly used with abstract mass nouns:
+*: {{ux-lite|inline=1|pt|'''O''' amor é melhor que '''a''' guerra.|Love is better than war.}}
+* in Brazil, it can be optionally used with adjectival possessive pronouns, and mandatorily with substantival possessive pronouns; both are mandatory in Portugal:
+*: {{ux-lite|inline=1|pt|('''O''') meu livro é melhor que '''o''' seu.|My book is better than yours.}}
+* it can be used with personal names; often this indicates familiarity with the person (due to personal connection with them or because they are famous); this is avoided in formal contexts:
+*: {{ux-lite|inline=1|pt|('''O''') João foi até a cidade.|João went to the city.}}
+*: {{ux-lite|inline=1|pt|('''O''') Einstein foi um cientista famoso.|Einstein was a famous scientist.}}
+* it is sometimes used instead of a possessive pronoun when the possessor is obvious from the context; this is especially prevalent when referring to parts of the body or one’s own relatives:
+*: {{ux-lite|inline=1|pt|'''O''' pai está viajando.|(My) dad is travelling.}}
+*: {{ux-lite|inline=1|pt|Você falou com '''a''' tia?|Did you talk with my/our aunt?}}
+*: {{ux-lite|inline=1|pt|Quando você quebrou '''os''' braços?|When did you break your arms?}}
+* it is used in a construct that is uncommon in English but common in Portuguese whereby a singular is used as a representative or prototype of all instances of the thing:
+*: {{ux-lite|inline=1|pt|'''O''' carvalho é uma árvore grande.|'''The''' oak is a big tree.}}
+*: {{ux-lite|inline=1|pt|'''A''' picape é responsável pela poluição.|Pick-up trucks are responsible for the pollution.}}
+* it is much more commonly used with placenames; most names of countries, states, provinces and continents take the definite article, but only a minority of cities:
+*: {{ux-lite|inline=1|pt|Eu moro n'''o''' Luxemburgo.|I live in Luxembourg.}}
+*: {{ux-lite|inline=1|pt|'''O''' Rio de Janeiro fica n'''o''' Brasil.|Rio de Janeiro is in Brazil.}}
+
+=====Quotations=====
+{{seeCites|pt}}
+
+=====See also=====
+{{Portuguese articles}}
+
+====Pronoun====
+{{head-lite|pt|pronouns|g=m|personal|}}
+
+# {{senseid|pt|pronoun}} [[him]], [[it]] (''as a direct object; as an indirect object, see'' '''[[lhe]]'''; ''after prepositions, see'' '''[[ele]]''')
+#* {{RQ:mul:Rowling Harry Potter|pt-BR|5|page=75|text=Não '''o''' perdoou por abandonar o serviço em vez de seguir você.|t=She didn't forgive him for abandoning his service instead of following you.}}
+#* {{RQ:mul:Rowling Harry Potter|pt-BR|7|page=287|text=Por que, então, ela '''o''' conduzira àquele lugar?|t=Why, then, did she lead him to that place?}}
+
+=====Usage notes=====
+* Becomes {{m-lite|pt|lo|-lo}} after verb forms ending in ''-r, -s'', or ''-z'', the pronouns {{m-lite|pt|nos}} and {{m-lite|pt|vos}}, and the adverb {{m-lite|pt|eis}}; the ending letter causing the change disappears.
+*: After {{m-lite|pt|ver}}: {{ux-lite|inline=1|pt|Posso vê-'''lo'''?|May I see him/it?}}
+*: After {{m-lite|pt|conhecer|conheces}}: {{ux-lite|inline=1|pt|Conhece-'''lo'''?.|Do you know him/it?}}
+*: After {{m-lite|pt|fazer|fiz}}: {{ux-lite|inline=1|pt|Fi-'''lo''' ficar contente.|I made him/it become happy.}}
+*: After {{m-lite|pt|nos}}: {{ux-lite|inline=1|pt|Deu-no-'''lo''' relutantemente.|He gave him/it to us reluctantly.}}
+*: After {{m-lite|pt|eis}}: {{ux-lite|inline=1|pt|Ei-'''lo'''!|Behold him/it!}}
+* Becomes {{m-lite|pt|no|-no}} after a nasal sound:
+*: {{ux-lite|inline=1|pt|Detêm-'''no''' como prisioneiro.|They detain him/it as a prisoner.}}
+*: {{ux-lite|inline=1|pt|Põe-'''no''' aqui.|Put him/it here.}}
+* In the colloquial speech of most of Brazil, it is abandoned in favor of the nominative form {{m-lite|pt|ele}}.
+*: {{ux-lite|inline=1|pt|Eu '''o''' vi.'' → ''Eu vi '''ele'''.|I saw him/it.}}
+
+=====Quotations=====
+{{seeCites|pt}}
+
+=====See also=====
+{{see-temp|Portuguese personal pronouns|for further pronouns}}
+
+==Rapa Nui==
+{{was fwotd|rap|2012|December|27}}
+
+===Pronunciation===
+* {{IPA-lite|rap|/o/}}
+
+===Etymology 1===
+From {{inh-lite|rap|poz-pol-pro|sc=Latinx|*o}}.
+
+====Particle====
+{{head-lite|rap|particles}}
+
+# [[possessive]] [[particle]] marking an inalienable possession; [[of]]
+#: {{quote-book|rap|year=2008|author=Sharon Chester|title=A wildlife guide to Chile|pageurl=http://books.google.com/books?id=qrI5ph6BWiIC&pg=PA15&lpg=PA15|page=15
+|passage=Polynesians are thought to have arrived at Easter Island around AD 800. They called the island ''Rapa Nui'', or more familiarly ''Te Pito '''o''' Te Henua'', the Navel of the World.}}
+
+=====Usage notes=====
+Inserted before the relevant pronoun. Only for possessions like hands or parents that do not have the ability to no longer be yours; otherwise, use {{m-lite|rap|a}}.
+
+===Etymology 2===
+From {{bor-lite|rap|es|o||or}}.
+
+====Conjunction====
+{{head-lite|rap|conjunctions}}
+
+# [[or]]
+
+=====Usage notes=====
+Generally used in favor of complex native grammatical structures used to achieve the same ends.
+
+==Romani==
+
+===Pronunciation===
+* {{IPA-lite|rom|/o/}}
+
+===Etymology 1===
+
+====Letter====
+{{head-lite|rom|letters|lower case||upper case|O}}
+
+# {{lb|rom|International Standard}} {{Latn-def-lite|rom|letter|19}}
+# {{lb|rom|Pan-Vlax}} {{Latn-def-lite|rom|letter|20}}
+
+=====See also=====
+* {{list:Latin script letters/rom}}
+
+===Etymology 2===
+
+====Article====
+{{head-lite|rom|articles|g=m-s|feminine singular|i|plural|e}}
+
+# [[the]]
+#: {{ux-lite|inline=1|rom|o rrom|the Romani man}}
+#: {{ux-lite|inline=1|rom|o Parìzo|Paris}}
+
+=====Usage notes=====
+* The definite article is used with proper nouns (given names and place names) as well.
+
+=====Declension=====
+{{rom-art-def}}
+
+===References===
+* {{R:NERG|pages=21, 141}}
+
+==Romanian==
+
+===Pronunciation===
+* {{IPA-lite|ro|/o/}}
+
+===Etymology 1===
+
+====Letter====
+{{ro-letter|lower=o|upper=O}}
+
+# {{Latn-def-lite|ro|letter|18|o}}
+
+=====Usage notes=====
+See {{m-lite|ro|O}}.
+
+=====See also=====
+* {{list:Latin script letters/ro/simple}}
+
+===Etymology 2===
+From {{inh-lite|ro|la|una|ūna}}, feminine of {{m-lite|la|unus|ūnus}}.
+
+====Article====
+{{head-lite|ro|article forms}}
+
+# {{infl of|ro|un||f|s|nom//acc}}: [[a]]/[[an]] {{gloss-lite|indefinite article}}
+#: {{ux-lite|inline=1|ro|'''O''' femeie frumoasă|'''A''' beautiful woman}}
+
+=====Related terms=====
+* {{l-lite|ro|un}}
+* {{l-lite|ro|una}}
+
+=====See also=====
+{{ro-indef-art}}
+
+===Etymology 3===
+
+====Interjection====
+{{head-lite|ro|interjections}}
+
+# [[oh]]
+
+===Etymology 4===
+From a root {{m-lite|ro||*eaua}}, from {{inh-lite|ro|la|illam}}, accusative feminine singular of {{m-lite|ro|ille}}.
+
+====Pronoun====
+{{head-lite|ro|pronouns|g=f|unstressed accusative form of|ea}}
+
+# {{lb|ro|direct object}} [[her]]
+#: {{ux-lite|inline=1|ro|'''O''' cunoști?|Do you know her?}}
+#: {{ux-lite|inline=1|ro|'''O''' cunoști pe Iulia?|Do you know Iulia?}}
+#: {{ux-lite|inline=1|ro|Am văzut-'''o''' ieri la școală.|I saw '''her''' yesterday at school.}}
+
+=====Related terms=====
+* {{l-lite|ro|îl}} {{qualifier-lite|masculine equivalent}}
+* {{l-lite|ro|le}} {{qualifier-lite|plural}}
+
+===Etymology 5===
+
+====Verb====
+{{ro-aux|vrea|person=3s|tense=p}}
+
+# (he/she) [[might]]
+
+===Etymology 6===
+From {{l-lite|ro|avea}}.
+
+====Verb====
+{{ro-aux|avea}}
+
+# {{lb|ro|informal}} Used to form a variant of the future tense together with the verb in the subjunctive mood.
+#: {{syn-lite|ro|vrea|qq=as an auxiliary verb}}
+#: {{ux-lite|ro|'''O''' să vedem.|We will see.|inline=1}}
+#: {{ux-lite|ro|El '''o''' să facă fasole.|He will make beans.|inline=1}}
+
+=====Usage notes=====
+* In the third person plural, {{l-lite|ro|or}} is sometimes used instead of [[o]].
+
+==Samoan==
+
+===Preposition===
+{{head-lite|sm|prepositions}}
+
+# [[of]]
+
+==Sardinian==
+
+===Pronunciation===
+* {{IPA-lite|sc|/o/}}
+
+===Etymology 1===
+From {{bor-lite|sc|it|o||or}}, from {{der-lite|sc|la|aut||or}}, from {{der-lite|sc|itc-pro|*auti}}, from {{der-lite|sc|ine-pro|*h₂ewti||on the other hand}}, derived from {{m|ine-pro|*h₂ew||away from, off}}. {{doublet|sc|a}}.
+
+====Conjunction====
+{{head-lite|sc|conjunctions}}
+
+# [[or]]
+
+===Etymology 2===
+From {{uder|sc|la|o|pos=vocative particle}}.
+
+====Interjection====
+{{head-lite|sc|interjections}}
+
+# {{lb|sc|Logudorese|Campidanese}} {{ng-lite|a vocative particle}}; [[o]], [[hey]]
+#: {{ux-lite|sc|'''O''' Frantziscu!|inline=1|'''Hey''', Francis!}}
+
+====Determiner====
+{{head-lite|sc|determiners}}
+
+# {{lb|sc|Logudorese|Campidanese}} {{ng-lite|used before [[epithets]], describing the person being addressed, for emphasis}}; [[you]]
+#: {{ux|sc|Morta ti ses, '''o''' tessidora bella|inline=1|You died, '''you''' beautiful weaver}}
+
+===References===
+* {{R:sc:WagnerDES|o<sup>1</sup>}}
+* {{R:sc:WagnerDES|o<sup>2</sup>}}
+
+==Scots==
+
+===Etymology===
+From {{inh-lite|sco|enm|of}}, from {{inh-lite|sco|ang|sc=Latinx|of}}, from {{m|ang|[[af]], [[æf]]|[[af]], [[æf]]|from, off, away}}, from {{inh-lite|sco|gem-pro|sc=Latinx|*ab||away (from)}}. Compare {{cog-lite|en|of}}.
+
+===Preposition===
+{{sco-prep}}
+
+# [[of]]
+
+==Scottish Gaelic==
+
+===Etymology===
+{{dercat|gd|cel-pro|ine-pro|inh=2}}
+From {{inh-lite|gd|mga|ó}}, from {{inh-lite|gd|sga|ó}}. Cognates include {{cog-lite|ga|ó}}.
+
+===Pronunciation===
+* {{IPA|gd|/ɔ/}}
+
+===Preposition===
+{{gd-prep|dat|L=1}}
+
+# [[from]]
+#: {{syn-lite|gd|à|bho}}
+# [[since]]
+#: {{syn-lite|gd|bho}}
+
+====Inflection====
+{{gd-prep-infl|1sg=uam|2sg=uat|3sgm=uaithe|3sgf=uaipe|1pl=uainn|2pl=uaibh|3pl=uapa}}
+
+==Serbo-Croatian==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{q-lite|phoneme}} {{IPA-lite|sh|/o/}}
+
+====Letter====
+{{sh-letter}}
+
+# The 21st letter of the Serbo-Croatian Latin alphabet ([[gajica]]), preceded by {{l-lite|sh|nj}} and followed by {{l-lite|sh|p}}.
+
+=====Alternative forms=====
+* {{l-lite|sh|O}} {{q-lite|uppercase}}
+
+===Etymology 2===
+From {{inh-lite|sh|sla-pro|sc=Latinx|*o(b)}}, from {{der-lite|sh|ine-pro|sc=Latinx|*h₃ebʰi}}. See {{m-lite|sh|o-}}, {{m-lite|sh|ob-}}.
+
+====Pronunciation====
+* {{IPA-lite|sh|/o/}}
+
+====Preposition====
+{{sh-preposition|head=o}}
+
+# {{lb|sh|+ accusative}} [[on]], [[against]]
+#: {{coi|sh|ob(j)esiti nešto '''o''' kuku|to hang something '''on''' a hook}}
+#: {{coi|sh|udariti glavom '''o''' zid|to hit one's head '''against''' the wall}}
+#: {{coi|sh|ogr(ij)ešiti se '''o''' zakon|to violate a law|lit=to make transgression '''against''' the law}}
+# {{lb|sh|+ locative}} [[about]], [[concerning]], [[of]], [[on]]
+#: {{coi|sh|brinuti se '''o''' nekome|to take care '''of''' somebody}}
+#: {{coi|sh|v(ij)est '''o''' katastrofi|news '''about''' the catastrophe}}
+#: {{coi|sh|R(ij)eč je '''o'''…, radi se '''o'''…|It's '''about'''…, this refers '''to'''…}}
+#: {{uxi|sh|Napisao sam esej '''o''' ranom srednjem vijeku.|I wrote an essay '''on''' the Early Middle Ages.}}
+
+=====Synonyms=====
+* {{q-lite|Croatia}} {{l-lite|sh|ob}}
+
+==Sicilian==
+
+===Etymology 1===
+From {{inh-lite|scn|la|o|ō|pos=the name of the letter {{m-lite|la|O}}}}.
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔ/}} {{qualifier-lite|Standard}}
+
+====Noun====
+{{scn-noun||f|}}
+
+# {{Latn-def-lite|scn|name|O|o}}
+
+===Etymology 2===
+From {{inh-lite|scn|la|aut}}.
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔ/}} {{qualifier-lite|Standard}}
+
+====Conjunction====
+{{head-lite|scn|conjunctions}}
+
+# [[or]]
+#: {{ux-lite|scn|'''O''' ti manci ssa minestra '''o''' ti jetti dâ finestra.|'''Either''' you eat soup '''or''' you throw yourself out the window.}}
+
+=====Derived terms=====
+{{col4|scn
+|o puru
+}}
+
+===Etymology 3===
+Eye dialectal form of {{m-lite|scn|ô||(masculine singular) at/to the}}.
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔː/}}
+
+====Preposition====
+{{head-lite|scn|prepositions}}
+
+# {{q-lite|eye dialect}} {{alt form-lite|scn|ô}}
+
+===Etymology 4===
+Eye dialectal form of {{m-lite|scn|'ô||(masculine singular) of the}}, from the lenition of rhoticized (and dialectal) {{m-lite|scn|rô}}, from {{m-lite|scn|dô}}, from an earlier and standard {{m-lite|scn|dû}}.
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔː/}}
+
+====Preposition====
+{{head-lite|scn|prepositions}}
+
+# {{q-lite|eye dialect}} {{alt form-lite|scn|dû}}
+#: {{ux-lite|scn|[[fera 'ô luni|A fera '''o''' luni]].|The Monday market.|lit=''The market '''of the''' Monday.}}
+#: {{ux-lite|scn|A strata '''o''' Càrminu.|The street [of the church] '''of the''' Carmine.}}
+
+===Etymology 5===
+From the vowel reduction of {{m-lite|scn|vô}}, dialectal form of {{m-lite|scn|vâ}}, which is the contracted form of the {{univerbation|scn|va'|pos1=second-person singular imperative|t1=to go|a|pos2=preposition|t2=to, forward}}.
+
+====Alternative forms====
+* {{alter|scn|vo|vô|’o}}
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔː/}}
+
+====Verb====
+{{head-lite|scn|verb forms}}
+
+# {{q-lite|eye dialect}} {{alt form-lite|scn|vâ}} {{q-lite|second-person singular, contracted double imperative}}
+#: {{ux-lite|scn|[[vâ|o]] caca!|'''Go''' fuck yourself! (lit. '''go to''' shit)!}}
+#: {{ux-lite|scn|'''O''' vidi chiḍḍu ca hâ fari!|'''Go''' see what you have to do!.}}
+
+=====Usage notes=====
+* The double indicative and the double imperative are Sicilian moods built with the first conjugated element using exclusively the present tense of the verbs ''jiri'' (to go) or ''vèniri'' (to come) connected with the preposition ''a'' (to) to a second conjugated action wich follows the tense, the number and the person of the first verbal element.
+* In the case of ''jiri'', which is irregularly composed also of the theme derived from {{cog-lite|la|vado|vādō}}, can be contracted with the preposition ''a'' depending on the dialect.
+
+===Etymology 6===
+From {{inh-lite|scn|la|o|ō}}, eventually conflated with/from {{bor-lite|scn|grc|sc=polytonic|ὦ|tr=ô}}.
+
+====Alternative forms====
+* {{alter|scn|oh||for the interjection meaning "oh"}}
+
+====Pronunciation====
+* {{IPA-lite|scn|/ɔː/}}
+
+====Interjection====
+{{head-lite|scn|interjections}}
+
+# {{lb|scn|usually {{lang|grc|oh}}}} {{n-g-lite|expresses surprise, joy, or pain}}: [[oh]]!; [[ah]]!
+# {{lb|scn|usually {{lang|grc|oh}}}} {{n-g-lite|Very commonly used before a noun in the [[vocative]] or [[nominative]] case when addressing someone}}: [[O#Interjection|O]]...
+#: {{ux-lite|scn|'''O''' ma', veni cca!?|'''O''' mum, would you come here!?}}
+
+==Skolt Sami==
+
+===Pronunciation===
+* {{qualifier-lite|phoneme}} {{IPA-lite|sms|/o/}}
+
+===Letter===
+{{head-lite|sms|letters|upper case|O}}
+
+# {{Latn-def-lite|sms|letter|24}}
+
+====See also====
+* {{list:Latin script letters/sms/simple}}
+
+==Slovak==
+
+===Etymology===
+From {{inh-lite|sk|sla-pro|sc=Latinx|*o(b)}}, from {{der-lite|sk|ine-pro|sc=Latinx|*h₃ebʰi}}.
+
+===Pronunciation===
+* {{IPA-lite|sk|/ɔ/}}
+
+===Preposition===
+{{sk-prep}}
+
+# {{lb|sk|with locative}} [[about]], [[concerning]]
+#* {{Q|sk|[[w:Pavol Dobšinský|Pavol Dobšinský]]|O človeku, čo nikdy nehrešil.|In: [https://zlatyfond.sme.sk/dielo/389/Dobsinsky_Prostonarodne-slovenske-povesti-Treti-zvazok/26 Prostonárodné slovenské povesti]|year=1883|quote=''Chudobný človek nevedel '''o''' ničom nič a najmenej '''o''' čertovi.''|trans=The poor man did not know anything '''about''' anything and the least did he know '''about''' the devil.}}
+#: {{syn-lite|sk|ohľadom|ohľadne}}
+# {{lb|sk|with locative}} [[at]] {{gloss|indicates time}}
+#* {{Q|sk|Stanislav Klíma|Kozia skala|In: [https://zlatyfond.sme.sk/dielo/5034/Klima_Povesti-zo-Slovenska/3 Povesti zo Slovenska]|year=1921|quote='''''O''' polnoci sa Kozia skala otvorila a božská panna z jaskyne vyšla.''|trans=''Kozia skala'' opened '''at''' midnight and a divine virgin came out of a cave.}}
+# {{lb|sk|with accusative}} [[against]], [[over]], [[on]] {{gloss|indicates the point of contact with another object}}
+#* {{Q|sk|[[w:Ladislav Nádaši-Jégé|Ladislav Nádaši-Jégé]]|[https://zlatyfond.sme.sk/dielo/389/Dobsinsky_Prostonarodne-slovenske-povesti-Treti-zvazok/26 Česť]|year=1955|quote=''Juro zhodil batoh, odopäl bajonet a praštil ho o stôl.''|trans=Juro threw his bag down, unfastened the bayonet and slammed it against the table.}}
+#: {{syn-lite|sk|na|k|ku}}
+# {{lb|sk|with accusative}} [[by]], ''often translated with a noun accompanied by an indefinite article or a numeral'' {{gloss|indicates measure or degree}}
+#* {{Q|sk|[[w:Ľudmila Podjavorinská|Ľudmila Podjavorinská]]|[https://zlatyfond.sme.sk/dielo/4050/Podjavorinska_Zena/1 Žena]|year=1910|quote=''Oddanca prevyšuje <u>'''o''' hlavu</u>, on takrečeno tratí sa pri jej mocnej, na mužského upomínajúcej postave.''|trans=She is <u>a head</u> taller than her fiancé, it might be said that he is disappearing next to her mighty figure resembling that of a man.}}
+# {{lb|sk|with accusative}} [[in]], [[later]] {{gloss|indicates the end of a period of time}}
+#* {{Q|sk|[[w:Jozef Gregor Tajovský|Jozef Gregor Tajovský]]|[https://zlatyfond.sme.sk/dielo/38/Tajovsky_Jano-Mraz/1 Jano Mráz]|year=1911|quote=''Už mal byť '''o''' rok posvätený, ale prišla cholera, a neúprosná smrť Ondríka skosila.''|trans=It should have been blessed '''in''' a year, but cholera came and Ondrík was taken by merciless death.}}
+#: {{syn-lite|sk|po}}
+
+===Further reading===
+* {{R:sk:SDK}}
+
+==Slovene==
+
+===Etymology===
+From {{inh-lite|sl|sla-pro|sc=Latinx|*o(b)}}, from {{der-lite|sl|ine-pro|sc=Latinx|*h₃ebʰi}}.
+
+===Pronunciation===
+* {{sl-IPA|o}}
+
+===Preposition===
+{{sl-prep|-}}
+
+# {{lb|sl|with locative}} [[about]], [[concerning]]
+
+==Somba-Siawari==
+
+===Noun===
+{{head-lite|bmu|nouns}}
+
+# [[water]]
+# [[liquid]]
+# [[river]]
+
+===References===
+* Kaija Olkkonen, Soini Olkkonen, ''[http://www.sil.org/pacific/png/pubs/928474531231/Somba-Siawari%20Lexicon/index-english/main.htm Somba-Siawari (Burum Mindik)—English dictionary]'' (2007)
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr|+<audio:Letter o es es.flac<a:Spain>>}}
+
+===Etymology 1===
+
+====Letter====
+{{head-lite|es|letters|lower case||upper case|O}}
+
+# {{Latn-def-lite|es|letter|16|o}}
+
+====Noun====
+{{es-noun|f|oes}}
+
+# Name of the letter {{m-lite|es|O}}
+
+=====Derived terms=====
+{{col-auto|es|no saber hacer la o con un canuto}}
+
+====See also====
+* {{list:Latin script letters/es}}
+
+===Etymology 2===
+From {{inh-lite|es|la|aut}}.
+
+====Alternative forms====
+* {{alt|es|u||used before words beginning with an ‘o’ sound}}
+* {{alt|es|ò||archaic}}
+* {{alt|es|ó||''used near numbers to avoid confusion with a zero:'' 2 ó 3}}
+
+====Conjunction====
+{{head-lite|es|conjunctions}}
+
+# [[or]]
+#: {{ux-lite|es|¿Quieres un café '''o''' algo más?|Do you want a coffee '''or''' something else?}}
+
+=====Derived terms=====
+* {{l-lite|es|o sea}}
+
+====Conjunction====
+{{head-lite|es|conjunctions|head=o … o}}
+
+# [[either]] … [[or]]
+#: {{ant-lite|es|ni|alt1=ni … ni}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+{{C|es|Latin letter names}}
+
+==Sranan Tongo==
+
+===Etymology===
+Reduced form of {{m-lite|srn|go||to go}}.
+
+===Particle===
+{{head-lite|srn|particles}}
+
+# {{n-g-lite|Verbal marker for the future tense.}}
+
+====Usage notes====
+For purely factual statements, {{m-lite|srn|sa}} is more common. This marker is mostly used for promises, or when the anticipation carries an emotive charge, such as hope or fear. For example, “I’ll see you” is not a purely factual statement; it implies, “I hope to see you (again, some time in the future)”. In Sranan Tongo, this is then expressed as “mi o si yu”.
+
+====See also====
+* {{l-lite|srn|sa}}
+
+==Swedish==
+
+===Pronunciation===
+; Letter name
+* {{IPA-lite|sv|/uː/}}
+
+; Phoneme
+* {{IPA-lite|sv|/uː/|/ʊ/|/oː/|/ɔ/}}
+
+===Letter===
+{{sv-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|sv|letter|15|o}}
+
+===Interjection===
+{{head-lite|sv|interjections}}
+
+# [[O#Particle|O]] (particle)
+#: ''Så låt nu, '''o''' konung, härom utfärda ett förbud och sätta upp en skrivelse''
+#: Now, O king, establish the decree, and sign the writing (Daniel 6:8)
+
+===Noun===
+{{sv-noun|n}}
+
+# the letter o
+# the Greek letter [[omega]], being the last letter of the Greek alphabet
+#: '' Jag är A och '''O''', den förste och den siste, begynnelsen och änden.''
+#:: I am Alpha and Omega, the beginning and the end, the first and the last. (Revelations 22:13)
+<!--commented out to save memory
+
+====Declension====
+{{sv-infl-noun-n-n}}-->
+
+====Alternative forms====
+* {{l-lite|sv|o.}}
+
+===Conjunction===
+{{head-lite|sv|conjunctions}}
+
+# {{abbreviation of|sv|och||and}}
+#: {{ux-lite|sv|Snyggt o prydligt.|Neat 'n' tidy.}}
+#: {{syn-lite|sv|&|å}}
+
+[[Category:Swedish one-letter words]]
+
+==Tagalog==
+
+===Etymology 1===
+From {{bor-lite|tl|es|o}}. Each pronunciation has a different source:
+* Filipino alphabet pronunciation is influenced by {{der-lite|tl|en|o}}.
+* Abakada alphabet pronunciation is influenced by the [[Baybayin]] character {{m-lite|tl|ᜂ|sc=Tglg|tr=o/u}}.
+* Abecedario pronunciation is from {{der-lite|tl|es|o}}.
+
+====Pronunciation====
+* {{hyph-lite|tl|o}} <!-- {{hyph|tl|E}} -->
+* {{sense-lite|letter name}} {{IPA-lite|tl|/ˈʔo/|[ˈʔo]}} <!-- {{tl-IPA}} -->
+* {{sense-lite|letter name|Filipino alphabet alternative}} {{IPA-lite|tl|/ˈʔow/|[ˈʔoʊ̯]}} <!-- {{tl-IPA}} -->
+* {{sense-lite|phoneme}} {{IPA-lite|tl|/o/|[o]}} <!-- {{tl-IPA}} -->
+* {{rhymes-lite|tl|o|ow|s=1}}
+
+====Letter====
+{{head-lite|tl|letters|lower case||upper case|O|Baybayin spelling|ᜂ|f3sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{Latn-def-lite|tl|letter|17|o|alphabet name={{w|Filipino alphabet}}}}
+# {{Latn-def-lite|tl|letter|13|o|alphabet name={{w|Abakada alphabet}}}}
+# {{lb|tl|historical}} {{Latn-def-lite|tl|letter|18|o|alphabet name={{w|Filipino orthography#Adoption of the Latin script|Abecedario}}}}
+
+=====See also=====
+* {{list:Latin script letters/tl/simple}}
+
+====Noun====
+{{head-lite|tl|nouns|Baybayin spelling|ᜂ|f1sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{Latn-def-lite|tl|name|O|o|nocap=0|dot=,}} ''in the {{w|Filipino alphabet}}.''
+# {{Latn-def-lite|tl|name|O|o|nocap=0|dot=,}} ''in the {{w|Abakada alphabet}}.''
+# {{lb|tl|historical}} {{Latn-def-lite|tl|name|O|o|nocap=0|dot=,}} ''in the {{w|Filipino orthography#Adoption of the Latin script|Abecedario}}.''
+
+=====Alternative forms=====
+* {{l-lite|tl|ow}} – ''Filipino alphabet letter''
+
+=====See also=====
+* {{list:Latin script letter names/tl/simple}}
+* {{l-lite|tl|uo}}
+
+===Etymology 2===
+Borrowed from {{bor-lite|tl|es|o||or}}.
+
+====Pronunciation====
+* {{hyph-lite|tl|o}} <!-- {{hyph|tl|o}} -->
+* {{IPA-lite|tl|/o/|[o]}} <!-- {{tl-IPA}} -->
+* {{rhymes-lite|tl|o|s=1}}
+
+====Conjunction====
+{{head-lite|tl|conjunctions|Baybayin spelling|ᜂ|f1sc=Tglg|cat2=terms with Baybayin script}}
+
+# [[or]]
+#: {{syn-lite|tl|o kaya|dili kaya}}
+#: {{ux-lite|tl|Sasama ka ba '''o''' dito ka lang?|Are you coming along '''or''' will you just be here?}}
+
+===Etymology 3===
+
+====Alternative forms====
+* {{l-lite|tl|oh}}
+
+====Pronunciation====
+* {{hyph-lite|tl|o}} <!-- {{hyph|tl|o}} -->
+* {{IPA-lite|tl|/o/|[o]}} <!-- {{tl-IPA}} -->
+* {{rhymes-lite|tl|o|s=1}}
+
+====Particle====
+{{head-lite|tl|particles|Baybayin spelling|ᜂ|f1sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{lb|tl|informal}} {{n-g-lite|sentence-ending particle used to express warning or to catch someone's attention. See also {{m|tl|oy}} and {{m|tl|ay}}.}}
+#: {{ux-lite|tl|Nandiyan na naman siya '''o'''.|You're at it again.}}
+#: {{ux-lite|tl|Ganito kasi dapat 'yan '''o'''.|You're supposed to do it like this.}}
+#: {{ux-lite|tl|Hayop naman '''oh'''!|Damn it!}}
+
+====Interjection====
+{{head-lite|tl|interjections|Baybayin spelling|ᜂ|f1sc=Tglg|cat2=terms with Baybayin script}}
+
+# {{lb|tl|informal}} {{n-g-lite|expression of surprise, wonder, amazement, or awe}}: [[oh]]!
+# {{lb|tl|informal}} {{n-g-lite|used to catch someone's attention about a new topic, question, or story}}: [[so]]; [[oh]]!
+# {{lb|tl|informal}} {{n-g-lite|used to refer to something given or offered to someone}}: [[here you are]]! [[here you go]]!
+#: {{syn-lite|tl|heto}}
+#: {{ux-lite|tl|'''O''', ang regalo ko sa'yo.|'''Here''', my gift for you.}}
+
+=====See also=====
+* {{l-lite|tl|ows}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+
+==Tok Pisin==
+
+===Etymology===
+From {{inh-lite|tpi|en|or}}.
+
+===Conjunction===
+{{head-lite|tpi|conjunctions}}
+
+# [[or]]
+
+==Tokelauan==
+
+===Pronunciation===
+* {{IPA-lite|tkl|/ˈo/}}
+* {{hyph-lite|tkl|o}}
+
+===Etymology 1===
+From {{inh-lite|tkl|poz-pol-pro|sc=Latinx|*o}}. Cognates include {{cog-lite|haw|o}} and {{cog-lite|sm|o}}.
+
+====Preposition====
+{{head-lite|tkl|prepositions}}
+
+# {{n-g-lite|Marks inalienable possession}}; [[of]]
+
+=====See also=====
+* {{l-lite|tkl|a}}
+
+===Etymology 2===
+From {{inh-lite|tkl|poz-pol-pro|sc=Latinx|*o}}. Cognates include {{cog-lite|haw|ō}} and {{cog-lite|sm|o}}.
+
+====Interjection====
+{{head-lite|tkl|interjections}}
+
+# {{n-g-lite|Answer to being called by name}}; [[yes]]
+
+===References===
+* {{R:tkl:TD|page=33}}
+
+==Turkish==
+
+===Etymology===
+From {{inh-lite|tr|ota|sc=ota-Arab|او|tr=o}}, from older {{m-lite|ota|sc=ota-Arab|اول|tr=ol}}.  Merger of {{der-lite|tr|trk-oat|tr=ol}} and {{m-lite|trk-oat|||tr=an|she, he, that, it}}, ({{cog-lite|otk|sc=Orkh|𐰆𐰞|tr=ol}} and {{m-lite|otk|tr=an}}, respectively); both from {{der-lite|tr|trk-pro|sc=Latinx|*ol}}. Cognate with {{cog-lite|xqa|sc=Arab|ال|اُلْ|he, she, it; that}} and {{cog-lite|zh|-}} {{zh-l|兀|that}}.
+
+===Pronunciation===
+* {{IPA-lite|tr|/o/}}
+
+===Pronoun===
+{{head-lite|tr|pronouns|cat2=personal pronouns}}
+
+# [[he]], [[she]], [[it]]
+
+====Declension====
+{| class="inflection-table vsSwitcher" data-toggle-category="inflection" style="text-align: left; background: #F9F9F9; border: 1px solid #AAAAAA;"
+|- style="background: #DEDEDE; text-align: left;"
+! class="vsToggleElement" colspan="3" | Inflection
+|- class="vsShow"
+! style="background: #EFEFEF; width: 12em;" | Nominative
+| colspan="2" style="width: 10em;" | o
+|- class="vsShow"
+! style="background: #EFEFEF;" | Definite accusative
+| colspan="2" | [[onu]]
+|- class="vsHide" style="background: #DEDEDE;"
+! style="width: 12em;" |
+! style="width: 10em;" | Singular
+! style="width: 10em;" | Plural
+|- class="vsHide"
+! style="background: #EFEFEF;" | Nominative
+| o
+| [[onlar]]
+|- class="vsHide"
+! style="background: #EFEFEF;" | Definite accusative
+| [[onu]]
+| [[onları]]
+|- class="vsHide"
+! style="background: #EFEFEF;" | Dative
+| [[ona]]
+| [[onlara]]
+|- class="vsHide"
+! style="background: #EFEFEF;" | Locative
+| [[onda]]
+| [[onlarda]]
+|- class="vsHide"
+! style="background: #EFEFEF;" | Ablative
+| [[ondan]]
+| [[onlardan]]
+|- class="vsHide"
+! style="background: #EFEFEF;" | Genitive
+| [[onun]]
+| [[onların]]
+|}
+
+====See also====
+{{tr-personal pronouns}}
+
+===Pronoun===
+{{head-lite|tr|pronouns|demonstrative}}
+
+# [[that]]
+
+====See also====
+* {{l-lite|tr|bu}}
+* {{l-lite|tr|şu}}
+* {{l-lite|tr|-i}}
+* {{l-lite|tr|-ı}}
+* {{l-lite|tr|-ü}}
+* {{l-lite|tr|-u}}
+
+===Letter===
+{{tr-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|tr|letter|18|o}}
+
+====See also====
+* {{list:Latin script letters/tr/simple}}
+
+===Noun===
+{{head-lite|tr|nouns}}
+
+# {{Latn-def-lite|tr|name|O|o}}
+
+====See also====
+* {{list:Latin script letter names/tr/simple}}
+
+[[Category:Turkish palindromes]]
+
+==Turkmen==
+
+===Pronunciation===
+* {{qualifier-lite|phoneme}} {{IPA-lite|tk|/o/|/oː/}}
+
+===Pronoun===
+{{head-lite|tk|pronouns}}
+
+# {{alt form-lite|tk|ol||he, she, it}}
+
+===Letter===
+{{head-lite|tk|letters|upper case|O}}
+
+# {{Latn-def-lite|tk|letter|18|o}}
+
+===See also===
+* {{list:Latin script letters/tk/simple}}
+
+==Vietnamese==
+
+===Pronunciation===
+{{vi-IPA}}
+
+===Etymology 1===
+From {{inh-lite|vi|mkh-vie-pro|sc=Latinx|*ʔɔː}}.
+
+====Noun====
+{{vi-noun|[[姑]], [[𪦭]]}}
+
+# {{lb|vi|Thanh Hoá|Nghệ An|Hà Tĩnh}} [[paternal aunt]], [[father]]'s [[sister]]
+
+=====Synonyms=====
+* {{l-lite|vi|cô}}
+
+=====Related terms=====
+* {{l-lite|vi|trượng}}, {{l-lite|vi|dượng}}
+
+====Classifier====
+{{head-lite|vi|classifiers}}
+
+# {{lb|vi|Thanh Hoá|Nghệ An|Hà Tĩnh}} {{n-g-lite|indicates a young adult woman}}
+#: {{ux-lite|vi|'''O''' du kích nhỏ giương cao súng.<br>Thằng Mỹ lênh khênh bước cúi đầu.|The small guerilla '''damsel''' holds her rifle high.<br>The tall American dude totters, his head hanging low.}}
+
+===Etymology 2===
+Borrowed from {{bor-lite|vi|pt|ó}}.
+
+====Noun====
+{{vi-noun}}
+
+# {{Latn-def-lite|vi|name|O|o}}
+
+=====Related terms=====
+* {{l-lite|vi|ô}}; {{l-lite|vi|ơ}}
+
+{{cln|vi|letters}}
+{{C|vi|Family|Female}}
+
+==Volapük==
+
+===Pronunciation===
+* {{IPA-lite|vo|/o/}}
+
+===Particle===
+{{head-lite|vo|particles}}
+
+# {{n-g-lite|[[vocative_case|vocative case]] particle}}
+#: {{ux-lite|vo|'''O''' flens [[löfik]]!|Dear friends}}
+
+==Welsh==
+
+===Etymology 1===
+
+====Alternative forms====
+* {{i|with [[grave accent]] to indicate otherwise unpredictable short vowel}}: {{l-lite|cy|ò}}
+* {{i|with [[acute accent]] to indicate unusually stressed short vowel}}: {{l-lite|cy|ó}}
+* {{i|with [[circumflex]] to indicate otherwise unpredictable or unusually stressed long vowel}}: {{l-lite|cy|ô}}
+* {{i|with [[diaeresis]] to indicate disyllabicity}}: {{l-lite|cy|ö}}
+
+====Pronunciation====
+* {{IPA-lite|cy|/oː/}}
+* {{rhymes-lite|cy|oː|s=1}}
+
+====Letter====
+{{cy-letter|upper=O|lower=o}}
+
+# {{Latn-def-lite|cy|letter|19|o}} ''It is preceded by {{l-lite|cy|n}} and followed by {{l-lite|cy|p}}.''
+
+=====Mutation=====
+* o cannot be mutated but, being a vowel, does take {{l-lite|en|h-prothesis}}, for example with the word {{m-lite|cy|oren||orange}}:
+{{cy-mut|oren}}
+
+=====Derived terms=====
+* Digraph sequences: {{l-lite|cy|oe}}, {{l-lite|cy|oi}}, {{l-lite|cy|ou}}, {{l-lite|cy|ow}}, {{l-lite|cy|oy}}
+
+=====See also=====
+* {{list:Latin script letters/cy/simple}}
+* {{list:Latin script letter names/cy/simple}}
+
+====Noun====
+{{cy-noun|f|oau}}
+
+# {{Latn-def-lite|cy|name|O|o}}
+
+=====Mutation=====
+{{cy-mut|o}}
+
+===Etymology 2===
+Aphetic form of {{m-lite|cy|efô}}, reinforced form of {{m-lite|cy|ef}}
+
+====Pronunciation====
+* {{IPA-lite|cy|/oː/|/ɔ/}}
+* {{rhymes-lite|cy|oː|s=1}}
+
+====Pronoun====
+{{head-lite|cy|pronouns|cat2=personal pronouns}}
+
+# [[he]], [[him]]
+
+=====Usage notes=====
+''O'' is used predominantly in the north of Wales, while {{m-lite|cy|e}} is used in the south, with {{m-lite|cy|fo}} and {{m-lite|cy|fe}} as variants of {{m-lite|cy||o}} and {{m-lite|cy|e}} respectively after a vowel. In formal Welsh, the equivalent pronoun is {{m-lite|cy|ef}}.
+
+===Etymology 3===
+From {{inh-lite|cy|cel-bry-pro|sc=Latinx|*o}}, from {{inh-lite|cy|cel-pro|sc=Latinx|*ɸo}}, from {{inh-lite|cy|ine-pro|sc=Latinx|*h₂pó}}.
+
+====Pronunciation====
+* {{IPA-lite|cy|/oː/|/ɔ/}}
+* {{rhymes-lite|cy|oː|s=1}}
+
+====Preposition====
+{{head-lite|cy|prepositions|causes [[Appendix:Welsh mutations#Soft mutation|soft mutation]]}}
+
+# [[from]]
+#: {{ux-lite|cy|Aethon ni '''o''' <u>G</u>aerdydd i Abertawe.|We went '''from''' Cardiff to Swansea.}}
+# [[of]], [[out of]] {{q-lite|partitive}}
+#: {{ux-lite|cy|Roedd llawer '''o''' <u>f</u>rain yn y coed.|There were a lot '''of''' crows in the trees.}}
+#: {{ux-lite|cy|Mae'r tri '''ohonyn''' nhw'n dweud celwydd.|The three '''of''' them are lying.}}
+# {{n-g-lite|Connects an adjective modifying another adjective (equivalent to adverb + adjective in English)}}
+#: {{ux-lite|inline=1|cy|arbennig '''o''' <u>b</u>wysig|especial'''ly''' important}}
+#: {{ux-lite|inline=1|cy|ofnadwy '''o''' <u>g</u>aredig|awful'''ly''' kind}}
+# {{n-g-lite|Connects a multi-word numeral to a plural noun}}
+#: {{ux-lite|cy|Mae pedwar deg saith '''o''' weithwyr gyda'r cwmni.|The company has forty-seven employees.}}
+
+=====Inflection=====
+{{cy-personal-prep|ohono|ohonot|ohono|ohoni|ohonon|ohonoch|ohonyn}}
+
+===Etymology 4===
+Possibly a conjunctive use of Etymology 3. Compare {{cog-lite|sga|ó||when}}.
+
+====Alternative forms====
+* {{l-lite|cy|od}} {{q-lite|before a vowel}}
+
+====Conjunction====
+{{head-lite|cy|conjunctions|causes aspirate mutation}}
+
+# {{lb|cy|literary}} [[if]]
+# {{lb|cy|literary}} [[whether]]
+
+=====Synonyms=====
+* {{l-lite|cy|os}}
+
+=====Derived terms=====
+* {{l-lite|cy|oni}}
+
+==Yola==
+
+===Etymology 1===
+From {{inh-lite|yol|enm|oo}}, an {{apocopic form|enm|oon|nocap=1}}.
+
+====Alternative forms====
+* {{alter|yol|o'}}
+
+====Adjective====
+{{head-lite|yol|adjectives}}
+
+# [[one]]
+#* {{quote-book|yol|year=1867|title=GLOSSARY OF THE DIALECT OF FORTH AND BARGY|passage='''O''' hardïshe o' anoor.|translation='''One''' thing or another.}}
+#: {{syn-lite|yol|oan}}
+
+===Etymology 2===
+From {{inh-lite|yol|enm|o}}.
+
+====Interjection====
+{{head-lite|yol|interjections}}
+
+# [[oh]]
+#* {{quote-book|yol|year=1867|chapter=A YOLA ZONG|number=12|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Than stalket, an gandelt, wie '''o'''! an gridane.|translation=Then stalked and wondered, with '''oh'''! and with grief.}}
+
+===Etymology 3===
+
+====Preposition====
+{{head-lite|yol|prepositions}}
+
+# {{alt form-lite|yol|af}}
+#* {{quote-book|yol|year=1867|title=SONGS, ETC. IN THE DIALECT OF FORTH AND BARGY|passage=Aar was a gooude puddeen maate '''o''' bran.|translation=There was a good pudding made '''of''' bran.}}
+
+===References===
+* {{R:Poole 1867|page=45, 88 & 93}}
+
+==Yoruba==
+
+===Etymology 1===
+
+====Pronunciation====
+* {{sense-lite|phoneme}} {{IPA-lite|yo|/ō/}} <!-- {{yo-IPA|o}} -->
+* {{sense-lite|letter name}} {{IPA-lite|yo|/ó/}} <!-- {{yo-IPA|ó}} -->
+
+====Letter====
+{{head-lite|yo|letters|lower case||upper case|O}} <!-- {{yo-letter|upper=O|lower=o}} -->
+
+# {{Latn-def-lite|yo|letter|16|ó}}
+
+====Noun====
+{{head-lite|yo|nouns|head=ó}} <!-- {{yo-pos|noun|ó}} -->
+
+# {{Latn-def-lite|yo|name|O|o}}
+
+====See also====
+* {{list:Latin script letters/yo}}
+* {{list:Latin script letter names/yo}}
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA-lite|yo|/ō/}} <!-- {{yo-IPA|ō}} -->
+
+====Pronoun====
+{{head-lite|yo|pronouns|head=o}} <!-- {{yo-pos|pronoun|o}} -->
+
+# [[you]] {{gl|second-person singular non-honorific personal pronoun}}
+
+===Etymology 3===
+
+====Pronunciation====
+* {{IPA-lite|yo|/ó/}} <!-- {{yo-IPA|ó}} -->
+
+====Pronoun====
+{{head-lite|yo|pronouns|head=ó}} <!-- {{yo-pos|pronoun|ó}} -->
+
+# [[he]]/[[she]]/[[it]] {{gl|third-person singular non-honorific personal pronoun}}
+
+===Etymology 4===
+
+====Pronunciation====
+* {{sense-lite|mid-tone}} {{IPA-lite|yo|/ō/}} <!-- {{yo-IPA|ō}} -->
+* {{sense-lite|high-tone}} {{IPA-lite|yo|/ó/}} <!-- {{yo-IPA|ó}} -->
+
+====Pronoun====
+{{head-lite|yo|pronouns|head=o}} <!-- {{yo-pos|pronoun|o}} -->
+
+# [[him]], [[her]], [[it]] {{gl|third-person singular object pronoun following a [[monosyllabic]] verb with a high-tone /o/}}
+
+====Pronoun====
+{{head-lite|yo|pronouns|head=ó}} <!-- {{yo-pos|pronoun|ó}} -->
+
+# [[him]], [[her]], [[it]] {{gl|third-person singular object pronoun following a [[monosyllabic]] verb with a low- or mid-tone /o/}}
+
+====See also====
+{{yo-personal pronouns}}
+
+===Etymology 5===
+
+====Pronunciation====
+* {{IPA-lite|yo|/ō/}} <!-- {{yo-IPA|ō}} -->
+
+====Interjection====
+{{head-lite|yo|interjections|head=o}} <!-- {{yo-pos|interjection|o}} -->
+
+# {{n-g-lite|Used at the end of sentences to [[emphasize]] a statement.}}
+#: {{ux-lite|inline=1|yo|ẹ ṣeun '''o'''|thank you'''!'''}}
+
+=====Alternative forms=====
+* {{alt|yo|oo}}, {{alt|yo|ooo}} etc. (depending on the amount of emphasis)
+
+===Etymology 6===
+{{clipping|yo|kò}}.
+
+====Pronunciation====
+* {{IPA-lite|yo|/ò/}} <!-- {{yo-IPA|ò}} -->
+
+====Particle====
+{{head-lite|yo|particles|head=ò}} <!-- {{yo-pos|particle|ò}} -->
+
+# [[not]] {{q-lite|placed before a verb to negate it, frequently used after personal pronouns}}
+
+===Etymology 7===
+{{clipping|yo|wò}}
+
+====Pronunciation====
+* {{IPA-lite|yo|/ò/}} <!-- {{yo-IPA|ò}} -->
+
+====Verb====
+{{head-lite|yo|verbs|head=ò}} <!-- {{yo-verb|ò}} -->
+
+# {{lb|yo|Èkìtì}} {{altform|yo|wò|t=to look at}}
+#: {{ux-lite|inline=1|yo|mò í '''ò''' ẹ|I am '''looking at''' you!!}}
+
+==Zaghawa==
+
+===Noun===
+{{head-lite|zag|nouns}}
+# a living [[person]]
+
+===References===
+* ''[http://www.tchad.org/zaghawa/Beria-Eng-BDict.pdf Beria-English English-Beria Dictionary] [provisional] ADESK, Iriba, Kobe Department, Chad''
+
+==Zazaki==
+
+===Pronoun===
+{{head-lite|zza|pronouns}}
+
+# [[he]]
+
+====See also====
+{{zza-personal pronouns}}
+
+===Pronoun===
+{{head-lite|zza|pronouns|demonstrative}}
+
+# [[that]]
+
+==Zhuang==
+
+===Pronunciation===
+* {{za-pron}}
+
+===Etymology 1===
+{{rfe|za}}
+
+====Interjection====
+{{za-head|interjection}}
+
+# {{n-g-lite|Used to express compliance to a request}}; [[okay]]; [[sure]]
+# {{n-g-lite|Used to express realization or understanding}}; [[oh]]
+
+===Etymology 2===
+{{rfe|za}}
+
+====Adjective====
+{{za-head|adjective|嗬|荷|⿰目荷}}
+
+# {{lb|za|dialectal|including Wuming}} [[blue]]
+#: {{syn-lite|za|lamz}}
+
+[[Category:za:Colors]]
+
+==Zou==
+
+===Pronunciation===
+* {{IPA-lite|zom|/o˧/}}
+
+===Particle===
+{{head-lite|zom|particles}}
+
+# {{n-g-lite|Vocative particle}}; [[O]]
+
+====References====
+* {{R:zom:Singh:2013|page=59}}
+
+==Zulu==
+
+===Letter===
+{{head-lite|zu|letters|lower case||upper case|O}}
+
+# {{Latn-def-lite|zu|letter|15}}

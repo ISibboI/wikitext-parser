@@ -11,12 +11,10 @@ lazy_static! {
         Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||'|\n|:|;|\\*|#)").unwrap();
 }
 
-pub const MAX_SECTION_DEPTH: usize = 6;
-
 #[derive(Debug, Clone, Eq, PartialEq)]
 pub enum Token<'a> {
     Text(Cow<'a, str>),
-    MultiEquals(u8),
+    Equals,
     DoubleOpenBrace,
     DoubleCloseBrace,
     DoubleOpenBracket,
@@ -137,15 +135,8 @@ impl<'input> Tokenizer<'input> {
             self.input.advance_until(2);
             Token::DoubleCloseBracket
         } else if input.starts_with('=') {
-            let mut length = 1u8;
             self.input.advance_one();
-            while self.input.remaining_input().starts_with('=')
-                && usize::from(length) < MAX_SECTION_DEPTH
-            {
-                length += 1;
-                self.input.advance_one();
-            }
-            Token::MultiEquals(length)
+            Token::Equals
         } else if input.starts_with('|') {
             self.input.advance_one();
             Token::VerticalBar
@@ -258,13 +249,9 @@ impl Token<'_> {
     pub fn to_str(&self) -> &str {
         match self {
             Token::Text(text) => text,
-            Token::MultiEquals(amount) => {
-                let buffer = "======";
-                assert_eq!(buffer.len(), MAX_SECTION_DEPTH);
-                &buffer[..usize::from(*amount)]
-            }
-            Token::DoubleOpenBrace => r"{{",
-            Token::DoubleCloseBrace => r"}}",
+            Token::Equals => "=",
+            Token::DoubleOpenBrace => "{{",
+            Token::DoubleCloseBrace => "}}",
             Token::DoubleOpenBracket => "[[",
             Token::DoubleCloseBracket => "]]",
             Token::VerticalBar => "|",
@@ -292,9 +279,10 @@ mod tests {
             tokens.as_slice(),
             [
                 Token::DoubleOpenBrace,
-                Token::MultiEquals(2),
+                Token::Equals,
+                Token::Equals,
                 Token::Text("a".into()),
-                Token::MultiEquals(1),
+                Token::Equals,
                 Token::Text("  v".into()),
                 Token::DoubleCloseBrace,
                 Token::Text(" ".into()),

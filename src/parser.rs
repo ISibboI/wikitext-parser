@@ -484,7 +484,7 @@ fn parse_internal_link(
                     | Token::Semicolon
                     | Token::Star
                     | Token::Sharp
-                    | Token::Newline => {
+                    | Token::Newline|Token::MultiEquals(1) => {
                         break;
                     }
                     token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace) => {

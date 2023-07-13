@@ -125,9 +125,9 @@ fn parse_text_until(
             Token::DoubleOpenBrace => prefix
                 .pieces
                 .push(parse_double_brace_expression(tokenizer, text_formatting)?),
-            Token::DoubleOpenBracket => prefix
-                .pieces
-                .push(parse_internal_link(tokenizer, text_formatting)?),
+            Token::DoubleOpenBracket => {
+                prefix = parse_internal_link(tokenizer, prefix, text_formatting)?
+            }
             Token::DoubleCloseBrace => {
                 debug!("Line contains unmatched double close brace at {text_position:?}");
                 prefix.extend_with_formatted_text(*text_formatting, token.to_str());
@@ -402,9 +402,16 @@ fn parse_attribute(
 
 fn parse_internal_link(
     tokenizer: &mut MultipeekTokenizer,
+    mut text: Text,
     text_formatting: &mut TextFormatting,
-) -> Result<TextPiece> {
+) -> Result<Text> {
     tokenizer.expect(&Token::DoubleOpenBracket)?;
+    let surrounding_depth = if tokenizer.peek(0).0 == Token::DoubleOpenBracket {
+        tokenizer.next();
+        1
+    } else {
+        0
+    };
     let mut target = Text::new();
     let mut options = Vec::new();
     let mut label = None;
@@ -532,9 +539,23 @@ fn parse_internal_link(
         })
         .transpose()?;
 
-    Ok(TextPiece::InternalLink {
+    // update text
+    for _ in 0..surrounding_depth {
+        tokenizer
+            .expect(&Token::DoubleCloseBracket)
+            .map_err(|error| {
+                error.annotate_self("parse_internal_link resolve surrounding_depth".to_string())
+            })?;
+        text.extend_with_formatted_text(*text_formatting, "[[");
+    }
+    text.pieces.push(TextPiece::InternalLink {
         target,
         options,
         label,
-    })
+    });
+    for _ in 0..surrounding_depth {
+        text.extend_with_formatted_text(*text_formatting, "]]");
+    }
+
+    Ok(text)
 }

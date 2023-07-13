@@ -194,3 +194,16 @@ fn test_wiktionary_appendix_indo_iranian_swadesh_lists() {
         println!("{}", plain_text);
     }*/
 }
+
+#[test]
+fn test_wiktionary_wiktionary_namespace() {
+    let input = include_str!("pages/wiktionary_namespace.txt");
+    let parsed = parse_wikitext(input, "Wiktionary:Namespace".to_string()).unwrap();
+    parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
+}

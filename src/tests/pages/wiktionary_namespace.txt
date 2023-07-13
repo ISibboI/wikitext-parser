@@ -1,0 +1,283 @@
+{{help-meta|Meta:Help:Namespaces}}
+{{policy-TT}}
+{{shortcut|WT:NS}}
+{{namespaces}}
+This page lists [[namespace]]s of the English Wiktionary and how they are used.
+
+==Overview==
+A variety of namespaces are currently set in the English Wiktionary, which is powered by the [[w:MediaWiki|MediaWiki]] software. Each namespace may hold an indefinite number of pages and serves a different purpose in organizing them.
+
+Each namespace is identified by its own name or by a number, except one which does not have a particular name, being defined as "main" or "entry" in some places. Except for "main", the namespace of a page is always present in the beginning of its title, followed by a colon. Therefore, if a page called '''Appendix:Example''' exists, it is in the ''Appendix'' namespace and may be linked as [[Appendix:Example]].
+
+===Subpages===
+If the title of a page contains a slash (<code>/</code>), it is considered a subpage of another page whose title is equal, but without, the slash and subsequent characters. For instance, ''[[Wiktionary:Beer parlour/timeline]]'' is a subpage of ''[[Wiktionary:Beer parlour]]''. A subpage is expected to be subordinate of the other page.
+
+The only exception are pages in the main namespace, as they are naturally considered independent. For example, "[[AC/DC]]" is not the subpage of page "[[AC]]" but rather an individual page. Note that "[[Talk:AC/DC]]" unexpectedly does not fit in this exception.
+
+==List of namespaces==
+The namespaces "'''main'''", '''User''', '''Wiktionary''', '''File''', '''MediaWiki''', '''Template''', '''Help''' and '''Category''' represent basic functions inherent to most MediaWiki sites, so similar namespaces are likely to be found in Wiktionary's sister projects such as [[w:|Wikipedia]].
+
+The namespaces '''Appendix''', '''Concordance''', '''Index''', '''Rhymes''', '''Transwiki''', '''Wikisaurus''' (now called '''Thesaurus''') and '''Citations''' were introduced on 28 June 2006. Most of them have purposes more directly related to building a dictionary, so they probably would not be found in other projects, but Wiktionaries in other languages may have similar namespaces. Particularly, the Transwiki system also became common in other types of project.
+
+Each of the namespaces explained above is counterpart to one of the ''talk'' namespaces: '''Talk''', '''User talk''', '''Wiktionary talk''', '''File talk''', '''MediaWiki talk''', '''Template talk''', '''Help talk''', '''Category talk''', '''Appendix talk''', '''Concordance talk''', '''Index talk''', '''Rhymes talk''', '''Transwiki talk''', '''Thesaurus talk''' and '''Citations talk'''. They serve as spaces for conversations about the current non-talk page. For instance, users may talk about ''Wiktionary:Namespace'' at ''[[Wiktionary talk:Namespace]]''. However, there are a few generic [[Wiktionary:Discussion rooms|discussion rooms]] which may be preferred in place of discussing on separate talk pages.
+
+Here is a table with all current namespaces of the English Wiktionary and their descriptions. The items in the "Name" column are linked to a list of all pages in the respective namespace.
+
+{| border="1" cellpadding="4" cellspacing="0"
+|- style="background-color:#eee;"
+! NS !! Name
+! Contents
+|- valign="top" style="background-color:#fee;"
+! <big>-2</big> !! Media:
+| Customized icons, widgets and helper pages that come with the MediaWiki software and are accessible by [[meta:Developer|developers]] but not to ordinary users or [[meta:Administrator|administrators]].
+|- valign="top" style="background-color:#fee;"
+! <big>-1</big> !! [[Special:Specialpages|Special:]]
+| Specific functions within the MediaWiki software, such as seeing technical details, lists of pages, edits and users, deletion of pages, protection of pages and blocking users. The set of accessible Special pages changes for each user according to their place of in hierarchy, growing longer in this order: from anonymous users, logged-in users, administrators, bureaucrats, stewards to developers. Example: [[Special:RecentChanges]].
+|- valign="top" style="background-color:#fff;"
+! <big>0</big> !! [[Special:Allpages|(none)]]
+| ''Entries'' with definitions, translations, among other information on terms of all languages. The absence of a prefix and of subpages distinguishes these pages from those in other namespaces. This is commonly known as the "main" namespace. Example: [[word]].
+|- valign="top" style="background-color:#eff;"
+! <big>1</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=1 Talk:]
+| Discussions about each entry page. Example: [[Talk:word]].
+|- valign="top" style="background-color:#fff;"
+! <big>2</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=2 User:]
+| Personal pages for Wiktionary editors, where users may create just about anything they want, using their user name as title and possibly creating subpages. They are permitted and even encouraged. When a user is not registered, their IP number is the title instead. Only modify other another's user pages with permission. Examples: [[User:Example]] and [[User:Example/my1stProject]].
+|- valign="top" style="background-color:#eff;"
+! <big>3</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=3 User&nbsp;talk:]
+| Discussions directed to specific users. They are notified whenever someone edits their talk page. Typically, subpages are used only for talk page archives. Examples: [[User talk:Example]], [[User talk:Example/March 2010]] and [[User talk:Example/Archive 5]].
+|- valign="top" style="background-color:#fff;"
+! <big>4</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=4 Wiktionary:]
+| Information in context of Wiktionary, including its general operation, policy pages like [[Wiktionary:Blocking policy]], decisions on editing specific languages like [[Wiktionary:About Korean]], organization of other namespaces (for instance, which templates or categories to be used for each situation) and also contains generic discussion pages like [[Wiktionary:Beer parlour]] and [[Wiktionary:Requests for deletion]]. Pages intended for guiding new users should be placed at the Help namespace rather than here.
+|- valign="top" style="background-color:#eff;"
+! <big>5</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=5 Wiktionary&nbsp;talk:]
+| Discussions about each Wiktionary page. Example: [[Wiktionary talk:About Hebrew]].
+|- valign="top" style="background-color:#fff;"
+! <big>6</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=6 File:]
+| Uploaded files, potentially including images and sounds. However, only Wiktionary logos belong here. All other contents are kept at [[Commons:Main Page|Wikimedia Commons]], where they may be used by all sister projects through the usual links.
+|- valign="top" style="background-color:#eff;"
+! <big>7</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=7 File&nbsp;talk:]
+| This namespace is no longer used due to our policy of restriction of the File namespace. Complaints about suspected copyright violations were added here. This function may be found at [[Commons:Main Page|Wikimedia Commons]].
+|- valign="top" style="background-color:#fff;"
+! <big>8</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=8 MediaWiki:]
+| Text required by the MediaWiki software. All pages in this namespace are protected by default, so they can only be edited by administrators and [[m:interface editors|interface editors]]. Crucial user interface changes can inadvertently be made here. These pages often require unusual technical fluency to overcome  various programming traps and challenges.
+|- valign="top" style="background-color:#eff;"
+! <big>9</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=9 MediaWiki&nbsp;talk:]
+| Spaces for anonymous and registered users to request or propose changes to the MediaWiki pages. If technical defects are spotted on a MediaWiki: page, here the details may be spelled out, plainly enough so that sysops can follow instructions.
+|- valign="top" style="background-color:#fff;"
+! <big>10</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=10 Template:]
+| [[Wiktionary:Index to templates|Templates]] with collections of text that users can define, and repeat on multiple pages by referencing the template name with squiggle brackets. They include inflection templates, cleanup templates, topic tag templates (such as {{temp|label}}), and many others.
+|- valign="top" style="background-color:#eff;"
+! <big>11</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=11 Template&nbsp;talk:]
+| General discussions about particular templates.
+|- valign="top" style="background-color:#fff;"
+! <big>12</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=12 Help:]
+| Contains a general resource of help on various subjects, particularly for new users.
+|- valign="top" style="background-color:#eff;"
+! <big>13</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=13 Help&nbsp;talk:]
+| General discussions and proposals regarding their corresponding help pages.
+|- valign="top" style="background-color:#fff;"
+! <big>14</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=14 Category:]
+| Automatically generated sets of pages. To know how entries are categorized and how categories are linked, see [[Help:Category]]. Example: [[:Category:Greek nouns]].
+|- valign="top" style="background-color:#eff;"
+! <big>15</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=15 Category&nbsp;talk:]
+| Discussions about the corresponding category.
+|- valign="top" style="background-color:#fff;"
+! <big>90</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=90 Thread:]
+| Stores individual threads in LiquidThreads discussion pages.
+|- valign="top" style="background-color:#eff;"
+! <big>91</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=91 Thread&nbsp;talk:]
+| Unused.
+|- valign="top" style="background-color:#fff;"
+! <big>92</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=92 Summary:]
+| Summaries of discussions in pages using LiquidThreads.
+|- valign="top" style="background-color:#eff;"
+! <big>93</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=93 Summary&nbsp;talk:]
+| Unused.
+|- valign="top" style="background-color:#fff;"
+! <big>100</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=100 Appendix:]
+| Information suitable for a dictionary, but encyclopedic in nature. That includes lists of terms (for instance, surnames, given names, constellations, slang, etc.), lexical information (for instance, declensions, conjugations, word order, pronunciations, etc.) that would be suitable for various entries together, proto-language forms and certain definitions that according to [[Wiktionary:Criteria for inclusion]] should be present only in appendices.
+
+Particularly, explanations on templates, categories and other aspects of Wiktionary should not be placed in appendices.
+
+Examples: [[Appendix:Female given names/R]], [[Appendix:Hiragana script]] and [[Appendix:Ancient Greek nouns]].
+|- valign="top" style="background-color:#eff;"
+! <big>101</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=101 Appendix&nbsp;talk:]
+| Discussions on specific appendices.
+|- valign="top" style="background-color:#fff;"
+! <big>102</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=102 Concordance:]
+| Listings of words from particular references, for example, the Bible. Various data-manipulation experiments are performed here, as well, with the curious side-effect of skewing the [[Special:Wantedpages]] results.
+|- valign="top" style="background-color:#eff;"
+! <big>103</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=103 Concordance&nbsp;talk:]
+| Discussions of specific Concordance pages.
+|- valign="top" style="background-color:#fff;"
+! <big>104</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=104 Index:]
+| '''Deprecated. [[Wiktionary:Votes/2021-07/Deleting the Index|To be deleted]]'''. Lists of terms of each language. Some are updated automatically based on existing entires and others are manually  edited. They often contain red-links to encourage users to create new entries.
+
+Other indices, such as words per subject, are not in the Index but in the Appendix namespace.
+|- valign="top" style="background-color:#eff;"
+! <big>105</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=105 Index&nbsp;talk:]
+| Discussions about particular indexes and their layouts.
+|- valign="top" style="background-color:#fff;"
+! <big>106</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=106 Rhymes:]
+| Lists of words that [[rhyme]], using strict rhyming rules, the English words organized by British formal pronunciation and all languages indexed by the [[w:International Phonetic Alphabet|IPA]] notation.
+|- valign="top" style="background-color:#eff;"
+! <big>107</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=107 Rhymes&nbsp;talk:]
+| Discussions about specific rhyme pages.
+|- valign="top" style="background-color:#fff;"
+! <big>108</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=108 Transwiki:]
+| A namespace previously used, but now basically obsolete, for pages imported from sister projects that were identified as dictionary definitions.
+|- valign="top" style="background-color:#eff;"
+! <big>109</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=109 Transwiki&nbsp;talk:]
+| Discussion pages from the Transwiki pages. No longer relevant.
+|- valign="top" style="background-color:#fff;"
+! <big>110</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=110 Thesaurus:]
+| Wiktionary's [[thesaurus]]. See [[Wiktionary:Thesaurus]].
+|- valign="top" style="background-color:#eff;"
+! <big>111</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=111 Thesaurus&nbsp;talk:]
+| Debates about the appropriateness of specific items.
+|- valign="top" style="background-color:#fff;"
+! <big>114</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=114 Citations:]
+| Quotations. Based on the idea of usage as [[Wiktionary:Criteria for inclusion|criteria for inclusion]], the citation pages can display durably archived usage over time. From the usage documented on these citations pages the definitions on the main entries are verified, clarified and updated, or perhaps additional definitions can be derived. See [[Wiktionary:Citations]].
+|- valign="top" style="background-color:#eff;"
+! <big>115</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=115 Citations&nbsp;talk:]
+| Unused.
+|- valign="top" style="background-color:#fff;"
+! <big>116</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=116 Sign gloss:]
+| Experimental. See [[Wiktionary:About sign languages]] for background info.
+|- valign="top" style="background-color:#eff;"
+! <big>117</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=117 Sign gloss talk:]
+|
+|- valign="top" style="background-color:#fff;"
+! <big>118</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=118 Reconstruction:]
+| For entries of hypothetical languages or proto-languages, mostly referenced in etymologies.
+|- valign="top" style="background-color:#eff;"
+! <big>119</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=119 Reconstruction talk:]
+| For discussion of the corresponding entries.
+|- valign="top" style="background-color:#fff;"
+! <big>828</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=828 Module:]
+| Similar to the template namespace, though usually stores code or groups of text which are more generally used as part of templates. More details can be found at [[Wiktionary:Scribunto]].
+|- valign="top" style="background-color:#fff;"
+! <big>829</big> !! [http://en.wiktionary.org/w/index.php?title=Special:Allpages&from=&namespace=829 Module talk:]
+| For discussion of corresponding modules.
+|}
+
+==Aliases==
+There are several namespace aliases. They are case-insensitive.
+
+{| class="wikitable sortable"
+! alias !! target name !! target id
+|-
+| WT: || Wiktionary: || 4
+|-
+| Image: || File: || 6
+|-
+| Image talk: || File talk: || 7
+|-
+| T: || Template: || 10
+|-
+| CAT: || Category: || 14
+|-
+| AP: || Appendix: || 100
+|-
+| WS: || Thesaurus: || 110
+|-
+| Wikisaurus: || Thesaurus: || 110
+|-
+| Wikisaurus talk: || Thesaurus talk: || 111
+|-
+| RC: || Reconstruction: || 118
+|-
+| MOD: || Module: || 828
+|}
+
+==Pseudo Namespaces==
+Pseudo namespaces are sets of pages that use the colon to set them off from other pages but without the full namespace support of MediaWiki software. All of the current pseudo namespaces are not in the main namespace so they are effectively sub-namespaces. Current pseudo namespaces include:
+* Category:<language code>: (e.g. [[:Category:es:Foods]])
+* Template:R(:<language code>): (e.g. [[Template:R:DWDS]], [[Template:R:gsw:SI]], see [[:Category:Reference templates by language]])
+* Template:PL: (e.g. [[Template:PL:species]])
+
+==Interwiki links==
+{{also|m:Help:Interwiki linking|Special:Interwiki}}
+Any wiki link prefaced by one of the keywords below link to external Wikimedia sites, as indicated. Each external site has its own set of namespaces which can also be included in the link. In addition, wikis in different languages exist. See below for further details.
+
+From other Wikimedia sites '''link to Wiktionary''' by using the '''wikt:''' or '''wiktionary:''' prefix.
+
+{| class="wikitable sortable" style="margin-bottom:0"
+! Project !! Long form !! Shortcut
+|-
+| [[w:|Wikipedia]]
+| <code>[[[[wikipedia:]]]]</code>
+| <code>[[[[w:]]]]</code>
+|-
+| Wiktionary
+| <code>'''wiktionary:'''</code>
+| <code>'''wikt:'''</code>
+|-
+| [[n:|Wikinews]]
+| <code>[[[[wikinews:]]]]</code>
+| <code>[[[[n:]]]]</code>
+|-
+| [[b:|Wikibooks]]
+| <code>[[[[wikibooks:]]]]</code>
+| <code>[[[[b:]]]]</code>
+|-
+| [[q:|Wikiquote]]
+| <code>[[[[wikiquote:]]]]</code>
+| <code>[[[[q:]]]]</code>
+|-
+| [[s:|Wikisource]]
+| <code>[[[[wikisource:]]]]</code>
+| <code>[[[[s:]]]]</code>
+|-
+| [[species:|Wikispecies]]
+| <code>[[[[wikispecies:]]]]</code>
+| <code>[[[[species:]]]]</code>
+|-
+| [[v:|Wikiversity]]
+| <code>[[[[wikiversity:]]]]</code>
+| <code>[[[[v:]]]]</code>
+|-
+| [[foundation:|Wikimedia Foundation]]
+| <code>[[[[wikimedia:]]]]<br>[[[[foundation:]]]]</code>
+| <code>[[[[wmf:]]]]</code>
+|-
+| [[commons:|Wikimedia Commons]]
+| <code>[[[[commons:]]]]</code>
+| <code>[[[[c:]]]]</code>
+|-
+| [[m:|Wikimedia Meta-Wiki]]
+| <code>[[[[metawikipedia:]]]]<br>[[[[meta:]]]]</code>
+| <code>[[[[m:]]]]</code>
+|-
+| [[incubator:|Wikimedia Incubator]]
+| <code>[[[[incubator:]]]]</code>
+| <code></code>
+|-
+| [[mw:|MediaWiki]]
+| <code></code>
+| <code>[[[[mw:]]]]</code>
+|-
+| [[mediazilla:|MediaZilla]] / [[bugzilla:|Bugzilla]]
+| <code>[[[[mediazilla:]]]]<br />[[[[bugzilla:]]]]</code>
+| <code></code>
+|-
+| [[testwiki:|Testwiki]]
+| <code>[[[[testwiki:]]]]</code>
+| <code></code>
+|}
+
+<span style="font-size:90%">* Other Wikimedia prefixes: [[betawikiversity:]], [[download:]], [[dbdump:]], [[mail:]], [[mailarchive:]], [[otrs:]], [[OTRSwiki:]], [[quality:]], [[spcom:]], [[tools:]], [[tswiki:]], [[svn:]], [[rev:]], [[wmania:]], [[wm2005:]], [[wm2006:]], [[wm2007:]], [[wm2008:]], [[wm2009:]].</span>
+<br />
+
+''The '''long form''' doesn't work within the same project. The '''shortcut''' works everywhere.'' (''That is the intention; currently, it does not work on all projects'').
+
+To get to another language, you might use <kbd>[[[[:nl:Overleg:Hoofdpagina|:nl:Overleg:Hoofdpagina]]]]</kbd>.  Note: this requires a preceding colon to display as a normal link, otherwise it will appear in the left-most column under “Other languages.”
+
+==See also==
+*[[m:Help:Namespace]]
+*[[w:Wikipedia:Namespace]]
+* [http://en.wiktionary.org/w/api.php?action=query&meta=siteinfo&siprop=namespaces Computer generated list of namespaces] on en.wiktionary.org
+
+[[Category:Wiktionary|Namespace]]
+
+[[pt:Wikcionário:Domínios]]

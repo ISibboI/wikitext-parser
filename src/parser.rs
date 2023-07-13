@@ -277,9 +277,11 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
     loop {
         let (token, text_position) = tokenizer.peek(0);
         match token {
-            token @ (Token::Text(_) | Token::MultiEquals(_) | Token::Newline | Token::Colon) => {
-                tag.push_str(token.to_str())
-            }
+            token @ (Token::Text(_)
+            | Token::MultiEquals(_)
+            | Token::Newline
+            | Token::Colon
+            | Token::Apostrophe) => tag.push_str(token.to_str()),
             Token::DoubleCloseBrace | Token::VerticalBar => break,
             Token::Eof => {
                 return Err(
@@ -289,7 +291,6 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
             token @ (Token::DoubleOpenBrace
             | Token::DoubleOpenBracket
             | Token::DoubleCloseBracket
-            | Token::Apostrophe
             | Token::Semicolon
             | Token::Star
             | Token::Sharp) => {

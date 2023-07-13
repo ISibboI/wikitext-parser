@@ -123,14 +123,14 @@ fn parse_text_until(
                 .pieces
                 .push(parse_internal_link(tokenizer, text_formatting)?),
             Token::DoubleCloseBrace => {
-                return Err(
-                    ParserErrorKind::UnmatchedDoubleCloseBrace.into_parser_error(*text_position)
-                )
+                debug!("Line contains unmatched double close brace at {text_position:?}");
+                prefix.extend_with_formatted_text(*text_formatting, token.to_str());
+                tokenizer.next();
             }
             Token::DoubleCloseBracket => {
-                return Err(
-                    ParserErrorKind::UnmatchedDoubleCloseBracket.into_parser_error(*text_position)
-                )
+                debug!("Line contains unmatched double close bracket at {text_position:?}");
+                prefix.extend_with_formatted_text(*text_formatting, token.to_str());
+                tokenizer.next();
             }
             Token::Apostrophe => {
                 tokenizer.peek(4);

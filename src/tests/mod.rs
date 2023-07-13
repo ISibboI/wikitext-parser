@@ -140,3 +140,10 @@ fn test_equals_in_tag() {
     let input = "{{fake==|English}}\n{{fake===|Noun}}\n{{fake====|Synonyms}}";
     parse_wikitext(input, Default::default()).unwrap();
 }
+
+#[test]
+fn test_complex_double_brace_expression() {
+    let input_json = "\"{{der3|vi\\n|{{vi-l|y tá|醫佐|[[nurse]]}}\\n|{{vi-l|Đông y|東醫|[[traditional]] [[East Asian]] medicine]]}}\\n|{{vi-l|y học|醫學|[[medicine]]}}\\n|{{vi-l|Tây y|西醫|[[modern]] [[medicine]]}}\\n|{{vi-l|pháp y|法醫|[[forensic]] [[science]]}}\\n|{{vi-l|y khoa|醫科|[[medicine]]}}\\n|{{vi-l|y sĩ|醫士|([[junior]]) [[physician]]}}\\n|{{vi-l|y tế|醫濟|[[health care]]}}\\n|{{vi-l|nan y|難醫|(of [[disease]]) [[difficult]] to [[cure]]}}\\n|{{vi-l|lương y|良醫|([[literary]]) a [[good]] [[physician]]}}\\n|{{vi-l|y sinh|醫生|[[physician]]}}\\n|{{vi-l|y dược|醫藥|[[medicine]] and [[pharmacy]]}}\\n|{{vi-l|y viện|醫院|([[literary]]) [[hospital]]}}\\n|{{vi-l|lương y như từ mẫu|良醫如慈母|([[literary]]) a [[good]] [[physician]] is [[like]] a good [[mother]]}}\\n|{{vi-l|y đạo|醫道|([[literary]]) [[art]] of [[healing]]}}\\n|{{vi-l|y lệnh|醫令|[[doctor]]'s [[instructions]]}}\\n}}\"";
+    let input: String = serde_json::from_str(input_json).unwrap();
+    parse_wikitext(&input, Default::default()).unwrap();
+}

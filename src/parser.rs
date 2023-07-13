@@ -226,6 +226,12 @@ fn parse_double_brace_expression(
     text_formatting: &mut TextFormatting,
 ) -> Result<TextPiece> {
     tokenizer.expect(&Token::DoubleOpenBrace)?;
+    if DO_PARSER_DEBUG_PRINTS {
+        println!(
+            "parse_double_brace_expression initial token: {:?}",
+            tokenizer.peek(0)
+        );
+    }
     let tag = parse_tag(tokenizer)?;
     let mut attributes = Vec::new();
 
@@ -271,40 +277,39 @@ fn parse_double_brace_expression(
     Ok(TextPiece::DoubleBraceExpression { tag, attributes })
 }
 
-fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
-    let mut tag = String::new();
+fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<Text> {
+    if DO_PARSER_DEBUG_PRINTS {
+        println!("parse_tag initial token: {:?}", tokenizer.peek(0));
+    }
+    let text_position = tokenizer.peek(0).1;
+    let mut text_formatting = TextFormatting::Normal;
+    let mut tag = parse_text_until(tokenizer, Text::new(), &mut text_formatting, |token| {
+        matches!(
+            token,
+            Token::DoubleCloseBrace | Token::VerticalBar | Token::DoubleOpenBracket
+        )
+    })
+    .map_err(|error| error.annotate_self("parse_tag".to_string()))?;
 
-    loop {
-        let (token, text_position) = tokenizer.peek(0);
-        match token {
-            token @ (Token::Text(_)
-            | Token::MultiEquals(_)
-            | Token::Newline
-            | Token::Colon
-            | Token::Apostrophe) => tag.push_str(token.to_str()),
-            Token::DoubleCloseBrace | Token::VerticalBar => break,
-            Token::Eof => {
-                return Err(
-                    ParserErrorKind::UnmatchedDoubleOpenBrace.into_parser_error(*text_position)
-                )
-            }
-            token @ (Token::DoubleOpenBrace
-            | Token::DoubleOpenBracket
-            | Token::DoubleCloseBracket
-            | Token::Semicolon
-            | Token::Star
-            | Token::Sharp) => {
-                return Err(ParserErrorKind::UnexpectedTokenInTag {
-                    token: token.to_string(),
-                }
-                .into_parser_error(*text_position))
-            }
+    if text_formatting != TextFormatting::Normal {
+        return Err(ParserErrorKind::UnclosedTextFormatting {
+            formatting: text_formatting,
         }
-
-        tokenizer.next();
+        .into_parser_error(text_position));
+    }
+    let (token, text_position) = tokenizer.peek(0);
+    match token {
+        Token::DoubleCloseBrace | Token::VerticalBar => {}
+        token @ Token::DoubleOpenBracket => {
+            return Err(ParserErrorKind::UnexpectedTokenInTag {
+                token: token.to_string(),
+            }
+            .into_parser_error(*text_position))
+        }
+        token => unreachable!("Not a stop token above: {token:?}"),
     }
 
-    tag = tag.trim().to_string();
+    tag.trim_self();
     Ok(tag)
 }
 

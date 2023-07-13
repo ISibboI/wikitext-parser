@@ -258,7 +258,7 @@ pub enum TextPiece {
     /// A double brace expression.
     DoubleBraceExpression {
         /// The tag of the expression.
-        tag: String,
+        tag: Text,
         /// The attributes of the expression.
         attributes: Vec<Attribute>,
     },

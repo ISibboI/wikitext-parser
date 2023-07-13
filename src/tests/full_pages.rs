@@ -177,3 +177,17 @@ fn test_wiktionary_y() {
         println!("{}", plain_text);
     }*/
 }
+
+#[test]
+fn test_wiktionary_wiktionary_tea_room() {
+    let input_json_string = "\"__NEWSECTIONLINK__\\n<small>Wiktionary > [[Wiktionary:Discussion rooms|Discussion rooms]] > Tea room</small>\\n{{shortcut|WT:TEA|WT:TR}}\\n:''[[WT:TR]] redirects here. For Translation requests, see [[Wiktionary:Translation requests]]. For guidelines on translations, see [[Wiktionary:Translations]]''\\n<inputbox>\\nbgcolor=transparent\\ntype=fulltext\\nprefix=Wiktionary:Tea room\\nbreak=no\\nwidth=50\\nsearchbuttonlabel=Search in the archives of Tea room\\n</inputbox>\\n<div id=\\\"new-section-redirect\\\" style=\\\"padding: 1em; font-size: 1.4em; text-align: center;\\\">{{clickable button|Click here to start a new Tea room discussion.|class=mw-ui-progressive|url={{fullurl:Wiktionary:Tea room/{{CURRENTYEAR}}/{{CURRENTMONTHNAME}}|action=edit&section=new}}}}</div>\\n{{Wiktionary:Discussion rooms}}\\n\\n[[Image:Tea house party in Japan (not tea ceremony)-J. M. W. Silver.jpg|right|250px]]\\nA place to ask for help on finding quotations, etymologies, or other information about particular words. The Tea room is named to accompany the [[Wiktionary:Beer parlour|Beer parlour]].\\n\\nFor questions about the general Wiktionary policies, use the Beer parlour; for technical questions, use the Grease pit. For questions about specific content, you're in the right place.\\n\\n{{Wiktionary:Tea room/timeline}}\\n\\nPlease '''do not edit section titles''' as this breaks links on talk pages and in other discussion fora.\\n\\n<div style=\\\"float:right;clear:right;background:#F9F9F9;color:#000;\\\">\\n<dl style=\\\"background:#F2F2F2;color:#000;text-align:center;\\\"><dt>Oldest [[:Category:Tea room|tagged RFTs]]</dt></dl>\\n<ul style=\\\"list-style-type:none; list-style-image: none;\\\"><li>\\n<DynamicPageList>\\ncategory=Tea room\\nnamespace=0\\ncount=200\\nmode=none\\norder=ascending\\n</DynamicPageList>\\n</li></ul>\\n</div>\\n\\n{{discussion recent months}}\\n\\n[[Category:High volume discussion pages]]\\n\\n[[br:Wikeriadur:Goulennoù diwar-benn ar gerioù]]\\n[[cs:Wikislovník:Pod lípou (lingvistika)]]\\n[[de:Wiktionary:Auskunft]]\\n[[es:Wikcionario:Consultas]]\\n[[fr:Wiktionnaire:Questions sur les mots]]\\n[[sv:Wiktionary:Fikarummet]]\\n[[vi:Wiktionary:Bàn tham khảo]]\\n[[zh:Wiktionary:茶室]]\"";
+    let input: String = serde_json::from_str(input_json_string).unwrap();
+    let parsed = parse_wikitext(&input, "Wiktionary:Tea room".to_string()).unwrap();
+    parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
+}

@@ -2,6 +2,7 @@ use crate::error::{ParserErrorKind, Result};
 use crate::level_stack::LevelStack;
 use crate::tokenizer::{MultipeekTokenizer, Token, Tokenizer};
 use crate::wikitext::{Attribute, Headline, Line, Text, TextFormatting, TextPiece, Wikitext};
+use log::debug;
 use std::mem;
 
 #[cfg(not(test))]
@@ -72,10 +73,7 @@ fn parse_line(tokenizer: &mut MultipeekTokenizer) -> Result<Line> {
         })?;
         let (_, text_position) = tokenizer.next();
         if text_formatting != TextFormatting::Normal {
-            return Err(ParserErrorKind::UnclosedTextFormatting {
-                formatting: text_formatting,
-            }
-            .into_parser_error(text_position));
+            debug!("Line contains unclosed text formatting expression at {text_position:?}");
         }
         Ok(Line::List { list_prefix, text })
     } else {
@@ -85,10 +83,7 @@ fn parse_line(tokenizer: &mut MultipeekTokenizer) -> Result<Line> {
         })?;
         let (_, text_position) = tokenizer.next();
         if text_formatting != TextFormatting::Normal {
-            return Err(ParserErrorKind::UnclosedTextFormatting {
-                formatting: text_formatting,
-            }
-            .into_parser_error(text_position));
+            debug!("Line contains unclosed text formatting expression at {text_position:?}");
         }
         Ok(Line::Normal { text })
     }

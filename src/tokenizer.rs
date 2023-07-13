@@ -8,7 +8,7 @@ use std::fmt::Display;
 
 lazy_static! {
     static ref TEXT_REGEX: Regex =
-        Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||''|\n|:|;|\\*|#)").unwrap();
+        Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||'|\n|:|;|\\*|#)").unwrap();
 }
 
 pub const MAX_SECTION_DEPTH: usize = 6;

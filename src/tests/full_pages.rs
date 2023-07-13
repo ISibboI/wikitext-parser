@@ -121,3 +121,17 @@ fn test_wiktionary_ある() {
         println!("{}", plain_text);
     }*/
 }
+
+#[test]
+fn test_wiktionary_arunachal_pradesh() {
+    let input_json_string = r#""==English==\n{{wp}}\n[[File:Arunachal Pradesh in India.svg|thumb||Location of Arunachal Pradesh in India]]\n\n===Etymology===\n{{translit|en|hi|अरुणाचल प्रदेश|lit=Land of the dawn-lit mountains}}.\n\n===Pronunciation===\n* {{IPA|en|/ˌɑːɹəˌnɑːtʃəl pɹəˈdɛʃ/}}\n\n===Proper noun===\n{{en-prop|head=Arunachal [[Pradesh]]}}\n\n# {{place|en|state|in northeastern|c/India|capital=Itanagar}}.\n#: {{syn|en|q1=historical|North-East Frontier Agency|NEFA|South Tibet|q3=China}}<!--{{q|nicknames}} [[Orchid State of India]], [[Paradise of Botanists]]-->\n\n====Translations====\n{{trans-top|state in northeastern India}}\n* Arabic: {{t|ar|أَرُونَاجَل بْرَدِيش|m|tr=ʔarunājal bradīš}}\n* Armenian: {{t|hy|Արունաչալ Պրադեշ|sc=Armn}}\n* Assamese: {{t|as|অৰুণাচল প্ৰদেশ|sc=Beng}}\n* Bengali: {{t+|bn|অরুণাচল প্রদেশ|sc=Beng}}\n* Bulgarian: {{t|bg|Аруначал Прадеш|sc=Cyrl}}\n* Burmese: {{t-needed|my}}\n* Chhattisgarhi: {{t-needed|hne}}\n* Chinese:\n*: Mandarin: {{t+|cmn|阿魯納恰爾邦|tr=Ālǔnàqià'ěr-bāng}}\n* Czech: {{t|cs|Arunáčalpradéš}}\n* Dhivehi: {{t|dv|އަރުނާޗަލް ޕްރަދޭޝް|sc=Thaa}}\n* Esperanto: {{t|eo|Arunaĉal-Pradeŝo}}, {{t|eo|Arunaĉalpradeŝo}}\n* Finnish: {{t|fi|Arunachal Pradesh}}\n* Georgian: {{t|ka|არუნაჩალ-პრადეში|sc=Geor}}\n* Greek: {{t+|el|Αρουνάτσαλ Πραντές|sc=Grek}}\n* Gujarati: {{t|gu|અરુણાચલ પ્રદેશ|sc=Gujr}}\n* Hebrew: {{t|he|ארונצ׳אל פראדש}}\n* Hindi: {{t+|hi|अरुणाचल प्रदेश}}, {{t+|hi|अरुणाचल|f}}\n* Hungarian: {{t+|hu|Arunácsal Pradés}}\n* Japanese: {{t|ja|アルナーチャル・プラデーシュ州|tr=Arunacharu-Puradēshu-shū}}\n* Kannada: {{t+|kn|ಅರುಣಾಚಲ ಪ್ರದೇಶ|sc=Knda}}\n* Khmer: {{t-needed|km}}\n* Korean: {{t|ko|^아루나찰프라데시 주}}\n* Latvian: {{t|lv|Arunāčala Pradēša}}\n* Lithuanian: {{t|lt|Arunačal Pradešas|m}}\n* Malayalam: {{t|ml|അരുണാചൽ പ്രദേശ്}}\n* Marathi: {{t|mr|अरुणाचल प्रदेश|sc=Deva}}\n* Mizo: {{t-needed|lus}}\n* Oriya: {{t|or|ଅରୁଣାଚଳ ପ୍ରଦେଶ|sc=Orya}}\n* Persian: {{t|fa|آروناچال پرادش}}\n* Portuguese: {{t|pt|Arunachal Pradesh}}\n* Punjabi: {{t|pa|ਅਰੁਨਾਚਲ ਪ੍ਰਦੇਸ਼|sc=Guru}}\n* Russian: {{t+|ru|Аруначал-Праде́ш|m}}\n* Sanskrit: {{t|sa|अरुणाचलप्रदेश}}, {{t|sa|अरुणाचलप्रदेशराज्यम्}}\n* Santali: {{t-needed|sat}}\n* Sikkimese: {{t-needed|sip}}\n* Slovak: {{t|sk|Arunáčalpradéš}}\n* Spanish: {{t|es|Arunachal Pradesh}}\n* Tamil: {{t|ta|அருணாசலப் பிரதேசம்}}\n* Telugu: {{t+|te|అరుణాచల్ ప్రదేశ్}}\n* Thai: {{t|th|รัฐอรุณาจัลประเทศ|tr=rát à-rú-naa-jan bprà-têet}}\n* Ukrainian: {{t|uk|Аруначал-Прадеш|sc=Cyrl}}\n* Urdu: {{t|ur|اَرُوناچَل پْرَدیش|m|tr=arūnācal pradeś}}\n{{trans-bottom}}\n\n===See also===\n* {{list:states of India/en}}\n\n==Portuguese==\n\n===Proper noun===\n{{pt-proper noun}}\n\n# {{place|pt|state|c/India|t1=Arunachal Pradesh}}""#;
+    let input: String = serde_json::from_str(input_json_string).unwrap();
+    let parsed = parse_wikitext(&input, "Arunachal Pradesh".to_string()).unwrap();
+    parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
+}

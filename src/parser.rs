@@ -455,11 +455,15 @@ fn parse_internal_link(
                 Token::VerticalBar => {
                     let mut new_label = Text::new();
                     mem::swap(&mut label, &mut new_label);
-                    assert_eq!(new_label.pieces.len(), 1);
-                    let TextPiece::Text { text, ..}= new_label.pieces.into_iter().next().unwrap() else {
-                        unreachable!("Only text is ever inserted into link options");
-                    };
-                    options.push(text);
+                    if new_label.pieces.is_empty() {
+                        options.push(Default::default());
+                    } else {
+                        assert_eq!(new_label.pieces.len(), 1);
+                        let TextPiece::Text { text, .. } = new_label.pieces.into_iter().next().unwrap() else {
+                            unreachable!("Only text is ever inserted into link options");
+                        };
+                        options.push(text);
+                    }
                     tokenizer.next();
                 }
                 Token::DoubleCloseBracket => {

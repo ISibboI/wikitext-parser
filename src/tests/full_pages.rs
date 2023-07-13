@@ -44,12 +44,12 @@ From {{inh|fi|urj-fin-pro|*peütä}}, borrowed from {{der|fi|gem-pro|*beudaz}} (
 [[Category:fi:Furniture]]"#;
     let parsed = parse_wikitext(input, "pöytä".to_string()).unwrap();
     parsed.print_headlines();
-    for double_brace_expression in parsed.list_double_brace_expressions() {
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
         println!("{}", plain_text);
-    }
+    }*/
 }
 
 #[test]
@@ -58,12 +58,12 @@ fn test_wiktionary_free() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "free".to_string()).unwrap();
     parsed.print_headlines();
-    for double_brace_expression in parsed.list_double_brace_expressions() {
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
         println!("{}", plain_text);
-    }
+    }*/
 }
 
 #[test]
@@ -72,12 +72,12 @@ fn test_wiktionary_cat() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "cat".to_string()).unwrap();
     parsed.print_headlines();
-    for double_brace_expression in parsed.list_double_brace_expressions() {
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
         println!("{}", plain_text);
-    }
+    }*/
 }
 
 #[test]
@@ -86,12 +86,12 @@ fn test_wiktionary_a() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "a".to_string()).unwrap();
     parsed.print_headlines();
-    for double_brace_expression in parsed.list_double_brace_expressions() {
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
         println!("{}", plain_text);
-    }
+    }*/
 }
 
 #[test]
@@ -100,10 +100,24 @@ fn test_wiktionary_help_how_to_edit_a_page() {
     let input: String = serde_json::from_str(input_json_string).unwrap();
     let parsed = parse_wikitext(&input, "Help:How to edit a page".to_string()).unwrap();
     parsed.print_headlines();
-    for double_brace_expression in parsed.list_double_brace_expressions() {
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
         println!("{}", double_brace_expression);
     }
     for plain_text in parsed.list_plain_text() {
         println!("{}", plain_text);
+    }*/
+}
+
+#[test]
+fn test_wiktionary_ある() {
+    let input_json_string = "\"==Japanese==\\n{{wp|存在動詞|lang=ja}}\\n\\n===Etymology 1===\\n{{ja-kanjitab|alt=有る,在る}}\\n\\nFrom {{inh|ja|ojp|-}}, from {{inh|ja|jpx-pro|*ari}}. Compare the classical form {{ja-r|有り|あり}}.\\n\\n====Pronunciation====\\n{{ja-pron|acc=a|acc_ref=DJR}}\\n{{ja-ojad}}\\n\\n====Verb====\\n{{ja-verb|type=1|tr=intrans}}\\n\\n# {{ja-def|有る}}<ref group=\\\"note\\\" name=\\\"kanji\\\"/> {{lb|ja|inanimate}} to [[exist]], be [[in existence]]\\n#: {{syn|ja|[[存在|存在する]]<tr:sonzai suru>}}\\n#: {{ja-x|日%本には多くの神%社が'''ある'''。|に%ほん に は おおく の じん%じゃ が '''ある'''。|There '''are''' many shrines in Japan.}}\\n# {{ja-def|在る}}<ref group=\\\"note\\\" name=\\\"kanji\\\"/> {{lb|ja|inanimate}} to [[be]] at a [[location]]; to be [[located]]\\n#: {{syn|ja|[[位置|位置する]]<tr:ichi suru>}}\\n#: {{ja-usex|[[テーブル]]の[[上]]に[[植%木%鉢]]が'''あります'''。|テーブル の うえ に うえ%き%ばち が '''あります'''。|The flowerpot '''is''' on top of the table.}}\\n#: {{ja-usex|[[汝]]に[[幸'''あれ''']]。|なんじ に さち '''あれ'''。|I wish you happiness.|lit=May happiness '''exist''' with you.}}\\n# {{ja-def|有る}} {{q|of a [[matter]] or [[state]]}} to be [[recognize]]d, be [[acknowledge]]d\\n#: {{ja-x|近%年、物%価の上%昇に'''ある'''。|きん%ねん、ぶっ%か の じょう%しょう に '''ある'''。|It is known that prices have been rising in recent years.|lit=In recent years, price rise has '''been recognized'''.}}\\n# {{ja-def|在る}} to [[depend]] on, [[lie]] in, be [[influence]]d by\\n#: {{syn|ja|[[左右|左右される]]<tr:sayū sareru>}}\\n#: {{ja-x|成%功の秘%訣は努%力に'''ある'''。|せい%こう の ひ%けつ は ど%りょく に '''ある'''。|The secret to success '''lies''' in hard work.}}\\n# {{ja-def|有る}} {{lb|ja|animate}} to [[exist]], {{n-g|with the [[existence]] considered [[objective]] and [[abstract]]}}\\n#: {{syn|ja|[[存在|存在する]]<tr:sonzai suru>|おる<tr:oru><t:to exist (in a subjective sense)>}}\\n#: {{ja-x|昔%々、おじいさんとおばあさんが'''ありました'''。|むかし%むかし、おじいさん と おばあさん が '''ありました'''。|Once upon a time, '''there was''' an old man and an old woman.}}\\n# {{ja-def|在る}} to be [[alive]], [[surviving]]\\n#: {{ja-x|世に'''ある'''間|よ に '''ある''' あいだ|during one's lifetime|lit=while '''alive''' in the world}}\\n# {{ja-def|在る}} to be [[put]] in a certain [[location]], [[position]] or [[situation]]\\n#: {{ja-x|彼女は新しい職に'''ある'''。|かのじょ は あたらしい しょく に '''ある'''。|She has '''been put''' in a new position.}}\\n#: {{ja-x|彼は今 逆%境に'''ある'''。|かれ は いま ぎゃっ%きょう に '''ある'''。|He '''is''' currently in difficult circumstances.}}\\n# {{ja-def|有る}} to [[have]], to be [[own]]ed, be [[possess]]ed\\n#: {{ja-x|車が'''ある'''。|くるま が '''ある'''。|I have a car.}}\\n# {{ja-def|有る}} to be a [[characteristic]] or [[ability]]; to be [[include]]d as a [[part]]\\n#: {{syn|ja|備わる<tr:sonawaru>|[[含む|含まれる]]<tr:fukumareru>}}\\n#: {{ja-x|歌う才%能が'''ある'''|うたう さい%のう が '''ある'''|'''have''' the talent for singing}}\\n#: {{ja-x-inline|教%養が'''ある'''|きょう%よう が '''ある'''|be culturally refined|lit=cultural refinement '''exists'''}}\\n# {{ja-def|有る}} {{q|of [[thought]]s, [[emotion]]s or [[sensation]]s}} to be [[feel|felt]]\\n#: {{ja-x|言いたいことが'''ある'''。|い.いたい こと が '''ある'''。|I have something to say.|lit=(The feeling) that I want to say '''exists'''.}}\\n#: {{ja-x|私には不%安が'''ある'''。|わたし に は ふ%あん が '''ある'''。|I feel anxious.|lit=Inside me there '''is''' anxiety.}}\\n# {{ja-def|有る}} to [[have]] a certain [[number]], [[amount]], [[size]], etc.\\n#: {{ja-x|開%幕まで一%週%間'''ある'''。|かい%まく まで いっ%しゅう%かん '''ある'''。|'''There is''' one week until the opening.}}\\n#: {{ja-usex-inline|2 GB{{ll|ja|も|id=emphasis}}'''ある'''|に ギガバイト も '''ある'''|an entire 2 gigabytes large}}\\n# {{ja-def|有る}} to [[happen]], [[occur]]; to be [[perform]]ed, [[carry out|carried out]]\\n#: {{syn|ja|起こる<tr:okoru>|[[発生|発生する]]<tr:hassei suru>|[[出来|出来する]]<tr:shuttai suru>|[[行う|行われる]]<tr:okonawareru>}}\\n#: {{ja-usex|[[何か]]'''あったら'''[[連%絡]]して[[ください]]。|なにか '''あったら''' れん%らく して ください。|If anything '''happens''', please call me.}}\\n#: {{ja-x|今%晩、会%議が'''あります'''。|こん%ばん、かい%ぎ が '''あります'''。|There '''is''' a meeting tonight.}}\\n# {{ja-def|有る}} {{q|of [[time]]}} to [[pass]], [[go by]]\\n#: {{ja-x|あの日からもう数%年が'''ある'''。|あの ひ から もう すう%ねん が '''ある'''。|There has '''been''' several years since that day.}}\\n# {{lb|ja|auxiliary|after the conjunctive {{ja-r|て}} form of a verb}}\\n## {{n-g|Indicating that the [[result]] of a certain [[action]] or [[behavior]] has [[continue]]d until now}}.\\n##: {{ja-x|ドアが閉めて'''ある'''。|ドア が しめて '''ある'''。|The door is closed (and remains closed).}}\\n## {{n-g|Indicating that something is [[prepare]]d [[in advance]]}}\\n##: {{ja-x|旅%行に行く前に、荷%物を詰めて'''ある'''。|りょ%こう に いく まえ に、に%もつ を つめて '''ある'''。|I''''ve''' packed my luggage (in advance) before going on a trip.}}\\n# {{lb|ja|auxiliary|after the {{m|ja|連用形|tr=ren'yōkei|pos=continuative form}} of a verb followed by {{ja-r|つつ}}}} {{n-g|Indicating that the [[action]] or [[effect]] is [[currently]] [[ongoing]]}}.\\n#: {{ja-x|彼女%の体%調は徐%々に回%復しつつ'''ある'''。|かのじょ %の たい%ちょう は じょ%じょに かい%ふく しつつ '''ある'''。|Her health condition '''is''' gradually improving.}}\\n# {{lb|ja|auxiliary|after a noun followed by {{ja-r|で}}}} {{n-g|Judging that something has a certain [[nature]] or [[state]] based on its [[explanation]]; or simply expressing [[assertion]]}} ({{see|ja|である|tr=de aru|noast=1}})\\n#: {{ja-x|ロバは馬と同%族で'''ある'''。|ロバ は うま と どう%ぞく で '''ある'''。|The donkey '''belongs''' to the same family as the horse.}}\\n# {{lb|ja|auxiliary|after the {{m|ja|連用形|tr=ren'yōkei|pos=continuative form}} of an adjective sometimes followed by a particle}} {{n-g|Indicating that something has a particular [[quality]] or is in a particular [[state]]}}\\n#: {{ja-x|その料%理は辛く'''ある'''。|その りょう%り は からく '''ある'''。|That dish is spicily '''flavored'''.}}\\n#: {{ja-x|この仕%事は簡%単では'''ある'''が、単%調だ。|この し%ごと は かん%たん で は '''ある''' が、たん%ちょう だ。|Easy as the job '''is''', it's monotonous.}}\\n# {{lb|ja|auxiliary|after the {{m|ja|連用形|tr=ren'yōkei|pos=continuative form}} of a verb or a [[Sino-Japanese]] [[action noun]] which is usually prefixed with {{ja-r|お}} or {{ja-r|ご}} respectively}} {{n-g|Expressing [[respect]] toward the person [[perform]]ing the [[action]]}}\\n#: {{ja-x|お-いで '''あれ'''。|Please come.}}\\n#: {{ja-x|ご理%解'''ある'''とありがたいです。|ご-り%かい '''ある''' と ありがたい です。|It would be greatly appreciated if there '''is''' understanding (from you).}}\\n\\n=====Usage notes=====\\n* Various combinations with the term have certain meanings:\\n** Used after {{ja-r|と|pos=quotation particle}}, meaning {{m-g|to [[say]]; to give [[information]]}}, similar to {{ja-r|と いう}}.\\n**: {{ja-x|メモには午%後 二%時に来%社する'''とある'''。|メモ に は ご%ご に%-じ に らい%しゃ する '''と ある'''。|On the memo it '''says''' \\\"Come to the company at 2 p.m.\\\"}}\\n** Used in the form {{ja-r|[[と]] あって}}, meaning {{m-g|[[due to]] (the [[situation]] or [[result]])}}, which is more formal than {{ja-r|だから}}.\\n**: {{ja-x|このイベントは、無%料で参%加できる'''とあって'''、多くの人が集まった。|この イベント は、む%りょう で さん%か できる '''と あって'''、おおく の ひと が あつまった。|Many people gathered for this event '''due to the fact''' that it was free to participate.}}\\n** Used in the form {{ja-r|[[だけ]] ある}} or {{ja-r|だけ の [[こと]] は ある}}, expressing that a [[suitable]] [[state]] or [[result]] can be [[obtain]]ed, which roughly translates as {{m-g|as [[expect]]ed; it is no [[surprise]]}}.\\n**: {{ja-x|彼女は有%名 大%学を出ている'''だけあって'''、とても頭がいい。|かのじょ は ゆう%めい だい%がく を でて いる '''だけ あって'''、とても あたま が い.い。|'''As expected from''' someone who graduated from a famous university, she is very intelligent.}}\\n** Used in the form {{ja-r|[[こと]] が ある}}, indicating a [[possible]] [[reaction]] to or [[result]] from a [[situation]], or referring to [[experience]], literally {{m-g|There exists that ...}}.\\n**: {{ja-x|練%習すれば上%達することが'''ある'''。|れん%しゅう すれば じょう%たつ する こと が '''ある'''。|If you practice, you '''may''' improve.}}\\n**: {{ja-x|日%本に行ったことが'''あります'''か。|に%ほん に いった こと が '''あります''' か。|Have you '''ever''' been to Japan?}}\\n** Used in the form {{ja-r|[[に]] あって}}, meaning {{m-g|[[in terms of]]; [[within]] the [[context]] of}}.\\n**: {{ja-x|世%界%的なパンデミック'''にあって'''、人%々はマスクや手%洗いをすることが重%要です。|せ%かい%-てき な パンデミック '''に あって'''、ひと%びと は マスク や て%あらい を する こと が じゅう%よう です。|'''During''' the global pandemic, it is important for people to wear masks and wash their hands.}}\\n** Used in the form {{ja-r|[[に]] [[する|して]] ある}}, indicating that someone is [[intentionally]] [[consider]]ing something as if it were a certain way, even if it is not actually so.\\n**: {{ja-x|彼女は結%婚していないが、既に結%婚した気%分'''にしてある'''。|かのじょ は けっ%こん して いない が、すでに けっ%こん した き%ぶん '''に して ある'''。|She's not married yet, but she already '''feels as if''' she were.}}\\n\\n<references group=\\\"note\\\">\\n<ref name=\\\"kanji\\\">As a purely written distinction that exists because of two different Chinese characters ({{m|ja|有}}, {{m|ja|在}}) mapping to a single Japanese verb ({{m|ja||ある}}) that covers both concepts ({{w|kanbun kundoku}}), they have been confused since antiquity, as noted at {{pedia|lang=ja|和習#和字}}</ref>\\n</references>\\n\\n====Conjugation====\\n{{ja-verbconj|ある|有ら|あら|ara|有り|あり|ari|有る|ある|aru|有る|ある|aru|有れ|あれ|are|有れ|あれ|are|有られる|あられる|arareru|有らせる<br>有らす|あらせる<br>あらす|araseru<br>arasu|有れる|あれる|areru|有ろう|あろう|arō|[[無い]]<br>有らぬ<br>有らん|[[ない]]<br>あらぬ<br>あらん|nai<br>aranu<br>aran|無く(て)<br>有らず|なく(て)<br>あらず|naku(te)<br>arazu|有ります|[[あります]]|arimasu|有った|あった|atta|有って|あって|atte|有れば|あれば|areba}}\\n\\n====Derived terms====\\n* {{ja-r|気がある|き が ある}}\\n\\n====See also====\\n* {{ja-r|いる}} {{qualifier|animate objects}}\\n* {{ja-r|だ}}, {{ja-r|です}}\\n* {{ja-r|ござる}}\\n{{Japanese basic inflections}}\\n\\n===Etymology 2===\\n{{ja-kanjitab|alt=或る,或:dated}}\\n\\nThe {{ja-r|連%体%形|れん%たい%けい|adnominal form}} of the classical verb {{ja-r|有り|あり|to exist}}.\\n\\n====Pronunciation====\\n{{ja-pron|acc=a|acc_ref=DJR}}\\n\\n====Adnominal====\\n{{ja-pos|adnominal}}\\n\\n# [[certain]], [[one]], [[some]]\\n#: {{ja-usex|'''ある'''[[政%治%家]]が[[そう]][[言う|言った]]。|'''ある''' せい%じ%か が そう いった。|A '''certain''' politician said so.}}\\n\\n===Etymology 3===\\n{{ja-see|散る|生る|荒る}}\\n\\n===References===\\n<references/>\\n\\n[[Category:Japanese suppletive verbs]]\"";
+    let input: String = serde_json::from_str(input_json_string).unwrap();
+    let parsed = parse_wikitext(&input, "ある".to_string()).unwrap();
+    parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
     }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
 }

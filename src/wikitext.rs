@@ -265,7 +265,7 @@ pub enum TextPiece {
     /// An internal link.
     InternalLink {
         /// The link target.
-        target: String,
+        target: Text,
         /// The link options.
         options: Vec<String>,
         /// The label of the link.

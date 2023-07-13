@@ -66,16 +66,30 @@ fn parse_line(tokenizer: &mut MultipeekTokenizer) -> Result<Line> {
 
     // parse remaining text
     if !list_prefix.is_empty() {
-        let text = parse_text_until(tokenizer, Text::new(), TextFormatting::Normal, |token| {
+        let mut text_formatting = TextFormatting::Normal;
+        let text = parse_text_until(tokenizer, Text::new(), &mut text_formatting, |token| {
             matches!(token, Token::Newline | Token::Eof)
         })?;
-        tokenizer.next();
+        let (_, text_position) = tokenizer.next();
+        if text_formatting != TextFormatting::Normal {
+            return Err(ParserErrorKind::UnclosedTextFormatting {
+                formatting: text_formatting,
+            }
+            .into_parser_error(text_position));
+        }
         Ok(Line::List { list_prefix, text })
     } else {
-        let text = parse_text_until(tokenizer, Text::new(), TextFormatting::Normal, |token| {
+        let mut text_formatting = TextFormatting::Normal;
+        let text = parse_text_until(tokenizer, Text::new(), &mut text_formatting, |token| {
             matches!(token, Token::Newline | Token::Eof)
         })?;
-        tokenizer.next();
+        let (_, text_position) = tokenizer.next();
+        if text_formatting != TextFormatting::Normal {
+            return Err(ParserErrorKind::UnclosedTextFormatting {
+                formatting: text_formatting,
+            }
+            .into_parser_error(text_position));
+        }
         Ok(Line::Normal { text })
     }
 }
@@ -83,7 +97,7 @@ fn parse_line(tokenizer: &mut MultipeekTokenizer) -> Result<Line> {
 fn parse_text_until(
     tokenizer: &mut MultipeekTokenizer,
     mut prefix: Text,
-    mut text_formatting: TextFormatting,
+    text_formatting: &mut TextFormatting,
     terminator: impl Fn(&Token<'_>) -> bool,
 ) -> Result<Text> {
     loop {
@@ -104,7 +118,7 @@ fn parse_text_until(
             | Token::Sharp
             | Token::Newline
             | Token::VerticalBar) => {
-                prefix.extend_with_formatted_text(text_formatting, token.to_str());
+                prefix.extend_with_formatted_text(*text_formatting, token.to_str());
                 tokenizer.next();
             }
             Token::DoubleOpenBrace => prefix
@@ -129,7 +143,7 @@ fn parse_text_until(
                     .take_while(|i| tokenizer.peek(*i).0 == Token::Apostrophe)
                     .count();
                 if apostrophe_prefix_length == 1 {
-                    prefix.extend_with_formatted_text(text_formatting, "'");
+                    prefix.extend_with_formatted_text(*text_formatting, "'");
                     tokenizer.next();
                 } else {
                     let apostrophe_prefix_length = if apostrophe_prefix_length == 4 {
@@ -137,7 +151,7 @@ fn parse_text_until(
                     } else {
                         apostrophe_prefix_length
                     };
-                    text_formatting = text_formatting.next_formatting(apostrophe_prefix_length);
+                    *text_formatting = text_formatting.next_formatting(apostrophe_prefix_length);
                     for _ in 0..apostrophe_prefix_length {
                         tokenizer.next();
                     }
@@ -212,7 +226,7 @@ fn parse_potential_headline(tokenizer: &mut MultipeekTokenizer) -> Option<Result
 
 fn parse_double_brace_expression(
     tokenizer: &mut MultipeekTokenizer,
-    text_formatting: TextFormatting,
+    text_formatting: &mut TextFormatting,
 ) -> Result<TextPiece> {
     tokenizer.expect(&Token::DoubleOpenBrace)?;
     let tag = parse_tag(tokenizer)?;
@@ -298,7 +312,7 @@ fn parse_tag(tokenizer: &mut MultipeekTokenizer) -> Result<String> {
 
 fn parse_attribute(
     tokenizer: &mut MultipeekTokenizer,
-    text_formatting: TextFormatting,
+    text_formatting: &mut TextFormatting,
 ) -> Result<Attribute> {
     tokenizer.expect(&Token::VerticalBar)?;
     let mut name = Some(String::new());
@@ -334,7 +348,7 @@ fn parse_attribute(
             | Token::Sharp => {
                 value.pieces.push(TextPiece::Text {
                     text: name.take().unwrap(),
-                    formatting: text_formatting,
+                    formatting: *text_formatting,
                 });
                 break;
             }
@@ -369,53 +383,57 @@ fn parse_attribute(
 
 fn parse_internal_link(
     tokenizer: &mut MultipeekTokenizer,
-    text_formatting: TextFormatting,
+    text_formatting: &mut TextFormatting,
 ) -> Result<TextPiece> {
     tokenizer.expect(&Token::DoubleOpenBracket)?;
-    let mut target = String::new();
+    let mut target = Text::new();
     let mut options = Vec::new();
     let mut label = None;
 
     // parse target
-    loop {
-        if DO_PARSER_DEBUG_PRINTS {
-            println!("parse_link target token: {:?}", tokenizer.peek(0));
+    target = parse_text_until(tokenizer, target, text_formatting, |token| {
+        matches!(
+            token,
+            Token::DoubleCloseBracket
+                | Token::VerticalBar
+                | Token::MultiEquals(_)
+                | Token::DoubleOpenBrace
+                | Token::DoubleCloseBrace
+                | Token::DoubleOpenBracket
+                | Token::Newline
+        )
+    })
+    .map_err(|error| error.annotate_self("parse_internal_link target".to_string()))?;
+    if DO_PARSER_DEBUG_PRINTS {
+        println!("parse_link target token: {:?}", tokenizer.peek(0));
+    }
+    let (token, text_position) = tokenizer.peek(0);
+    match token {
+        token @ (Token::Text(_)
+        | Token::Colon
+        | Token::Sharp
+        | Token::Semicolon
+        | Token::Star
+        | Token::Apostrophe
+        | Token::Eof) => {
+            unreachable!("Not a stop token above: {token:?}");
         }
-        let (token, text_position) = tokenizer.peek(0);
-        match token {
-            token @ (Token::Text(_)
-            | Token::Colon
-            | Token::Sharp
-            | Token::Semicolon
-            | Token::Star) => {
-                target.push_str(token.to_str());
-                tokenizer.next();
+        Token::DoubleCloseBracket => {
+            tokenizer.next();
+        }
+        Token::VerticalBar => {
+            tokenizer.next();
+            label = Some(Text::new());
+        }
+        token @ (Token::MultiEquals(_)
+        | Token::DoubleOpenBrace
+        | Token::DoubleCloseBrace
+        | Token::DoubleOpenBracket
+        | Token::Newline) => {
+            return Err(ParserErrorKind::UnexpectedTokenInLink {
+                token: token.to_string(),
             }
-            Token::DoubleCloseBracket => {
-                tokenizer.next();
-                break;
-            }
-            Token::VerticalBar => {
-                tokenizer.next();
-                label = Some(Text::new());
-                break;
-            }
-            token @ (Token::MultiEquals(_)
-            | Token::DoubleOpenBrace
-            | Token::DoubleCloseBrace
-            | Token::DoubleOpenBracket
-            | Token::Apostrophe
-            | Token::Newline) => {
-                return Err(ParserErrorKind::UnexpectedTokenInLink {
-                    token: token.to_string(),
-                }
-                .into_parser_error(*text_position))
-            }
-            Token::Eof => {
-                return Err(
-                    ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(*text_position)
-                )
-            }
+            .into_parser_error(*text_position))
         }
     }
 
@@ -431,7 +449,7 @@ fn parse_internal_link(
             let (token, text_position) = tokenizer.peek(0);
             match token {
                 Token::Text(text) => {
-                    label.extend_with_formatted_text(text_formatting, text);
+                    label.extend_with_formatted_text(*text_formatting, text);
                     tokenizer.next();
                 }
                 Token::VerticalBar => {

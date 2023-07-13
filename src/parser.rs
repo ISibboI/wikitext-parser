@@ -422,7 +422,6 @@ fn parse_internal_link(
             token,
             Token::DoubleCloseBracket
                 | Token::VerticalBar
-                | Token::DoubleOpenBrace
                 | Token::DoubleCloseBrace
                 | Token::DoubleOpenBracket
                 | Token::Newline
@@ -441,7 +440,8 @@ fn parse_internal_link(
         | Token::Star
         | Token::Apostrophe
         | Token::Eof
-        | Token::Equals) => {
+        | Token::Equals
+        | Token::DoubleOpenBrace) => {
             unreachable!("Not a stop token above: {token:?}");
         }
         Token::DoubleCloseBracket => {
@@ -455,7 +455,7 @@ fn parse_internal_link(
             debug!("Line contains unclosed internal link at {text_position:?}");
             tokenizer.next();
         }
-        token @ (Token::DoubleOpenBrace | Token::DoubleCloseBrace | Token::DoubleOpenBracket) => {
+        token @ (Token::DoubleCloseBrace | Token::DoubleOpenBracket) => {
             return Err(ParserErrorKind::UnexpectedTokenInLink {
                 token: token.to_string(),
             }

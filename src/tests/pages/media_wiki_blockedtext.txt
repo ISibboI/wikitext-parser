@@ -1,0 +1,52 @@
+{| id="mw-blocked-text" style="border:2px solid #000; width:100%; margin:0 auto 6px auto;"
+|
+<div style="width:100%; margin:auto; text-align:center;"><div style="font-size:140%;">'''You are currently unable to edit pages on Wiktionary.'''</div>
+'''''You can still read pages''', but you cannot edit, move, or create them.''
+</div>
+<div style="margin:auto; width:70%;">
+<div style="text-align:justify;">
+Editing from $7 has been disabled by <tt>$1</tt> for the following reason(s):<br clear="all">
+<div style="margin:1em; padding:5px; border:3px #666 double;">$2</div>
+This block has been set to expire: '''$6'''.
+
+Even if blocked, you will ''usually'' still be able to edit your [[Special:Mytalk|user talk page]] and contact other editors and administrators by e-mail.
+
+</div>
+</div>
+|}
+
+{| class="collapsible" style="margin:6px auto; width:100%; background:transparent; border:2px solid #AAA; padding:5px;"
+! style="text-align:left;" | <h2 style="border:none;">What does this mean?</h2>
+|-
+|
+<big> What is a block? </big>
+
+A block is a measure used to protect Wiktionary from possible improper use or modification in breach of editorial policies. Blocks can apply to a user account, an [[w:IP address|IP address]], or a range of IP addresses that is deemed responsible for or related to problematic activity. You may be an innocent victim of collateral damage, whereby a block of some other activity has accidentally caused your account to be inaccessible.  The reason for your block may be found above.
+
+<big>Most common causes </big>
+
+# '''Problem with your editing or Wiktionary behavior (under any account or IP address)''' - your account or a connected IP has been used in a problematic way or there is a concern about your editing. The reason should be in the box above.
+# '''Problem with your username''' - your [[Wiktionary:Usernames and user pages|username]] was unsuitable and has been blocked; you need to choose another before continuing.
+|}
+
+{| class="collapsible" style="margin:6px auto; width:100%; background:transparent; border:2px solid #AAA; padding:5px;"
+! style="text-align:left;" | <h2 style="border:none;">What do I do now?</h2>
+|-
+|
+* If instructions are given above in the block message, follow them.
+* If you have never edited Wiktionary before and/or do not have an account, consider creating one.
+* If you wish to appeal the block, or you believe you have been blocked by mistake, please see the following section.
+
+<big> Appealing </big>
+
+The current block will automatically expire $6. You have many routes to appeal the block or its duration. Firstly, if you are a registered user and have a valid e-mail address confirmed, you can contact $1 '''[[{{ns:special}}:Emailuser/$4|via e-mail]]''' (via that link, or by clicking on the "E-mail this user" link to the left of their userpage). This feature can be removed if abused. You should include the following information about your block in all such communication'': <u>Username: $7, IP address: $3, Block ID: $5</u>.
+
+Alternatively, you may appeal the block by requesting that another [[Wiktionary:Administrators|administrator]] review the block. To do so, add
+:<tt>{&#123;unblock|''your reason here''&#125;}</tt> to the '''bottom''' of [[{{ns:Special}}:Mytalk|your user talk page]] to request unblocking. You '''must''' state a reason for this, and the block can then be discussed.
+
+If $7 is not blocked, your IP address ($3) or range may have been blocked. Please check  <span class="plainlinks">[{{fullurl:Special:BlockList|ip=$3}} here]</span>. If this is the case, please copy and paste the following text to the '''bottom''' of [[{{ns:Special}}:Mytalk|your user talk page]].
+
+:<tt>{&#123;unblock-ip|1=$3|2=&lt;nowiki&gt;<nowiki>$2</nowiki>&lt;/nowiki&gt;|3=$1&#125;}</tt>
+
+<span style="color:#CC0000;">'''Please note:'''</span> While this block may be upsetting or unexpected, abuse of appeal processes, repeatedly using the unblock template when denied, [[w:Wikipedia:No personal attacks|personal attacks]], or [[w:Wikipedia:Civility|impolite conduct]] may lead to the removal of your ability to edit your talk page.
+|}

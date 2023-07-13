@@ -207,3 +207,16 @@ fn test_wiktionary_wiktionary_namespace() {
         println!("{}", plain_text);
     }*/
 }
+
+#[test]
+fn test_wiktionary_media_wiki_blockedtext() {
+    let input = include_str!("pages/media_wiki_blockedtext.txt");
+    let parsed = parse_wikitext(input, "MediaWiki:Blockedtext".to_string()).unwrap();
+    parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
+}

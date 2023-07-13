@@ -483,10 +483,11 @@ fn parse_internal_link(
                     | Token::Colon
                     | Token::Semicolon
                     | Token::Star
-                    | Token::Sharp => {
+                    | Token::Sharp
+                    | Token::Newline => {
                         break;
                     }
-                    token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace | Token::Newline) => {
+                    token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace) => {
                         return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
                             token: token.to_string(),
                         }

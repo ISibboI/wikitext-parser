@@ -415,7 +415,6 @@ fn parse_internal_link(
             token,
             Token::DoubleCloseBracket
                 | Token::VerticalBar
-                | Token::Equals
                 | Token::DoubleOpenBrace
                 | Token::DoubleCloseBrace
                 | Token::DoubleOpenBracket
@@ -434,7 +433,8 @@ fn parse_internal_link(
         | Token::Semicolon
         | Token::Star
         | Token::Apostrophe
-        | Token::Eof) => {
+        | Token::Eof
+        | Token::Equals) => {
             unreachable!("Not a stop token above: {token:?}");
         }
         Token::DoubleCloseBracket => {
@@ -444,8 +444,7 @@ fn parse_internal_link(
             tokenizer.next();
             label = Some(Text::new());
         }
-        token @ (Token::Equals
-        | Token::DoubleOpenBrace
+        token @ (Token::DoubleOpenBrace
         | Token::DoubleCloseBrace
         | Token::DoubleOpenBracket
         | Token::Newline) => {

@@ -1,0 +1,602 @@
+{{also|Lady|lądy|łady}}
+==English==
+{{wikipedia|Lady (disambiguation)}}
+
+===Etymology===
+{{root|en|ine-pro|*dʰeyǵʰ-}}
+From {{inh|en|enm|lady}}, {{m|enm|laddy}}, {{m|enm|lafdi}}, {{m|enm|lavedi}}, from {{inh|en|ang|hlǣfdīġe||sc=Latinx|mistress of a household, wife of a lord, lady|lit=bread-kneader}}, from {{m|ang|hlāf||bread, loaf}} + {{m|ang|dīġe||kneader}}, related to {{cog|ang|dǣġe||sc=Latinx|maker of dough}} (whence {{m|en|dey||dairymaid}}). Compare also {{l|en|lord}}. More at {{l|en|loaf}}, {{l|en|dairy}}, {{l|en|dough}}. Unrelated to {{l|en|lad}}.
+
+===Pronunciation===
+* {{IPA|en|/ˈleɪdi/}}
+* {{a|GA}} {{IPA|en|/ˈleɪ.ɾi/}}
+* {{audio|en|en-us-lady.ogg|Audio (US)}}
+* {{rhymes|en|eɪdi|s=2}}
+* {{hyphenation|en|la|dy}}
+
+===Noun===
+{{wikipedia}}
+{{en-noun}}
+
+# {{lb|en|historical}} The [[mistress]] of a [[household]].
+# A [[woman]] of [[breed]]ing or higher [[class]], a woman of [[authority]].
+#: {{ux|en|"I would like the dining room to be fully set by tonight; would you do so?" "Yes, my '''lady'''".}}
+#* {{quote-book|en|year=1963|author={{w|Margery Allingham}}|title={{w|The China Governess}}
+|chapter=6|url=http://openlibrary.org/works/OL2004261W
+|passage=&lsquo;[…] I remember a '''lady''' coming to inspect St. Mary's Home where I was brought up and seeing us all in our lovely Elizabethan uniforms we were so proud of, and bursting into tears all over us because “it was wicked to dress us like charity children”.&nbsp;[…]’.}}
+# {{non-gloss definition|The feminine of [[lord]].}}
+#* {{RQ:Shakespeare King Lear|I|i|283|2|Of all theſe bounds euen from this Line, to this, / With ſhadowie Forreſts, and with Champains rich’d / With plenteous Riuers, and wide-ſkirted Meades / We make thee '''Lady'''.}}
+#* {{quote-book|en|year=1848|author={{w|James Russell Lowell}}|title=The Vision of Sir Launfaul|edition=6th|location=Boston|publisher=Ticknor and Fields|year_published=1858|passage=’T was<!-- sic --> the proudest hall in the North Countree, <br> And never its gates might opened be, <br> Save to lord or '''lady''' of high decree{{...}}}}
+# {{non-gloss definition|A title for someone married to a lord or [[gentleman]].}}
+# {{non-gloss definition|A title that can be used instead of the formal terms of [[marchioness]], [[countess]], [[viscountess]]{{,}} or [[baroness]].}}
+# {{lb|en|polite|or|used by children}} A [[woman]]: an [[adult]] [[female]] [[human]].
+#: {{ux|en|Please direct this '''lady''' to the soft furnishings department.}}
+# {{lb|en|in the plural}} {{non-gloss definition|A polite reference or form of address to women.}}
+#: {{ux|en|Ladies and gentlemen, it is a pleasure to be here today. Follow me, '''ladies'''!}}
+#* {{RQ:Churchill Celebrity|IV|58|The Celebrity, by arts unknown, induced Mrs. Judge Short and two other '''ladies''' to call at Mohair on a certain afternoon when Mr. Cooke was trying a trotter on the track. The three returned wondering and charmed with Mrs. Cooke; they were sure she had had no hand in the furnishing of that atrocious house.}}
+# {{lb|en|slang}} {{non-gloss definition|Used to address a female.}}
+#: {{ux|en|Hey, '''lady''', move your car!}}
+#: {{ux|en|Hey, '''ladies''', how are you doing?}}
+# {{lb|en|'''[[ladies']]''' or '''[[ladies]]'''}} Toilets intended for use by women.
+# {{lb|en|informal}} A [[wife]] or [[girlfriend]]; a [[sweetheart]].
+#* {{RQ:Shakespeare Romeo and Juliet|II|ii|59|2|passage=It is my '''Lady''', O it is my Loue, O that ſhe knew ſhe were, <br> She ſpeakes, yet ſhe ſayes nothing, what of that?}}
+#* {{RQ:Goldsmith Vicar|passage=But nothing could now exceed my confusion upon seeing the gentleman and his '''lady''' enter}}
+# A woman to whom the particular [[homage]] of a [[knight]] was paid; a woman to whom one is devoted or bound.
+#* {{quote-book|en|year=1666|author={{w|Edmund Waller}}|chapter=Instructions to a Painter|title=The Works of Edmund Walker|url=https://books.google.com/books?id=nVAgAAAAMAAJ|location=Dublin|publisher=W. G. Jones|year_published=1768|page=154|text=The ſoldier here his waſted ſtore ſupplies, <br> And takes new valor from the Ladies’ eyes.}}
+# {{lb|en|slang}} A [[queen]] {{gloss|the [[playing card]]}}.
+# {{lb|en|attributive|with a professional title}} Who is a woman.
+#: {{ux|en|A '''lady''' doctor.}}
+# {{lb|en|Wicca}} {{alternative form of|en|Lady}}.
+# {{lb|en|archaic}} [[gastric mill]], the [[triturating]] [[apparatus]] in the [[stomach]] of a [[lobster]], consisting of [[calcareous]] [[plate]]s; so called from a fancied resemblance to a seated female figure.
+# {{lb|en|UK|slang}} A [[five]]-[[pound]] [[note]]. (Rhyming slang, ''Lady Godiva'' for {{m|en|fiver}}.)
+# {{lb|en|slang|chiefly|in the plural}} A [[woman]]’s [[breast]].
+# {{lb|en|chess|slang|rare}} A [[queen]].
+
+====Derived terms====
+{{der4|en|American painted lady|Bankside lady|bearded lady|black lady|cat lady|cleaning lady|dinner lady|faint heart never won fair lady|find the lady|first lady|garbage lady|gay lady|iron lady|it ain't over 'til the fat lady sings|it ain't over till the fat lady sings|it ain't over until the fat lady sings|it isn't over 'til the fat lady sings|it isn't over till the fat lady sings|it isn't over until the fat lady sings|Joan's as good as my lady in the dark|lady boner|lady boy|lady garden|lady in waiting|lady luck|lady lumps|lady of light virtue|lady of the evening|lady palm|lady paramount|lady parts|lady slipper|lady-boner|lady-fly|little lady|mail lady|May-lady|methinks the lady doth protest too much|northern lady fern|pizza lady|post lady|ragged lady|school dinner lady|second lady|tea lady|the lady doth protest too much|walking lady
+|bag lady
+|charlady
+|dragon lady
+|the [[First Lady]]
+|forelady
+|gray lady
+|ladies and gentlemen
+|ladies' fingers
+|lady's bedstraw
+|lady's eardrop
+|lady's laces
+|lady's maid
+|lady's man
+|lady's mantle
+|lady's slipper
+|lady's thistle
+|lady's thumb
+|lady abbess
+|lady beetle
+|[[lady bird]]/[[lady-bird]]/[[ladybird]]
+|Lady Bountifel
+|[[lady bug]]/[[lady-bug]]/[[ladybug]]
+|Lady Campbell
+|lady chapel
+|ladyclock
+|lady crab
+|Lady Day
+|[[lady fern]]/[[lady-fern]]
+|lady's finger
+|ladyfinger
+|lady friend
+|Lady Godiva
+|lady-in-waiting
+|[[lady killer]], {{l|en|lady-killer}}, {{l|en|ladykiller}}
+|ladylike
+|ladylove
+|Lady Macbeth strategy
+|Lady McLeod
+|lady of leisure
+|lady of pleasure
+|lady of the house
+|lady of the night
+|lady or tiger
+|ladyship
+|lady smock
+|lady who lunches
+|landlady
+|leading lady
+|lollipop lady
+|[[lunch lady]]/[[lunch-lady]]/[[lunchlady]]
+|[[m'lady]]/[[malady]]/[[milady]]
+|naked lady
+|no way to treat a lady
+|old lady
+|one fat lady
+|Our Lady
+|painted lady
+|[[Pink Lady]]/[[pink lady]]
+|saleslady
+|snowlady
+|Tupperware lady
+|two fat ladies
+|white lady
+|young lady
+|ladies' auxiliary|ladies' cloakroom|ladies' companion|ladies' eardrops|ladies' fever|ladies' fingers|ladies' lounge|ladies' man|ladies' night|ladies' special|ladies' tresses|ladies and gents|ladies and germs|ladies first|ladies man|lords and ladies|Quaker ladies|two fat ladies}}
+* {{lookfrom|lady}}
+
+====Related terms====
+* {{l|en|fakaleitī}}
+* {{l|en|Lady}}
+
+====Descendants====
+{{top2}}
+* {{desc|af|der=1|haar ladyskap}}
+* {{desc|ar|bor=1|لِيدِي}}
+*: {{desc|arz|ليدي|tr=lēdī}}
+* {{desc|be|bor=1|лэ́дзі}}
+* {{desc|bg|bor=1|ле́йди}}
+* {{desc|fr|bor=1|lady}}
+* {{desc|de|bor=1|Lady}}
+* {{desc|bor=1|el|λαίδη|λέδη}}
+* {{desc|it|bor=1|lady}}
+* {{desc|bor=1|ja|レディ|tr=redi|レディー|tr2=redī}}
+* {{desc|ko|bor=1|레이디}}
+* {{desc|lv|bor=1|lēdija}}
+* {{desc|mk|bor=1|леди}}
+* {{desc|pl|bor=1|lady}}
+* {{desc|ro|bor=1|lady}}
+* {{desc|ru|bor=1|ле́ди}}
+* {{desc|es|bor=1|lady}}
+* {{desc|to|bor=1|leitī}}
+* {{desc|uk|bor=1|ле́ді}}
+* {{desc|vo|bor=1|läd}}
+{{bottom}}
+
+====Translations====
+{{trans-top|mistress of a household}}
+* Albanian: {{t+|sq|zonjë|f}}
+* Arabic: {{t|ar|رَبَّة|f}}, {{t|ar|رَبَّةْ اَلْبَيْت}}, {{t|ar|رَبَّةْ اَلْمَنْزِل|f}}
+*: Egyptian Arabic: {{t|arz|ست البيت|f|tr=set il-bēt|sc=Arab}}, {{qualifier|formally}} {{t|arz|ربة منزل|f|tr=rabet manzel|sc=Arab}}
+* Armenian: {{t+|hy|տանտիկին}}
+* Basque: {{t+|eu|andre}}
+* Bulgarian: {{t+|bg|стопа́нка|f}}
+* Chinese:
+*: Mandarin: {{t+|cmn|女主人|tr=nǚzhǔrén}}
+* Egyptian: {{t-egy|ḥnwt|h=H-nw:t-B1|f}}
+* Esperanto: {{t|eo|domestrino}}
+* Finnish: {{t+|fi|emäntä}}, {{t+|fi|rouva}}
+* Galician: {{t|gl|dona|f}}, {{t|gl|señora|f}}
+* German: {{t|de|[[Herrin]] [[des]] [[Hauses]]|f}}, {{t+|de|Hausherrin|f}}, {{t|de|[[Ehefrau]] [[des]] [[Hausherrn]]|f}}, {{t|de|[[Frau]] [[des]] [[Hauses]]|f}}
+* Greek: {{t+|el|νοικοκυρά|f}}
+* Irish: {{t|ga|bantiarna|f}}
+* Latin: {{t+|la|domina|f}}
+* Latvian: {{t|lv|saimniece|f}}
+* Macedonian: {{t|mk|стопанка|f|sc=Cyrl}}, {{t|mk|газдарица|f|sc=Cyrl}}
+* Middle English: {{t|enm|lady}}, {{t|enm|dame}}
+* Old English: {{t|ang|hlæfdige|f}}
+* Ottoman Turkish: {{t|ota|قادین|tr=kadın}}
+* Persian: {{t+|fa|کدبانو|tr=kadbânu}}
+* Portuguese: {{t+|pt|ama|f}}
+* Romanian: {{t+|ro|doamnă|f}}
+* Russian: {{t+|ru|хозя́йка|f}}
+* Scottish Gaelic: {{t+|gd|baintighearna|f}}
+* Serbo-Croatian:
+*: Roman: {{t+|sh|gospodarica|f}}, {{t+|sh|gazdarica|f}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|kněni|f}}
+* Spanish: {{t+|es|ama|f}}
+* Swahili: {{t+|sw|msichana}}
+* Swedish: {{t+|sv|fru|c}}, {{t+|sv|herrinna|c}}
+* Zulu: {{t+|zu|inkosikazi|c9|c6}}
+{{trans-bottom}}
+
+{{trans-top|woman of breeding and authority}}
+* Afrikaans: {{t+|af|dame}}
+* Albanian: {{t+|sq|zonjë|f}}
+* Arabic: {{t|ar|خَاتُون|f}}, {{t|ar|سَيِّدَة|f}}, {{t|ar|هَانِم|f}}
+*: Egyptian Arabic: {{t|arz|هانم|f|tr=hānem}}
+* Aromanian: {{t|rup|chirã|f}}
+* Azerbaijani: {{t|az|xanım}}
+* Belarusian: {{t|be|спада́рыня|f}}, {{t|be|па́ні|f}}, {{t|be|лэ́дзі|f}}, {{t|be|да́ма|f}}
+* Breton: {{t+|br|itron|f}}
+* Bulgarian: {{t+|bg|да́ма|f}}
+* Cherokee: {{t|chr|ᎠᎨᏴ}}
+* Chinese:
+*: Mandarin: {{t+|cmn|女士|tr=nǚshì}}, {{t+|cmn|貴婦|tr=guìfù}}
+* Cornish: {{t|kw|arloedhes|f}}
+* Czech: {{t+|cs|dáma|f}}
+* Danish: {{t+|da|dame|c}}
+* Dutch: {{t+|nl|dame|f}}
+* Esperanto: {{t+|eo|sinjorino}}
+* Finnish: {{t+|fi|rouva}}
+* French: {{t+|fr|dame|f}}, {{t+|fr|madame|f}}, {{t+|fr|lady|f}}
+* Friulian: {{t|fur|signore|f}}, {{t|fur|done|f}}, {{t|fur|dame|f}}
+* Galician: {{t|gl|dona|f}}, {{t|gl|señora|f}}
+* Georgian: {{t|ka|ქალბატონი}}
+* German: {{t+|de|Dame|f}}
+* Greek: {{t+|el|κυρία|f}}
+* Irish: {{t|ga|bean uasal|f}}, {{t|ga|bantiarna|f}}
+* Italian: {{t+|it|signora|f}}, {{t+|it|dama|f}}, {{t+|it|lady|f}}
+* Japanese: {{t+|ja|婦人|tr=ふじん, fujin}}, {{t|ja|レディ|tr=redi}}, {{t+|ja|淑女|tr=しゅくじょ, shukujo}}
+* Korean: {{t|ko|레이디}}, {{t+|ko|부인}}, {{t+|ko|숙녀}}
+* Latin: {{t+|la|domina|f}}
+* Latvian: {{t|lv|dāma|f}}
+* Lithuanian: {{t|lt|ponia|f}}
+* Macedonian: {{t|mk|дама|f|sc=Cyrl}}
+* Manx: {{t|gv|benchiarn|f}}
+* Middle English: {{t|enm|lady}}, {{t|enm|dame}}
+* Norwegian: {{t+|no|dame}}
+* Occitan: {{t+|oc|dòna|f}}
+* Old English: {{t|ang|drihtlice|f}}, {{t|ang|ides|f}}, {{t|ang|freo|f}}, {{t|ang|hlæfdige|f}}
+* Ottoman Turkish: {{t|ota|قادین|tr=kadın}}
+* Pashto: {{t|ps|مېرمنه|f|tr=mermᶕna}}
+* Persian: {{t+|fa|بانو|tr=bânu}}, {{t+|fa|ستی|tr=sati}}, {{t+|fa|مادام|tr=mâdâm}}, {{t+|fa|خانم|tr=xânom}}, {{t+|fa|خاتون|tr=xâtun}}
+* Polish: {{t+|pl|pani|f}}, {{t+|pl|dama|f}}
+* Portuguese: {{t+|pt|senhora|f}}, {{t+|pt|dona|f}}, {{t+|pt|dama|f}}
+* Romani: {{t|rom|rani|f}}
+* Romanian: {{t+|ro|doamnă}}
+* Russian: {{qualifier|indecl}} {{t+|ru|ле́ди|f}}, {{t+|ru|да́ма|f}}, {{t+|ru|суда́рыня|f}}, {{t+|ru|госпожа́|f}}
+* Scottish Gaelic: {{t+|gd|bean-uasal|f}}, {{t+|gd|baintighearna|f}}, {{t|gd|bana-mhorair|f}}
+* Slovak: {{t+|sk|dáma|f}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|kněni|f}}
+* Spanish: {{t+|es|señora|f}}, {{t+|es|dama|f}}
+* Tagalog: {{t|tl|gining}}
+* Tajik: {{t|tg|хонум}}, {{t|tg|бону}}
+* Turkish: {{t+|tr|hanım}}
+* Ukrainian: {{t+|uk|па́ні|f}}, {{t|uk|ле́ді|f}}, {{t|uk|да́ма|f}}
+* Urdu: {{t|ur|خاتون|f|tr=xātūn}}
+* Uzbek: {{t+|uz|xonim}}
+* Welsh: {{t|cy|arglwyddes|f}}, {{t|cy|boneddiges|f}}
+* Zulu: {{t+|zu|inkosikazi|c9|c6}}
+{{trans-bottom}}
+
+{{trans-top|feminine of lord}}
+{{trans-bottom}}
+
+{{trans-top|title for the wife a lord}}
+* Afrikaans: {{t-check|af|[[haar ladyskap]] [[edele]]}} <!-- was "[[haar ladyskap]] [[edele]]" - assumed sum-of-parts; if an idiom, remove the wikilinks to the individual words. see [[User:Kephir/gadgets/xte#Translation_fixing]] -->
+* Albanian: {{t+|sq|zonjë|f}}
+* Arabic: {{t|ar|لِيدِي|f|tr=lēdī}}
+*: Egyptian Arabic: {{t|arz|ليدي|f|tr=lēdī}}
+* Belarusian: {{t|be|лэ́дзі|f}}
+* Breton: {{t+|br|itron|f}}
+* Bulgarian: {{t|bg|ле́йди|f}}
+* Cornish: {{t|kw|arloedhes|f}}
+* Czech: {{t+|cs|dáma|f}}
+* Dutch: {{t+|nl|dame|f}}
+* Egyptian: {{t-egy|ḥnwt|h=H-nw:t-B1|f}}
+* Esperanto: {{t|eo|lordedzino}}
+* Finnish: {{t+|fi|lady}}
+* French: {{t+|fr|dame|f}}, {{t+|fr|madame|f}}, {{t+|fr|lady|f}}
+* Galician: {{t|gl|dama|f}}, {{t|gl|señora|f}}, {{t|gl|dona|f}}
+* German: {{t+|de|Frau|f}}, {{t+|de|Herrin|f}}, {{t+|de|Dame|f}}
+* Greek: {{t+|el|λαίδη|f}}
+* Hungarian: {{t+|hu|úrnő}}
+* Irish: {{t|ga|bantiarna|f}}
+* Italian: {{t+|it|signora|f}}, {{t+|it|lady|f}}
+* Japanese: {{t+|ja|夫人|tr=ふじん, fujin}}, {{t|ja|レディ|tr=redi}}
+* Korean: {{t|ko|레이디}}, {{t+|ko|부인}}
+* Latin: {{t+|la|domina|f}}
+* Latvian: {{t|lv|lēdija|f}}
+* Macedonian: {{t|mk|дама|f}}, {{t|mk|леди|f}}
+* Manx: {{t|gv|benchiarn|f}}
+* Maori: {{t|mi|rēri}}
+* Middle English: {{t|enm|lady}}
+* Old English: {{t|ang|drihtlice|f}}, {{t|ang|ides|f}}, {{t|ang|freo|f}}, {{t|ang|hlæfdige|f}}
+* Ottoman Turkish: {{t|ota|قادین|tr=kadın}}
+* Polish: {{t+|pl|pani|f}}, {{t+|pl|lady|f}}
+* Portuguese: {{t+|pt|senhora|f}}
+* Romanian: {{t+|ro|lady|f}}, {{t+|ro|doamnă|f}}
+* Russian: {{t+|ru|ле́ди|f}}, {{t+|ru|да́ма|f}}, {{t+|ru|госпожа́|f}}, {{t+|ru|ба́рыня|f}}
+* Scottish Gaelic: {{t+|gd|baintighearna|f}}
+* Spanish: {{t+|es|señora|f}}
+* Swedish: {{t+|sv|fru}}, {{t+|sv|herrinna|c}}
+* Ukrainian: {{t|uk|ле́ді|f}}
+* Welsh: {{t|cy|arglwyddes|f}}
+* Zulu: {{t+|zu|inkosikazi|c9|c6}}
+{{trans-bottom}}
+
+{{trans-top|title that can be used instead of the formal terms of marchioness]], countess, viscountess or baroness}}
+* Finnish: {{t+|fi|rouva}}
+{{trans-bottom}}
+
+{{trans-top|polite: woman}}
+* Finnish: {{t+|fi|rouva}}
+{{trans-bottom}}
+
+{{trans-top|polite term referring to a woman}}
+* Afrikaans: {{t+|af|dame}}
+* Albanian: {{t+|sq|zonjë|f}}
+* Arabic: {{t|ar|سَيِّدَة|f}}, {{qualifier|my lady}} {{t|ar|سَيِّدَتِي}}, {{t|ar|أُسْتَاذَة|f}}, {{t|ar|هَانُم|f}}
+*: Egyptian Arabic: {{t|arz|أستاذة|f|tr=ʔostaza|sc=Arab}}, {{t|arz|مدام|f|tr=madām|sc=Arab}}
+* Armenian: {{t+|hy|տիկին}}
+* Aromanian: {{t|rup|chirã|f}}
+* Azerbaijani: {{t|az|xanım}}
+* Basque: {{t+|eu|andre}}
+* Belarusian: {{t|be|спада́рыня|f}}, {{t|be|па́ні|f}}
+* Breton: {{t+|br|itron|f}}
+* Bulgarian: {{t+|bg|госпожа́|f}}
+* Catalan: {{t+|ca|senyora}}
+* Cherokee: {{t|chr|ᎠᎨᏴ|sc=Cher}}
+* Chinese:
+*: Dungan: {{t|dng|тэтэ}}
+*: Mandarin: {{t+|cmn|太太|tr=tàitai}}, {{t+|cmn|夫人|tr=fūren}}
+* Czech: {{t+|cs|dáma|f}}, {{t+|cs|paní|f}}
+* Danish: {{t+|da|dame|c}}
+* Dutch: {{t+|nl|dame|f}}
+* Esperanto: {{t+|eo|sinjorino}}
+* Estonian: {{t+|et|proua}}
+* Finnish: {{t+|fi|rouva}}
+* French: {{t+|fr|dame|f}}, {{t+|fr|madame|f}}
+* Friulian: {{t|fur|signore|f}}, {{t|fur|done|f}}, {{t|fur|dame|f}}
+* Galician: {{t|gl|dona|f}}, {{t|gl|señora|f}}
+* Georgian: {{t|ka|ქალბატონი}}
+* German: {{t+|de|Dame|f}}, {{t|de|meine Dame|f}}, {{t|de|Madam|f}}, {{t|de|[[verehrte]] [[Frau]]|f}}
+* Greek: {{t+|el|κυρία|f}}
+* Hebrew: {{t+|he|גברת|f|tr=gvéret|alt=גברת \ גְבֶרֶת}}
+* Hindi: {{t+|hi|महिला|f}}, {{t+|hi|महोदया|f}}, {{t+|hi|श्रीमती|f}}, {{t|hi|साहिबा|f}}, {{t|hi|बानू|f}}
+* Hungarian: {{t+|hu|hölgy}}
+* Irish: {{t|ga|bean uasal|f}}
+* Istriot: {{t|ist|duona|f}}
+* Italian: {{t+|it|signora|f}}, {{t+|it|dama|f}}
+* Japanese: {{t+|ja|奥様|tr=おくさま, okusama}}, {{t+|ja|貴婦人|tr=きふじん, kifujin}}
+* Kazakh: {{t+|kk|ханым}}
+* Korean: {{t+|ko|아줌마}}, {{t+|ko|아가씨}} {{qualifier|young lady}}
+* Kurdish:
+*: Northern Kurdish: {{t+|kmr|xanim}}
+* Kyrgyz: {{t+|ky|айым}}
+* Latin: {{t+|la|domina|f}}
+* Latvian: {{t|lv|kundze|f}}, {{t|lv|dāma|f}}
+* Lithuanian: {{t|lt|ponia|f}}
+* Louisiana Creole French: {{t|lou|fenm}}
+* Macedonian: {{t|mk|госпоѓа|f}}
+* Malay: {{t|ms|puan}}
+* Middle English: {{t|enm|lady}}, {{t|enm|dame}}
+* Mongolian:
+*: Cyrillic: {{t+|mn|хатагтай}}
+*: Mongolian: {{t|mn|ᠬᠠᠲᠤᠭᠲᠠᠢ}}
+* Norwegian: {{t+|no|dame}}
+* Occitan: {{t+|oc|dòna|f}}
+* Ossetian: {{t|os|ӕхсин}}
+* Persian: {{t+|fa|خانم|tr=xânom}}, {{t+|fa|مادام|tr=mâdâm}}, {{t+|fa|بانو|tr=bânu}}
+* Polish: {{t+|pl|pani|f}}
+* Portuguese: {{t+|pt|dama|f}}, {{t+|pt|moça|f}}
+* Romanian: {{t+|ro|doamnă|f}}
+* Romansch: {{t|rm|dunna|f}}
+* Russian: {{t+|ru|госпожа́|f}}, {{t+|ru|да́ма|f}}, {{t+|ru|мада́м|f}}, {{t+|ru|суда́рыня|f}} {{qualifier|dated}}
+* Scottish Gaelic: {{t+|gd|bean-uasal|f}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|го̏спођа|f}}
+*: Roman: {{t+|sh|gȍspođa|f}}
+* Slovak: {{t|sk|pani|f}}
+* Slovene: {{t+|sl|gospa|f}}
+* Spanish: {{t+|es|señora|f}}, {{t+|es|dama|f}}
+* Swedish: {{t+|sv|dam|c}}
+* Tajik: {{t|tg|хонум}}, {{t|tg|бону}}
+* Talysh: {{t|tly|خنم|tr=xanəm}}
+* Telugu: {{t+|te|మహిళ|sc=Telu}}
+* Turkish: {{t+|tr|hanımefendi}}, {{t+|tr|hanım}}, {{t+|tr|bayan}}
+* Turkmen: {{t|tk|hanym}}
+* Ukrainian: {{t+|uk|па́ні|f}}
+* Urdu: {{t|ur|صاحبہ|f|tr=sāhiba}}, {{t|ur|بانو|f|tr=bānū}}, {{t|ur|مہیلا|f|tr=mahilā}}
+* Uyghur: {{t|ug|خېنىم}}, {{t|ug|خانىم}}
+* Uzbek: {{t+|uz|xonim}}
+* Volapük: {{t+|vo|läd}}
+* Zulu: {{t+|zu|inkosikazi|c9|c6}}
+{{trans-bottom}}
+
+{{trans-top|address to a female}}
+* Finnish: {{t+|fi|rouva}}; {{t+|fi|neiti}} {{q|young}}
+{{trans-bottom}}
+
+{{trans-top|toilets intended for use by women}}
+* Chinese:
+*: Mandarin: {{t|cmn|[[女]][[廁所]]}}
+* Dutch: {{t+|nl|damestoilet|n}}
+* Finnish: {{t+|fi|naiset}} {{q|label on the door}}; {{t+|fi|naistenhuone}} {{q|room}}
+* German: {{t+|de|Damentoilette|f}}
+* Hungarian: {{t+|hu|hölgyek}}, {{t|hu|női mosdó}}, {{t|hu|női WC}}
+* Japanese: {{t|ja|[[女性]][[用]][[トイレ]]|tr=josei yō toire}}
+* Latvian: {{t|lv|sieviešu tualete|f}}
+* Macedonian: {{t|mk|женски тоале́т|m}}
+* Persian: {{t+|fa|بانوان|tr=bânovân}}
+* Portuguese: {{t+|pt|damas|f-p}}, {{t+|pt|elas|f-p}}
+* Romanian: {{t+|ro|dame|f-p}}, {{t+|ro|femei|f-p}}
+* Russian: {{t|ru|[[же́нский]] [[туале́т]]|m}}
+* Spanish: {{t|es|baño de damas|m}}
+* Swedish: {{t+|sv|damtoalett|c}}
+{{trans-bottom}}
+
+{{trans-top-also|informal: wife or girlfriend|sweetheart}}
+{{trans-bottom}}
+
+{{trans-top|woman to whom one is devoted or bound}}
+{{trans-bottom}}
+
+{{trans-top|queen of playing cards}}
+* Finnish: {{t+|fi|rouva}}
+{{trans-bottom}}
+
+{{trans-top|with a professional title: who is a woman}}
+* Finnish: {{t|fi|nais-}}
+{{trans-bottom}}
+
+{{trans-see|Wicca: alternative form of Lady|Lady}}
+
+{{trans-see|triturating apparatus in the stomach of a lobster|gastric mill}}
+
+{{trans-top-also|five-pound note|fiver}}
+{{trans-bottom}}
+
+{{trans-see|woman's breast|breast}}
+
+{{trans-top|slang: queen in chess}}
+* Finnish: {{t+|fi|rouva}}
+{{trans-bottom}}
+
+====References====
+* Weisenberg, Michael (2000) ''[http://www.poker1.com/mcu/pokerdictionary/mculib_dictionary_info.asp The Official Dictionary of Poker].'' MGI/Mike Caro University. {{ISBN|978-1880069523}}
+
+===Verb===
+{{en-verb}}
+
+# To address as “lady”.
+#* {{quote-journal|en|journal=[[w:Macmillan's Magazine|Macmillan’s Magazine]]|year=1897|page=13|column=1|passage=“{{...}}When I am dead ye’ll mind I said it, my leddy.” “Ah, Elspeth, but do not '''''lady''''' me; say Christine, just ''wee'' Christine.{{...}}”}}
+#* {{quote-journal|en|journal=[[w:Lippincott's Monthly Magazine|Lippincott’s Monthly Magazine: A Popular Journal of General Literature]]|year=1906|page=374|passage=“I thought you would never come, Lady Mary,” and he kissed her again. “Why will you persist in '''ladying''' me? Have I not told you—stop, now, will you?” and she pushed his mouth away. “Have I not told you as many times as you have seen me to call me Mary only?”}}
+#* {{quote-book|en|title=The Letters of Mary Nisbet of Dirleton, Countess of Elgin|location=New York, N.Y.|publisher=[[w:D. Appleton & Company|D Appleton and Company]]|year=1928|page=276|passage=I see Bey still continues jealous of poor Mou; does she still go by that name? In Greek it means “my” and her Paramanas always called her Lady Mary Mou, so we called her Mou. I hope you admire my teaching you Greek. I beg you will break Bruce of '''ladying''' her, if it should grow up with him it would be detestable.}}
+#* {{quote-book|en|author=Jim Butcher|authorlink=Jim Butcher|title=Cursor’s Fury: Book Three of the Codex Alera|location=New York, N.Y.|publisher={{w|Ace Books}}|year=2006|page=658|passage=‘Then, Lady Placida, there ''is'' something I wish to ask of you.’ ‘Only,’ she said sternly, ‘if you stop '''Ladying''' me. I have a name, dear.’}}
+#* {{quote-book|en|author=Brenda Joyce|authorlink=Brenda Joyce (author)|title=A Rose in the Storm|publisher=[[w:Harlequin Enterprises|Harlequin]]|year=2013|page=130|isbn=978-0-373-77770-9|passage=“Lady!” “No, do not ‘'''lady'''’ me!” Margaret admonished.}}
+#* {{quote-book|en|author=Skye MacKinnon|title=Winter Princess (Daughter of Winter, Book Two)|publisher=Peryton Press|year=2018|passage=“How can I help, my lady?” “Stop the '''ladying'''.{{nb...}}”}}
+
+===See also===
+* {{l|en|lord}}
+* {{l|en|gentleman}}
+* {{l|en|ladies' room}}
+* {{l|en|broad}}
+
+===Anagrams===
+* {{anagrams|en|a=adly|DALY|Daly|Dyal|Lyda|layd|yald}}
+
+[[Category:English autohyponyms]]
+[[Category:English terms of address]]
+[[Category:en:Female]]
+[[Category:en:Feudalism]]
+[[Category:en:People]]
+
+==French==
+
+===Etymology===
+{{root|fr|ine-pro|*dʰeyǵʰ-}}
+{{bor+|fr|en|lady}}, from {{der|fr|enm|lady}}, from {{der|fr|ang|hlǣfdīġe}}.
+
+===Pronunciation===
+* {{fr-IPA|laidi}}
+
+===Noun===
+{{fr-noun|f|ladies|+}}
+
+# {{l|en|lady}} {{gloss|wife of a British lord; important woman, usually British}}
+#: {{syn|fr|dame|madame}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+==Italian==
+
+===Etymology===
+{{root|it|ine-pro|*dʰeyǵʰ-}}
+{{ubor|it|en|lady}}.
+
+===Pronunciation===
+{{it-pr|lèdy,lédy<r:DiPI>}}
+
+===Noun===
+{{it-noun|f|#}}
+
+# {{l|en|lady}} {{gloss|wife of a lord; important woman}}
+
+====Synonyms====
+* {{l|it|dama}}, {{l|it|donna}} {{q|archaic}}, {{l|it|signora}}
+
+===References===
+<references />
+
+==Middle English==
+
+===Alternative forms===
+* {{alter|enm|laddy|ladi|ladie|ladij|ladye|lavedi|lefdi|lefdy|levedi|levedy|lhevedi}}
+* {{q|early ME}} {{alter|enm|lafdi|laffdiȝ|læfdi|lævedi|leafdi}}
+
+===Etymology===
+{{root|enm|ine-pro|*dʰeyǵʰ-}}
+
+From {{inh|enm|ang|hlǣfdīġe}}, in turn from {{m|ang|hlāf||bread, loaf}} + {{m|ang||*dīġe|maid}}.
+
+===Pronunciation===
+* {{IPA|enm|/ˈlaːdiː(ə)/|/ˈladiː(ə)/}}
+* {{a|mainly Early ME}} {{IPA|enm|/ˈlavdiː(ə)/}}
+
+===Noun===
+{{enm-noun|pl=ladies|gen=ladies|gen2=lady}}
+
+# A [[woman]] with [[authority]] or [[leadership]]:
+## A {{l|en|lady}} {{gloss|mistress of a household}}
+##* {{quote-book|enm|year=c. 1382|author={{w|John Wycliffe}}, transl.|title={{w|Wycliffe's Bible}}
+|section=Genesis 16:7–9}}
+##*: And whanne the aungel of the Lord hadde foundun hir biside the welle of water in wildirnes, the which is in the / weye of Sur in desert, he seide to hir, Agar, the hand mayden of Saray, whens comyst thow, and whithir gost thow? / The which answeride, Fro the face of Saray my '''ladi''' I flee.
+##*::And when the angel of the Lord had found her in the wilderness beside the spring of water, which is in the desert on the way to Shur, he said to her, "Hagar, handmaiden of Sarai, where have you come from, and where are you going?" She answered, "I am fleeing from the face of Sarai, my '''lady'''".
+## A {{l|en|lady}} {{gloss|[[noblewoman]] or [[female]] [[monarch]]}}.
+## A woman who manages an [[abbey]] or [[inn]].
+# The wife of a [[noble]] or [[monarch]].
+# {{n-g|A polite way to address a noble or honoured woman}}.
+# {{lb|enm|by extension}} Any [[woman]].
+# A [[female]] deity {{gloss|or the Virgin Mary}}.
+
+====Descendants====
+* {{desc|en|lady}} {{see desc}}
+* {{desc|sco|lady|leddy}}
+* {{desc|yol|laady}}
+
+====References====
+* {{R:MED Online|entry=lādī(e|pos=n|id=MED24557}}
+
+{{C|enm|Household|Nobility|Religion|Female people}}
+
+==Polish==
+{{wp|lang=pl}}
+
+===Etymology 1===
+{{ubor|pl|en|lady}}, from {{der|pl|enm|lady}}, {{m|enm|laddy}}, {{m|enm|lafdi}}, {{m|enm|lavedi}}, from {{der|pl|ang|hlǣfdīġe}}.
+
+====Pronunciation====
+{{pl-p|lejdi|a=LL-Q809 (pol)-Olaf-lady.wav|h=la.dy}}
+
+====Noun====
+{{pl-noun|f|indecl=yes}}
+
+# [[Lady]] {{gl|aristocratic title for a woman}}
+# {{l|en|lady}} {{gl|wife of a lord}}
+# {{l|en|lady}} {{gl|woman of breeding and authority}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Pronunciation====
+{{pl-p|hh=Lady}}
+
+====Noun====
+{{head|pl|noun form|g=f}}
+
+# {{inflection of|pl|lada||gen|s|;|nom//acc//voc|p}}
+
+===Further reading===
+* {{R:pl:WSJP}}
+* {{R:pl:PWN}}
+
+{{C|pl|Female people|Nobility|Titles|United Kingdom}}
+
+==Romanian==
+
+===Etymology===
+{{ubor|ro|en|lady}}.
+
+===Noun===
+{{ro-noun|f|lady}}
+
+# {{l|en|lady}}
+
+==Spanish==
+
+===Etymology===
+{{ubor|es|en|lady}}.
+
+===Pronunciation===
+{{es-pr|leidi}}
+
+===Noun===
+{{es-noun|f|ladies}}
+
+# {{l|en|lady}} {{gloss|wife of a lord; important woman}}
+
+====Usage notes====
+{{es-unadapted}}
+
+===Further reading===
+* {{R:es:DRAE}}

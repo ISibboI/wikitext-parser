@@ -444,10 +444,11 @@ fn parse_internal_link(
             tokenizer.next();
             label = Some(Text::new());
         }
-        token @ (Token::DoubleOpenBrace
-        | Token::DoubleCloseBrace
-        | Token::DoubleOpenBracket
-        | Token::Newline) => {
+        Token::Newline => {
+            debug!("Line contains unclosed internal link at {text_position:?}");
+            tokenizer.next();
+        }
+        token @ (Token::DoubleOpenBrace | Token::DoubleCloseBrace | Token::DoubleOpenBracket) => {
             return Err(ParserErrorKind::UnexpectedTokenInLink {
                 token: token.to_string(),
             }

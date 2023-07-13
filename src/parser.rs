@@ -192,7 +192,9 @@ fn parse_potential_headline(tokenizer: &mut MultipeekTokenizer) -> Option<Result
             };
 
             if let Some(suffix) = suffix {
-                let Some((Token::Text(text), _)) = tokenizer.repeek(1) else { unreachable!("Tokenizer was not mutated after matching the same repeek above.") };
+                let Some((Token::Text(text), _)) = tokenizer.repeek(1) else {
+                    unreachable!("Tokenizer was not mutated after matching the same repeek above.")
+                };
                 debug_assert!(!text.contains('\n'));
                 let label = text.trim().to_string();
 
@@ -433,71 +435,78 @@ fn parse_internal_link(
     }
 
     // parse options and label
-    let label = label.map(|mut label| {
-        let mut link_finished = false;
+    let label = label
+        .map(|mut label| {
+            let mut link_finished = false;
 
-        // parse options
-        loop {
-            if DO_PARSER_DEBUG_PRINTS {
-                println!("parse_link options token: {:?}", tokenizer.peek(0));
-            }
-            let (token, text_position) = tokenizer.peek(0);
-            match token {
-                Token::Text(text) => {
-                    label.extend_with_formatted_text(*text_formatting, text);
-                    tokenizer.next();
+            // parse options
+            loop {
+                if DO_PARSER_DEBUG_PRINTS {
+                    println!("parse_link options token: {:?}", tokenizer.peek(0));
                 }
-                Token::VerticalBar => {
-                    let mut new_label = Text::new();
-                    mem::swap(&mut label, &mut new_label);
-                    if new_label.pieces.is_empty() {
-                        options.push(Default::default());
-                    } else {
-                        assert_eq!(new_label.pieces.len(), 1);
-                        let TextPiece::Text { text, .. } = new_label.pieces.into_iter().next().unwrap() else {
-                            unreachable!("Only text is ever inserted into link options");
-                        };
-                        options.push(text);
+                let (token, text_position) = tokenizer.peek(0);
+                match token {
+                    Token::Text(text) => {
+                        label.extend_with_formatted_text(*text_formatting, text);
+                        tokenizer.next();
                     }
-                    tokenizer.next();
-                }
-                Token::DoubleCloseBracket => {
-                    tokenizer.next();
-                    link_finished = true;
-                    break;
-                }
-                Token::DoubleOpenBrace
-                | Token::DoubleOpenBracket
-                | Token::Apostrophe
-                | Token::Colon
-                | Token::Semicolon
-                | Token::Star
-                | Token::Sharp => {
-                    break;
-                }
-                token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace | Token::Newline) => {
-                    return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
-                        token: token.to_string(),
+                    Token::VerticalBar => {
+                        let mut new_label = Text::new();
+                        mem::swap(&mut label, &mut new_label);
+                        if new_label.pieces.is_empty() {
+                            options.push(Default::default());
+                        } else {
+                            assert_eq!(new_label.pieces.len(), 1);
+                            let TextPiece::Text { text, .. } =
+                                new_label.pieces.into_iter().next().unwrap()
+                            else {
+                                unreachable!("Only text is ever inserted into link options");
+                            };
+                            options.push(text);
+                        }
+                        tokenizer.next();
                     }
+                    Token::DoubleCloseBracket => {
+                        tokenizer.next();
+                        link_finished = true;
+                        break;
+                    }
+                    Token::DoubleOpenBrace
+                    | Token::DoubleOpenBracket
+                    | Token::Apostrophe
+                    | Token::Colon
+                    | Token::Semicolon
+                    | Token::Star
+                    | Token::Sharp => {
+                        break;
+                    }
+                    token @ (Token::MultiEquals(_) | Token::DoubleCloseBrace | Token::Newline) => {
+                        return Err(ParserErrorKind::UnexpectedTokenInLinkLabel {
+                            token: token.to_string(),
+                        }
                         .into_parser_error(*text_position))
-                }
-                Token::Eof => {
-                    return Err(ParserErrorKind::UnmatchedDoubleOpenBracket
-                        .into_parser_error(*text_position))
+                    }
+                    Token::Eof => {
+                        return Err(ParserErrorKind::UnmatchedDoubleOpenBracket
+                            .into_parser_error(*text_position))
+                    }
                 }
             }
-        }
 
-        Ok(if !link_finished {
-            // parse label
-            let label = parse_text_until(tokenizer, label, text_formatting, |token| matches!(token, Token::DoubleCloseBracket)).map_err(|error| error.annotate_self("parse_internal_link label".to_string()))?;
-            let next_token = tokenizer.expect(&Token::DoubleCloseBracket);
-            debug_assert!(next_token.is_ok());
-            label
-        } else {
-            label
+            Ok(if !link_finished {
+                // parse label
+                let label = parse_text_until(tokenizer, label, text_formatting, |token| {
+                    matches!(token, Token::DoubleCloseBracket)
+                })
+                .map_err(|error| error.annotate_self("parse_internal_link label".to_string()))?;
+                let next_token = tokenizer.expect(&Token::DoubleCloseBracket);
+                debug_assert!(next_token.is_ok());
+                label
+            } else {
+                label
+            })
         })
-    }).transpose()?;
+        .transpose()?;
 
     Ok(TextPiece::InternalLink {
         target,

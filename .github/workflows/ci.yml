@@ -6,7 +6,6 @@ on:
 
 env:
   RUSTFLAGS: -Dwarnings
-  MSRV: 1.65.0
 
 jobs:
   precheck_default:
@@ -76,7 +75,7 @@ jobs:
       - name: Install MSRV toolchain
         uses: actions-rs/toolchain@v1
         with:
-          toolchain: "$MSRV"
+          toolchain: 1.65.0
           override: true
 
       - name: Rust cache

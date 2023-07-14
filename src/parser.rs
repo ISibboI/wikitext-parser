@@ -555,8 +555,8 @@ fn parse_internal_link(
             }
             let (token, text_position) = tokenizer.peek(0);
             match token {
-                Token::Text(text) => {
-                    label.extend_with_formatted_text(*text_formatting, text);
+                token@(Token::Equals|Token::Text(_)) => {
+                    label.extend_with_formatted_text(*text_formatting, token.to_str());
                     tokenizer.next();
                 }
                 Token::VerticalBar => {
@@ -587,8 +587,7 @@ fn parse_internal_link(
                 | Token::Semicolon
                 | Token::Star
                 | Token::Sharp
-                | Token::Newline
-                | Token::Equals => {
+                | Token::Newline => {
                     break;
                 }
                 token @ Token::DoubleCloseBrace => {

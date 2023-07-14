@@ -637,11 +637,19 @@ fn parse_internal_link(
                     link_finished = true;
                     break;
                 }
+                Token::Apostrophe => {
+                    label = parse_text_until(
+                        tokenizer,
+                        error_consumer,
+                        label,
+                        text_formatting,
+                        &|token| !matches!(token, Token::Apostrophe),
+                    );
+                }
                 Token::DoubleOpenBrace
                 | Token::DoubleOpenBracket
                 | Token::NoWikiOpen
                 | Token::NoWikiClose
-                | Token::Apostrophe
                 | Token::Colon
                 | Token::Semicolon
                 | Token::Star

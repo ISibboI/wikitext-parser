@@ -481,10 +481,7 @@ fn test_wiktionary_wiktionary_todo_template_language_code_doesnt_match_header() 
         "Wiktionary:Todo/Template language code doesn't match header".to_string(),
         |error| errors.push(error),
     );
-    assert_eq!(
-        errors,
-        vec![]
-    );
+    assert_eq!(errors, vec![]);
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);

@@ -4,7 +4,7 @@ use crate::wikitext::TextFormatting;
 pub type Result<T> = std::result::Result<T, ParserError>;
 
 /// Error type of this crate.
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq)]
 pub struct ParserError {
     /// The kind of error.
     pub kind: ParserErrorKind,
@@ -15,7 +15,7 @@ pub struct ParserError {
 }
 
 /// The kind of parser error.
-#[derive(Debug)]
+#[derive(Debug, Eq, PartialEq)]
 pub enum ParserErrorKind {
     /// Found a second root section, but only one is allowed.
     SecondRootSection {

@@ -342,9 +342,7 @@ fn parse_tag(
     loop {
         tag = parse_text_until(
             tokenizer,
-            &mut Box::new(|error: ParserError| {
-                error_consumer(error.annotate_self("parse_tag".to_string()))
-            }),
+            error_consumer,
             tag,
             &mut text_formatting,
             &|token: &Token<'_>| {
@@ -449,9 +447,7 @@ fn parse_attribute(
     // parse value
     let mut value = parse_text_until(
         tokenizer,
-        &mut Box::new(|error: ParserError| {
-            error_consumer(error.annotate_self("parse_double_brace_expression value".to_string()))
-        }),
+        error_consumer,
         value,
         text_formatting,
         &|token: &Token<'_>| matches!(token, Token::VerticalBar | Token::DoubleCloseBrace),
@@ -486,9 +482,7 @@ fn parse_internal_link(
     // parse target
     target = parse_text_until(
         tokenizer,
-        &mut Box::new(|error: ParserError| {
-            error_consumer(error.annotate_self("parse_internal_link target".to_string()))
-        }),
+        error_consumer,
         target,
         text_formatting,
         &|token: &Token<'_>| {
@@ -615,9 +609,7 @@ fn parse_internal_link(
             // parse label
             let label = parse_text_until(
                 tokenizer,
-                &mut Box::new(|error: ParserError| {
-                    error_consumer(error.annotate_self("parse_internal_link label".to_string()))
-                }),
+                error_consumer,
                 label,
                 text_formatting,
                 &|token: &Token<'_>| matches!(token, Token::DoubleCloseBracket),
@@ -632,7 +624,6 @@ fn parse_internal_link(
 
     // update text
     for _ in 0..surrounding_depth {
-        tokenizer.expect(&Token::DoubleOpenBracket).unwrap();
         text.extend_with_formatted_text(*text_formatting, "[[");
     }
     text.pieces.push(TextPiece::InternalLink {

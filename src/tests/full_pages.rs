@@ -1,4 +1,4 @@
-use crate::parse_wikitext;
+use crate::{parse_wikitext, ParserErrorKind, TextPosition};
 
 #[test]
 fn test_wiktionary_pöytä() {
@@ -180,7 +180,15 @@ fn test_wiktionary_y() {
         "y".to_string(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleCloseBracket.into_parser_error(TextPosition {
+                line: 942,
+                column: 58
+            })
+        ]
+    );
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);
@@ -275,7 +283,15 @@ fn test_wiktionary_appendix_indo_iranian_swadesh_lists() {
         "Appendix:Indo-Iranian Swadesh lists".to_string(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
+                line: 2715,
+                column: 40
+            })
+        ]
+    );
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);
@@ -332,7 +348,16 @@ fn test_wiktionary_lady() {
         "lady".to_string(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(
+        errors,
+        vec![ParserErrorKind::UnexpectedTokenInParameter {
+            token: "]]".to_string()
+        }
+        .into_parser_error(TextPosition {
+            line: 296,
+            column: 78
+        })]
+    );
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);

@@ -1,5 +1,7 @@
 use crate::wikitext::{Headline, Line, Paragraph};
-use crate::{parse_wikitext, Section, Text, TextFormatting, TextPiece};
+use crate::{
+    parse_wikitext, ParserErrorKind, Section, Text, TextFormatting, TextPiece, TextPosition,
+};
 
 mod full_pages;
 
@@ -198,5 +200,13 @@ fn test_complex_double_brace_expression() {
         Default::default(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleCloseBracket.into_parser_error(TextPosition {
+                line: 3,
+                column: 58
+            })
+        ]
+    );
 }

@@ -6,9 +6,14 @@ use std::collections::VecDeque;
 use std::fmt;
 use std::fmt::Display;
 
+static NOWIKI_OPEN: &str = "<nowiki>";
+static NOWIKI_CLOSE: &str = "</nowiki>";
+
 lazy_static! {
-    static ref TEXT_REGEX: Regex =
-        Regex::new("(\\{\\{|\\}\\}|\\[\\[|\\]\\]|=|\\||'|\n|:|;|\\*|#)").unwrap();
+    static ref TEXT_REGEX: Regex = Regex::new(&format!(
+        "(\\{{\\{{|\\}}\\}}|\\[\\[|\\]\\]|=|\\||'|\n|:|;|\\*|#|{NOWIKI_OPEN}|{NOWIKI_CLOSE})"
+    ))
+    .unwrap();
 }
 
 #[derive(Debug, Clone, Eq, PartialEq)]
@@ -19,6 +24,8 @@ pub enum Token<'a> {
     DoubleCloseBrace,
     DoubleOpenBracket,
     DoubleCloseBracket,
+    NoWikiOpen,
+    NoWikiClose,
     VerticalBar,
     Apostrophe,
     Colon,
@@ -141,6 +148,12 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with("]]") {
             self.input.advance_until(2);
             Token::DoubleCloseBracket
+        } else if input.starts_with(NOWIKI_OPEN) {
+            self.input.advance_until(NOWIKI_OPEN.len());
+            Token::NoWikiOpen
+        } else if input.starts_with(NOWIKI_CLOSE) {
+            self.input.advance_until(NOWIKI_CLOSE.len());
+            Token::NoWikiClose
         } else if input.starts_with('=') {
             self.input.advance_one();
             Token::Equals
@@ -261,6 +274,8 @@ impl Token<'_> {
             Token::DoubleCloseBrace => "}}",
             Token::DoubleOpenBracket => "[[",
             Token::DoubleCloseBracket => "]]",
+            Token::NoWikiOpen => NOWIKI_OPEN,
+            Token::NoWikiClose => NOWIKI_CLOSE,
             Token::VerticalBar => "|",
             Token::Apostrophe => "'",
             Token::Newline => "\n",

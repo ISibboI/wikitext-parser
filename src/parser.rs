@@ -141,7 +141,10 @@ fn parse_text_until(
                 text_formatting,
             )),
             Token::DoubleOpenBracket => {
-                prefix = parse_internal_link(tokenizer, error_consumer, prefix, text_formatting)
+                prefix = parse_internal_link(tokenizer, error_consumer, prefix, text_formatting);
+            }
+            Token::NoWikiOpen => {
+                prefix = parse_nowiki(tokenizer, error_consumer, prefix, text_formatting);
             }
             Token::DoubleCloseBrace => {
                 error_consumer(
@@ -153,6 +156,13 @@ fn parse_text_until(
             Token::DoubleCloseBracket => {
                 error_consumer(
                     ParserErrorKind::UnmatchedDoubleCloseBracket.into_parser_error(*text_position),
+                );
+                prefix.extend_with_formatted_text(*text_formatting, token.to_str());
+                tokenizer.next();
+            }
+            Token::NoWikiClose => {
+                error_consumer(
+                    ParserErrorKind::UnmatchedNoWikiClose.into_parser_error(*text_position),
                 );
                 prefix.extend_with_formatted_text(*text_formatting, token.to_str());
                 tokenizer.next();
@@ -185,6 +195,41 @@ fn parse_text_until(
     }
 
     prefix
+}
+
+fn parse_nowiki(
+    tokenizer: &mut MultipeekTokenizer,
+    error_consumer: &mut impl FnMut(ParserError),
+    mut text: Text,
+    text_formatting: &mut TextFormatting,
+) -> Text {
+    tokenizer.expect(&Token::NoWikiOpen).unwrap();
+
+    loop {
+        if DO_PARSER_DEBUG_PRINTS {
+            println!("parse_nowiki token: {:?}", tokenizer.peek(0));
+        }
+        let (token, text_position) = tokenizer.peek(0);
+
+        match token {
+            Token::NoWikiClose => {
+                tokenizer.next();
+                break;
+            }
+            Token::Eof => {
+                error_consumer(
+                    ParserErrorKind::UnmatchedNoWikiOpen.into_parser_error(*text_position),
+                );
+                break;
+            }
+            token => {
+                text.extend_with_formatted_text(*text_formatting, token.to_str());
+                tokenizer.next();
+            }
+        }
+    }
+
+    text
 }
 
 fn parse_potential_headline(
@@ -280,6 +325,7 @@ fn parse_double_brace_expression(
     let tag = parse_tag(tokenizer, error_consumer);
     let mut attributes = Vec::new();
 
+    // parse attributes
     loop {
         if DO_PARSER_DEBUG_PRINTS {
             println!(
@@ -300,7 +346,9 @@ fn parse_double_brace_expression(
             | Token::Equals
             | Token::DoubleOpenBrace
             | Token::DoubleOpenBracket
+            | Token::NoWikiOpen
             | Token::DoubleCloseBracket
+            | Token::NoWikiClose
             | Token::Apostrophe
             | Token::Newline
             | Token::Colon
@@ -412,7 +460,7 @@ fn parse_attribute(
                 tokenizer.next();
             }
             Token::Newline => {
-                name.as_mut().unwrap().push('\'');
+                name.as_mut().unwrap().push('\n');
                 tokenizer.next();
             }
             Token::Equals => {
@@ -421,8 +469,10 @@ fn parse_attribute(
             }
             Token::DoubleOpenBrace
             | Token::DoubleOpenBracket
-            | Token::VerticalBar
+            | Token::NoWikiOpen
             | Token::DoubleCloseBrace
+            | Token::NoWikiClose
+            | Token::VerticalBar
             | Token::Apostrophe
             | Token::Colon
             | Token::Semicolon
@@ -518,7 +568,9 @@ fn parse_internal_link(
         | Token::Star
         | Token::Apostrophe
         | Token::Equals
-        | Token::DoubleOpenBrace) => {
+        | Token::DoubleOpenBrace
+        | Token::NoWikiOpen
+        | Token::NoWikiClose) => {
             unreachable!("Not a stop token above: {token:?}");
         }
         Token::DoubleCloseBracket => {
@@ -587,6 +639,8 @@ fn parse_internal_link(
                 }
                 Token::DoubleOpenBrace
                 | Token::DoubleOpenBracket
+                | Token::NoWikiOpen
+                | Token::NoWikiClose
                 | Token::Apostrophe
                 | Token::Colon
                 | Token::Semicolon

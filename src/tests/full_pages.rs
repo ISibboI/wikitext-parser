@@ -470,3 +470,26 @@ fn test_wiktionary_rhymes_english_aesi() {
             println!("{}", plain_text);
         }*/
 }
+
+#[test]
+fn test_wiktionary_wiktionary_todo_template_language_code_doesnt_match_header() {
+    let input =
+        include_str!("pages/wiktionary_todo_template_language_code_doesnt_match_header.txt");
+    let mut errors = Vec::new();
+    let _parsed = parse_wikitext(
+        input,
+        "Wiktionary:Todo/Template language code doesn't match header".to_string(),
+        |error| errors.push(error),
+    );
+    assert_eq!(
+        errors,
+        vec![]
+    );
+    /*parsed.print_headlines();
+    *for double_brace_expression in parsed.list_double_brace_expressions() {
+            println!("{}", double_brace_expression);
+        }
+        for plain_text in parsed.list_plain_text() {
+            println!("{}", plain_text);
+        }*/
+}

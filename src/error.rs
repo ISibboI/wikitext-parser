@@ -41,6 +41,12 @@ pub enum ParserErrorKind {
     /// Found a double open bracket that does not match any closed one.
     UnmatchedDoubleOpenBracket,
 
+    /// Found a `</nowiki>` that does not match any `<nowiki>`.
+    UnmatchedNoWikiClose,
+
+    /// Found a `<nowiki>` that does not match any `</nowiki>`.
+    UnmatchedNoWikiOpen,
+
     /// A tag contains a token that does not belong there.
     UnexpectedTokenInTag {
         /// The unexpected token.

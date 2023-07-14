@@ -634,8 +634,16 @@ fn parse_internal_link(
         label,
     });
     for _ in 0..surrounding_depth {
-        tokenizer.expect(&Token::DoubleCloseBracket).unwrap();
-        text.extend_with_formatted_text(*text_formatting, "]]");
+        let (token, text_position) = tokenizer.peek(0);
+        match token {
+            token @ Token::DoubleCloseBracket=> {
+                text.extend_with_formatted_text(*text_formatting, token.to_str());
+                tokenizer.next();
+            }
+            _ => {
+                error_consumer(ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(*text_position));
+            }
+        }
     }
 
     text

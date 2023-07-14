@@ -1,0 +1,20 @@
+== Slovak ==
+=== Declension Pattern ''dlaň'' '
+==== Singular ====
+* ''[[nominative|nom]]'' '''dlaň'''
+* ''[[genitive|gen]]'' '''dlan-e'''
+* ''[[dative|dat]]'' '''dlan-i'''
+* ''[[accusative|acc]]'' '''dlaň'''
+* ''[[locative|loc]]'' '''dlan-i'''
+* ''[[instrumental|ins]]'' '''dlaň-ou'''
+==== Plural ====
+* ''[[nominative|nom]]'' '''dlan-e'''
+* ''[[genitive|gen]]'' '''dlan-í'''
+* ''[[dative|dat]]'' '''dlan-iam'''
+* ''[[accusative|acc]]'' '''dlan-e'''
+* ''[[locative|loc]]'' '''dlan-iach'''
+* ''[[instrumental|ins]]'' '''dlaň-ami'''
+
+This pattern is followed by feminine nouns that end with the consonants '''ň''', '''j''', '''ľ''' (except '''beľ''', '''soľ'''), '''ď''' (except '''meď''', '''mlaď'''), '''č''' (except '''reč''', '''seč'''), '''š''' (except '''myš''', '''voš'''), '''ž''' (except '''lož'''), '''dz''', '''z''', the consonant group '''šť''' (except '''Lešť''', '''Budapešť''', '''Bukurešť'''), foreign words ending at '''x''', the words '''obec''', '''pec''', '''zem''', '''čeľusť''', '''kysť''', '''päsť''', and those feminine words ending at '''ť''' and '''r''' whose ''nominative plural'' ends at '''-e''' (as listed in this dictionary, or any other dictionary listing Slovak words). All other feminine words ending at a ''consonant'' follow the declension pattern [[Appendix:Slovak declension pattern kosť].
+
+[[Category:Slovak]

@@ -366,3 +366,34 @@ fn test_wiktionary_lady() {
             println!("{}", plain_text);
         }*/
 }
+
+#[test]
+fn test_wiktionary_appendix_slovak_declension_pattern_dlan() {
+    let input = include_str!("pages/appendix_slovak_declension_pattern_dlan.txt");
+    let mut errors = Vec::new();
+    let _parsed = parse_wikitext(
+        input,
+        "Appendix:Slovak declension pattern dlaň".to_string(),
+        &mut Box::new(|error| errors.push(error)),
+    );
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
+                line: 18,
+                column: 795
+            }),
+            ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
+                line: 20,
+                column: 19
+            })
+        ]
+    );
+    /*parsed.print_headlines();
+    *for double_brace_expression in parsed.list_double_brace_expressions() {
+            println!("{}", double_brace_expression);
+        }
+        for plain_text in parsed.list_plain_text() {
+            println!("{}", plain_text);
+        }*/
+}

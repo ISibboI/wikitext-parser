@@ -17,7 +17,7 @@ static DO_PARSER_DEBUG_PRINTS: bool = true;
 pub fn parse_wikitext(
     wikitext: &str,
     headline: String,
-    error_consumer: &mut impl FnMut(ParserError),
+    mut error_consumer: impl FnMut(ParserError),
 ) -> Wikitext {
     let mut level_stack = LevelStack::new(headline);
     let mut tokenizer = MultipeekTokenizer::new(Tokenizer::new(wikitext));
@@ -43,7 +43,7 @@ pub fn parse_wikitext(
         let (token, _) = tokenizer.peek(0);
 
         if matches!(token, Token::Equals) {
-            if let Some(headline) = parse_potential_headline(&mut tokenizer, error_consumer) {
+            if let Some(headline) = parse_potential_headline(&mut tokenizer, &mut error_consumer) {
                 level_stack.append_headline(headline);
                 continue;
             }
@@ -51,7 +51,7 @@ pub fn parse_wikitext(
             break;
         }
 
-        level_stack.append_line(parse_line(&mut tokenizer, error_consumer));
+        level_stack.append_line(parse_line(&mut tokenizer, &mut error_consumer));
     }
 
     Wikitext {
@@ -493,6 +493,7 @@ fn parse_internal_link(
                     | Token::DoubleCloseBrace
                     | Token::DoubleOpenBracket
                     | Token::Newline
+                    | Token::Eof
             )
         },
     );
@@ -507,7 +508,6 @@ fn parse_internal_link(
         | Token::Semicolon
         | Token::Star
         | Token::Apostrophe
-        | Token::Eof
         | Token::Equals
         | Token::DoubleOpenBrace) => {
             unreachable!("Not a stop token above: {token:?}");
@@ -519,11 +519,13 @@ fn parse_internal_link(
             tokenizer.next();
             label = Some(Text::new());
         }
-        token @ Token::Newline => {
+        token @ (Token::Newline | Token::Eof) => {
             error_consumer(
                 ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(*text_position),
             );
-            text.extend_with_formatted_text(*text_formatting, token.to_str());
+            if token != &Token::Eof {
+                text.extend_with_formatted_text(*text_formatting, token.to_str());
+            }
             tokenizer.next();
         }
         token @ (Token::DoubleCloseBrace | Token::DoubleOpenBracket) => {

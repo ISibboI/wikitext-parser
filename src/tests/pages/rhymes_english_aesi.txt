@@ -1,0 +1,62 @@
+{{rhymes nav|en|æ|si}}
+
+----
+
+==Pronunciation==
+{{enPR|-ăsi}}, {{IPA|en|/-æsi/}}
+
+==Rhymes==
+
+===Notes===
+# For more rhymes, add ''y'', ''ey'' or ''ie'' to some words at [[Rhymes:English/æs|/-æs/}}.
+
+===Two syllables===
+<!--Note: words in this section must be stressed on the PENULTIMATE syllable.-->
+{{rhyme list begin}}
+* {{l|en|assy}}
+* {{l|en|Bassey}}
+* {{l|en|bassi}} {{qualifier|one pronunciation}}
+* {{l|en|bassy}} {{qualifier|MLE}}
+* {{l|en|brassey}}, {{l|en|brassie}}, {{l|en|brassy}} {{qualifier|golf club}}
+* {{l|en|Cassie}}
+* {{l|en|cassie}}
+* {{l|en|cassie}}, {{l|en|cassy}}
+* {{l|en|chassis}} {{qualifier|singular}}
+* {{l|en|classy}}
+* {{l|en|dasje}}, {{l|en|dassi}}, {{l|en|dassie}}
+* {{l|en|gassy}}
+* {{l|en|glacis}} {{qualifier|one pronunciation}}
+* {{l|en|glassy}}
+* {{l|en|grassy}}
+* {{l|en|lassi}}
+* {{l|en|Lassie}}
+* {{l|en|lassie}}, {{l|en|lassy}}
+* {{l|en|Massey}}
+* {{l|en|massy}}
+* {{l|en|Passy}}
+* {{l|en|Plassey}}
+* {{l|en|sassy}}
+* {{l|en|Tassey}}, {{l|en|Tassie}}, {{l|en|Tassy}}
+* {{l|en|Tassie}}
+* {{l|en|tassie}}
+* {{l|en|wassy}}
+{{rhyme list end}}
+
+===Three syllables===
+<!--Note: words in this section must be stressed on the PENULTIMATE syllable.-->
+{{rhyme list begin}}
+* {{l|en|chaprasi}}, {{l|en|chaprassi}}, {{l|en|chiprassi}}, {{l|en|chuprassy}} {{qualifier|one pronunciation}}
+* {{l|en|calassie}}, {{l|en|kalasi}}, {{l|en|kalassi}}, {{l|en|kelassee}}, {{l|en|khalasi}}, {{l|en|khelasse}}
+* {{l|en|Madrasi}}, {{l|en|Madrassee}}, {{l|en|Madrassi}}
+* {{l|en|molassy}}
+* {{l|en|morassy}}
+* {{l|en|Selassie}}
+* {{l|en|unmassy}}
+{{rhyme list end}}
+
+===Four syllables===
+<!--Note: words in this section must be stressed on the PENULTIMATE syllable.-->
+{{rhyme list begin}}
+* {{l|en|Malagasy}}
+* {{l|en|Tallahassee}}
+{{rhyme list end}}

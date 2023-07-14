@@ -348,7 +348,7 @@ fn parse_tag(
             &|token: &Token<'_>| {
                 matches!(
                     token,
-                    Token::DoubleCloseBrace | Token::VerticalBar | Token::DoubleOpenBracket
+                    Token::DoubleCloseBrace | Token::VerticalBar | Token::DoubleOpenBracket|Token::Eof
                 )
             },
         );
@@ -364,6 +364,10 @@ fn parse_tag(
                 );
                 tag.extend_with_formatted_text(text_formatting, token.to_str());
                 tokenizer.next();
+            }
+            Token::Eof => {
+                error_consumer(ParserErrorKind::UnmatchedDoubleOpenBrace.into_parser_error(*text_position));
+                break;
             }
             token => unreachable!("Not a stop token above: {token:?}"),
         }

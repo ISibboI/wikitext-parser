@@ -38,6 +38,13 @@ pub struct TextPosition {
     pub column: usize,
 }
 
+impl TextPosition {
+    /// Create a new text position at the given `line` and `column`.
+    pub fn new(line: usize, column: usize) -> Self {
+        Self { line, column }
+    }
+}
+
 impl Default for TextPosition {
     fn default() -> Self {
         Self { line: 1, column: 1 }
@@ -261,7 +268,7 @@ impl Token<'_> {
             Token::Semicolon => ";",
             Token::Star => "*",
             Token::Sharp => "#",
-            Token::Eof => unreachable!("EOF has no string representation"),
+            Token::Eof => "<EOF>",
         }
     }
 }

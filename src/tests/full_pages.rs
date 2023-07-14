@@ -226,7 +226,19 @@ fn test_wiktionary_abyssinian() {
         "Abyssinian".to_string(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleOpenBracket
+                .into_parser_error(TextPosition::new(20, 70)),
+            ParserErrorKind::UnmatchedDoubleCloseBracket
+                .into_parser_error(TextPosition::new(21, 1)),
+            ParserErrorKind::UnmatchedDoubleOpenBracket
+                .into_parser_error(TextPosition::new(69, 70)),
+            ParserErrorKind::UnmatchedDoubleCloseBracket
+                .into_parser_error(TextPosition::new(70, 1)),
+        ]
+    );
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);
@@ -245,7 +257,7 @@ fn test_wiktionary_o() {
         "o".to_string(),
         &mut Box::new(|error| errors.push(error)),
     );
-    assert!(errors.is_empty());
+    assert_eq!(errors, vec![]);
     /*parsed.print_headlines();
     *for double_brace_expression in parsed.list_double_brace_expressions() {
             println!("{}", double_brace_expression);
@@ -387,6 +399,67 @@ fn test_wiktionary_appendix_slovak_declension_pattern_dlan() {
                 line: 20,
                 column: 19
             })
+        ]
+    );
+    /*parsed.print_headlines();
+    *for double_brace_expression in parsed.list_double_brace_expressions() {
+            println!("{}", double_brace_expression);
+        }
+        for plain_text in parsed.list_plain_text() {
+            println!("{}", plain_text);
+        }*/
+}
+
+#[test]
+fn test_wiktionary_rhymes_english_ik() {
+    let input = include_str!("pages/rhymes_english_ik.txt");
+    let mut errors = Vec::new();
+    let _parsed = parse_wikitext(
+        input,
+        "Rhymes:English/ɪk".to_string(),
+        &mut Box::new(|error| errors.push(error)),
+    );
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
+                line: 656,
+                column: 63
+            }),
+        ]
+    );
+    /*parsed.print_headlines();
+    *for double_brace_expression in parsed.list_double_brace_expressions() {
+            println!("{}", double_brace_expression);
+        }
+        for plain_text in parsed.list_plain_text() {
+            println!("{}", plain_text);
+        }*/
+}
+
+#[test]
+fn test_wiktionary_rhymes_english_aesi() {
+    let input = include_str!("pages/rhymes_english_aesi.txt");
+    let mut errors = Vec::new();
+    let _parsed = parse_wikitext(
+        input,
+        "Rhymes:English/æsi".to_string(),
+        &mut Box::new(|error| errors.push(error)),
+    );
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::UnexpectedTokenInLinkLabel {
+                token: "}}".to_string()
+            }
+            .into_parser_error(TextPosition {
+                line: 11,
+                column: 90
+            }),
+            ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
+                line: 11,
+                column: 94
+            }),
         ]
     );
     /*parsed.print_headlines();

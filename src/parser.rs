@@ -612,15 +612,51 @@ fn parse_internal_link(
 
         if !link_finished {
             // parse label
-            let label = parse_text_until(
-                tokenizer,
-                error_consumer,
-                label,
-                text_formatting,
-                &|token: &Token<'_>| matches!(token, Token::DoubleCloseBracket),
-            );
-            let next_token = tokenizer.expect(&Token::DoubleCloseBracket);
-            debug_assert!(next_token.is_ok());
+            loop {
+                label = parse_text_until(
+                    tokenizer,
+                    error_consumer,
+                    label,
+                    text_formatting,
+                    &|token: &Token<'_>| {
+                        matches!(
+                            token,
+                            Token::DoubleCloseBracket
+                                | Token::VerticalBar
+                                | Token::Newline
+                                | Token::Eof
+                        )
+                    },
+                );
+
+                let (token, text_position) = tokenizer.peek(0);
+                match token {
+                    Token::DoubleCloseBracket => {
+                        tokenizer.next();
+                        break;
+                    }
+                    token @ Token::VerticalBar => {
+                        error_consumer(
+                            ParserErrorKind::UnexpectedTokenInLinkLabel {
+                                token: token.to_string(),
+                            }
+                            .into_parser_error(*text_position),
+                        );
+                        label.extend_with_formatted_text(*text_formatting, token.to_str());
+                        tokenizer.next();
+                    }
+                    Token::Newline | Token::Eof => {
+                        error_consumer(
+                            ParserErrorKind::UnmatchedDoubleOpenBracket
+                                .into_parser_error(*text_position),
+                        );
+                        tokenizer.next();
+                        break;
+                    }
+                    token => unreachable!("Not a stop token above: {token:?}"),
+                }
+            }
+
             label
         } else {
             label

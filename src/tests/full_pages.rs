@@ -393,7 +393,7 @@ fn test_wiktionary_appendix_slovak_declension_pattern_dlan() {
         vec![
             ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
                 line: 18,
-                column: 795
+                column: 794
             }),
             ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
                 line: 20,
@@ -458,7 +458,7 @@ fn test_wiktionary_rhymes_english_aesi() {
             }),
             ParserErrorKind::UnmatchedDoubleOpenBracket.into_parser_error(TextPosition {
                 line: 11,
-                column: 94
+                column: 93
             }),
         ]
     );

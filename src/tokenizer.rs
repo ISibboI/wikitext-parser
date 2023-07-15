@@ -163,6 +163,9 @@ impl<'input> Tokenizer<'input> {
         } else if input.starts_with('\'') {
             self.input.advance_one();
             Token::Apostrophe
+        } else if input.starts_with("\r\n") {
+            self.input.advance_until(2);
+            Token::Newline
         } else if input.starts_with('\n') {
             self.input.advance_one();
             Token::Newline

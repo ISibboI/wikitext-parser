@@ -267,7 +267,7 @@ pub enum TextPiece {
         /// The link target.
         target: Text,
         /// The link options.
-        options: Vec<String>,
+        options: Vec<Text>,
         /// The label of the link.
         label: Option<Text>,
     },

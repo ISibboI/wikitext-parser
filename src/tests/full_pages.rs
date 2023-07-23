@@ -493,14 +493,9 @@ fn test_wiktionary_wiktionary_todo_template_language_code_doesnt_match_header() 
 
 #[test]
 fn test_wiktionary_ab() {
-    let input =
-        include_str!("pages/ab.txt");
+    let input = include_str!("pages/ab.txt");
     let mut errors = Vec::new();
-    let parsed = parse_wikitext(
-        input,
-        "ab".to_string(),
-        |error| errors.push(error),
-    );
+    let parsed = parse_wikitext(input, "ab".to_string(), |error| errors.push(error));
     assert_eq!(errors, vec![]);
     for language_subsection in &parsed.root_section.subsections {
         if language_subsection.headline.label == "Irish" {
@@ -510,9 +505,9 @@ fn test_wiktionary_ab() {
 
     //parsed.print_headlines();
     /*for double_brace_expression in parsed.list_double_brace_expressions() {
-            println!("{}", double_brace_expression);
-        }
-        for plain_text in parsed.list_plain_text() {
-            println!("{}", plain_text);
-        }*/
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
 }

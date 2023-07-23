@@ -511,3 +511,24 @@ fn test_wiktionary_ab() {
         println!("{}", plain_text);
     }*/
 }
+
+#[test]
+fn test_wiktionary_te() {
+    let input = include_str!("pages/te.txt");
+    let mut errors = Vec::new();
+    let parsed = parse_wikitext(input, "te".to_string(), |error| errors.push(error));
+    assert_eq!(errors, vec![]);
+    for language_subsection in &parsed.root_section.subsections {
+        if language_subsection.headline.label == "Tagalog" {
+            assert_eq!(language_subsection.subsections.len(), 6);
+        }
+    }
+
+    //parsed.print_headlines();
+    /*for double_brace_expression in parsed.list_double_brace_expressions() {
+        println!("{}", double_brace_expression);
+    }
+    for plain_text in parsed.list_plain_text() {
+        println!("{}", plain_text);
+    }*/
+}

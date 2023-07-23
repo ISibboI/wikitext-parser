@@ -1,0 +1,1962 @@
+{{also|Appendix:Variations of "te"}}
+{{TOC limit|2}}
+==Translingual==
+
+===Symbol===
+{{mul-symbol}}
+
+# {{ISO 639|1}}
+
+==English==
+{{wikipedia}}
+
+===Etymology 1===
+Altered from ''[[si]]'' in the 19th century to prevent having two notes of the musical scale starting with the same letter, to become ''[[ti]]''; the vowel was then changed to 'e' to signify a flattened note.
+
+====Pronunciation====
+* {{IPA-lite|en|/tiː/}}
+* {{rhymes-lite|en|iː|s=1}}
+* {{homophones|en|T|tea|tee|ti}}
+
+====Noun====
+{{en-noun}}
+
+# {{lb|en|music}} In [[solfège]], the lowered seventh note of a major scale (the note [[B-flat]] in the [[fixed-do]] system): [[ta]].
+
+=====Synonyms=====
+* [[ta]]
+* [[B-flat]]
+* [[li]]
+
+===Etymology 2===
+
+====Noun====
+{{en-noun}}
+
+# {{Cyrl-def|en|name|sc=Cyrl|Т|т}}
+
+===Anagrams===
+* {{anagrams|en|a=et|-et|ET|Et|et}}
+
+[[Category:English two-letter words]]
+
+==Afrikaans==
+
+===Etymology===
+From {{inh-lite|af|nl|te}}.
+
+===Pronunciation===
+* {{IPA-lite|af|/tə/}}
+* {{audio|af|LL-Q14196 (afr)-Oesjaar-te.wav|Audio}}
+
+===Adverb===
+{{head-lite|af|adverbs}}
+
+# ''indicating excess:'' [[too]]
+
+===Preposition===
+{{head-lite|af|prepositions}}
+
+# ''modifying an infinitive verb:'' [[to]]
+# located [[at]], [[in]]
+
+==Aiwoo==
+
+===Verb===
+{{head-lite|nfl|verbs}}
+
+# to [[see]]
+
+===References===
+* {{R:ABVD|lang=Äiwoo|id=501|cite={{cite-journal|author=Ross, M., & Næss, Å.|date=2007|title=An Oceanic origin for Äiwoo, the language of the Reef Islands?|work=Oceanic Linguistics|volume=46|issue=2}}.}}
+
+==Akan==
+
+===Alternative forms===
+* {{alter|ak|tse||Fante}}
+
+===Pronunciation===
+* Tone: L<ref>{{R:Kotey2007}}</ref>
+
+===Verb===
+{{head-lite|ak|verbs}}
+
+# to [[understand]], [[perceive]]
+# to [[hear]]
+
+===References===
+<references />
+* {{R:Christaller1881|p=476}}
+
+==Albanian==
+
+===Etymology===
+From {{inh-lite|sq|sqj-pro|sc=Latinx|*te-k(u)}}, from {{der-lite|sq|ine-pro|sc=Latinx|*to-||it}}. Governs the nominative determinative, due to its relatively recent use as a preposition and its origin as a shortened form of {{cog-lite|sq|*te-k(u)}}.
+
+===Preposition===
+{{sq-preposition|n}}
+
+# [[at]]
+#: {{ux-lite|sq|Unë jam te pijetorja.|I'm at the bar.}}
+# [[to]]
+# {{qualifier|with a human referent}} [[at]] {{gloss|someone's}} place
+#: {{ux-lite|sq|Jemi te unë.|We're at my place.}}
+
+====Synonyms====
+* {{l-lite|sq|tek}}
+
+==Aragonese==
+
+===Etymology===
+From {{der-lite|an|la|te}}. Akin to {{cog-lite|es|te}} and {{cog-lite|fr|te}}.
+
+===Pronoun===
+{{head-lite|an|pronouns}}
+
+# [[you]], [[thee]] {{qualifier|second-person singular direct pronoun}}
+# (to) [[you]], (to) [[thee]] {{qualifier|second-person singular indirect pronoun}}
+
+==Asturian==
+
+===Etymology===
+From {{inh-lite|ast|la|te|tē}}, from {{m-lite|la|tu|tū}}.
+
+===Pronoun===
+{{head-lite|ast|pronouns}}
+
+# [[you]] (second-person singular direct pronoun)
+# [[you]] (second-person singular indirect pronoun)
+
+==Basque==
+
+===Pronunciation===
+{{eu-IPA}}
+
+===Etymology 1===
+
+====Noun====
+{{eu-noun|in}}
+
+# [[tea]]
+
+<!--
+
+=====Declension=====
+{{eu-decl-inanim}}-->
+
+===Etymology 2===
+
+====Noun====
+{{eu-noun|in}}
+
+# {{Latn-def|eu|name|T|t}}
+
+=====Declension=====
+{{eu-decl-inanim}}
+
+=====See also=====
+* {{list:Latin script letter names/eu}}
+
+==Blagar==
+
+===Noun===
+{{head-lite|beu|nouns}}
+
+# [[wood]], [[tree]]
+
+===References===
+* A. Schapper, ''[https://books.google.com/books?id=dvPnBQAAQBAJ&pg=PA150 The Papuan Languages of Timor, Alor and Pantar: Volume 1]''
+* The Rosetta Project, ''[https://archive.org/stream/rosettaproject_beu_swadesh-1/beu.txt Blagar Swadesh List]''
+* [http://transnewguinea.org/language/blagar-apuri-on-pura?page=3 Stokhof (1975)]
+
+==Breton==
+
+===Etymology===
+From {{inh-lite|br|cel-bry-pro|sc=Latinx|*ti}}, from {{inh-lite|br|cel-pro|sc=Latinx|*tū}}, from {{inh-lite|br|ine-pro|sc=Latinx|*túh₂}}. Cognate to {{cog-lite|cy|ti}}.
+
+===Pronoun===
+{{head-lite|br|pronouns|cat2=personal pronouns}}
+
+# [[you]] ''(singular)''
+
+==Catalan==
+
+===Etymology 1===
+{{rfe-lite|ca}}
+
+====Pronunciation====
+* {{ca-IPA|é}}
+* {{audio|ca|LL-Q7026 (cat)-Millars-te.wav|Audio (Valencian)}}
+* {{homophones|ca|té}}
+* {{rhymes-lite|ca|e|s=1}}
+
+====Noun====
+{{ca-noun|f}}
+
+# {{Latn-def|ca|name|T|t}}
+
+===Etymology 2===
+From {{inh-lite|ca|la|te|tē}} (accusative of {{m-lite|la|tu|tū}}).
+
+====Pronunciation====
+* {{lb|ca|Central|Balearic}} /tə/
+* {{lb|ca|Valencian}} /te/
+
+====Pronoun====
+{{ca-ppron|type=encl|encl_con='t|procl=et|procl_con=t'}}
+
+# [[you]], [[thee]] (direct or indirect object)
+# [[yourself]] (reflexive pronoun)
+
+=====Usage notes=====
+* {{U:ca:pronouns|form=full}}
+*: {{ux-lite|inline=1|ca|Puc ajudar-'''te'''?|Can I help you?}}
+*: {{ux-lite|inline=1|ca|Mou-'''te'''!|Move!}}
+
+=====Declension=====
+{{ca-decl-ppron}}
+
+=====Related terms=====
+* {{l-lite|ca|et}}
+* {{l-lite|ca|tu}}
+
+===Etymology 3===
+Originally from {{der-lite|ca|nan|-}} {{m-lite|nan|sc=Hani|茶|tr=tê}}.
+
+====Pronunciation====
+* {{ca-IPA|è}}
+* {{rhymes-lite|ca|ɛ|s=1}}
+
+====Noun====
+{{ca-noun|m}}
+
+# the [[tea plant]]; (''[[Camellia sinensis]]'')
+# [[tea]]; the product made from the leaves of the tea plant
+# [[tea]]; a light afternoon meal at which tea is commonly served
+
+===Further reading===
+* {{R:ca:DCVB}}
+* {{R:ca:GDLC}}
+* {{R:ca:IEC2}}
+
+{{C|ca|Agriculture|Beverages|Meals|Plants}}
+
+==Classical Nahuatl==
+
+===Pronoun===
+{{head-lite|nci|pronouns}}
+
+# {{alternative spelling of|nci|teh}}
+
+==Coatepec Nahuatl==
+
+===Noun===
+{{head-lite|naz|nouns}}
+
+# [[stone]]
+
+==Cornish==
+
+===Alternative forms===
+* {{alter|kw|ty||Standard Cornish|Standard Written Form}}
+
+===Pronoun===
+{{head-lite|kw|pronouns}}
+
+# [[you]] {{gloss|informal second person singular pronoun}}, [[thou]], [[thee]]
+
+===Noun===
+{{head-lite|kw|nouns}}
+
+# [[tea]]
+
+==Czech==
+
+===Pronunciation===
+* {{cs-IPA}}
+* {{rhymes-lite|cs|ɛ}}
+
+===Verb===
+{{head-lite|cs|combined forms}}
+
+# {{lb|cs|informal}} Combined form of {{affix|cs|to|je}}
+
+====See also====
+* {{l-lite|cs|totě}}
+
+==Dalmatian==
+
+===Etymology===
+From {{inh-lite|dlm|la|tu|tū}}.
+
+===Pronoun===
+{{head-lite|dlm|pronouns}}
+
+# {{lb|dlm|second-person singular pronoun}} [[you]], [[thou]]
+
+====Related terms====
+* {{l-lite|dlm|toi}}
+
+====See also====
+* {{l-lite|dlm|ju}}
+* {{l-lite|dlm|jal}}, {{l-lite|dlm|jala}}
+* {{l-lite|dlm|nu}}
+* {{l-lite|dlm|vu}}
+* {{l-lite|dlm|jali}}, {{l-lite|dlm|jale}}
+
+==Danish==
+
+===Pronunciation===
+* {{IPA-lite|da|/ˈteːˀ/|[ˈtˢe̝ːˀ]|[ˈtsʰe̝ˀ]}}
+
+===Etymology 1===
+Borrowed from {{der-lite|da|nl|thee}}, from {{der-lite|da|nan|sc=Hani|茶||tr=tê|tea}}, compare {{cog-lite|en|tea}}, {{cog-lite|de|Tee}}, {{cog-lite|fr|thé}}.
+
+====Alternative forms====
+* {{l-lite|da|the}} {{q|unofficial since 1872, but still common}}
+
+====Noun====
+{{da-noun|en|er}}
+
+# {{l-lite|en|tea}} {{q|the plant {{l-lite|en|Camellia sinensis}}}}
+# {{l-lite|en|tea}} {{q|the dried leaves from the tea plant, also parts from other plants}}
+# {{lb|da|uncountable}} {{l-lite|en|tea}} {{q|a beverage made from tea leaves, also similar beverages made from other plants}}
+
+=====Declension=====
+{{da-decl|en|er}}
+
+=====Derived terms=====
+{{der4|da
+|citronte
+|hybente
+|kamillete
+|myntete
+|tebrev
+|tedåse
+|teblad
+|tehandel
+|tekande
+|tekop
+|tekrus
+|teplantage
+|teplante
+|teplukker
+|tepotte
+|tesalon
+|teselskab
+|tesi
+|tesort
+|tevand
+|urtete
+}}
+
+=====Descendants=====
+* {{desc|bor=1|fo|te}}
+
+=====References=====
+* {{R:DDO|te,1}}
+* {{R:ODS online|Te,1}}
+
+===Etymology 2===
+From {{inh-lite|da|non|tjá}}, from {{inh-lite|da|gem-pro|sc=Latinx|*tīhaną||to show}}, cognate with {{cog-lite|is|tjá}}, {{cog-lite|fo|tíggja}}, {{cog-lite|sv|te}}, {{cog-lite|de|zeihen||to accuse}}. The verb goes back to {{inh-lite|da|ine-pro|sc=Latinx|*deyḱ-||to show}}, which is also the source of {{cog-lite|la|dico|dīcō|to say}}, {{cog-lite|grc|sc=polytonic|δείκνυμι||tr=deíknumi|to show}}.
+
+====Verb====
+{{head-lite|da|verbs|present tense|ter|past tense|teede|past participle|teet}}
+
+# {{lb|da|reflexive}} {{l-lite|en|behave}}
+
+=====Conjugation=====
+{{da-conj|te||ter|ede|h|et|||-|-}}
+
+=====Derived terms=====
+* {{l-lite|da|bete}}
+
+=====References=====
+* {{R:DDO|te,2}}
+* {{R:ODS online|te,3}}
+
+==Deg Xinag==
+
+===Pronunciation===
+* {{IPA-lite|ing|/tʰe/}}
+
+===Noun===
+{{head-lite|ing|nouns}}
+
+# [[water]]
+
+===References===
+* S. Hargus, ''[http://faculty.washington.edu/sharon/Vowel_quality_and_duration_in_Deg_Xinag.pdf Vowel quality and duration in Deg Xinag]''
+
+==Dutch==
+
+===Etymology===
+From {{inh-lite|nl|odt|te}}, {{m-lite|odt|ti}}, from {{inh-lite|nl|gem-pro|sc=Latinx|*ta}}.
+
+===Pronunciation===
+* {{IPA-lite|nl|/tə/}}
+* {{audio|nl|Nl-te.ogg|audio}}
+
+===Adverb===
+{{nl-adv}}
+
+# [[too]] {{qualifier|indicating excess}}
+#: {{ux-lite|inline=1|nl|'''Te''' veel is nooit goed!|Too much is never good!}}
+#: {{ux-lite|inline=1|nl|'''Te''' gek!|Far out!|lit=Too crazy!}}
+
+====Descendants====
+* {{desc|dcr|tu}}, {{l-lite|dcr|tee}}
+* {{desc|pey|te}}
+
+===Preposition===
+{{head-lite|nl|prepositions}}
+
+# {{qualifier|modifying an infinitive verb}} [[to]]
+#: {{ux-lite|nl|Er is iets '''te''' eten|there is something to eat}}
+# located [[at]], [[in]], [[on]]
+#: {{ux-lite|nl|'''Te''' Amsterdam|in Amsterdam.}}
+#: {{ux-lite|nl|En zo rijden we '''te''' paard|and so we ride on horseback.}}
+
+====Derived terms====
+* {{l|nl|te over}}
+* {{l|nl|te pas en te onpas}}
+* {{l|nl|te voet}}
+* {{l|nl|te weten}}
+* {{l|nl|te zijner tijd}} 
+
+====Descendants====
+* {{desc|gmw-jdt|te}}
+* {{desc|dcr|toe}}
+
+===Article===
+{{head-lite|nl|articles}}
+
+# {{lb|nl|archaic}} in idiom; a form of the definite article [[de]]
+#: {{ux-lite|nl|Te drommel|t=by Jove.}}
+
+====Usage notes====
+This preposition used to govern the dative case. It also fused with the dative forms of the definite article:
+* {{sense|at, in}} {{l-lite|nl|ter}} = te + {{l-lite|nl|der}} for feminine singular.
+* {{sense|at, in}} {{l-lite|nl|ten}} = te + {{l-lite|nl|den}} in all other cases.
+
+Combinations with the nominative form of the article, like *''te het'' or *''te de'' have never become part of the language. The collapse of the inflection system and the related demise of the distinction between masculine and feminine gender (for most speakers) has pushed this preposition into partial disuse. It does however occur in a fair number of idiomatic expressions, often with fossilized case endings, e.g.:
+: {{ux-lite|nl|'''te''' elfder ure.|inline=1|at the eleventh hour}}
+: {{ux-lite|nl|'''te''' eigen bate|inline=1|for one's own profit}}
+(''Elfder'', ''ure'' and ''bate'' are dative forms of {{m-lite|nl|elfde}}, {{m-lite|nl|uur}} and {{m-lite|nl|baat}} respectively.)
+
+==Estonian==
+
+===Etymology===
+From {{inh-lite|et|urj-fin-pro|*tek}}.
+
+===Pronoun===
+{{head-lite|et|pronouns|short form of|teie}}
+
+# [[you]] {{qualifier|plural and polite form}}
+
+====See also====
+{{et-personal pronouns}}
+
+==Ewe==
+
+===Noun===
+{{head-lite|ee|nouns}}
+
+# [[paternal aunt]]
+# [[yam]]
+
+===Preposition===
+{{head-lite|ee|prepositions}}
+
+# [[under]]
+
+===Verb===
+{{head-lite|ee|verbs}}
+
+# to [[compact]]
+# to [[compress]]
+# to [[sting]]
+# to [[swell]]
+
+[[Category:ee:Family]]
+[[Category:ee:Vegetables]]
+
+==Fala==
+
+===Etymology===
+From {{inh-lite|fax|roa-opt|te}}, from {{inh-lite|fax|la|tē}}.
+
+===Pronoun===
+{{head-lite|fax|pronouns}}
+
+# {{ng-lite|Second person singular dative and accusative pronoun}}; [[you]]
+
+====Usage notes====
+* Takes the form {{m-lite|fax|-ti}} when suffixed to an impersonal verb form.
+
+====See also====
+{{fax-personal pronouns}}
+
+===References===
+* {{R:fax:Diccionariu|265}}
+
+==Faroese==
+
+===Pronunciation===
+* {{IPA-lite|fo|/tʰeː/}}
+* {{rhymes-lite|fo|eː}}
+* {{homophones|fo|teg}}
+
+===Etymology 1===
+
+====Noun====
+{{fo-noun|n|tes|te}}
+
+# {{Latn-def|fo|name|T|t}}
+
+=====Declension=====
+{{fo-decl-noun-n4|te}}
+
+=====See also=====
+* {{list:Latin script letter names/fo}}
+
+===Etymology 2===
+Originally from {{der-lite|fo|nan|sc=Hani|茶|tr=tê}}, from {{der-lite|fo|ltc|-}}, from {{der-lite|fo|och|-}}, ultimately from {{der-lite|fo|sit-pro|*s-la||leaf, tea}}.
+
+====Noun====
+{{fo-noun|n|tes|-}}
+
+# [[tea]]
+
+=====Declension=====
+{{fo-decl-noun-n4-s|te}}
+
+=====Derived terms=====
+{{col3-u|fo
+|grønt te
+|hvítt te
+|reytt te
+|svart te
+|teblað
+|tebræv
+|tekanna
+|tekoppur
+|temuður
+}}
+
+===Anagrams===
+* {{l-lite|fo|et}}
+
+[[Category:fo:Beverages]]
+[[Category:fo:Food and drink]]
+[[Category:fo:Tea]]
+
+==Finnish==
+
+===Alternative forms===
+* {{alt|fi|Te||when used politely}}
+
+===Etymology===
+From {{inh-lite|fi|urj-fin-pro|*tek}}, from {{inh-lite|fi|urj-pro|sc=Latinx|*te}}. The word is inflected as plural, but there is no plural marker in the nominative, except in dialects ({{m-lite|fi|tet}}).
+
+===Pronunciation===
+{{fi-pronunciation}}
+
+===Pronoun===
+{{head-lite|fi|pronouns|cat2=personal pronouns}}
+
+# {{lb|fi|personal}} [[you]] {{gloss|second-person plural; when addressing many persons or when addressing politely or formally one person}}
+
+====Usage notes====
+* Depending on the context, the pronoun can sometimes be omitted in written language if the text remains fluent &ndash; the pronoun is in spoken language practically always used (compare the usage of {{m-lite|fi|sinä||you {{g|s}}}}).
+* When addressing one person politely or formally, it is recommended to capitalize the pronoun in writing: {{m-lite|fi|Te}}.
+* When addressing only one person, the active past participle must be in the ''singular'' in the compound forms that use it (e.g. negative, perfect, pluperfect forms):
+** {{ux-lite|inline=1|fi|'''Te''' ette <u>ollut</u> täällä silloin.|'''You''' <u>were</u> not here at that time.|q=negative past indicative}}
+** {{ux-lite|inline=1|fi|'''Te''' olette <u>ollut</u> täällä silloin.|'''You''' have <u>been</u> here at that time.|q=affirmative present perfect indicative}}
+** {{ux-lite|inline=1|fi|'''Te''' ette ole <u>ollut</u> täällä silloin.|'''You''' have not <u>been</u> here at that time.|q=negative present perfect indicative}}
+** {{ux-lite|inline=1|fi|'''Te''' olisitte <u>ollut</u> täällä silloin.|'''You''' would have <u>been</u> here at that time.|q=affirmative present perfect conditional}}
+** {{ux-lite|inline=1|fi|'''Te''' ette olisi <u>ollut</u> täällä silloin.|'''You''' would have not <u>been</u> here at that time.|q=negative present perfect conditional}}
+** {{ux-lite|inline=1|fi|'''Te''' lienette <u>ollut</u> täällä silloin.|'''You''' have probably <u>been</u> here at that time.|q=affirmative present perfect potential}}
+** {{ux-lite|inline=1|fi|'''Te''' ette liene <u>ollut</u> täällä silloin.|'''You''' haven't probably <u>been</u> here at that time.|q=negative present perfect potential}}
+** {{ux-lite|inline=1|fi|'''Te''' olitte <u>ollut</u> täällä silloin.|'''You''' had <u>been</u> here at that time.|q=affirmative past perfect indicative}}
+** {{ux-lite|inline=1|fi|'''Te''' ette ollut <u>ollut</u> täällä silloin.|'''You''' had not <u>been</u> here at that time.|q=negative past perfect indicative; note the duplicate {{m|fi||ollut}}}}
+
+====Declension====
+* Irregular (inflectional stem {{m-lite|fi||tei-}}, as if in the plural). The [[comitative]] and [[instructive]] forms don't exist; the [[abessive]] is hardly used.
+* In addition to the standard set of cases, {{m-lite|fi||te}} and other personal pronouns have a specific [[accusative]] form, {{m-lite|fi|teidät}}.
+
+{{fi-decl-pron|1s=[[sinä]]|2s=[[sinun]]|3s=[[sinua]]|4s=[[sinut]]|5s=[[sinussa]]|6s=[[sinusta]]|7s=[[sinuun]]|8s=[[sinulla]]|9s=[[sinulta]]|10s=[[sinulle]]|11s=[[sinuna]]|12s=[[sinuksi]]|14s=[[sinutta]]|1p='''te'''|2p=[[teidän]]|3p=[[teitä]]|4p=[[teidät]]|5p=[[teissä]]|6p=[[teistä]]|7p=[[teihin]]|8p=[[teillä]]|9p=[[teiltä]]|10p=[[teille]]|11p=[[teinä]]|12p=[[teiksi]]|14p=[[teittä]]|adv=no}}
+
+====Synonyms====
+* {{l-lite|fi|tet}} {{qualifier|dialectal}}
+* {{l-lite|fi|työ}} {{qualifier|dialectal}}
+
+====Derived terms====
+* {{l-lite|fi|teititellä|pos=verb}}
+
+====Descendants====
+* {{desc|fkv|tet}}
+
+====See also====
+{{fi-personal pronouns}}
+
+===Anagrams===
+* {{anagrams|fi|a=et|et}}
+
+==French==
+
+===Etymology===
+From {{inh-lite|fr|frm|te}}, from {{inh-lite|fr|fro|te}}, from {{inh-lite|fr|la|te|tē}}, (accusative of {{m-lite|la|tu|tū}}), from {{inh-lite|fr|ine-pro|sc=Latinx|*twé}}, {{m-lite|ine-pro|sc=Latinx|*te}}, accusative of {{m-lite|ine-pro|sc=Latinx|*túh₂||you}}.
+
+===Pronunciation===
+* {{fr-IPA}}
+* {{audio|fr|LL-Q150 (fra)-Mecanautes-te.wav|Audio}}
+* {{rhymes-lite|fr|ə|s=1}}
+
+===Pronoun===
+{{fr-pron}}
+
+# {{lb|fr|direct object}} [[you]]
+#: {{ux-lite|inline=1|fr|Il '''te''' cite souvent.|He often quotes you.}}
+# {{lb|fr|indirect object}} [[you]]
+#: {{ux-lite|inline=1|fr|Il '''te''' donne le livre.|He gives you the book.}}
+# {{lb|fr|reflexive pronoun}} [[yourself]]
+#: {{ux-lite|inline=1|fr|Tu '''te''' souviens d'elle.|You remember her.|lit=You remind yourself of her.}}
+
+====Related terms====
+{{French personal pronouns}}
+
+===Further reading===
+* {{R:fr:TLFi}}
+
+===Anagrams===
+* {{l-lite|fr|et}}
+
+==Galician==
+
+===Etymology 1===
+
+====Noun====
+{{gl-noun|f}}
+
+# {{Latn-def|gl|name|T|t}}
+
+===Etymology 2===
+{{nonlemma}}
+
+====Pronoun====
+{{head-lite|gl|pronoun forms}}
+
+# {{inflection of|gl|ti||acc|;|reflexive}}
+
+=====Related terms=====
+*{{l-lite|gl|té}}
+
+==Haitian Creole==
+
+===Etymology 1===
+From {{der-lite|ht|fr|été||been}}.
+
+====Adverb====
+{{head-lite|ht|adverbs}}
+
+# {{n-g-lite|Indicates the past or pluperfect tense}}.
+
+===Etymology 2===
+From {{der|ht|fr|thé||tea}}.
+
+====Noun====
+{{head|ht|noun}}
+
+# [[tea]]
+
+==Hawaiian==
+
+===Article===
+{{head-lite|haw|articles}}
+
+# {{alt form|haw|ke|from=Niihau|t=the}}
+#: {{ux-lite|haw|'''Te''' kula.|t='''The''' school.}}
+
+==Hungarian==
+
+===Etymology===
+From the same {{inh-lite|hu|urj-pro|-}} root {{m-lite|urj-pro|sc=Latinx|*tinä}} as e.g. {{cog-lite|fi|sinä}}, {{cog|myv|тон}}<ref>http://uralonet.nytud.hu/eintrag.cgi?locale=en_GB&id_eintrag=1083</ref>, {{cog-lite|mhr|sc=Cyrl|тый|tr=tyj}} and {{cog-lite|kpv|sc=Cyrl|тэ|tr=te}}.
+
+===Pronunciation===
+* {{hu-IPA}}
+* {{audio|hu|Hu-te.ogg|Audio}}
+* {{rhymes-lite|hu|tɛ|s=1}}
+
+===Pronoun===
+{{hu-pron|personal}}
+
+# {{lb|hu|personal}} [[you]] {{gloss|second-person singular, nominative, informal form}}
+
+====Declension====
+{{hu-decl-perspron|ad|ed|d|acc=téged}}
+
+====Derived terms====
+Note: In all these forms, ''te'' is optional and only serves for emphasis.
+* {{l-lite|hu|tealattad}}, {{l-lite|hu|teáltalad}}, {{l-lite|hu|teelőtted}} etc.  {{gloss|''te'' + a postposition with the second-person singular personal suffix; see [[Appendix:Hungarian postpositions]]}}
+* {{l-lite|hu|teneked}}, {{l-lite|hu|teveled}}, {{l-lite|hu|tehozzád}} etc. {{gloss|''te'' + one of the declined forms listed in the chart above; see [[Appendix:Hungarian pronouns]]}}
+
+====See also====
+* {{l-lite|hu|maga}} {{q|formal}}
+* {{l-lite|hu|ön}} {{q|official}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{R:ErtSz|1|[informal, singular] you}}
+* {{R:ErtSz|2|[dialectal] stressing the plural addressee}}
+
+{{cln|hu|second person pronouns|two-letter words}}
+
+==Icelandic==
+{{wp|lang=is}}
+
+===Etymology===
+From {{der-lite|is|nan|sc=Hani|茶|tr=tê}} ({{w|Amoy dialect}}).
+
+===Pronunciation===
+* {{IPA-lite|is|/tʰɛː/}}
+* {{rhymes-lite|is|ɛː|s=1}}
+
+===Noun===
+{{is-noun|n|tes|-}}
+
+# [[tea]]
+
+====Declension====
+{{is-decl-noun-n-s|t|e|pl=-}}
+
+====Derived terms====
+{{der3|is|grænt te
+|tebolli
+|tehetta
+|teketill
+|tepottur
+|tesía
+|teskeið
+}}
+
+{{c|is|Tea}}
+
+==Ido==
+
+===Pronunciation===
+* {{IPA-lite|io|/te/|/tɛ/}}
+
+===Noun===
+{{head-lite|io|nouns|plural|te-i}}
+
+# {{n-g-lite|The name of the [[Appendix:Latin script|Latin script]] letter '''[[T]]'''/'''[[t]]'''.}}
+
+====See also====
+* {{list:Latin script letter names/io}}
+
+==Irish==
+
+===Etymology===
+{{root|ga|ine-pro|*tep-}}
+{{dercat|ga|cel-pro|ine-pro|inh=2}}
+From {{inh-lite|ga|sga|té||hot}}.
+
+===Pronunciation===
+* {{a|Munster}} {{IPA-lite|ga|/tʲɛ(h)/|ref={{R:ga:SjPh|59}}}}
+* {{a|Connacht|Ulster}} {{IPA-lite|ga|/tʲɛ/}}
+
+===Adjective===
+{{ga-adj|pl=teo|gsm=te|gsf=te|comp=teo|comp2=teocha}}
+
+# [[hot]], [[warm]]
+# [[pungent]]
+# [[ardent]], [[hot-tempered]]; [[vehement]], [[hotfoot]]
+# [[affectionate]]
+# {{qualifier|of circumstances}} [[comfortable]]
+
+====Declension====
+{{ga-decl-adj|t|e|pl=eo|comp=eo}}
+* Alternative comparative form: {{alter|ga|teocha||Cois Fharraige}}
+
+====Derived terms====
+* {{l-lite|ga|alathe}}
+* {{l-lite|ga|bogthe}}
+* {{l-lite|ga|buidéal te}}
+
+====Related terms====
+* {{l-lite|ga|teas}}
+
+===Mutation===
+{{ga-mut}}
+
+===References===
+<references/>
+
+===Further reading===
+* {{R:ga:Ó Dónaill}}
+* {{R:DIL|40249|head=té, te}}
+
+[[Category:ga:Temperature]]
+
+==Italian==
+
+===Etymology===
+From {{inh-lite|it|la|te|tē}}, from {{m-lite|la|tu|tū}}.
+
+===Pronunciation===
+{{it-pr
+|te<pre:{{a|clitic}}><rhyme:->
+|té*<pre:{{a|disjunctive}}>
+}}
+
+===Pronoun===
+{{head-lite|it|pronouns}}
+
+# {{lb|it|disjunctive|emphatic}} [[you]]
+
+===Pronoun===
+{{head-lite|it|pronouns}}
+
+# {{lb|it|clitic}} {{alternative form of|it|ti}}
+
+====Usage notes====
+* Used when followed by a third-person direct object clitic ({{m-lite|it|lo}}, {{m-lite|it|la}}, {{m-lite|it|li}}, {{m-lite|it|le}}, or {{m-lite|it|ne}}).
+
+====See also====
+{{see-temp|Italian personal pronouns|for further pronouns}}
+
+===Further reading===
+* {{R:it:DiPI}}
+
+===Anagrams===
+* {{anagrams|it|a=et|et}}
+
+==Japanese==
+
+===Romanization===
+{{ja-romaji}}
+
+# {{ja-romanization of|て}}
+# {{ja-romanization of|テ}}
+
+==Kalasha==
+
+===Etymology===
+From {{der-lite|kls|sa|sc=Deva|तद्|tr=tád}}, from {{inh-lite|kls|ine-pro|sc=Latinx|*só|*tód}}.
+
+===Pronoun===
+{{head-lite|kls|pronouns}}
+
+# [[they]], [[them]] {{q|absent from speaker}} {{gloss|3rd-person plural personal pronoun}}
+
+====Coordinate terms====
+* {{l-lite|kls|éli}}
+
+====See also====
+{{kls-personal pronouns}}
+
+==Kholosi==
+
+===Etymology===
+Cognate with {{cog-lite|sd|sc=sd-Arab|تي|tr=te}}, {{cog-lite|pa|sc=Guru|'ਤੇ|tr='te}}.
+
+===Postposition===
+{{head-lite|inc-kho|postpositions}}
+
+# [[to]]
+
+===References===
+* {{R:inc-kho:Rezaei}}
+
+==Kikuyu==
+
+===Etymology===
+Hinde (1904) records ''kute'' as an equivalent of English ''[[throw]]'' in the “Jogowini dialect” of Kikuyu.<ref name="hh1904">Hinde, Hildegarde (1904). [https://archive.org/details/vocabulariesofka00hindiala ''Vocabularies of the Kamba and Kikuyu languages of East Africa''], pp. 60–61. Cambridge: Cambridge University Press.</ref>
+
+===Pronunciation===
+* {{IPA-lite|ki|/tɛ/}}
+
+===Verb===
+{{head-lite|ki|verbs|infinitive|gũte}}
+
+# to [[throw away]]
+#: {{uxi|ki|[[tũ-|tũ]]'''te'''[[-ag-|ag]][[-a|a]]|we (usually) '''throw away'''}}
+
+====See also====
+* {{l-lite|ki|ikia|gũikia}}
+
+===References===
+<references />
+* {{R:ki:Armstrong|p=363}}
+
+==Ladin==
+
+===Preposition===
+{{head-lite|lld|prepositions}}
+
+# [[in]], [[into]]
+
+====Derived terms====
+* {{l-lite|lld|tl}}
+* {{l-lite|lld|tla}}
+* {{l-lite|lld|ti}}
+* {{l-lite|lld|tles}}
+
+==Latin==
+
+===Pronunciation===
+* {{la-IPA|tē}}
+
+===Etymology 1===
+{{rfe-lite|la}}
+
+====Noun====
+{{la-noun|tē|g=f|indecl=y}}
+
+# {{Latn-def|la|name|T|t}}
+
+=====Coordinate terms=====
+* {{list:Latin script letter names/la/simple}}
+
+====References====
+* [http://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=te&lang=latin te] in {{cite-book|author=Charlton T. Lewis and Charles Short|title=[[w:A Latin Dictionary|A Latin Dictionary]]|publisher=Clarendon Press|location=Oxford|year=1879}}
+* [http://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=te&lang=latin te] in {{cite-book|author=Charlton T. Lewis|title=An Elementary Latin Dictionary|publisher=Harper & Brothers|location=New York|year=1891}}
+* {{R:Gaffiot}}<!--
+* {{R:M&A}}-->
+* Arthur E. Gordon, ''The Letter Names of the Latin Alphabet'' ([[w:University of California Press|University of California Press]], 1973; volume 9 of ''University of California Publications: Classical Studies''), part III: “Summary of the Ancient Evidence”, page 32: "Clearly there is no question or doubt about the names of the vowels A, E, I, O, U. They are simply long A, long E, etc. (ā, ē, ī, ō, ū). Nor is there any uncertainty with respect to the six mutes B, C, D, G, P, T. Their names are bē, cē, dē, gē, pē, tē (each with a long E). Or about H, K, and Q: they are hā, kā, kū—each, again, with a long vowel sound."
+
+===Etymology 2===
+From {{inh-lite|la|ine-pro|sc=Latinx|*twé}}, {{m-lite|ine-pro|sc=Latinx|*te}}, accusative of {{m-lite|ine-pro|sc=Latinx|*túh₂||you}}.
+
+====Pronoun====
+{{la-pronoun-form|tē}}
+
+# {{inflection of|la|tū||acc//abl|s}}
+
+=====Descendants=====
+{{top2}}
+* {{desc|rup|ti}}
+* {{desc|ast|te}}
+* {{desc|ca|te}}
+* {{desc|fr|te}}, {{l-lite|fr|toi}}
+* {{desc|fur|ti}}
+* {{desc|gl|te}}, {{l-lite|gl|che}}
+* {{desc|ist|tèi}}, {{l-lite|ist|te}}
+* {{desc|it|te}}, {{l-lite|it|ti}}
+* {{desc|mxi|ت|tr=ti}}
+* {{desc|pt|te}}
+* {{desc|ro|te}}
+* {{desc|scn|ti}}
+* {{desc|es|te}}
+{{bottom}}
+
+[[Category:la:Latin letter names]]
+
+==Latvian==
+
+===Pronunciation===
+{{rfap|lv}}
+
+===Adverb===
+{{head-lite|lv|adverbs}}
+
+# [[here]]
+
+===Conjunction===
+{{head-lite|lv|conjunctions}}
+
+# [[now]]..., [[now]]...
+#: {{ux-lite|lv|'''te''' šur, '''te''' tur|inline=1|'''now''' here, '''now''' there}}
+
+==Lithuanian==
+
+===Etymology===
+Cognate with {{cog-lite|lv|te}}. The interjection is identical to {{cog-lite|grc|sc=polytonic|τῆ||tr=tê|here!, take this!}}, which Beekes derives from {{cog-lite|ine-pro|sc=Latinx|*teh₁}}, the [[instrumental]] neuter singular form of {{m-lite|ine-pro|sc=Latinx|*só|*tód}}.<ref>{{R:grc:Beekes}}</ref> Compare {{cog-lite|got|sc=Goth|𐌱𐌹𐌸𐌴||tr=biþē|while}}, {{m-lite|got|sc=Goth|𐌳𐌿𐌸𐌴||tr=duþē|therefore}}, {{cog-lite|xto|ca-}}, {{cog-lite|txb|ce||demonstrative pronoun}} < ''*tē''<ref>{{R:VanWindekens|page=249}}</ref>, and possibly {{cog-lite|xcl|sc=Armn|թէ||tr=tʿē|that}}.
+
+===Pronunciation===
+{{IPA-lite|lt|/tʲɛ/}}
+
+===Particle===
+{{head-lite|lt|particles|head=te}}
+
+# {{lb|lt|with third person}} [[may]], [[let]] {{gloss|used to indicate the [[optative]] mood}}
+#: ''{{m-lite|lt|šis|Šì}} {{m-lite|lt|naktis|naktìs}} '''tè''' {{m-lite|lt|niekada|niẽkad}} {{m-lite|lt|baigtis|nesibaĩgia}}.'' - '''May''' this night never end.
+
+===Interjection===
+{{head-lite|lt|interjections|head=tè}}
+
+# {{lb|lt|with object cases}} [[here you go]], [[take]] [[this]] {{gloss|when giving something to someone}}
+#: {{ux|lt|'''Tè''' [[tu|táu]] [[pinigai|pinigų̃]] – [[pirkti|pir̃k]] [[tù]] [[sáu]] [[laukas|laũko]] [[koks|kókį]] [[sklypẽlį]].|inline=1|'''Here, have''' some money, go buy yourself a piece of land.}}
+
+====Derived terms====
+* ''see'' '''{{l-lite|lt|te-}}'''
+* {{l-lite|lt|bet}}
+* {{l-lite|lt|net}}
+
+===References===
+<references />
+
+==Lower Sorbian==
+
+===Pronunciation===
+* {{IPA-lite|dsb|[tɛ]}}
+
+===Determiner===
+{{head-lite|dsb|determiner forms}}
+
+# {{infl of|dsb|ten||nom//acc|p}}
+
+==Maltese==
+
+===Etymology===
+{{bor+|mt|it|tè}}.
+
+===Pronunciation===
+* {{IPA-lite|mt|/tɛː/}}
+
+===Noun===
+{{mt-noun|g=m|p=tejiet}}
+
+# [[tea]]
+
+==Manchu==
+
+===Romanization===
+{{head-lite|mnc|romanizations|sc=Latn}}
+
+# {{romanization of|mnc|ᡨᡝ}}
+
+==Mandarin==
+
+===Romanization===
+{{cmn-pinyin}}
+
+# {{cmn-pinyin of|脦}}
+
+{{cmn-pinyin|notr=1}}
+
+# {{nonstandard spelling of|cmn|tē}}
+# {{nonstandard spelling of|cmn|tè}}
+# {{nonstandard spelling of|cmn|tê̄}}
+
+====Usage notes====
+* {{cmn-toneless-note}}
+
+==Maori==
+
+===Etymology===
+{{rfe-lite|mi}}
+
+Compare {{cog-lite|haw|ka||the}}. Resemblance to {{noncog|en|the}} is incidental, but might have been reinforced by it.
+
+===Article===
+{{head-lite|mi|articles|g=s|plural|ngā}}
+
+# [[the]]
+#* {{quote-book|mi|year=2006|author=Joanne Barker|title=Sovereignty Matters|pageurl=http://books.google.com/books?id=nHp7-BTy57MC&pg=PA208&lpg=PA208|page=208
+|passage=Ko '''te''' reo '''te''' mauri o '''te''' mana Maori.
+|translation='''The''' language is '''the''' life principle of Maori mana}}
+
+===Determiner===
+{{head-lite|mi|determiners|g=s|plural|ngā}}
+
+# {{n-g-lite|Referring to a whole class of things or people designated by the noun that follows.}}
+#: {{ux-lite|mi|Kī tonu '''te''' wharenui i te tamariki.|The meeting house was full of children.}}
+# [[Mr]], [[mister]], [[sir]] {{gloss|capitalised}}
+#: {{ux-lite|mi|Kei '''Te''' Wharehuia, tēnei te mihi atu mō tō āwhina mai.|Wharehuia '''sir''', thank you most sincerely for your help.}}
+# {{n-g-lite|Used in front of another verb following a stative.}}
+#: {{ux-lite|mi|Kua oti i a au tāku pukapuka '''te''' tuhi.|I have finished writing my book.}}
+# {{n-g-lite|Used in front of another verb following {{l-lite|mi|taea}}.}}
+#: {{ux-lite|mi|Ka taea e ia tēnei waiata '''te''' whakamāori.|She will be able to interpret this song.}}
+# {{n-g-lite|Used before the names for the days of the week.}}
+#: {{ux-lite|mi|Ā '''te''' Rātapu mātou haere ai ki Poihākena.|We go to Sydney on Saturday.}}
+# {{n-g-lite|Sometimes used before numbers with a following noun.}}
+#: {{ux-lite|mi|I tāwāhi a Pita mō '''te''' rima tau.|Peter was overseas for five years.}}
+# {{n-g-lite|Used before ordinal numbers including those using {{l-lite|mi|tua-}}.}}
+#: {{ux-lite|mi|I piki a Tāne-nui-a-rangi ki '''te''' tuangahuru mā rua o ngā rangi.|Tāne-nui-a-rangi climbed to the twelfth realm. }}
+
+===See also===
+* {{l-lite|mi|he}} (for "a/an" and "some")
+
+===References===
+* {{R:Te Aka 3}}
+
+==Meriam==
+
+===Noun===
+{{head-lite|ulk|nouns}}
+
+# [[mouth]]
+# [[door]]
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh-lite|dum|odt|te}}, from {{inh-lite|dum|gem-pro|sc=Latinx|*ta}}.
+
+===Pronunciation===
+* {{IPA-lite|dum|/tə/}}
+
+===Preposition===
+{{head-lite|dum|prepositions}}
+
+# [[at]], [[in]] {{gloss|a place}}
+# [[to]], [[towards]]
+# at, [[during]] {{gloss|a time}}
+# [[for]] {{gloss|the purpose of}}
+# in accordance with
+# [[with]], [[from]] {{gloss|a means, such as language}}
+# {{lb|dum|with gerund}} to, for
+
+====Alternative forms====
+* {{l-lite|dum|toe}} {{qualifier|eastern}}
+
+====Descendants====
+* {{desc|nl|te}}
+* {{desc|li|te}}, {{l-lite|li|tö}}
+
+===Adverb===
+{{dum-adv}}
+
+# [[very]], [[particularly]]
+# [[too]], to an excessive degree
+
+====Alternative forms====
+* {{l-lite|dum|toe}} {{qualifier|eastern}}
+
+====Descendants====
+* {{desc|nl|te}}
+
+===Further reading===
+* {{R:VMNW|ID66342|I}}
+* {{R:VMNW|ID11850|II}}
+* {{R:MNW|57243|I}}
+* {{R:MNW|57244|II}}
+
+==Middle English==
+
+===Pronoun===
+{{head-lite|enm|pronouns}}
+
+# {{alt form|enm|þe|t=thee|id=thee}}
+
+==Middle French==
+
+===Alternative forms===
+* {{l-lite|frm|t'}} {{qualifier|before a vowel}}
+
+===Etymology===
+From {{inh-lite|frm|fro|te}}.
+
+===Pronoun===
+{{head-lite|frm|pronouns|cat2=reflexive pronouns}}
+
+# [[you]], ''second-person singular object pronoun''
+# to you, ''second-person singular indirect object pronoun''
+
+====Synonyms====
+* {{sense|second-person singular object and indirect object pronoun}} {{l-lite|frm|toy}} {{qualifier|with verbs in the imperative}}
+* {{sense|second-person singular object and indirect object pronoun}} {{l-lite|frm|vous}} {{qualifier|used as a mark of formality or respect}}
+
+====Descendants====
+* {{desc|fr|te}}
+
+==Mohawk==
+
+===Particle===
+{{head-lite|moh|particles}}
+
+# {{n-g-lite|used with [[iah]] to negate a sentence}}
+
+==Neapolitan==
+
+===Etymology===
+From {{inh-lite|nap|la|te|tē}}.
+
+===Pronunciation===
+* {{IPA-lite|nap|/te/}}
+* {{rhymes-lite|nap|e|s=1}}
+
+===Pronoun===
+{{head-lite|nap|pronouns}}
+
+# [[you]] (singular familiar, accusative or dative or reflexive or prepositional)
+
+====Coordinate terms====
+{{nap-pronouns}}
+
+==Norwegian Bokmål==
+
+===Pronunciation===
+* {{IPA-lite|nb|/teː/}}
+* {{rhymes-lite|nb|eː}}
+
+===Etymology 1===
+From {{der-lite|nb|nl|thee}}.
+
+====Noun====
+{{head-lite|nb|nouns|g=m|definite singular|teen}}
+
+# [[tea]]
+
+=====Derived terms=====
+{{col3-u|nb
+|iste
+|tefat
+|tekanne
+|tekjele
+|tekopp
+|telys
+|tepose
+|[[teskje]], [[teskei]]
+||urtete
+}}
+
+===Etymology 2===
+From {{inh-lite|nb|non|tjá}}.
+
+====Verb====
+{{head-lite|nb|verbs|imperative|te|present tense|ter|passive|tes|simple past|tedde|past participle|tedd|present participle|teende}}
+
+# {{lb|nb|reflexive}} to [[behave]]
+
+===References===
+* {{R:Dokpro|lang=nb}}
+
+==Norwegian Nynorsk==
+
+===Pronunciation===
+* {{IPA-lite|nn|/teː/}}
+* {{rhymes-lite|nn|eː}}
+
+===Etymology 1===
+From {{der-lite|nn|nl|thee}}.
+
+====Noun====
+{{head-lite|nn|nouns|g=m|definite singular|teen}}
+
+# [[tea]]
+
+=====Derived terms=====
+{{col3-u|nn
+|iste
+|tefat
+|tekanne
+|tekjele
+|tekopp
+|telys
+|tepose
+|teskei
+|urtete
+}}
+
+===Etymology 2===
+From {{inh-lite|nn|non|tjá}}.
+
+====Verb====
+{{nn-verb-irreg|ter|tedde|[[tedd]] or [[tett]]}}
+
+# {{lb|nn|reflexive}} to [[behave]]
+
+===Etymology 3===
+From {{inh-lite|nn|non|til}}.
+
+====Preposition====
+{{head-lite|nn|prepositions}}
+
+# {{lb|nn|dialectal|trøndelag|Østlandet}} {{alternative form of|nn|til}}
+
+===References===
+* {{R:Dokpro|lang=nn}}
+
+==Occitan==
+
+===Pronunciation===
+* {{audio|oc|LL-Q14185 (oci)-Davidgrosclaude-te.wav|Audio}}
+
+===Noun===
+{{oc-noun|f}}
+
+# [[tee]] {{gloss|the letter t, T}}
+
+{{topics|oc|Latin letter names}}
+
+==Old English==
+
+===Etymology===
+From {{inh-lite|ang|gem-pro|sc=Latinx|*ta||to}}.
+
+===Pronunciation===
+* {{ang-IPA|te}}
+
+===Preposition===
+{{ang-prep}}
+
+# [[to]]
+#: {{quote|ang|''Heom '''te''' cwæþ'' {{gloss|He said '''to''' him}}|t=Mt. Kmbl. Rush. 26, 21.}}
+#: {{quote|ang|''Ālēfed '''te''' habbanne'' {{gloss|Allowed '''to''' have}}|t=Swt. 445, 30: 50.}}
+
+====Related terms====
+* {{l-lite|ang|sc=Latinx|te-}}
+
+==Old French==
+
+===Etymology===
+From {{inh-lite|fro|la|te|tē}}.
+
+===Pronoun===
+{{head-lite|fro|pronouns}}
+
+# [[you]] (second-person singular direct object pronoun)
+# to [[you]] (second-person singular indirect object pronoun)
+# [[yourself]] (second-person singular direct object reflexive pronoun)
+# to yourself (second-person singular indirect object reflexive pronoun)
+
+==Pali==
+
+===Alternative forms===
+{{pi-alt}}
+
+===Adjective===
+{{head-lite|pi|adjective forms}}
+
+# {{inflection of|pi|ta||m|nom//acc|p|t=that}}
+
+===Pronoun===
+{{head-lite|pi|pronoun forms}}
+
+# {{inflection of|pi|ta||nom//acc|p|t=they}}
+# {{inflection of|pi|tvaṃ||ins//dat//gen|s|t=you}}
+
+==Papiamentu==
+
+===Etymology===
+From {{der-lite|pap|pt|até}}.
+
+===Adjective===
+{{head-lite|pap|adjectives}}
+
+# [[until]], [[till]], [[up to]], [[up until]]
+
+==Phuthi==
+
+===Etymology===
+{{rfe-lite|bnt-phu}}
+
+===Conjunction===
+{{head-lite|bnt-phu|conjunctions|head=té}}
+
+# [[just]], [[only]], [[however]]
+
+===Relative===
+{{bnt-phu-rel|té}}
+
+# [[naked]]
+
+====Inflection====
+{{bnt-phu-infl-rel|H}}
+
+==Polish==
+
+===Pronunciation===
+{{pl-p|a=Pl-te.ogg|hh=tę}}
+
+===Pronoun===
+{{head-lite|pl|pronouns|g=m}}
+
+# {{inflection of|pl|ten||nv|nom//acc|p}}
+
+===Pronoun===
+{{head-lite|pl|pronouns|g=f}}
+
+# {{inflection of|pl|ta||nom//acc|p}}
+
+===Pronoun===
+{{head-lite|pl|pronouns|g=n}}
+
+# {{inflection of|pl|to||nom//acc|p}}
+
+==Portuguese==
+
+===Etymology===
+From {{inh-lite|pt|roa-opt|te}}, from {{inh-lite|pt|la|te|tē}} (accusative of {{m-lite|la|tu|tū}}), from {{inh-lite|pt|ine-pro|sc=Latinx|*twé}}, {{m-lite|ine-pro|sc=Latinx|*te}}, accusative of {{m-lite|ine-pro|sc=Latinx|*túh₂||you}}.
+
+===Pronunciation===
+{{pt-IPA}}
+* {{hyph-lite|pt|te}}
+
+===Pronoun===
+{{head-lite|pt|pronoun forms}}
+
+# {{lb|pt|object pronoun}} [[you]]
+#: {{ux-lite|pt|Matar-'''te'''-ei; '''Te''' matarei;|t=I will kill '''you'''.}}
+# {{senseid|pt|particle of spontaneity}} {{n-g-lite|particle of spontaneity, when it indicates that there was spontaneity in the action by its agent.}}
+#: {{ux-lite|pt|Vais-'''te''' muito cedo.|You leave too soon.}}
+
+====Quotations====
+{{seeCites|pt}}
+
+====See also====
+{{Portuguese personal pronouns}}
+
+==Rapa Nui==
+
+===Article===
+{{head-lite|rap|articles|pl|te mau}}
+
+# [[the]] {{qualifier|the definite article}}
+
+==Romani==
+
+===Conjunction===
+{{head-lite|rom|conjunctions}}
+
+# [[if]]
+
+==Romanian==
+
+===Etymology===
+From {{inh-lite|ro|la|te|tē}} (accusative of {{m-lite|la|tu|tū}}), from {{inh-lite|ro|ine-pro|sc=Latinx|*twé}}, {{m-lite|ine-pro|sc=Latinx|*te}}, accusative of {{m-lite|ine-pro|sc=Latinx|*túh₂||you}}.
+
+===Pronunciation===
+* {{IPA-lite|ro|/te/}}
+* {{rhymes-lite|ro|e|s=1}}
+
+===Pronoun===
+{{head-lite|ro|pronouns|unstressed accusative and reflexive form of|tu}}
+
+# {{lb|ro|direct object}} [[you]]
+#: {{ux|ro|[[ști|Ști]]i [[cât]] [[de]] [[mult]] '''te''' [[iubi|iubește]]?'|t=Do you know how much he loves you?}}
+# {{lb|ro|reflexive pronoun}} [[yourself]]
+
+====Derived terms====
+* {{l-lite|ro|te rog}}
+
+====Related terms====
+* {{l-lite|ro|tine}}
+* {{l-lite|ro|tu}}
+
+====See also====
+* {{l-lite|ro|mă}}
+* {{l-lite|ro|se}}
+* {{l-lite|ro|ne}}
+* {{l-lite|ro|vă}}
+
+==Romansch==
+
+===Alternative forms===
+* {{qualifier|Rumantsch Grischun|Sutsilvan|Surmiran}} {{l-lite|rm|té}}
+* {{qualifier|Puter|Vallader}} {{l-lite|rm|tè}}
+
+===Noun===
+{{head-lite|rm|nouns|g=m}}
+
+# {{lb|rm|Sursilvan}} [[tea]]
+
+[[Category:rm:Beverages]]
+
+==Serbo-Croatian==
+
+===Pronoun===
+{{sh-pronoun}}
+
+# of [[you]] ({{inflection of|sh|tȋ||clitic|gen|s|t=you}})
+# [[you]] ({{inflection of|sh|tȋ||clitic|acc|s|t=you}})
+# {{infl of|sh|taj||f|nom|p}}: [[those]] (= {{m-lite|sh|one}})
+#: {{ux-lite|inline=1|sh|Tko su '''te''' žene?|Who are those women?}}
+
+====Declension====
+{{sh-decl-noun
+|ns={{l-lite|sh|ti|tȋ}}
+|np={{l-lite|sh|vi|vȋ}}
+|gs={{l-lite|sh|tebe|tȅbe}}, {{l-lite|sh|te}}
+|gp={{l-lite|sh|vas|vȃs}}
+|ds={{l-lite|sh|tebi|tȅbi}}, {{l-lite|sh|ti}}
+|dp={{l-lite|sh|vama|vȁma}}, {{l-lite|sh|vam}}
+|as={{l-lite|sh|tebe|tȅbe}}, {{l-lite|sh|te}}
+|ap={{l-lite|sh|vas|vȃs}}
+|vs={{l-lite|sh|ti}}
+|vp={{l-lite|sh|vi|vȋ}}
+|ls={{l-lite|sh|tebi|tȅbi}}
+|lp={{l-lite|sh|vama|vȁma}}
+|is={{l-lite|sh|tobom|tȍbōm}}
+|ip={{l-lite|sh|vama|vȁma}}
+}}
+
+====Etymology====
+From {{inh-lite|sh|sla-pro|sc=Latinx|*ta}}. Compare {{cog-lite|uk|sc=Cyrl|та|tr=ta}}.
+
+===Conjunction===
+{{sh-conjunction}}
+
+# [[and]] (following a cause; lit. ''and thereby'', ''and thus'')
+#: {{ux-lite|sh|Poskliznuo sam se '''te''' pao.|I slipped '''and''' fell.}}
+# [[and]], [[and]] [[then]] (before the last thing in order of mention or occurrence)
+#: {{ux-lite|sh|U posljednjih godinu dana bio sam u Beogradu, Zagrebu, Sarajevu '''te''' Podgorici.|In the past year, I have been to Belgrade, Zagreb, Sarajevo '''and''' Podgorica.}}
+#: {{ux-lite|sh|Obukao sam se, izašao iz kuće, zaključao vrata '''te''' otišao na posao.|I got dressed up, got out of the house, locked the door '''and then''' went to work.}}
+# {{lb|sh|Croatia}} [[now]] (chiefly used in stock phrases)
+#: {{ux-lite|sh|Problemi gdje god pogledaš! '''Te''' tu, '''te''' tamo!|Problems, wherever you look! '''Now''' here, '''now''' there!}}
+
+==Sicilian==
+
+===Alternative forms===
+* {{alter|scn|tè|té|the||misspelling}}
+
+===Etymology===
+Borrowed from {{bor-lite|scn|fr|thé}}, from {{der-lite|scn|nl|thee}}, from {{der-lite|scn|nan|sc=Hani|茶|tr=tê}}.
+
+===Pronunciation===
+* {{IPA|scn|/tɛ/}} {{qualifier|Standard}}
+* {{hyphenation|scn|te}}
+
+===Noun===
+{{scn-noun|te|m|}}
+
+# [[tea]]
+
+====Derived terms====
+{{col4|scn
+|tiina|tiera
+}}
+
+====See also====
+{{rel4
+|scn
+|cafè|latti|tisana|nfusu|cìcara|spezzi|spizziali|vùḍḍiri|vùgghiri|caudu|caudiari|bustina|nfusuri
+}}
+
+{{topics|scn|Spices and herbs}}
+
+==Spanish==
+
+===Pronunciation===
+{{es-pr|+<audio:letter t es es.flac><hmp:té>}}
+
+===Etymology 1===
+
+====Noun====
+{{es-noun|f}}
+
+# {{Latn-def|es|name|T|t}}
+
+===Etymology 2===
+From {{inh-lite|es|la|te|tē}} (accusative of {{m-lite|la|tu|tū}}), from {{inh-lite|es|ine-pro|sc=Latinx|*twé}}, {{m-lite|ine-pro|sc=Latinx|*te}}, accusative of {{m-lite|ine-pro|sc=Latinx|*túh₂||you}}.
+
+====Pronoun====
+{{head-lite|es|pronouns}}
+
+# {{inflection of|es|tú||dative}}: to you, for you
+#: {{ux|es|'''Te''' voy a hacer '''tus''' calzones....|I’m going to make '''your''' britches|ref="La Cucaracha"}}
+# {{inflection of|es|tú||accusative}}: you
+# {{lb|es|reflexive pronoun}}: [[yourself]]
+
+=====See also=====
+{{es-personal pronouns}}
+
+===Further reading===
+* {{R:es:DRAE}}
+
+==Sranan Tongo==
+
+===Pronunciation===
+* {{IPA-lite|srn|/te/}}
+
+===Etymology 1===
+From {{der-lite|srn|en|then}}.
+
+====Conjunction====
+{{head-lite|srn|conjunctions}}
+
+# [[when]]
+#*{{quote-song
+|srn
+|year=1984
+|artist={{w|lang=nl|The Exmo Stars}} & {{w|lang=nl|Ernie Seedo|Boogie}}
+|album=Telefôn' mi koe mi koenoe
+|title=Nioni
+|text='''Te''' yu no man fu tyari akata / yu no mu trobi matuku
+|t='''If''' you aren't able to carry a headpad / you shouldn't bother with a basket}}
+
+===Etymology 2===
+
+====Preposition====
+{{head-lite|srn|prepositions}}
+
+# [[until]]
+
+===Etymology 3===
+Borrowed from {{bor-lite|srn|nl|thee}}.
+
+====Noun====
+{{head-lite|srn|nouns}}
+
+# [[tea]]
+
+==Sumerian==
+
+===Romanization===
+{{sux-rom}}
+
+# {{romanization of|sux|𒋼|tr=te}}
+
+==Swedish==
+{{wikipedia|lang=sv}}
+[[File:Qimen Hao Ya.jpg|thumb|te]]
+
+===Alternative forms===
+* {{alter|sv|the|thé}}
+
+===Pronunciation===
+* {{IPA-lite|sv|/teː/}}
+* {{audio|sv|Sv-te.ogg|audio}}
+* {{homophones|sv|t|T}}
+* {{rhymes-lite|sv|eː|s=1}}
+
+===Etymology 1===
+From either {{cog-lite|fr|thé}} or {{cog-lite|de|Tee}}, from {{der-lite|sv|zh|sc=Hani|茶}} ({{cog-lite|nan|tê}}).
+
+====Noun====
+{{sv-noun|n}}
+
+# [[tea]] {{gloss|the tree, its dried leaves and the drink made from them}}
+
+=====Declension=====
+{{sv-infl-noun-n-r|2=tee}}
+
+=====Derived terms=====
+{{der4|sv
+|fläderte
+|löste
+|silverte
+|tegelte
+|tebjudning
+|teblad
+|teblask
+|tebord
+|tebricka
+|tebröd
+|tebuske
+|teceremoni
+|tedags
+|tedrickare
+|tefat
+|teglas
+|tehus
+|tehuva
+|tekaka
+|tekanna
+|tekittel
+|tekokare
+|tekopp
+|tekula
+|tekök
+|teodling
+|teplantage
+|tepåse
+|teros
+|teservis
+|tesil
+|tesked
+|teskörd
+|tesort
+|tesupé
+|tevagn
+|tevatten
+|teveronika
+}}
+
+=====Descendants=====
+* {{desc|bor=1|fi|tee}}
+
+===Etymology 2===
+{{root|sv|ine-pro|*deyḱ-}}
+From {{inh-lite|sv|gmq-osw|tea|tēa}}, from {{inh-lite|sv|non|tjá}}, from {{inh-lite|sv|gem-pro|sc=Latinx|*tīhaną}}, from {{inh-lite|sv|ine-pro|sc=Latinx|*deyḱ-}}. Cognate of {{cog-lite|got|sc=Goth|𐌲𐌰𐍄𐌴𐌹𐌷𐌰𐌽|tr=gateihan}}, {{cog-lite|de|zeihen}}, {{cog-lite|nl|tijgen}}.
+
+====Verb====
+{{sv-verb-reg|te|r|dde}}
+
+# to [[appear]]
+#* {{ux|sv|Och gräshopporna '''tedde''' sig såsom hästar, rustade till strid.|t=And the shapes of the locusts [were] like unto horses prepared unto battle (Revelations 9:7)}}
+
+=====Conjugation=====
+{{sv-conj-wk|te|end=vw|nop=1|nopp=1}}
+
+=====Related terms=====
+* {{l-lite|sv|bete}}
+* {{l-lite|sv|förete}}
+
+===References===
+* {{R:svenska.se|saol}}
+* {{R:svenska.se|saob|te}}
+
+===Anagrams===
+* {{anagrams|sv|a=et|-et}}
+
+==Tagalog==
+
+===Pronunciation===
+* {{hyph|tl|te}}
+* {{tl-IPA}}
+
+===Etymology 1===
+
+===Noun===
+{{tl-noun|b={{tl-bay sc}}}}
+
+# {{lb|tl|colloquial}} {{clipping of|tl|ate}}
+
+===Etymology 2===
+From {{bor|tl|es|te}}, the Spanish name of the letter {{m|es|T}}/{{m|es|t}}.
+
+===Noun===
+{{tl-noun|b={{tl-bay sc}}}}
+
+# {{lb|tl|historical}} {{Latn-def-lite|tl|name|T|t|nocap=0|dot=,}} ''in the {{w|Filipino orthography#Adoption of the Latin script|Abecedario}}.''
+#: {{syn|tl|ti|q1=in the Filipino alphabet|ta|q2=in the Abakada alphabet}}
+
+===Further reading===
+* {{R:Pambansang Diksiyonaryo}}
+
+==Tahitian==
+
+===Article===
+{{head-lite|ty|articles|plural sometimes|te mau}}
+
+# [[the]] ''(singular)'' (definite article)
+# [[the]] ''(plural)'' (definite article)
+# ''(conversationally)'' [[a]], [[an]] (indefinite article)
+
+====References====
+* {{R:LTC}}
+* {{R:TahitianAcademy}}
+
+==Tokelauan==
+
+===Etymology===
+From {{inh-lite|tkl|poz-pol-pro|sc=Latinx|*te}}. Cognates include {{cog-lite|haw|ke}} and {{cog-lite|sm|le}}.
+
+===Pronunciation===
+* {{IPA-lite|tkl|/ˈte/}}
+* {{hyph-lite|tkl|te}}
+
+===Article===
+{{head-lite|tkl|articles}}
+
+# {{n-g-lite|Singular definite article}}; [[the]]
+
+====Derived terms====
+{{col4|tkl
+|a te|ia te}}
+
+====See also====
+{{tkl-articles}}
+
+===References===
+* {{R:tkl:TD|page=379}}
+
+==Tongan==
+
+===Pronunciation===
+{{to-IPA}}
+
+===Article===
+{{head-lite|to|articles}}
+
+# [[the]] (definite article)
+
+==Turkish==
+
+===Etymology 1===
+
+====Noun====
+{{tr-noun||ler}}
+
+# {{Latn-def|tr|name|T|t}}
+
+=====See also=====
+* {{list:Latin script letter names/tr}}
+
+===Etymology 2===
+
+====Noun====
+{{head|tr|noun}}
+
+# Letter of the Arabic alphabet: {{lang|mul|sc=Arab|ت}}
+
+[[Category:tr:Arabic letter names]]
+
+==Turkmen==
+
+===Noun===
+{{tk-noun}}
+
+# {{Latn-def|tk|name|T|t}}
+
+==Tuvaluan==
+
+===Article===
+{{head-lite|tvl|articles}}
+
+# [[the]] (definite article)
+
+==Veps==
+
+===Etymology===
+From {{inh-lite|vep|urj-fin-pro|*tee}}.
+
+===Noun===
+{{vep-noun}}
+
+# [[road]], [[way]]
+
+====Inflection====
+{{vep-decl-ma}}
+
+====Derived terms====
+{{col3-u|vep
+|ajandte
+|päavtote
+|pämante
+|päte
+|raudte
+|ristte
+|tedote
+|telikundankodvii
+|telämoi
+|tenkatkaidai
+|tenpäluz
+|tesar'
+|tever'
+|ujundte
+|ülituzte
+|šossete
+}}
+
+===References===
+* {{R:vep:UVVV|дорога|трасса}}
+
+==Volapük==
+
+===Adverb===
+{{head-lite|vo|adverbs}}
+
+# [[only]], [[solely]], [[merely]]
+# [[but]]
+
+==Welsh==
+
+===Etymology===
+Borrowed from {{bor-lite|cy|en|tea}}, from {{der-lite|cy|nl|thee}}, from {{der-lite|cy|nan|sc=Hani|茶|tr=tê}}, probably via {{der-lite|cy|fr|thé}} or {{der-lite|cy|en|tea}}.
+
+===Pronunciation===
+* {{IPA-lite|cy|/teː/}}
+* {{rhymes-lite|cy|eː|s=1}}
+
+===Noun===
+{{cy-noun|m|-}}
+
+# {{lb|cy|uncountable}} [[tea]] {{gloss|drink made with infusion of ''Camellia sinensis'' or other leaves}}
+# [[tea]] {{gloss|main evening meal}}
+#: {{syn-lite|cy|swper}}
+
+====Derived terms====
+{{der4|cy|{{l-lite|cy|amser te||teatime}}
+|{{l-lite|cy|bag te||teabag}}
+|{{l-lite|cy|bisgeden de||tea biscuit}}
+|{{l-lite|cy|blwch te||tea caddy}}
+|{{l-lite|cy|cist de||tea chest}}
+|{{l-lite|cy|clwb te||tea club}}
+|{{l-lite|cy|cwpan te||teacup}}
+|{{l-lite|cy|cwpanaid o de||cup of tea}}
+|{{l-lite|cy|dail te||tea leaves}}
+|{{l-lite|cy|dawns amser tea||tea dance}}
+|{{l-lite|cy|dŵr te||water for brewing tea}}
+|{{l-lite|cy|dysgl de||teacup}}
+|{{l-lite|cy|dysglaid o de||cup of tea}}
+|{{l-lite|cy|fflasg de||tea flask}}
+|{{l-lite|cy|gardd de||tea garden}}
+|{{l-lite|cy|hambwrdd te||tea tray}}
+|{{l-lite|cy|helygen dail te||{{vern|tea-leaved willow}} ({{taxlink|Salix phylicifolia|species}}}}
+|{{l-lite|cy|hidlwr te||tea strainer}}
+|{{l-lite|cy|llestri te||tea set, tea things}}
+|{{l-lite|cy|llwy de||teaspoon}}
+|{{l-lite|cy|llwyn te||{{vern|broom tea-tree}} (''[[Leptospermum scoparium]]'')}}
+|{{l-lite|cy|llwyn-te gwlanog||{{vern|wooly tea-tee}} ({{taxlink|Leptospermum lanigerum|species}})}}
+|{{l-lite|cy|paned o de||cup of tea}}
+|{{l-lite|cy|pelen de||teaball}}
+|{{l-lite|cy|planhigfa de||tea plantation}}
+|{{l-lite|cy|rhosyn te||tea rose}}
+|{{l-lite|cy|seremoni de||tea ceremony}}
+|{{l-lite|cy|soser de||saucer}}
+|{{l-lite|cy|tabi te||{{vern|tea tabby}} ({{taxlink|Aglossa dimidiata|species}})}}
+|{{l-lite|cy|te bach||light refreshment, afternoon tea}}
+|{{l-lite|cy|te bwtsiar||tea made in the cup}}
+|{{l-lite|cy|te camomeil||camomile tea}}
+|{{l-lite|cy|te cig eidion||beef tea}}
+|{{l-lite|cy|te colsyn||cinder tea}}
+|{{l-lite|cy|te dail||leaf tea}}
+|{{l-lite|cy|te deg||tea taken at 10:00 am}}
+|{{l-lite|cy|te du||black tea}}
+|{{l-lite|cy|te gwyn||white tea}}
+|{{l-lite|cy|te gwyrdd||green tea}}
+|{{l-lite|cy|te Labrador||[[Labrador tea]] ({{taxlink|Ledum palustre|species}}(}}
+|{{l-lite|cy|te Mecsico||[[Mexican tea]] ({{taxlink|Chenopodium ambrosioides|species}})}}
+|{{l-lite|cy|te melyn||yellow tea}}
+|{{l-lite|cy|te mintys||mint tea}}
+|{{l-lite|cy|te padi||tea made in the cup}}
+|{{l-lite|cy|te pinsh||tea made in the cup}}
+|{{l-lite|cy|te ŵlong||oolong tea}}
+|{{l-lite|cy|te perlysiau||herbal tea}}
+|{{l-lite|cy|te perlysieuol||herbal tea}}
+|{{l-lite|cy|te slecyn||cinder tea}}
+|{{l-lite|cy|te swigod||bubble tea}}
+|{{l-lite|cy|te tramp||tea made in the cup; stewed tea}}
+|{{l-lite|cy|troli te||tea trolley}}
+|{{l-lite|cy|tun te||tea tin}}
+|{{l-lite|cy|tŷ te||teahouse}}
+|{{l-lite|cy|wrn te||tea urn}}
+|{{l-lite|cy|ystafell de||tearoom}}
+}}
+
+===Mutation===
+{{cy-mut}}
+
+===Further reading===
+* {{R:cy:GPC}}
+
+==West Makian==
+
+===Etymology 1===
+From {{der-lite|mqs|ms|teh}}, possibly through {{der-lite|mqs|tft|tee}}, from {{der-lite|mqs|nan|sc=Hani|茶|tr=tê}} ({{w|Amoy dialect}}).
+
+====Pronunciation====
+* {{IPA-lite|mqs|/t̪e/}}
+
+====Noun====
+{{head-lite|mqs|nouns}}
+
+# [[tea]]
+
+===Etymology 2===
+
+====Pronunciation====
+* {{IPA-lite|mqs|/t̪e/}}
+
+====Conjunction====
+{{head-lite|mqs|conjunctions}}
+
+# [[so]]; [[so that]]
+#: {{syn-lite|mqs|supaya}}
+
+===References===
+* {{R:mqs:Voorhoeve:1982}}
+
+==Zia==
+
+===Noun===
+{{head-lite|zia|nouns}}
+
+# [[foot]]

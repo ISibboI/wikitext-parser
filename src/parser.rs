@@ -201,7 +201,7 @@ fn parse_nowiki(
     tokenizer: &mut MultipeekTokenizer,
     error_consumer: &mut impl FnMut(ParserError),
     mut text: Text,
-    text_formatting: &mut TextFormatting,
+    text_formatting: &TextFormatting,
 ) -> Text {
     tokenizer.expect(&Token::NoWikiOpen).unwrap();
 

@@ -254,38 +254,55 @@ fn parse_potential_headline(
         return None;
     }
 
-    tokenizer.peek(prefix_length * 2 + 2);
-    let Token::Text(text) = &tokenizer.repeek(prefix_length).unwrap().0 else {
-        return None;
-    };
-    let suffix_length = ((prefix_length + 1)..=(2 * prefix_length + 1))
+    let mut label = String::new();
+    let mut text_limit = prefix_length;
+    loop {
+        let (token, _) = tokenizer.peek(text_limit);
+        if DO_PARSER_DEBUG_PRINTS {
+            println!("parse_potential_headline label token: {:?}", token);
+        }
+
+        match token {
+            Token::Newline | Token::Eof | Token::Equals => break,
+            token @ (Token::Text(_) | Token::Apostrophe) => {
+                label.push_str(token.to_str());
+            }
+            _ => return None,
+        }
+
+        text_limit += 1;
+    }
+
+    tokenizer.peek(text_limit + prefix_length + 1);
+    let suffix_length = ((text_limit)..=(text_limit + prefix_length + 1))
         .take_while(|i| tokenizer.repeek(*i).unwrap().0 == Token::Equals)
         .count();
 
     if prefix_length == suffix_length {
-        let whitespace_after_headline = match &tokenizer.repeek(prefix_length * 2 + 1).unwrap().0 {
-            Token::Text(text) => {
-                debug_assert!(text.chars().all(|c| c != '\n'));
-                if text.chars().all(|c| c.is_ascii_whitespace()) {
-                    if matches!(
-                        tokenizer.repeek(prefix_length * 2 + 2).unwrap().0,
-                        Token::Newline | Token::Eof
-                    ) {
-                        Some(2)
+        let whitespace_after_headline =
+            match &tokenizer.repeek(text_limit + suffix_length).unwrap().0 {
+                Token::Text(text) => {
+                    debug_assert!(text.chars().all(|c| c != '\n'));
+                    if text.chars().all(|c| c.is_ascii_whitespace()) {
+                        if matches!(
+                            tokenizer.repeek(text_limit + suffix_length + 1).unwrap().0,
+                            Token::Newline | Token::Eof
+                        ) {
+                            Some(2)
+                        } else {
+                            None
+                        }
                     } else {
                         None
                     }
-                } else {
-                    None
                 }
-            }
-            Token::Newline | Token::Eof => Some(1),
-            _ => None,
-        };
+                Token::Newline | Token::Eof => Some(1),
+                _ => None,
+            };
 
         if let Some(whitespace_after_headline) = whitespace_after_headline {
-            let label = text.trim().to_string();
-            for _ in 0..2 * prefix_length + 1 + whitespace_after_headline {
+            let label = label.trim().to_string();
+            for _ in 0..text_limit + suffix_length + whitespace_after_headline {
                 tokenizer.next();
             }
 

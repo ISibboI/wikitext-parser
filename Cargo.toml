@@ -1,7 +1,7 @@
 [package]
 name = "wikitext-parser"
 description = "Partial parser for wikitext"
-version = "0.3.1"
+version = "0.3.2"
 edition = "2021"
 license-file = "LICENSE"
 repository = "https://github.com/ISibboI/wikitext-parser"

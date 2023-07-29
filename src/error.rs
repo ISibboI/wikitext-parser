@@ -1,3 +1,6 @@
+use std::error::Error;
+use std::fmt::Display;
+
 use crate::tokenizer::TextPosition;
 use crate::wikitext::TextFormatting;
 
@@ -100,6 +103,94 @@ pub enum ParserErrorKind {
     /// The end of file was found, but further tokens were expected.
     UnexpectedEof,
 }
+
+impl Display for ParserErrorKind {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ParserErrorKind::SecondRootSection { label } => {
+                write!(f, "found second root section {label:?}")
+            }
+            ParserErrorKind::SectionLevelTooDeep { level } => {
+                write!(f, "found a section of a too deep level {level}")
+            }
+            ParserErrorKind::UnmatchedDoubleCloseBrace => {
+                write!(f, "found an unmatched double closing brace }}}}")
+            }
+            ParserErrorKind::UnmatchedDoubleOpenBrace => {
+                write!(f, "found an unmatched double open brace {{{{")
+            }
+            ParserErrorKind::UnmatchedDoubleCloseBracket => {
+                write!(f, "found an unmatched double close bracket ]]")
+            }
+            ParserErrorKind::UnmatchedDoubleOpenBracket => {
+                write!(f, "found an unmatched double open bracket [[")
+            }
+            ParserErrorKind::UnmatchedNoWikiClose => {
+                write!(f, "found an unmatched nowiki close tag </nowiki>")
+            }
+            ParserErrorKind::UnmatchedNoWikiOpen => {
+                write!(f, "found an unmatched nowiki open tag <nowiki>")
+            }
+            ParserErrorKind::UnexpectedTokenInTag { token } => {
+                write!(f, "found an unexpected token {token:?} in a tag")
+            }
+            ParserErrorKind::UnexpectedTokenInParameter { token } => {
+                write!(f, "found an unexpected token {token:?} in a parameter")
+            }
+            ParserErrorKind::UnexpectedTokenInLink { token } => {
+                write!(f, "found an unexpected token {token:?} in a link")
+            }
+            ParserErrorKind::UnexpectedTokenInLinkLabel { token } => {
+                write!(f, "found an unexpected token {token:?} in a link label")
+            }
+            ParserErrorKind::UnexpectedTokenInFormattedText { token } => {
+                write!(f, "found an unexpected token {token:?} in formatted text")
+            }
+            ParserErrorKind::UnexpectedTokenInListItem { token } => {
+                write!(f, "found an unexpected token {token:?} in a list item")
+            }
+            ParserErrorKind::UnexpectedToken { expected, actual } => write!(
+                f,
+                "found an unexpected token {actual:?} where {expected:?} was expected"
+            ),
+            ParserErrorKind::UnclosedTextFormatting { formatting } => write!(
+                f,
+                "found an unclosed text formatting expression {formatting}:?"
+            ),
+            ParserErrorKind::UnexpectedEof => {
+                write!(f, "the file ended, but we expected more content")
+            }
+        }
+    }
+}
+
+impl Display for ParserError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(
+            f,
+            "{} at line {}, column {}",
+            self.kind, self.position.line, self.position.column
+        )?;
+
+        if !self.annotations.is_empty() {
+            write!(f, "; additional information: [")?;
+            let mut once = true;
+            for annotation in &self.annotations {
+                if once {
+                    once = false;
+                } else {
+                    write!(f, ", ")?;
+                }
+                write!(f, "{annotation}")?;
+            }
+            write!(f, "]")?;
+        }
+
+        Ok(())
+    }
+}
+
+impl Error for ParserError {}
 
 impl ParserError {
     /// Add the given annotation to the error.

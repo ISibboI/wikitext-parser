@@ -56,7 +56,7 @@ impl LevelStack {
 
     /// Collapse the stack down to the root section and return it.
     /// The root section contains the whole section hierarchy added to the stack.
-    /// 
+    ///
     /// If there is more than one root section, then only the first is returned.
     pub fn into_root_section(mut self) -> Section {
         self.adjust_level(1);

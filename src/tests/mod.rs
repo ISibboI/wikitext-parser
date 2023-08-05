@@ -1,6 +1,7 @@
 use crate::wikitext::{Headline, Line, Paragraph};
 use crate::{
-    parse_wikitext, ParserErrorKind, Section, Text, TextFormatting, TextPiece, TextPosition, Wikitext,
+    parse_wikitext, ParserErrorKind, Section, Text, TextFormatting, TextPiece, TextPosition,
+    Wikitext,
 };
 
 mod full_pages;
@@ -225,22 +226,29 @@ fn test_multiple_root_sections() {
     assert_eq!(
         errors,
         vec![
-            ParserErrorKind::SecondRootSection { label: "a".to_string() }.into_parser_error(TextPosition {
-                line: 1,
-                column: 1,
-            }),
-            ParserErrorKind::SecondRootSection { label: "b".to_string() }.into_parser_error(TextPosition {
-                line: 3,
-                column: 1,
-            }),
-            ParserErrorKind::SecondRootSection { label: "c".to_string() }.into_parser_error(TextPosition {
-                line: 5,
-                column: 1,
-            }),
+            ParserErrorKind::SecondRootSection {
+                label: "a".to_string()
+            }
+            .into_parser_error(TextPosition { line: 1, column: 1 }),
+            ParserErrorKind::SecondRootSection {
+                label: "b".to_string()
+            }
+            .into_parser_error(TextPosition { line: 3, column: 1 }),
+            ParserErrorKind::SecondRootSection {
+                label: "c".to_string()
+            }
+            .into_parser_error(TextPosition { line: 5, column: 1 }),
         ]
     );
 
-    assert_eq!(parsed, Wikitext {
-        root_section: Section { headline: Headline::new("", 1), paragraphs: Vec::new(), subsections: Vec::new() },
-    });
+    assert_eq!(
+        parsed,
+        Wikitext {
+            root_section: Section {
+                headline: Headline::new("", 1),
+                paragraphs: Vec::new(),
+                subsections: Vec::new()
+            },
+        }
+    );
 }

@@ -1,6 +1,6 @@
 use crate::wikitext::{Headline, Line, Paragraph};
 use crate::{
-    parse_wikitext, ParserErrorKind, Section, Text, TextFormatting, TextPiece, TextPosition,
+    parse_wikitext, ParserErrorKind, Section, Text, TextFormatting, TextPiece, TextPosition, Wikitext,
 };
 
 mod full_pages;
@@ -209,4 +209,38 @@ fn test_complex_double_brace_expression() {
             })
         ]
     );
+}
+
+#[test]
+fn test_multiple_root_sections() {
+    let input_json = "\"=a=\\nsome text\\n=b=\\nsome more text\\n=c=\"";
+    let input: String = serde_json::from_str(input_json).unwrap();
+    let mut errors = Vec::new();
+    let parsed = parse_wikitext(
+        &input,
+        Default::default(),
+        &mut Box::new(|error| errors.push(error)),
+    );
+
+    assert_eq!(
+        errors,
+        vec![
+            ParserErrorKind::SecondRootSection { label: "a".to_string() }.into_parser_error(TextPosition {
+                line: 1,
+                column: 1,
+            }),
+            ParserErrorKind::SecondRootSection { label: "b".to_string() }.into_parser_error(TextPosition {
+                line: 3,
+                column: 1,
+            }),
+            ParserErrorKind::SecondRootSection { label: "c".to_string() }.into_parser_error(TextPosition {
+                line: 5,
+                column: 1,
+            }),
+        ]
+    );
+
+    assert_eq!(parsed, Wikitext {
+        root_section: Section { headline: Headline::new("", 1), paragraphs: Vec::new(), subsections: Vec::new() },
+    });
 }

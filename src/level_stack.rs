@@ -28,7 +28,7 @@ impl LevelStack {
     /// Append a new headline found on the page.
     pub fn append_headline(&mut self, headline: Headline) {
         self.adjust_level(headline.level.into());
-        debug_assert!(self.stack.len() > 1);
+        debug_assert!(!self.stack.is_empty());
         self.top_mut().push(Section {
             headline,
             paragraphs: Default::default(),
@@ -56,12 +56,14 @@ impl LevelStack {
 
     /// Collapse the stack down to the root section and return it.
     /// The root section contains the whole section hierarchy added to the stack.
+    /// 
+    /// If there is more than one root section, then only the first is returned.
     pub fn into_root_section(mut self) -> Section {
         self.adjust_level(1);
         debug_assert_eq!(self.stack.len(), 1);
         let mut level_1 = self.stack.pop().unwrap();
-        debug_assert_eq!(level_1.len(), 1);
-        level_1.pop().unwrap()
+        debug_assert!(!level_1.is_empty());
+        level_1.remove(0)
     }
 
     /// Starts a new paragraph if the current last is not empty.
